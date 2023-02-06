@@ -1,0 +1,273 @@
+<article data-section-id="{{ section.id }}" data-section-type="blog-post">
+  <header class="page__header page__header--stack">
+    <h1 class="page__title heading h1">{{ article.title }}</h1>
+
+    {%- capture page_meta -%}
+      {%- if section.settings.show_category and article.tags.size > 0 -%}
+        <span class="page__meta-item page__meta-item--category"><a href="/blogs/{{ blog.handle }}/tagged/{{ article.tags.first | handle }}" class="link">{{ article.tags.first }}</a></span>
+      {%- endif -%}
+
+      {%- if section.settings.show_author -%}
+        <span class="page__meta-item page__meta-item--author">EuroHomeDirect®</span>
+      {%- endif -%}
+
+      {%- if section.settings.show_date -%}
+        <time class="page__meta-item page__meta-item--date">{{ article.published_at | date: format: 'short_month_day_year' }}</time>
+      {%- endif -%}
+    {%- endcapture -%}
+
+    {%- if page_meta != blank -%}
+      <div class="page__meta">
+        {{ page_meta }}
+      </div>
+    {%- endif -%}
+  </header>
+
+  {%- if article.image -%}
+    <div class="article__image-wrapper">
+      {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800,900,1000,1100,1200', image: article.image -%}{%- endcapture -%}
+      {%- assign image_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+      <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: article.image.aspect_ratio }}%">
+        <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ article.image.alt | escape }}">
+
+        <noscript>
+          <img src="{{ article.image | img_url: '800x' }}" alt="{{ article.image.alt | escape }}">
+        </noscript>
+      </div>
+    </div>
+  {%- endif -%}
+
+  {%- if section.settings.show_share_buttons -%}
+    {%- capture share_buttons -%}
+      {%- assign share_url = shop.url | append: article.url -%}
+      {%- assign twitter_text = article.title | url_param_escape -%}
+      {%- assign pinterest_description = article.excerpt_or_content | strip_html | truncatewords: 15 | url_param_escape -%}
+      {%- assign pinterest_image = article.image | img_url: 'large' | prepend: 'https:' -%}
+
+      <ul class="social-media__item-list list--unstyled" role="list">
+        <li class="social-media__item social-media__item--facebook">
+          <a href="https://www.facebook.com/sharer.php?u={{ share_url }}" target="_blank" rel="noopener" aria-label="{{ 'general.social.facebook_share' | t }}">{%- render 'icon', icon: 'facebook' -%}</a>
+        </li>
+
+        <li class="social-media__item social-media__item--pinterest">
+          <a href="https://pinterest.com/pin/create/button/?url={{ share_url }}{% if pinterest_image != blank %}&media={{ pinterest_image }}{% endif %}&description={{ pinterest_description }}" target="_blank" rel="noopener" aria-label="{{ 'general.social.pinterest_pin' | t }}">{%- render 'icon', icon: 'pinterest' -%}</a>
+        </li>
+
+        <li class="social-media__item social-media__item--twitter">
+          <a href="https://twitter.com/share?{% if twitter_text != blank %}text={{twitter_text}}&{% endif %}url={{ share_url }}" target="_blank" rel="noopener" aria-label="{{ 'general.social.twitter_tweet' | t }}">{%- render 'icon', icon: 'twitter' -%}</a>
+        </li>
+
+        <li class="social-media__item">
+          <a href="mailto:?&subject={{ article.title | escape }}&body={{ share_url }}" aria-label="{{ 'general.social.email_share' | t }}">{% render 'icon', icon: 'email' %}</a>
+        </li>
+      </ul>
+    {%- endcapture -%}
+  {%- endif -%}
+
+  {%- if section.settings.show_share_buttons or article.comments_enabled? -%}
+    <div class="card hidden-phone">
+      <div class="card__section card__section--tight">
+        <div class="article__toolbar">
+          {%- if section.settings.show_share_buttons -%}
+            <div class="article__toolbar-item">
+              <span class="article__share-label">{{ 'blog.article.share' | t }}</span>
+              {{- share_buttons -}}
+            </div>
+          {%- endif -%}
+
+          {%- if article.comments_enabled? -%}
+            <div class="article__toolbar-item">
+              {% render 'icon', icon: 'bi-comment' %}
+              <a href="#comments" class="article__comments-count link">{{ 'blog.article.comments_count' | t: count: article.comments_count }}</a>
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  {%- endif -%}
+
+  <div class="article__inner">
+    <div class="article__content rte">
+      {{ article.content }}
+    </div>
+
+    {%- if section.settings.show_share_buttons or section.settings.show_tags and article.tags.size > 0 -%}
+      <div class="article__aside">
+        {%- if section.settings.show_tags and article.tags.size > 0 -%}
+          <div class="article__aside-item">
+            <span class="article__tag-label">{{ 'blog.article.tags' | t }}&nbsp;</span>
+
+            {%- for tag in article.tags -%}
+              <a href="/blogs/{{ blog.handle }}/tagged/{{ tag | handle }}" class="link link--accented {% if settings.underline_links %}link--underline{% endif %}">{{ tag | capitalize }}</a>{%- unless forloop.last -%},&nbsp;{%- endunless -%}
+            {%- endfor -%}
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.show_share_buttons -%}
+          <div class="article__aside-item">
+            <span class="article__share-label">{{ 'blog.article.share' | t }}</span>
+            {{ share_buttons }}
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- if blog.previous_article or blog.next_article -%}
+      {%- comment -%}
+        Implementation may look a bit strange here as we're using the "next_article" for the previous button and vice-versa. But we actually found that from
+        a user point of view, it feels "more logical", if you are on the most recent article, to have a button "next article" on the right that goes to the
+        previous article.
+      {%- endcomment -%}
+
+      <div class="article__navigation {% if blog.next_article == nil %}article__navigation--align-right{% endif %}">
+        {%- if blog.next_article -%}
+          <a href="{{ blog.next_article.url }}" class="article__navigation-item article__navigation-item--prev text--strong link" rel="prev">{%- render 'icon', icon: 'arrow-left' -%} {{- 'blog.article.previous_article' | t -}}</a>
+        {%- endif -%}
+
+        {%- if blog.previous_article -%}
+          <a href="{{ blog.previous_article.url }}" class="article__navigation-item article__navigation-item--next text--strong link" rel="next">{{- 'blog.article.next_article' | t -}} {%- render 'icon', icon: 'arrow-right' -%}</a>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    {%- if article.comments_enabled? -%}
+      <span id="comments" class="anchor"></span>
+
+      {%- if article.comments_count > 0 -%}
+        <div class="article__comment-list">
+          <p class="article__comment-list-heading heading h2">{{ 'blog.article.comments_count' | t: count: article.comments_count }}</p>
+
+          {%- paginate article.comments by 50 -%}
+            {%- for comment in article.comments -%}
+              <div class="article-comment">
+                {%- if section.settings.show_gravatar -%}
+                  <img class="article-comment__gravatar" src="//www.gravatar.com/avatar/{{ comment.email | md5 }}?s=100" alt="{{ comment.author }}">
+                {%- endif -%}
+
+                <div class="article-comment__inner">
+                  <p class="article-comment__author text--strong">{{ comment.author }}</p>
+                  <time class="article-comment__date">{{ comment.created_at | date: format: 'month_day_year_time' }}</time>
+
+                  <div class="article-comment__content rte">
+                    {{- comment.content -}}
+                  </div>
+                </div>
+              </div>
+            {%- endfor -%}
+
+            {%- render 'pagination', paginate: paginate -%}
+          {%- endpaginate -%}
+        </div>
+      {%- endif -%}
+
+      {%- form 'new_comment', article, class: 'article__comment-form form' -%}
+        <p class="article__comment-form-title heading h2">{{ 'blog.comments.leave_comment' | t }}</p>
+
+        {%- if blog.moderated? -%}
+          <p class="article__moderated-note">{{ 'blog.comments.approval_notice' | t }}</p>
+        {%- endif -%}
+
+        <div class="article__comment-form-wrapper">
+          {%- if form.posted_successfully? -%}
+            <p class="alert alert--success">
+              {%- if blog.moderated? -%}
+                {{- 'blog.comments.success_moderated' | t -}}
+              {%- else -%}
+                {{- 'blog.comments.success' | t -}}
+              {%- endif -%}
+            </p>
+          {%- else -%}
+            {%- if form.errors -%}
+              <div class="alert alert--error">
+                <ul class="alert__error-list" role="list">
+                  {%- for field in form.errors -%}
+                    {%- if field == 'form' -%}
+                      <li class="alert__error-item">{{ form.errors.messages[field] }}</li>
+                    {%- else -%}
+                      <li class="alert__error-item">{{ form.errors.translated_fields[field] | capitalize }} {{ form.errors.messages[field] }}</li>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </ul>
+              </div>
+            {%- endif -%}
+          {%- endif -%}
+
+          <div class="form__input-row">
+            <div class="form__input-wrapper form__input-wrapper--labelled">
+              {%- assign form_author = form.author | default: customer.name -%}
+
+              <input id="comment-form-name" type="text" class="form__field form__field--text {% if form_author != blank %}is-filled{% endif %}" name="comment[author]" value="{{ form_author | escape }}" required="required">
+              <label for="comment-form-name" class="form__floating-label">{{ 'blog.comments.name' | t }}</label>
+            </div>
+
+            <div class="form__input-wrapper form__input-wrapper--labelled">
+              {%- assign form_email = form.email | default: customer.email -%}
+
+              <input id="comment-form-email" type="email" class="form__field form__field--text {% if form_email != blank %}is-filled{% endif %}" name="comment[email]" value="{{ form_email | escape }}" required="required">
+              <label for="comment-form-email" class="form__floating-label">{{ 'blog.comments.email' | t }}</label>
+            </div>
+          </div>
+
+          <div class="form__input-wrapper form__input-wrapper--labelled">
+            <textarea id="comment-form-body" name="comment[body]" rows="5" class="form__field form__field--textarea {% if form.body != blank %}is-filled{% endif %}" required="required">{{ form.body }}</textarea>
+            <label for="comment-form-body" class="form__floating-label">{{ 'blog.comments.content' | t }}</label>
+          </div>
+
+          <button type="submit" class="form__submit button button--primary button--min-width">{{ 'blog.comments.submit' | t }}</button>
+        </div>
+      {%- endform -%}
+    {%- endif -%}
+  </div>
+</article>
+
+<script>
+  // Due to the presence of the possible sidebar, we have to move the header outside the section
+  document.querySelector('.blog-container').insertAdjacentElement('beforebegin', document.querySelector('#shopify-section-' + {{ section.id | json }} + ' .page__header'));
+</script>
+
+{% schema %}
+{
+  "name": "Blog post page",
+  "class": "shopify-section__article",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_category",
+      "label": "Show category",
+      "info": "The first article's tag will be shown as category.",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_author",
+      "label": "Show author",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_date",
+      "label": "Show date",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_share_buttons",
+      "label": "Show share buttons",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tags",
+      "label": "Show tags",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_gravatar",
+      "label": "Show comment avatar",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

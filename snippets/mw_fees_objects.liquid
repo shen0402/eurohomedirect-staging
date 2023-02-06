@@ -1,0 +1,17 @@
+{% capture itemProducts %}{% for item in cart.items %}{{ item.product | json}}{% if forloop.last == false %}^|^MW^|^{% endif %}{% endfor %}{% endcapture %}
+{% assign itemProducts = itemProducts | split: "^|^MW^|^" %}
+<script type="text/javascript"></script>
+<script type="text/javascript">
+  window.mwProductFeesObjects = {
+  product: {{ product | json }},
+  cartItemsProduct: {{ itemProducts | json }},
+  cart: {{ cart | json }},
+  customerTags: {{ customer.tags | json }},
+  template_name: {{ template.name | json }},
+  shop: {
+    domain: {{ shop.permanent_domain | json }},
+    money_format : {{ shop.money_format  | json }},
+    money_with_currency_format : {{ shop.money_with_currency_format | json }}
+  }
+};
+</script>

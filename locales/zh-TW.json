@@ -1,0 +1,491 @@
+{
+  "general": {
+    "meta": {
+      "tags": "標籤 {{ tags }}",
+      "page": "第 {{ page }} 頁"
+    },
+    "accessibility": {
+      "skip_to_content": "跳到內容",
+      "close": "關閉",
+      "next": "下一個",
+      "previous": "上一個",
+      "new_window": "在新窗口中打開"
+    },
+    "password": {
+      "enter_password": "輸入密碼",
+      "password_input": "密碼",
+      "password_submit": "輸入",
+      "newsletter_input": "電郵地址",
+      "newsletter_submit": "通知我",
+      "newsletter_success": "感謝您的註冊!",
+      "powered_by_html": "This store will be powered by EuroHomeDirect®",
+      "login_title": "你是店主嗎?",
+      "login_link": "這裡登入",
+      "follow_us": "關注我們"
+    },
+    "pagination": {
+      "previous_page": "關注我們",
+      "next_page": "下一個",
+      "go_to_page": "轉到頁面",
+      "page_count": "頁數"
+    },
+    "breadcrumb": {
+      "title": "標題",
+      "home": "主頁",
+      "account": "帳戶"
+    },
+    "social": {
+      "follow_label": "",
+      "facebook_share": "",
+      "pinterest_pin": "",
+      "twitter_tweet": "",
+      "email_share": ""
+    },
+    "popup": {
+      "success": "",
+      "email_placeholder": "",
+      "subscribe": ""
+    }
+  },
+  "header": {
+    "general": {
+      "currency": "貨幣",
+      "language": "語言",
+      "account": "帳戶",
+      "login": "登入\/註冊",
+      "welcome": "Hello {{first_name}}",
+      "cart": "購物車"
+    },
+    "navigation": {
+      "menu": "",
+      "open_menu": "",
+      "back": "",
+      "need_help": "",
+      "follow_us": ""
+    },
+    "search": {
+      "open_search": "",
+      "close_search": "",
+      "clear": "",
+      "input_placeholder": "",
+      "all_categories": "",
+      "no_results": "",
+      "submit": "",
+      "view_products": "",
+      "view_results": "",
+      "products": "",
+      "blog_posts": "",
+      "pages": "",
+      "blog_posts_and_pages": ""
+    }
+  },
+  "footer": {
+    "general": {
+      "currency": "",
+      "language": "",
+      "follow_us": "",
+      "we_accept": ""
+    },
+    "newsletter": {
+      "success": "",
+      "input": "",
+      "submit": ""
+    }
+  },
+  "search": {
+    "general": {
+      "title": "",
+      "title_with_terms": "",
+      "products_with_terms": "",
+      "articles_with_terms": "",
+      "pages_with_terms": "",
+      "pages_and_articles_with_terms": "",
+      "content": "",
+      "input_placeholder": "",
+      "no_results_with_terms": "",
+      "go_back_home": "",
+      "results_count": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      },
+      "showing_count": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      }
+    }
+  },
+  "404": {
+    "general": {
+      "title": "",
+      "content": "",
+      "search": "",
+      "continue_shopping": ""
+    }
+  },
+  "home_page": {
+    "onboarding": {
+      "vendor_title": "",
+      "product_title": "",
+      "product_sku": "",
+      "product_description": "",
+      "collection_title": "",
+      "article_title": "",
+      "article_author": "",
+      "article_category": "",
+      "article_excerpt": "",
+      "instagram_likes": "",
+      "instagram_caption": ""
+    },
+    "newsletter": {
+      "success": "",
+      "input": "",
+      "submit": ""
+    }
+  },
+  "collection": {
+    "general": {
+      "all_collections": "",
+      "all_products": "",
+      "view_more": "",
+      "view_less": "",
+      "brands": "",
+      "empty": "",
+      "empty_button": "",
+      "no_results": "",
+      "view_products": "",
+      "display": "",
+      "products_count": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      },
+      "results_count": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      },
+      "showing_count": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      },
+      "page_size": ""
+    },
+    "filter": {
+      "title": "",
+      "show_filter": "",
+      "select_category": "",
+      "all": "",
+      "clear_all": "",
+      "clear": "",
+      "view_results": ""
+    },
+    "sorting": {
+      "title": ""
+    },
+    "layout": {
+      "title": "",
+      "grid": "",
+      "list": ""
+    },
+    "product": {
+      "from_price_html": "",
+      "add_to_cart": "",
+      "pre_order": "",
+      "quick_view": "",
+      "choose_options": "",
+      "model": "",
+      "sold_out": "",
+      "in_stock": "",
+      "oversell_stock": "",
+      "discount_html": "",
+      "low_stock_with_quantity_count": {
+        "one": "",
+        "other": ""
+      },
+      "in_stock_with_quantity_count": {
+        "one": "",
+        "other": ""
+      }
+    }
+  },
+  "customer": {
+    "general": {
+      "my_account": "",
+      "orders": "",
+      "addresses": "",
+      "logout": "",
+      "no_orders": "",
+      "no_orders_button": ""
+    },
+    "login": {
+      "login": "",
+      "description": "",
+      "email": "",
+      "password": "",
+      "submit": "",
+      "new_customer": "",
+      "create_your_account": "",
+      "lost_password": "",
+      "recover_password": ""
+    },
+    "order": {
+      "order": "",
+      "order_number": "",
+      "back_to_orders": "",
+      "date": "",
+      "payment_status": "",
+      "fulfillment_status": "",
+      "back_to_account": "",
+      "cancelled_at": "",
+      "fulfillment_with_url_and_number_html": "",
+      "fulfillment_with_url_html": "",
+      "fulfillment_with_number_html": "",
+      "fulfillment_html": "",
+      "line_fulfillment_with_url_and_number_html": "",
+      "line_fulfillment_with_url_html": "",
+      "line_fulfillment_with_number_html": "",
+      "line_fulfillment_html": "",
+      "product": "",
+      "quantity": "",
+      "total": "",
+      "subtotal": "",
+      "discount": "",
+      "shipping": "",
+      "tax_included": "",
+      "tax_excluded": "",
+      "shipping_address": "",
+      "billing_address": "",
+      "no_billing_address": "",
+      "no_shipping_address": ""
+    },
+    "activate_account": {
+      "activate_account": "",
+      "description": "",
+      "password": "",
+      "password_confirmation": "",
+      "submit": "",
+      "decline": ""
+    },
+    "recover_password": {
+      "recover_password": "",
+      "description": "",
+      "email": "",
+      "submit": "",
+      "success": "",
+      "remembered_your_password": "",
+      "back_to_login": ""
+    },
+    "reset_password": {
+      "reset_password": "",
+      "description": "",
+      "password": "",
+      "password_confirmation": "",
+      "submit": ""
+    },
+    "addresses": {
+      "no_addresses": "",
+      "no_addresses_button": "",
+      "default_address": "",
+      "address_number": "",
+      "edit": "",
+      "delete": "",
+      "add_address": "",
+      "edit_address": "",
+      "form_subtitle": "",
+      "first_name": "",
+      "last_name": "",
+      "company": "",
+      "address1": "",
+      "address2": "",
+      "city": "",
+      "country": "",
+      "province": "",
+      "zip": "",
+      "phone": "",
+      "set_default": ""
+    },
+    "register": {
+      "create_account": "",
+      "description": "",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "password": "",
+      "submit": "",
+      "already_have_account": "",
+      "login": ""
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "",
+      "empty": "",
+      "empty_button": "",
+      "search": "",
+      "view_cart": "",
+      "note_title": "",
+      "edit_note": "",
+      "save_note": "",
+      "secure_payments": "",
+      "free_shipping": "",
+      "free_shipping_remaining_html": "",
+      "amount_saved_html": "",
+      "free": "",
+      "taxes_and_shipping_at_checkout": "",
+      "taxes_and_shipping_policy_at_checkout_html": "",
+      "taxes_included_but_shipping_at_checkout": "",
+      "taxes_included_and_shipping_policy_html": "",
+      "total": "",
+      "checkout": ""
+    },
+    "items": {
+      "decrease_quantity": "",
+      "increase_quantity": "",
+      "no_more_stock": "",
+      "remove": ""
+    },
+    "gift_wrap": {
+      "price_html": ""
+    },
+    "shipping_estimator": {
+      "title": "",
+      "country": "",
+      "province": "",
+      "zip_code": "",
+      "estimate": "",
+      "no_results_title": "",
+      "one_result_title": "",
+      "multiple_results_title": "",
+      "errors": ""
+    }
+  },
+  "product": {
+    "general": {
+      "previous_product": "",
+      "next_product": "",
+      "description": "",
+      "description_text": "",
+      "description_how_title": "",
+      "description_how": "",
+      "description_warranty_title": "",
+      "description_warranty": "",
+      "sku": "",
+      "model": "",
+      "share": "",
+      "reviews": "",
+      "regular_price": "",
+      "sale_price": "",
+      "zoom": "",
+      "zoom_mobile": "",
+      "view_in_space": "",
+      "view_more": "",
+      "view_less": "",
+      "payment": "",
+      "security": "",
+      "payment_notice": "",
+      "shipping_desc_title": "",
+      "shipping_warning": "",
+      "shipping_desc": "",
+      "estimate_shipping": "",
+      "refund_policy": "",
+      "include_taxes": "",
+      "shipping_policy_html": ""
+    },
+    "labels": {
+      "sold_out": ""
+    },
+    "form": {
+      "variant": "",
+      "price": "",
+      "inventory": "",
+      "quantity": "",
+      "in_stock": "",
+      "oversell_stock": "",
+      "low_stock_with_quantity_count": {
+        "one": "",
+        "other": ""
+      },
+      "in_stock_with_quantity_count": {
+        "one": "",
+        "other": ""
+      },
+      "add_to_cart": "",
+      "sold_out": "",
+      "pre_order": "",
+      "unavailable": "",
+      "contact_us": "",
+      "added": "",
+      "added_short": ""
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "",
+      "check_other_stores": "",
+      "pick_up_available": "",
+      "pick_up_currently_unavailable": "",
+      "pick_up_available_at": "",
+      "pick_up_unavailable_at": ""
+    }
+  },
+  "gift_card": {
+    "issued": {
+      "subtext": "",
+      "disabled": "",
+      "expired": "",
+      "expires_on": "",
+      "redeem": "",
+      "remaining_amount": "",
+      "shop_link": "",
+      "print": "",
+      "add_to_apple_wallet": ""
+    }
+  },
+  "blog": {
+    "general": {
+      "empty": "",
+      "empty_button": "",
+      "categories": "",
+      "all_tag": ""
+    },
+    "article": {
+      "tags": "",
+      "written_by": "",
+      "share": "",
+      "previous_article": "",
+      "next_article": "",
+      "comments_count": {
+        "zero": "",
+        "one": "",
+        "other": ""
+      }
+    },
+    "comments": {
+      "leave_comment": "",
+      "name": "",
+      "email": "",
+      "content": "",
+      "approval_notice": "",
+      "submit": "",
+      "success": "",
+      "success_moderated": ""
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "",
+      "email": "",
+      "message": "",
+      "submit": "",
+      "successfully_sent": ""
+    }
+  },
+  "date_formats": {
+    "month_day_year": "",
+    "short_month_day_year": "",
+    "month_day_year_time": ""
+  }
+}

@@ -1,0 +1,59 @@
+{{ 'parcelify-rate-calculator.css' | asset_url | stylesheet_tag }}
+
+<shipping-rate-calculator>
+  <button type="submit" x-show="!show" @click.prevent="show=true" class="full-width button" x-text="$t('rate_calculator:calculate_shipping')" disabled :disabled="loading">Calculate shipping</button>
+
+  <div x-show="show" style="display: none;">
+    <!--  START ADDRESS INFORMATION -->
+    <div x-show="!quoted">
+      <label for="rate-calculator-country" x-text="$t('address.country')"></label>
+      <select id="rate-calculator-country" x-model="destination.countryCode" class="full-width" :class="{ 'input--error': hasError('destination.countryCode') }" :aria-invalid="hasError('destination.countryCode')" aria-describedby="rate-calculator-country-error">
+        <option value="" disabled x-text="$t('rate_calculator:select_country')"></option>
+        <template x-for="country in countries" aria-hidden="true">
+          <option :value="country.code" x-text="country.name"></option>
+        </template>
+      </select>
+      <span id="rate-calculator-country-error" class="label--error" x-show="hasError('destination.countryCode')" x-text="getError('destination.countryCode')" role="alert"></span>
+
+      <div x-show="hasProvinces">
+        <label for="rate-calculator-province" x-text="$t(`address.${provinceLabel}`)"></label>
+        <select id="rate-calculator-province" x-model="destination.provinceCode" class="full-width" :class="{ 'input--error': hasError('destination.provinceCode') }"  :aria-invalid="hasError('destination.provinceCode')" aria-describedby="rate-calculator-province-error">
+          <option value="" x-text="$t(`rate_calculator:select_${provinceLabel}`)" disabled></option>
+          <template x-for="province in selectedCountry.provinces" aria-hidden="true">
+            <option :value="province.code" x-text="province.name"></option>
+          </template>
+        </select>
+        <span id="rate-calculator-province-error" class="label--error" x-show="hasError('destination.provinceCode')" x-text="getError('destination.provinceCode')" role="alert"></span>
+      </div>
+
+      <div x-show="hasPostalCodes">
+        <label for="rate-calculator-postalcode" x-text="$t(`address.${postalCodeLabel}`)"></label>
+        <input id="rate-calculator-postalcode" x-model="destination.postalCode" class="full-width" :class="{ 'input--error': hasError('destination.postalCode') }"  :aria-invalid="hasError('destination.postalCode')" aria-describedby="rate-calculator-postalcode-error" />
+        <span id="rate-calculator-postalcode-error" class="label--error" x-show="hasError('destination.postalCode')" x-text="getError('destination.postalCode')" role="alert"></span>
+      </div>
+
+      <span id="rate-calculator-generic-error" class="label--error" x-show="hasError('error')" role="alert" :class="{ 'label--error': hasError('error') }" x-text="$t('rate_calculator:generic_error')"></span>
+      <button type="submit" class="full-width button button--secondary" :disabled="quoting" @click.prevent="fetchQuotes">
+        <span x-text="$t('rate_calculator:get_rates')"></span>
+      </button>
+    </div>
+
+    <!--  START SHIPPING RATES -->
+    <div x-show="quoted" class="rates">
+      <div class="rates-header">
+        <span id="shipping-rates-title" x-text="$t('rate_calculator:shipping_rates')"></span>
+        <button @click.prevent="show = false; quoted = false;" type="button" class="button--link" aria-controls="dialog" aria-expanded="false" tabindex="-1">
+          {% render 'icon-close' %}
+        </button>
+      </div>
+      <ul aria-describedby="shipping-rates-title" tabindex="0">
+        <template x-for="(rate, index) in shippingQuote.rates" aria-hidden="true">
+          <li tabindex="0">
+            <span x-text="rate.serviceName"></span>
+            <span x-text="rate.priceFormatted" class="rate-price"></span>
+          </li>
+        </template>
+      </ul>
+    </div>
+  </div>
+</shipping-rate-calculator>

@@ -1,0 +1,394 @@
+{%- capture section_settings -%}
+    {
+          "showShippingEstimator":
+    {% if template == 'product.quick-view' or product.available == false %}false
+    {% else %}
+        {{ section.settings.show_shipping_estimator | json }}
+    {% endif %},
+          "showQuantitySelector":
+    {{ section.settings.show_quantity_selector | json }},
+          "showPaymentButton":
+    {% if product.template_suffix == 'pre-order' %}false
+    {% else %}
+        {{ section.settings.show_payment_button | json }}
+    {% endif %},
+          "showInventoryQuantity":
+    {% if product.template_suffix != 'pre-order' %}
+        {{ section.settings.show_inventory_quantity | json }}{% else %}false
+    {% endif %},
+          "lowInventoryThreshold":
+    {{ section.settings.low_inventory_threshold | json }},
+          "galleryTransitionEffect":
+    {{ section.settings.carousel_effect | json }},
+          "enableImageZoom":
+    {% if template == 'product.quick-view' %}false
+    {% else %}
+        {{ section.settings.enable_image_zoom | json }}
+    {% endif %},
+          "zoomEffect":
+    {{ section.settings.zoom_effect | json }},
+          "enableVideoLooping":
+    {{ section.settings.enable_video_looping | json }},
+          "productOptions":
+    {{ product.options | json | escape }},
+          "enableHistoryState":
+    {% if template == 'product.quick-view' %}false{% else %}true
+    {% endif %},
+          "infoOverflowScroll":
+    {% if template == 'product.quick-view' %}false{% else %}true
+    {% endif %},
+          "isQuickView":
+    {% if template == 'product.quick-view' %}true{% else %}false
+    {% endif %}
+    }
+{%- endcapture -%}
+
+<section data-section-id="{{ section.id }}" data-section-type="product" data-section-settings='{{ section_settings }}'>
+    {%- if template != 'product.quick-view' -%}
+        <div class="container container--narrow">
+            <div class="page__sub-header">
+                <nav aria-label="{{ 'general.breadcrumb.title' | t }}" class="breadcrumb">
+                    <ol class="breadcrumb__list" role="list">
+                        <li class="breadcrumb__item">
+                            <a class="breadcrumb__link link" href="{{ routes.root_url }}">{{ 'general.breadcrumb.home' | t }}</a>
+                            {%- render 'icon', icon: 'arrow-right' -%}
+                        </li>
+
+                        <li class="breadcrumb__item">
+                            {%- if collection -%}
+                                <a class="breadcrumb__link link" href="{{ collection.url }}">{{ collection.title }}</a>
+                                {%- render 'icon', icon: 'arrow-right' -%}
+                            {%- endif -%}
+                        </li>
+
+                        <li class="breadcrumb__item">
+                            <span aria-current="page" class="breadcrumb__link">{{ product.title | truncate: 40 }}</span>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div>
+              <p>We would like to hear how we are doing.</p>
+              <p>If you recently purchased from EuroHomeDirect®️, please take a minute to leave a review here. If you have any questions or complaints, please contact our team first to help you resolve your issue.</p>
+            </div>
+
+            <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+        </div>
+    {%- else -%}
+
+    {%- endif -%}
+</section>
+
+{% schema %}
+{
+  "name": "Product page",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "show_vendor",
+      "label": "Show vendor",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_sku",
+      "label": "Show SKU",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_share_buttons",
+      "label": "Show share buttons",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_taxes_included",
+      "label": "Show price taxes notice",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "selector_mode",
+      "label": "Selector type",
+      "options": [
+        {
+          "value": "block",
+          "label": "Block"
+        },
+        {
+          "value": "dropdown",
+          "label": "Dropdown"
+        }
+      ],
+      "default": "block"
+    },
+    {
+      "type": "select",
+      "id": "color_mode",
+      "label": "Color selector type",
+      "info": "Variant image mode requires that all variant has an associated image. [Learn more](https://help.shopify.com/en/manual/products/product-variant-images#add-images-to-existing-variants)",
+      "options": [
+        {
+          "value": "block",
+          "label": "Block"
+        },
+        {
+          "value": "dropdown",
+          "label": "Dropdown"
+        },
+        {
+          "value": "color",
+          "label": "Color swatch"
+        },
+        {
+          "value": "variant_image",
+          "label": "Variant image"
+        }
+      ],
+      "default": "color"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_quantity_selector",
+      "label": "Show quantity selector",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_payment_button",
+      "label": "Show dynamic checkout button",
+      "info": "Each customer will see their preferred payment method from those available on your store, such as PayPal or Apple Pay. [Learn more](https://help.shopify.com/manual/using-themes/change-the-layout/dynamic-checkout)",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_pickup_availability",
+      "label": "Show local pickup availability",
+      "info": "Show customers where they can pick up the product. [Learn more](https://help.shopify.com/en/manual/shipping/setting-up-and-managing-your-shipping/local-methods/local-pickup#show-pickup-availability-to-your-customers)",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Media"
+    },
+    {
+      "type": "paragraph",
+      "content": "Learn more about [media types](https://help.shopify.com/en/manual/products/product-media)"
+    },
+    {
+      "type": "select",
+      "id": "image_size",
+      "label": "Size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "small"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_video_looping",
+      "label": "Enable video looping",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_image_zoom",
+      "label": "Enable image zoom",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "zoom_effect",
+      "label": "Desktop zoom effect",
+      "options": [
+        {
+          "value": "inside",
+          "label": "Inside"
+        },
+        {
+          "value": "outside",
+          "label": "Outside"
+        }
+      ],
+      "default": "outside"
+    },
+    {
+      "type": "select",
+      "id": "carousel_effect",
+      "label": "Transition effect",
+      "options": [
+        {
+          "value": "fade",
+          "label": "Fade"
+        },
+        {
+          "value": "slide",
+          "label": "Slide"
+        }
+      ],
+      "default": "fade"
+    },
+    {
+      "type": "header",
+      "content": "Inventory"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also add a stock countdown. [Learn more](https://support.maestrooo.com/article/177-product-show-an-stock-countdown-bar)."
+    },
+    {
+      "type": "checkbox",
+      "id": "show_inventory_quantity",
+      "label": "Show inventory quantity",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "low_inventory_threshold",
+      "label": "Low inventory threshold",
+      "info": "Use low stock color when quantity is below the threshold. Choose 0 to always show in stock.",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "paragraph",
+      "content": "You can also add per-product tabs. [Learn more](http://support.maestrooo.com/article/83-product-adding-different-tabs-per-product)."
+    },
+    {
+      "type": "select",
+      "id": "content_display_mode",
+      "label": "Display mode",
+      "options": [
+        {
+          "value": "show_all",
+          "label": "Show all"
+        },
+        {
+          "value": "show_all_and_expand_description",
+          "label": "Show all and expand description"
+        },
+        {
+          "value": "collapse_all",
+          "label": "Collapse all"
+        },
+        {
+          "value": "collapse_all_except_description",
+          "label": "Collapse all except description"
+        }
+      ],
+      "default": "show_all_and_expand_description"
+    },
+    {
+      "type": "page",
+      "id": "tab_page_1_handle",
+      "label": "First page"
+    },
+    {
+      "type": "page",
+      "id": "tab_page_2_handle",
+      "label": "Second page"
+    },
+    {
+      "type": "page",
+      "id": "tab_page_3_handle",
+      "label": "Third page"
+    },
+    {
+      "type": "header",
+      "content": "Reviews"
+    },
+    {
+      "type": "paragraph",
+      "content": "You need to install [Shopify's free Product Reviews](https://apps.shopify.com/product-reviews) app before enabling those options."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_reviews",
+      "label": "Enable",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_reviews_badge",
+      "label": "Show badge",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Trust"
+    },
+    {
+      "type": "text",
+      "id": "trust_title",
+      "label": "Heading",
+      "default": "Payment & Security"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_payment_icons",
+      "label": "Show payment icons",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "custom_security_badge",
+      "label": "Security badge",
+      "info": "800 x 200px .jpg recommended"
+    },
+    {
+      "type": "range",
+      "id": "custom_security_badge_width",
+      "min": 100,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Security badge width",
+      "default": 200
+    },
+    {
+      "type": "header",
+      "content": "Shipping estimator"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_shipping_estimator",
+      "label": "Show shipping estimator",
+      "info": "Only show if product is available.",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "shipping_estimator_default_country",
+      "label": "Default country",
+      "info": "If the customer is logged in, the country of their shipping address will be used.",
+      "default": "United States"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_refunds_policy",
+      "label": "Show refunds policy",
+      "info": "Refund policy must be added into your store policies. [Learn more](https://help.shopify.com/manual/sell-online/checkout-settings/refund-privacy-tos).",
+      "default": true
+    }
+  ]
+}
+{% endschema %}

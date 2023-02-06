@@ -1,0 +1,128 @@
+shipping-rate-calculator {
+  --parcelify-color-accent-1: var(--color-base-accent-1, 230,230,230);
+  --parcelify-color-base-text: var(--color-base-text, 0,0,0);
+  --parcelify-color-base-background-1: var(--color-base-background-1, 255,255,255);
+  --parcelify-color-button-text: var(--color-button-text, 0,0,0);
+  --parcelify-color-danger-text: 185, 74, 72;
+  --parcelify-color-danger-border: 233, 50, 45;
+  --parcelify-inputs-radius: var(--inputs-radius, 0);
+  --parcelify-inputs-border-style: solid;
+  --parcelify-inputs-border-width: var(--inputs-border-width, 1px);
+  --parcelify-inputs-border-width-focus: var(--inputs-border-width, 2px);
+  --parcelify-base-spacing: 1em;
+  display: block;
+  width: 100%;
+  margin-bottom: var(--parcelify-base-spacing);
+  color: rgb(var(--parcelify-color-base-text));
+  text-align: left;
+}
+
+shipping-rate-calculator ul {
+  margin: 0;
+  padding: 0;
+}
+
+shipping-rate-calculator button {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: calc(0.5 * var(--parcelify-base-spacing)) var(--parcelify-base-spacing);
+  border: none;
+  color: rgb(var(--parcelify-color-button-text));
+  background-color: rgb(var(--parcelify-color-accent-1))
+}
+
+shipping-rate-calculator button.button--link {
+  color: inherit;
+  background-color: transparent;
+}
+
+shipping-rate-calculator button[type="submit"] {
+  margin-top: var(--parcelify-base-spacing);
+}
+
+shipping-rate-calculator button:hover,
+shipping-rate-calculator button:focus {
+  border-width: var(--parcelify-inputs-border-width-focus);
+}
+
+shipping-rate-calculator input,
+shipping-rate-calculator select {
+  background-color: transparent;
+  display: block;
+  margin: calc(0.25 * var(--parcelify-base-spacing)) 0;
+  padding: calc(0.6 * var(--parcelify-base-spacing));
+  color: rgb(var(--parcelify-color-base-text));
+  border-width: var(--parcelify-inputs-border-width);
+  border-style: var(--parcelify-inputs-border-style);
+  border-color: rgb(var(--parcelify-color-base-text));
+  border-radius: var(--parcelify-inputs-radius);
+}
+
+shipping-rate-calculator input.input--error,
+shipping-rate-calculator select.input--error {
+  border-color: rgb(var(--parcelify-color-danger-border));
+}
+
+shipping-rate-calculator .label--error {
+  display: block;
+  line-height: normal;
+  color: rgb(var(--parcelify-color-danger-text));
+}
+
+shipping-rate-calculator select option {
+  background-color: rgb(var(--parcelify-color-base-background-1));
+}
+
+shipping-rate-calculator label {
+  display: block;
+  margin: calc(0.5 * var(--parcelify-base-spacing)) 0 0 0;
+}
+
+shipping-rate-calculator .full-width {
+  width: 100% !important;
+}
+
+shipping-rate-calculator .rates {
+  padding: calc(0.5 * var(--parcelify-base-spacing));
+  border-width: var(--parcelify-inputs-border-width);
+  border-style: var(--parcelify-inputs-border-style);
+  border-color: rgb(var(--parcelify-color-base-text));
+  border-radius: var(--parcelify-inputs-radius);
+}
+
+shipping-rate-calculator .rates > .rates-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: calc(0.4 * var(--parcelify-base-spacing));
+}
+
+shipping-rate-calculator .rates > .rates-header > span {
+  font-weight: bold;
+}
+
+shipping-rate-calculator .rates > .rates-header button {
+  line-height: normal;
+}
+
+shipping-rate-calculator .rates > .rates-header svg.icon {
+  width: var(--parcelify-base-spacing);
+  height: var(--parcelify-base-spacing);
+}
+
+shipping-rate-calculator li {
+  display: flex;
+  justify-content: space-between;
+  padding: calc(0.2 * var(--parcelify-base-spacing)) 0;
+}
+
+shipping-rate-calculator li:not(:last-child) {
+  border-bottom-width: var(--parcelify-inputs-border-width);
+  border-bottom-style: var(--parcelify-inputs-border-style);
+  border-bottom-color: rgba(var(--parcelify-color-base-text), 0.2);
+}
+
+shipping-rate-calculator .rate-price {
+  font-weight: bold;
+  text-transform: uppercase;
+}

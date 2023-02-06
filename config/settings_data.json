@@ -1,0 +1,1519 @@
+{
+  "current": {
+    "heading_color": "#000000",
+    "text_color": "#5f6368",
+    "accent_color": "#4b99d3",
+    "link_color": "#4b99d3",
+    "border_color": "#ffffff",
+    "background": "#ffffff",
+    "secondary_background": "#ffffff",
+    "error_color": "#ff0000",
+    "success_color": "#00aa00",
+    "primary_button_background": "#4b99d3",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#eff1f2",
+    "secondary_button_text_color": "#202124",
+    "header_background": "#000000",
+    "header_text_color": "#ffffff",
+    "header_light_text_color": "#a3afef",
+    "header_accent_color": "#00badb",
+    "footer_background_color": "#000000",
+    "footer_heading_text_color": "#f3f5f6",
+    "footer_body_text_color": "#ffffff",
+    "footer_accent_color": "#4b99d3",
+    "product_on_sale_accent": "#ee0000",
+    "product_in_stock_color": "#008a00",
+    "product_low_stock_color": "#ee0000",
+    "product_sold_out_color": "#8a9297",
+    "product_label_1_background": "#008a00",
+    "product_label_2_background": "#00a500",
+    "product_star_color": "#ffbd00",
+    "base_text_font_size": 16,
+    "heading_font": "quicksand_n4",
+    "text_font": "quicksand_n4",
+    "underline_links": false,
+    "animation_image_zoom": false,
+    "search_mode": "product",
+    "show_vendor": true,
+    "show_secondary_image": true,
+    "show_discount": true,
+    "discount_mode": "saving",
+    "product_price_position": "after_title",
+    "product_image_size": "square",
+    "show_color_swatch": false,
+    "show_inventory_quantity": false,
+    "low_inventory_threshold": 0,
+    "show_reviews_badge": false,
+    "cart_type": "drawer",
+    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_show_checkout_button": true,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "15000",
+    "social_facebook": "https:\/\/www.facebook.com\/EuroHomeDirect\/",
+    "social_twitter": "",
+    "social_pinterest": "",
+    "social_instagram": "https:\/\/www.instagram.com\/eurohomedirect\/",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UC_kXy3mmwV18YPmuP25uVig",
+    "social_linkedin": "",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "favicon": "shopify:\/\/shop_images\/favicon_56x_25619684-4a17-4f59-b1c9-ae1a27206d51.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#848585",
+    "checkout_button_color": "#4b99d3",
+    "checkout_error_color": "#ff0000",
+    "share_image": "",
+    "social_google_plus": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "blocks": {
+          "f4154b46-51dc-4299-a5a6-ddb9b5b2e908": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Appliances",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          },
+          "8f34cde5-ba63-4c82-b9a3-dba250b21caa": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Sanitary Wares",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          },
+          "e3c38dcf-9cdd-45ad-bea6-1767cc752aeb": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "Furniture",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          },
+          "b343c173-6e71-4078-b254-988087548190": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "家電",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          },
+          "037309d0-fb5b-4df7-8aa0-aaa605f736b8": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          },
+          "357d68aa-ef2c-4a6b-8144-a071d8167c9e": {
+            "type": "mega_menu",
+            "settings": {
+              "menu_item": "",
+              "image_1_heading": "Your image",
+              "image_1_text": "Tell your story",
+              "image_1_link": "",
+              "image_2_heading": "Your image",
+              "image_2_text": "Tell your story",
+              "image_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "f4154b46-51dc-4299-a5a6-ddb9b5b2e908",
+          "8f34cde5-ba63-4c82-b9a3-dba250b21caa",
+          "e3c38dcf-9cdd-45ad-bea6-1767cc752aeb",
+          "b343c173-6e71-4078-b254-988087548190",
+          "037309d0-fb5b-4df7-8aa0-aaa605f736b8",
+          "357d68aa-ef2c-4a6b-8144-a071d8167c9e"
+        ],
+        "settings": {
+          "enable_sticky_header": true,
+          "logo_max_width": 100,
+          "mobile_logo_max_width": 100,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "navigation_menu": "main-menu",
+          "desktop_navigation_layout": "inline",
+          "desktop_navigation_open_trigger": "hover",
+          "show_navigation_social_media": true,
+          "navigation_phone_number": "Call us +852-3421-1222",
+          "navigation_email": "info@eurohomedirect.com",
+          "show_condensed_search": true,
+          "show_search_filter": true,
+          "search_menu": "",
+          "show_search_menu_title": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "About the shop",
+              "content": "<p><em>Everything your home deserves.<\/em><\/p><p>EuroHomeDirect® offers complete home renovation solutions. We offer quality European brands in appliances, furniture, and sanitary ware, at a competitive price guarantee. From helping you select the best products for your home, to providing after-sales service, EuroHomeDirect® prides itself on our devotion to customers.<\/p>"
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": ""
+            }
+          },
+          "06ebdf98-fab5-42a9-bce0-dce01773a056": {
+            "type": "text",
+            "settings": {
+              "title": "HONG KONG CONTACT",
+              "content": "<p>+852 3421 1222<\/p><p>9\/F, Wyndham Place, 44 Wyndham Street, Central, Hong Kong<\/p>"
+            }
+          },
+          "48826564-9d4c-4c15-8e0f-379e1e6d3482": {
+            "type": "text",
+            "settings": {
+              "title": "SINGAPORE CONTACT",
+              "content": "<p>+65 3138 8699<\/p><p>13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "06ebdf98-fab5-42a9-bce0-dce01773a056",
+          "48826564-9d4c-4c15-8e0f-379e1e6d3482"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": false,
+          "show_locale_selector": true,
+          "show_currency_selector": false,
+          "show_cookie_bar": false,
+          "text": "<p>EuroHomeDirect® uses technology such as cookies and scripts to personalize content and ads, provide social media features, and analyze our traffic. Click \"Accept\" to consent to the use of this technology on our website – and don’t worry, we respect your privacy. You can of course change your mind and withdraw your consent at any time, by returning to this site after clearing the cookies on your computer or device.<br\/>This site uses functional cookies and external scripts to improve your experience.<\/p>",
+          "accept_button": "Accept"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "0601e678-7961-47fd-b774-0c7b1085e94c": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Button",
+              "link": ""
+            }
+          },
+          "b74ed81d-db28-446b-93dd-07add76de42c": {
+            "type": "image",
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 80,
+              "text_color": "#ffffff",
+              "title": "EuroHomeDirect® is proud to announce",
+              "content": "that we won the Gold Award\nin the recent Asia eCommerce Awards 2020!",
+              "content_position": "middle_right",
+              "button_background": "#4b9ad4",
+              "button_text_color": "#ffffff",
+              "button_text": "Read More",
+              "link": "#"
+            }
+          },
+          "8345f38b-95ab-44de-81fe-9c62cd464dfa": {
+            "type": "image",
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "Normann Copenhagen",
+              "content": "is a Danish design company with the mission to create original and\ninnovative products in a simple and contemporary design that withstands\nthe test of time. Or in other words, to challenge conventional thinking\nand make the ordinary extraordinary through great design.",
+              "content_position": "middle_right",
+              "button_background": "#4b9ad4",
+              "button_text_color": "#ffffff",
+              "button_text": "See Collection",
+              "link": "shopify:\/\/collections\/normann-copenhagen"
+            }
+          },
+          "4332e115-f412-4a3a-ad68-b575c719cb12": {
+            "type": "image",
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "Gaggenau",
+              "content": "In 1683, from the depths of the Black Forest, new sounds are heard; the roar of flames, the hammering of molten metal. The age of the industrial craftsmanship arrives with the strike of a hammer and German engineering is born.",
+              "content_position": "middle_right",
+              "button_background": "#4b9ad4",
+              "button_text_color": "#ffffff",
+              "button_text": "See Collection",
+              "link": "shopify:\/\/collections\/gaggenau"
+            }
+          },
+          "d07dcfd4-aa21-4d5e-95ef-fb0a9a1322ba": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "Poliform",
+              "content": "Internationally renowned furniture brand Poliform is famous for its elegant Italian contemporary design. Still a family run business the brand is based in Brianza, north of Milan, it now has over 40 showrooms worldwide. Each Poliform design is a response to functional requirements.",
+              "content_position": "middle_right",
+              "button_background": "#4b9ad4",
+              "button_text_color": "#ffffff",
+              "button_text": "See Collection",
+              "link": "#"
+            }
+          },
+          "cd34a80f-07ad-4f32-8ae3-a682274e1f94": {
+            "type": "image",
+            "settings": {
+              "show_overlay": false,
+              "overlay_opacity": 80,
+              "text_color": "#ffffff",
+              "title": "Dornbracht",
+              "content": "represents the very highest quality of manufacture, progressive production and innovative design. The premium fittings of this family company have won numerous international awards, acting as a driving force for the developments and trends of an entire industry.",
+              "content_position": "middle_right",
+              "button_background": "#4b9ad4",
+              "button_text_color": "#ffffff",
+              "button_text": "See Collection",
+              "link": "shopify:\/\/collections\/dornbracht"
+            }
+          }
+        },
+        "block_order": [
+          "0601e678-7961-47fd-b774-0c7b1085e94c",
+          "b74ed81d-db28-446b-93dd-07add76de42c",
+          "8345f38b-95ab-44de-81fe-9c62cd464dfa",
+          "4332e115-f412-4a3a-ad68-b575c719cb12",
+          "d07dcfd4-aa21-4d5e-95ef-fb0a9a1322ba",
+          "cd34a80f-07ad-4f32-8ae3-a682274e1f94"
+        ],
+        "settings": {
+          "edge_to_edge": false,
+          "section_size": "preserve_ratio",
+          "carousel_effect": "fade",
+          "autoplay": true,
+          "cycle_speed": 3
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "link": ""
+            }
+          },
+          "2c6d1eb5-329a-420b-be0d-b3f945fbfa6e": {
+            "type": "collection",
+            "settings": {
+              "collection": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection-0",
+          "2c6d1eb5-329a-420b-be0d-b3f945fbfa6e"
+        ],
+        "settings": {
+          "title": "Our collections",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": true,
+          "show_collection_title": true
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "settings": {
+          "product": "",
+          "title": "Featured product",
+          "link_title": "View details",
+          "link_url": "",
+          "show_vendor": true,
+          "show_sku": false,
+          "show_share_buttons": true,
+          "show_description": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_reviews_badge": false,
+          "show_payment_button": true,
+          "show_pickup_availability": false,
+          "image_size": "small",
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": true,
+          "collapse_collection_description": false,
+          "collection_image_size": "preserve_ratio",
+          "products_per_row": "4",
+          "default_products_per_page": 36,
+          "default_view_layout": "grid",
+          "show_quick_buy": "list_grid",
+          "show_quick_view": "list",
+          "quick_links": "",
+          "quick_links_show_products_count": true,
+          "show_filters": true,
+          "show_filter_color_swatch": false,
+          "filter_type": "group",
+          "open_group_filters_mode": "first_open",
+          "filter_group_order": "Brand,Type,Availability,Form Factor,Width,Height,Depth,Color,Colour,Capacity (L),Features,Color,Control Type,Ice and Water Dispenser Location,Hub Included,Defrost Type,Voice Assistant Built-in,Ice Maker Type,Ice Storage Capacity,Daily Ice Production,Fuel Type,Oven Cleaning Method,Wattage,Filter Type,Mount Style,Operating Sound Level,Fan Speeds,Maximum Air Flow,Number of Burners,Cooktop Style,Drawer Type,Downdraft Ventilation,Control Location,Tub Finish,Handle Type,Works With,Voltage,Discount"
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "title": "Recently viewed"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_vendor": true,
+          "show_sku": true,
+          "show_share_buttons": true,
+          "show_taxes_included": false,
+          "selector_mode": "dropdown",
+          "color_mode": "variant_image",
+          "show_quantity_selector": true,
+          "show_payment_button": false,
+          "show_pickup_availability": false,
+          "image_size": "large",
+          "enable_video_looping": false,
+          "enable_image_zoom": false,
+          "zoom_effect": "inside",
+          "carousel_effect": "slide",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0,
+          "content_display_mode": "show_all_and_expand_description",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": false,
+          "show_reviews_badge": false,
+          "trust_title": "Payment & Security",
+          "show_payment_icons": false,
+          "custom_security_badge_width": 200,
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "Hong Kong",
+          "show_refunds_policy": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_quick_buy": false
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement": true,
+          "background": "#4b9ad4",
+          "text_color": "#ffffff",
+          "text": "Up to 40% off & free shipping for HK$15,000\/SG$2,600 orders!",
+          "text_position": "center",
+          "link": "",
+          "show_newsletter": true,
+          "newsletter_button": "Subscribe & Save",
+          "newsletter_title": "Newsletter",
+          "newsletter_content": "<p>Enjoy Discount On Your First Order<\/p>"
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "blocks": {
+          "49a59871-6823-4978-9566-e1598480662a": {
+            "type": "newsletter",
+            "settings": {
+              "show_only_on_index": true,
+              "show_only_for_visitors": true,
+              "show_only_once": false,
+              "title": "Subscribe",
+              "content": "<p>Use Code EHDSINCE2017<\/p>",
+              "show_newsletter": true,
+              "apparition_delay": 3
+            }
+          }
+        },
+        "block_order": [
+          "49a59871-6823-4978-9566-e1598480662a"
+        ],
+        "settings": {
+        }
+      },
+      "text-with-icons": {
+        "type": "text-with-icons",
+        "blocks": {
+          "text-with-icons-0": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-shop",
+              "title": "Top European brands with competitive pricing of up to 40%",
+              "content": "<p>In a globalised world, we think it’s important to price-match consumer products across continents. EuroHomeDirect® provides up to 40% savings compared to local retail prices, so you can enjoy similar pricing to the product’s country of origin. We do this by using flat and efficient structures that allow us to provide products shipped directly from Europe to help extend your savings.<\/p>"
+            }
+          },
+          "text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "Full suite of services from consultation, direct shipping, and after-sale service",
+              "content": "<p>Here at EuroHomeDirect®, we pride ourselves on being able to go above and beyond. We provide professional consultation, to best help you decide which product is best for your needs, as well as providing direct shipping services and after-sale service to ensure customer satisfaction is our top priority.<\/p>"
+            }
+          },
+          "text-with-icons-1": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-add-to-cart",
+              "title": "Full range of renovation products",
+              "content": "<p>EuroHomeDirect® offers a variety of products, in appliance, furniture, and sanitary ware categories. With such a broad range, we are able to better provide the ideal solution for your home renovation needs. We also work with you when exploring customization options, so you can get the best fit for you and your home.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "text-with-icons-0",
+          "text-with-icons-2",
+          "text-with-icons-1"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": true
+        }
+      },
+      "16361133422a4560f4": {
+        "type": "image-with-text",
+        "settings": {
+          "image_position": "left",
+          "image_width": 50,
+          "title": "Shop Appliances",
+          "content": "<p>At EuroHomeDirect®, we see home renovation as arts, passion, and mission. Only the finest brands are selected by our team of experts to be listed on our website. Start building your dream home today to showcase your exquisite taste! We are more than happy to assist.<\/p>",
+          "button_text": "See All Brands",
+          "button_link": "shopify:\/\/collections\/appliances"
+        }
+      },
+      "16361133576d45d0ca": {
+        "type": "image-with-text",
+        "settings": {
+          "image_position": "right",
+          "image_width": 50,
+          "title": "Shop Sanitary Ware Items",
+          "content": "<p>EuroHomeDirect® does not compromise on quality. So when you purchase from us, you can rest assured that not only you’re buying products of the finest design, but also of top-notch quality.<\/p>",
+          "button_text": "See All Brands",
+          "button_link": "shopify:\/\/collections\/sanitary-wares"
+        }
+      },
+      "163611642205a9ce66": {
+        "type": "image-with-text",
+        "settings": {
+          "image_position": "left",
+          "image_width": 50,
+          "title": "Shop Furniture",
+          "content": "<p>At EuroHomeDirect®, we do not select products that yield the highest margins. Instead, superior design and reliability has always been our top considerations. This is how we ensure you only get ‘The best or nothing’!<\/p>",
+          "button_text": "See All Brands",
+          "button_link": "shopify:\/\/collections\/furniture"
+        }
+      },
+      "static-promotion-list": {
+        "type": "static-promotion-list",
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
+      },
+      "static-recently-viewed-products": {
+        "type": "static-recently-viewed-products",
+        "settings": {
+          "show_section": true,
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": true,
+          "title": "Subscribe to our newsletter",
+          "content": "",
+          "subtext": "",
+          "background": "#000000",
+          "text": "#ffffff"
+        }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-7": {
+            "type": "separator",
+            "settings": {
+              "title": "Products"
+            }
+          },
+          "page-faq-template-8": {
+            "type": "question",
+            "settings": {
+              "title": "How are we able to sell at such competitive prices?",
+              "answer": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We are able to supply top European household products at the lowest prices to local consumers because no distributors or dealers are involved in the process.<\/p>"
+            }
+          },
+          "c6dd5cfe-68f6-4854-8e95-efcfb51d586e": {
+            "type": "question",
+            "settings": {
+              "title": "Are there any additional discounts for the products sold?",
+              "answer": "<p>We only offer B2B discounts to companies with single order amount above HKD $400000 or SGD $70000 in one single category.<\/p>"
+            }
+          },
+          "ff841cad-ad9b-4c0d-8aff-903a83e8356b": {
+            "type": "question",
+            "settings": {
+              "title": "How to authenticate the products sold are genuine?",
+              "answer": "<p>EuroHomeDirect® only sells brand new and genuine products pre-packaged by the manufacturer. No unboxed or second grade products are sold. We welcome our customers to validate the serial numbers with the original manufacturers.<\/p>"
+            }
+          },
+          "34b637a8-e6cd-4cf9-ae27-ca13e1c549bf": {
+            "type": "question",
+            "settings": {
+              "title": "How do I obtain a quote for the furniture category?",
+              "answer": "<p>In order for us to supply you with a quote, please specify what brand, model, and configurations (ie. size + material) you’re interested in purchasing. Quote request may only be sent by email to [info@eurohomedirect.com]. It is not possible to quote otherwise due to the vast possibility of variations. Please note that order time is about 3-4 months because everything is made to order. Please also expect we are highly competitive compared to local retail prices.<\/p>"
+            }
+          },
+          "1ba3e082-0385-49ef-bf5a-d4ded9451b28": {
+            "type": "question",
+            "settings": {
+              "title": "Are the products sold compatible with local standards?",
+              "answer": "<p>All appliances sold are CE compliant, and would require no further safety certification to be imported into Hong Kong and Singapore.<br\/><br\/><strong>For Hong Kong & Singapore:<\/strong><br\/><br\/>Yes, all products sold are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V, 50-60Hz with UK style power plug (type G).<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>A voltage converter and\/or an adapter may be required. Please check the compatibility.<\/p>"
+            }
+          },
+          "6419b58a-fc05-49c6-aeb8-73b7917049bf": {
+            "type": "question",
+            "settings": {
+              "title": "Is there any waste disposal service?",
+              "answer": "<p>We offer waste disposal service for refrigerators and washing machines in Hong Kong as required by the government. The service is free of charge.<\/p>"
+            }
+          },
+          "74ce7ed6-f050-4e23-ab2a-573303807437": {
+            "type": "separator",
+            "settings": {
+              "title": "Warranty, Refund or Exchange"
+            }
+          },
+          "657dbc58-1002-46ec-bce4-55e873a34619": {
+            "type": "question",
+            "settings": {
+              "title": "Is there any warranty for the products?",
+              "answer": "<p>All products sold come with 1-year parts warranty. This warranty only covers technical faults and does not apply if damage is caused by factors including: wrong installation, abuse, mishandling, accident, liquid damage, or failure to follow operating instructions.<\/p>"
+            }
+          },
+          "c6d13c5f-4a6b-4a0c-bee4-42751b7ba7fa": {
+            "type": "question",
+            "settings": {
+              "title": "What happens after the warranty period expired?",
+              "answer": "<p>You may contact the local service centre to perform a check and repair.<\/p>"
+            }
+          },
+          "1827210c-c671-4bfa-85dd-180401ed90a7": {
+            "type": "question",
+            "settings": {
+              "title": "Is there any refund or exchange policy?",
+              "answer": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes & customs formalities unless there is a manufacturing defect or transportation damage. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.<\/p>"
+            }
+          },
+          "6bc5eab9-9501-41cf-b882-3da72581cb3b": {
+            "type": "separator",
+            "settings": {
+              "title": "Tax"
+            }
+          },
+          "4f12f422-8116-4dbc-b18f-4b22decc126b": {
+            "type": "question",
+            "settings": {
+              "title": "Do I have to pay tax for my order?",
+              "answer": "<p><strong>For Hong Kong:<br\/><\/strong><br\/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong are not subject to any customs tariffs.<br\/><br\/><strong>For Singapore:<\/strong><br\/><br\/>Singapore levies a 7% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>You are responsible to pay the applicable import taxes and duties.<\/p>"
+            }
+          },
+          "cf4d9996-3288-4f5a-a32b-6516059d568e": {
+            "type": "separator",
+            "settings": {
+              "title": "Buying Procedure and Payment"
+            }
+          },
+          "fe13ab97-31d9-4fe8-8d88-936c17721196": {
+            "type": "question",
+            "settings": {
+              "title": "What is the buying procedure?",
+              "answer": "<p>Please add all the products you would like to purchase to cart and proceed with payment and\/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.<\/p>"
+            }
+          },
+          "77983f61-6127-4831-8a80-8d6e37e12df9": {
+            "type": "question",
+            "settings": {
+              "title": "What are the payment options?",
+              "answer": "<p>We accept the following payment methods:<br\/><br\/><strong>1. Bank transfer<\/strong><br\/><br\/><strong>2. Credit Card by Stripe (Visa\/Mastercard\/American Express)<\/strong><br\/><br\/><strong>3. PayPal<\/strong><\/p>"
+            }
+          },
+          "21a45d6f-de6b-42c0-ad2d-40c85b2d2f93": {
+            "type": "question",
+            "settings": {
+              "title": "How do we ensure payment security?",
+              "answer": "<p>There is no safer way to shop online as we take cyber security very seriously! EuroHomeDirect® has no access to your payment information. All online payments are processed securely through Shopify Payment and Paypal, some of the most reputable third-party payment gateways. When you purchase from us, you are well protected from any potential data leak of your personal information.<\/p>"
+            }
+          },
+          "baeb7d61-7959-4418-a846-c4867d6e5484": {
+            "type": "question",
+            "settings": {
+              "title": "What is the minimum order amount?",
+              "answer": "<p>The minimum order amount in one single category is HKD $4000 or SGD $700.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-7",
+          "page-faq-template-8",
+          "c6dd5cfe-68f6-4854-8e95-efcfb51d586e",
+          "ff841cad-ad9b-4c0d-8aff-903a83e8356b",
+          "34b637a8-e6cd-4cf9-ae27-ca13e1c549bf",
+          "1ba3e082-0385-49ef-bf5a-d4ded9451b28",
+          "6419b58a-fc05-49c6-aeb8-73b7917049bf",
+          "74ce7ed6-f050-4e23-ab2a-573303807437",
+          "657dbc58-1002-46ec-bce4-55e873a34619",
+          "c6d13c5f-4a6b-4a0c-bee4-42751b7ba7fa",
+          "1827210c-c671-4bfa-85dd-180401ed90a7",
+          "6bc5eab9-9501-41cf-b882-3da72581cb3b",
+          "4f12f422-8116-4dbc-b18f-4b22decc126b",
+          "cf4d9996-3288-4f5a-a32b-6516059d568e",
+          "fe13ab97-31d9-4fe8-8d88-936c17721196",
+          "77983f61-6127-4831-8a80-8d6e37e12df9",
+          "21a45d6f-de6b-42c0-ad2d-40c85b2d2f93",
+          "baeb7d61-7959-4418-a846-c4867d6e5484"
+        ],
+        "settings": {
+          "show_contact_info": true,
+          "contact_info_heading": "Any question?",
+          "contact_info_text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.<\/p>",
+          "contact_1_icon": "bi-phone",
+          "contact_1_heading": "Customer support",
+          "contact_1_text": "<p><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=85259352062\" target=\"_blank\">+852 5935 2062 (Whatsapp Only)<\/a><\/p>",
+          "contact_2_icon": "bi-email",
+          "contact_2_heading": "Send a message",
+          "contact_2_text": "<p><a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\">info@eurohomedirect.com<\/a><\/p>"
+        }
+      },
+      "product-template-sanitary": {
+        "type": "product-template-sanitary",
+        "settings": {
+          "show_vendor": true,
+          "show_sku": false,
+          "show_share_buttons": true,
+          "show_taxes_included": false,
+          "selector_mode": "block",
+          "color_mode": "variant_image",
+          "show_quantity_selector": true,
+          "show_payment_button": true,
+          "show_pickup_availability": false,
+          "image_size": "small",
+          "enable_video_looping": false,
+          "enable_image_zoom": true,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0,
+          "content_display_mode": "show_all_and_expand_description",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": false,
+          "show_reviews_badge": false,
+          "trust_title": "Payment & Security",
+          "show_payment_icons": true,
+          "custom_security_badge_width": 200,
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States",
+          "show_refunds_policy": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "collections_to_show": "all",
+          "show_collection_title": true,
+          "show_collection_overlay": true,
+          "collection_overlay_opacity": 20
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "enable_order_notes": true,
+          "show_payment_icons": true,
+          "gift_wrap_product": "",
+          "gift_wrap_text": "Do you want a gift wrap?",
+          "gift_wrap_button": "Add a gift wrap",
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "Hong Kong",
+          "trust_heading": "Our guarantees",
+          "upsell_heading": "Complete your cart",
+          "upsell_collection": "",
+          "upsell_products_count": 4
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "16361133422a4560f4",
+      "16361133576d45d0ca",
+      "163611642205a9ce66"
+    ]
+  },
+  "presets": {
+    "Metal": {
+      "heading_color": "#1e2d7d",
+      "text_color": "#677279",
+      "accent_color": "#00badb",
+      "link_color": "#00badb",
+      "border_color": "#e1e3e4",
+      "background": "#f3f5f6",
+      "secondary_background": "#ffffff",
+      "error_color": "#ff0000",
+      "success_color": "#00aa00",
+      "primary_button_background": "#00badb",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#1e2d7d",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#1e2d7d",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#a3afef",
+      "header_accent_color": "#00badb",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#8a9297",
+      "product_label_1_background": "#008a00",
+      "product_label_2_background": "#00a500",
+      "product_star_color": "#ffbd00",
+      "footer_background_color": "#f3f5f6",
+      "footer_heading_text_color": "#1e2d7d",
+      "footer_body_text_color": "#677279",
+      "footer_accent_color": "#00badb",
+      "base_text_font_size": 16,
+      "heading_font": "din_next_n5",
+      "text_font": "din_next_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "product_price_position": "after_title",
+      "product_image_size": "natural",
+      "show_discount": true,
+      "discount_mode": "saving",
+      "show_color_swatch": false,
+      "show_inventory_quantity": false,
+      "low_inventory_threshold": 0,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_checkout_button": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "share_image": "",
+      "social_facebook": "",
+      "social_twitter": "",
+      "social_google_plus": "",
+      "social_pinterest": "",
+      "social_instagram": "",
+      "social_vimeo": "",
+      "social_tumblr": "",
+      "social_youtube": "",
+      "social_linkedin": "",
+      "social_snapchat": "",
+      "social_fancy": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#00badb",
+      "checkout_button_color": "#00badb",
+      "checkout_error_color": "#ff0000",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "product": "",
+            "title": "Featured product",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "low_inventory_threshold": 0
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_buy": "list",
+            "show_quick_view": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "low_inventory_threshold": 0,
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#1e2d7d",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1542984842027": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "collection-list",
+        "1542984842027",
+        "featured-product",
+        "1542984882560"
+      ]
+    },
+    "Wood": {
+      "heading_color": "#3a2a2f",
+      "text_color": "#3a2a2f",
+      "accent_color": "#ff6128",
+      "link_color": "#ff6128",
+      "border_color": "#e7e2de",
+      "background": "#f7f4f2",
+      "secondary_background": "#ffffff",
+      "error_color": "#f71b1b",
+      "success_color": "#48b448",
+      "primary_button_background": "#ff6128",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3a2a2f",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#3a2a2f",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#e9e2dd",
+      "header_accent_color": "#ff6128",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#d1d1d4",
+      "product_label_1_background": "#ff6128",
+      "product_label_2_background": "#a95ebe",
+      "product_star_color": "#ffb647",
+      "footer_background_color": "#f7f4f2",
+      "footer_heading_text_color": "#3a2a2f",
+      "footer_body_text_color": "#3a2a2f",
+      "footer_accent_color": "#ff6128",
+      "base_text_font_size": 15,
+      "heading_font": "itc_avant_garde_gothic_n5",
+      "text_font": "basic_commercial_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article,page",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "show_discount": true,
+      "discount_mode": "percentage",
+      "product_price_position": "after_title",
+      "product_image_size": "square",
+      "show_color_swatch": false,
+      "show_inventory_quantity": true,
+      "low_inventory_threshold": 1,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_checkout_button": true,
+      "cart_show_free_shipping_threshold": true,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#f7f4f2",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#ff6128",
+      "checkout_button_color": "#ff6128",
+      "checkout_error_color": "#f71b1b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_buy": "list",
+            "show_quick_view": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "low_inventory_threshold": 0,
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1550833441117": {
+          "type": "collection-with-image",
+          "settings": {
+            "collection": "",
+            "products_count": 12,
+            "image": "",
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "title": "Our best sellers",
+            "content": "Shop our most popular products for this season.",
+            "button_background": "#e95d2b",
+            "button_text_color": "#ffffff",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "1555314133560": {
+          "type": "promotion-list",
+          "blocks": {
+            "1555314133560-0": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#6f42ef",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#6f42ef",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-1": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#fc2a68",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#fc2a68",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-2": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#26c1ce",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#26c1ce",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1555314133560-0",
+            "1555314133560-1",
+            "1555314133560-2"
+          ],
+          "settings": {
+            "expand_items": false,
+            "section_size": "medium",
+            "stack_mobile": false
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "1555314133560",
+        "collection-list",
+        "1550833441117",
+        "1542984882560"
+      ]
+    }
+  }
+}

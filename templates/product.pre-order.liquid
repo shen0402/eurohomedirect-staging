@@ -1,0 +1,9 @@
+{% section 'product-template' %}
+{% section 'product-recommendations' %}
+{% section 'static-promotion-list' %}
+{% section 'static-recently-viewed-products' %}
+
+<script>
+  window.ShopifyXR=window.ShopifyXR||function(){(ShopifyXR.q=ShopifyXR.q||[]).push(arguments)};
+  ShopifyXR('addModels', {{ product.media | where: 'media_type', 'model' | json }});
+</script>

@@ -1,0 +1,213 @@
+<section class="section" data-section-type="playground">
+    <div class="container">
+
+        <style>
+            .mymultiplediv {
+                cursor: pointer;
+            }
+
+            .mymultiplediv {
+                width: 150px;
+                border: 1px solid #ccc;
+                margin: 10px;
+                padding: 10px;
+                color: #fff;
+                border-radius: 5px;
+                border: 1px solid #000;
+                background: #7d7474;
+                text-align: center;
+            }
+
+            .mydiv {
+                display: none;
+                padding: 10px;
+            }
+
+            #divone {
+                background: #ffd0a0;
+                display: block;
+            }
+
+            #divtwo {
+                background: #fd9999;
+            }
+
+            #divthree {
+                background: #a3ffa3;
+            }
+
+            #divfore {
+                background: #a3f6ff;
+            }
+        </style>
+        <script>
+            $(document).ready(function () {
+                $('.mymultiplediv').mouseover(function () {
+                    myvar = this.id;
+                    $("div.mydiv").hide();
+                    $('#div' + myvar).show();
+                });
+            });
+        </script>
+        <div class="text-center">
+            <ul class="list-inline">
+                <li class="mymultiplediv" id="one">Show div one</li>
+                <li class="mymultiplediv" id="two">Show div two</li>
+                <li class="mymultiplediv" id="three">Show div three</li>
+                <li class="mymultiplediv" id="fore">Show div fore</li>
+            </ul>
+        </div>
+        <div class="mydiv" id="divone">This is <strong>div one</strong>.</div>
+        <div class="mydiv" id="divtwo">This is <strong>div two</strong>.</div>
+        <div class="mydiv" id="divthree">This is <strong>div three</strong>.</div>
+        <div class="mydiv" id="divfore">This is <strong>div fore</strong>.</div>
+
+
+
+        <style>
+            .mega-menu__column.mouseover {
+                display: none;
+            }
+            #bosch__mega-menu{
+                display: block;
+            }
+        </style>
+        <script>
+            $(document).ready(function () {
+                $('.mega-menu__link.link.mega').mouseover(function () {
+                    megamenuvar = this.id;
+                    $("div.mega-menu__column.mouseover").hide();
+                    $('#menu-' + megamenuvar).show();
+                });
+            });
+        </script>
+        <div class="mega-menu__column">
+            <span class="mega-menu__title heading">
+                <a href="#">By Brand</a>
+            </span>
+            <ul class="mega-menu__linklist">
+                <li class="mega-menu__item">
+                    <a href="/collections/vendors?q=Bosch" class="mega-menu__link link mega" id="bosch__mega">Bosch</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/vendors?q=Siemens" class="mega-menu__link link mega" id="siemens__mega">Siemens</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/vendors?q=Gaggenau" class="mega-menu__link link mega" id="gaggenau__mega">Gaggenau</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/vendors?q=Liebherr" class="mega-menu__link link mega" id="liebherr__mega">Liebherr</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/vendors?q=Miele" class="mega-menu__link link mega" id="miele__mega">Miele</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/vendors?q=V-ZUG" class="mega-menu__link link mega" id="vzug__mega">V-ZUG</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="menu-bosch__mega" class="mega-menu__column mouseover">
+            <span class="mega-menu__title heading">
+                <a href="#">By Type</a>
+            </span>
+            <ul class="mega-menu__linklist">
+                <li class="mega-menu__item">
+                    <a href="/collections/refrigerators" class="mega-menu__link link">Bosch Refrigerators</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/freezers" class="mega-menu__link link">Bosch Freezers</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/ovens" class="mega-menu__link link">Bosch Ovens</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/warming-drawers" class="mega-menu__link link">Bosch Warming Drawers</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/microwaves" class="mega-menu__link link">Bosch Microwaves</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/coffee-machines" class="mega-menu__link link">Bosch Coffee Machines</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/range-hoods" class="mega-menu__link link">Bosch Range Hoods</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/ranges" class="mega-menu__link link">Bosch Ranges</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/hobs" class="mega-menu__link link">Bosch Hobs</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/dishwashers" class="mega-menu__link link">Bosch Dishwashers</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/washing-machines" class="mega-menu__link link">Bosch Washing Machines</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/dryers" class="mega-menu__link link">Bosch Dryers</a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="menu-siemens__mega" class="mega-menu__column">
+            <span class="mega-menu__title heading">
+                <a href="#">By Type</a>
+            </span>
+            <ul class="mega-menu__linklist">
+                <li class="mega-menu__item">
+                    <a href="/collections/refrigerators" class="mega-menu__link link">Siemens Refrigerators</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/freezers" class="mega-menu__link link">Siemens Freezers</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/ovens" class="mega-menu__link link">Siemens Ovens</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/warming-drawers" class="mega-menu__link link">Siemens Warming Drawers</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/microwaves" class="mega-menu__link link">Siemens Microwaves</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/coffee-machines" class="mega-menu__link link">Siemens Coffee Machines</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/range-hoods" class="mega-menu__link link">Siemens Range Hoods</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/ranges" class="mega-menu__link link">Siemens Ranges</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/hobs" class="mega-menu__link link">Siemens Hobs</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/dishwashers" class="mega-menu__link link">Siemens Dishwashers</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/washing-machines" class="mega-menu__link link">Siemens Washing Machines</a>
+                </li>
+                <li class="mega-menu__item">
+                    <a href="/collections/dryers" class="mega-menu__link link">Siemens Dryers</a>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</section>
