@@ -429,7 +429,7 @@
           "show_share_buttons": true,
           "show_taxes_included": false,
           "selector_mode": "dropdown",
-          "color_mode": "color",
+          "color_mode": "variant_image",
           "show_quantity_selector": true,
           "show_payment_button": false,
           "show_pickup_availability": false,
