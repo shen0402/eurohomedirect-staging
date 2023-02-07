@@ -436,7 +436,7 @@
           "image_size": "small",
           "enable_video_looping": false,
           "enable_image_zoom": true,
-          "zoom_effect": "outside",
+          "zoom_effect": "inside",
           "carousel_effect": "slide",
           "show_inventory_quantity": false,
           "low_inventory_threshold": 0,
