@@ -447,11 +447,11 @@
           "enable_reviews": false,
           "show_reviews_badge": false,
           "trust_title": "Payment & Security",
-          "show_payment_icons": false,
+          "show_payment_icons": true,
           "custom_security_badge_width": 200,
-          "show_shipping_estimator": false,
+          "show_shipping_estimator": true,
           "shipping_estimator_default_country": "Hong Kong",
-          "show_refunds_policy": false
+          "show_refunds_policy": true
         }
       },
       "product-recommendations": {
