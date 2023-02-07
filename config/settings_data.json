@@ -433,9 +433,9 @@
           "show_quantity_selector": true,
           "show_payment_button": false,
           "show_pickup_availability": false,
-          "image_size": "large",
+          "image_size": "small",
           "enable_video_looping": false,
-          "enable_image_zoom": false,
+          "enable_image_zoom": true,
           "zoom_effect": "inside",
           "carousel_effect": "slide",
           "show_inventory_quantity": false,
@@ -819,15 +819,7 @@
       "16361133422a4560f4",
       "16361133576d45d0ca",
       "163611642205a9ce66"
-    ],
-    "blocks": {
-      "14656832010101544780": {
-        "type": "shopify:\/\/apps\/advanced-product-options\/blocks\/app-embed-block\/a1199153-7462-4b5b-8a80-f0eefba85e99",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    }
+    ]
   },
   "presets": {
     "Metal": {
