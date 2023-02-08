@@ -826,7 +826,7 @@
           "show_payment_button": false,
           "show_pickup_availability": false,
           "image_size": "small",
-          "enable_video_looping": false,
+          "enable_video_looping": true,
           "enable_image_zoom": true,
           "zoom_effect": "inside",
           "carousel_effect": "slide",
