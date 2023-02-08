@@ -812,6 +812,39 @@
           "upsell_collection": "",
           "upsell_products_count": 4
         }
+      },
+      "product-template-regular": {
+        "type": "product-template-regular",
+        "settings": {
+          "show_vendor": true,
+          "show_sku": true,
+          "show_share_buttons": true,
+          "show_taxes_included": false,
+          "selector_mode": "block",
+          "color_mode": "variant_image",
+          "show_quantity_selector": true,
+          "show_payment_button": false,
+          "show_pickup_availability": false,
+          "image_size": "small",
+          "enable_video_looping": false,
+          "enable_image_zoom": true,
+          "zoom_effect": "inside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0,
+          "content_display_mode": "show_all_and_expand_description",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": false,
+          "show_reviews_badge": false,
+          "trust_title": "Payment & Security",
+          "show_payment_icons": true,
+          "custom_security_badge_width": 200,
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "Hong Kong",
+          "show_refunds_policy": false
+        }
       }
     },
     "content_for_index": [
