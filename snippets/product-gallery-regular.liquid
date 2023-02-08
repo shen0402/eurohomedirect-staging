@@ -3,7 +3,7 @@
 
   <div class="card">
     <div class="card__section card__section--tight">
-      <div class="product-gallery {% if show_thumbnails_if_one_media %}product-gallery--with-thumbnails{% endif %}">
+      <div class="product-gallery">
         {%- assign selected_media = product.selected_variant.featured_media | default: product.featured_media -%}
 
           <div class="product-gallery__carousel-wrapper">
@@ -60,8 +60,7 @@
                 tabindex="-1"
                 data-media-id="{{ media.id }}"
                 data-media-type="{{ media.media_type | escape }}"
-                {% if media.media_type == 'external_video' %}data-media-host="{{ media.host | escape }}"data-video-id="{{ media.external_id | escape }}"{% endif %}
-                {% if is_media_group %}data-group-name="{{ media_group_parts.first | strip | downcase | escape }}"data-group-value="{{ media_group_parts.last | strip | downcase | escape }}"{% endif %}>
+                {% if media.media_type == 'external_video' %}data-media-host="{{ media.host | escape }}"data-video-id="{{ media.external_id | escape }}"{% endif %}{% if is_media_group %}data-group-name="{{ media_group_parts.first | strip | downcase | escape }}"data-group-value="{{ media_group_parts.last | strip | downcase | escape }}"{% endif %}>
                 {%- case media.media_type -%}
                   {%- when 'image' -%}
                   <div class="product-gallery__size-limiter" style="max-width: {{ media.width }}px">
@@ -124,15 +123,6 @@
               {%- render 'icon', icon: 'media-view-in-space' -%} {{- 'product.general.view_in_space' | t -}}
             </button>
           {%- endif -%}
-
-          {%- if template != 'product.quick-view' and section.settings.enable_image_zoom -%}
-            <span class="product-gallery__zoom-notice">
-              {% render 'icon', icon: 'zoom' %}
-              <span class="hidden-pocket">{{ 'product.general.zoom' | t }}</span>
-              <span class="hidden-lap-and-up">{{ 'product.general.zoom_mobile' | t }}</span>
-            </span>
-          {%- endif -%}
-          <small class="image_by">{{ 'product.general.image_by' | t }} {{ product.vendor }}</small>
         </div>
 
         {%- if show_thumbnails_if_one_media -%}
