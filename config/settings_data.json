@@ -827,7 +827,7 @@
           "show_pickup_availability": false,
           "image_size": "small",
           "enable_video_looping": true,
-          "enable_image_zoom": true,
+          "enable_image_zoom": false,
           "zoom_effect": "inside",
           "carousel_effect": "slide",
           "show_inventory_quantity": false,
