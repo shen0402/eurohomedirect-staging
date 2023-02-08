@@ -102,12 +102,12 @@
         <div class="product-block-list__wrapper">
           {%- if product.media.size > 0 -%}
             <div class="product-block-list__item product-block-list__item--gallery">
-              {% render 'product-gallery' %}
+              {% render 'product-gallery-regular' %}
             </div>
           {%- endif -%}
 
           <div class="product-block-list__item product-block-list__item--info">
-            {% render 'product-info' %}
+            {% render 'product-info-regular' %}
           </div>
 
           {%- if product.description != blank -%}
@@ -477,8 +477,8 @@
   {%- else -%}
     {%- comment -%}We display the quick view within the product template so we can re-use the same settings{%- endcomment -%}
     <div class="featured-product">
-      {%- render 'product-gallery' -%}
-      {%- render 'product-info' -%}
+      {%- render 'product-gallery-regular' -%}
+      {%- render 'product-info-regular' -%}
     </div>
   {%- endif -%}
 </section>
