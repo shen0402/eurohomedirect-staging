@@ -29,7 +29,7 @@
       {%- assign image_url = article.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
 
       <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: article.image.aspect_ratio }}%">
-        <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ article.image.alt | escape }}">
+        <img class=" image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ article.image.alt | escape }}">
 
         <noscript>
           <img src="{{ article.image | img_url: '800x' }}" alt="{{ article.image.alt | escape }}">

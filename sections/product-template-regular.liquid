@@ -109,6 +109,7 @@
           <div class="product-block-list__item product-block-list__item--info">
             {% render 'product-info-regular' %}
           </div>
+
           {%- comment -%}
           --------------------------------------------------------------------------------------
           TABS
@@ -693,38 +694,6 @@
         "label": "Show refunds policy",
         "info": "Refund policy must be added into your store policies. [Learn more](https://help.shopify.com/manual/sell-online/checkout-settings/refund-privacy-tos).",
         "default": true
-      }
-    ],
-    "blocks": [
-      {
-        "type": "badge",
-        "name": "Badge",
-        "settings": [
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          }, {
-            "type": "richtext",
-            "id": "tooltip",
-            "label": "Tooltip",
-            "default": "<p>REUTER gives you a best price guarantee. With this guarantee, you can always be sure you are buying at the best possible price. For more information, please click on the \"Best-Price-Guarantee\" link in the footer.</p>"
-          }
-        ]
-      }, {
-        "type": "payment",
-        "name": "Payment",
-        "settings": [
-          {
-            "type": "html",
-            "id": "icon",
-            "label": "Icon"
-          }, {
-            "type": "url",
-            "id": "link",
-            "label": "Link"
-          }
-        ]
       }
     ]
   }
