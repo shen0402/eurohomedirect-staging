@@ -164,3 +164,23 @@
     width: 100%;
     padding: 10px;
 }
+
+#shopify-section-product-template-regular .block-swatch {
+    display: none;
+}
+
+.product-regular__field {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.product-regular__field label {
+    width: 40%;
+}
+
+.product-regular__field select {
+    width: 60%;
+    padding: 10px;
+    cursor: pointer;
+}
