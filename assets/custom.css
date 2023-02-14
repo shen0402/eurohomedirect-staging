@@ -184,3 +184,12 @@
     padding: 10px;
     cursor: pointer;
 }
+
+.product-form__no-product {
+    display: none;
+}
+
+.product-form__no-product.active {
+    display: block;
+    color: #ff3c5f;
+}

@@ -46,7 +46,7 @@ $(document).ready(function(){
                 const label = $(this).closest('.product-regular__field').find('label').text().trimStart();
                 values.push(`${label}: ${$(this).val()}`);
             });
-            $('.block-swatch__item').each(function() {
+            $('.block-swatch__item').each(function(index) {
                 var checked = true;
                 var options = $(this).attr('title');
                 values.forEach(value => {
@@ -56,7 +56,11 @@ $(document).ready(function(){
                 });
                 if (checked) {
                     $(this).click();
+                    $('.product-form__no-product').removeClass('active');
                     return false;
+                }
+                if (!checked && ($('.block-swatch__item').length - 1) == index) {
+                    $('.product-form__no-product').addClass('active');
                 }
             });
         }
