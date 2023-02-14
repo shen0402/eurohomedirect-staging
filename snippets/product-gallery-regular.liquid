@@ -126,7 +126,7 @@
         </div>
 
         {%- if show_thumbnails_if_one_media -%}
-          <div class="scroller">
+          <div class="scroller" data-media-count="{{ product.media.size }}">
             <div class="scroller__inner">
               <div class="product-gallery__thumbnail-list">
                 {%- for media in product.media -%}

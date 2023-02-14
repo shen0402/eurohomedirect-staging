@@ -197,3 +197,7 @@
     display: block;
     color: #ff3c5f;
 }
+
+[data-section-id="product-template-regular"] .scroller[data-media-count="1"] {
+    display: none;
+}
