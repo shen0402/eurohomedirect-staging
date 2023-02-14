@@ -7,8 +7,8 @@ $(document).ready(function(){
             var obj = {};
             variantArray.forEach(item => {
                 if (item.split(':').length > 1) {
-                    if(item.split(':')[0].trimStart() != 'Item number' && item.split(':')[0].trimStart() != 'Notice'){
-                        obj[item.split(':')[0].trimStart()] = item.split(':')[1].trimStart();
+                    if(item.split(':')[0].trim() != 'Item number' && item.split(':')[0].trim() != 'Notice'){
+                        obj[item.split(':')[0].trim()] = item.split(':')[1].trim();
                     }
                 }
             });
@@ -45,8 +45,8 @@ $(document).ready(function(){
         function updateVariant() {
             var values = [];
             $('.product-regular__select').each(function(){
-                const label = $(this).closest('.product-regular__field').find('label').text().trimStart();
-                values.push(`${label}: ${$(this).val()}`);
+                const label = $(this).closest('.product-regular__field').find('label').text().trim();
+                values.push(`${label}: ${$(this).val().trim()}`);
             });
             $('.block-swatch__item').each(function(index) {
                 var checked = true;
