@@ -17,6 +17,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 0 25px;
+    display: none;
 }
 
 .flickity-page-dots .dot {
