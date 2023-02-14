@@ -6,8 +6,10 @@ $(document).ready(function(){
             var variantArray = $(this).text().split(',');
             var obj = {};
             variantArray.forEach(item => {
-                if(item.split(':')[0].trimStart() != 'Item number' && item.split(':')[0].trimStart() != 'Notice'){
-                    obj[item.split(':')[0].trimStart()] = item.split(':')[1].trimStart();
+                if (item.split(':').length > 1) {
+                    if(item.split(':')[0].trimStart() != 'Item number' && item.split(':')[0].trimStart() != 'Notice'){
+                        obj[item.split(':')[0].trimStart()] = item.split(':')[1].trimStart();
+                    }
                 }
             });
             variants.push(obj);
