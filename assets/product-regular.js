@@ -43,8 +43,37 @@ $(document).ready(function(){
             }
         }
 
-        function selectOptions(options) {
+        function getSelectedOption() {
+            return $('.block-swatch__radio:checked').val();
+        }
+
+        function updateSpecification() {
+            $('.product-specifications__list').empty();
+            let options = getSelectedOption();
+            options = options.split(',');
+            const half = options.length / 2;
+            let specificationList = '<div class="product-specifications__list-column">';
+            options.forEach((option, index) => {
+                if (index < half) {
+                    specificationList += `<div class="product-specifications__item"><div class="product-specifications__item-header">${option.split(':')[0].trim()}:</div><div class="product-specifications__item-body">${option.split(':')[1].trim()}</div></div>`;
+                }
+            });
+            specificationList += '</div>';
+
+            specificationList += '<div class="product-specifications__list-column">';
+            options.forEach((option, index) => {
+                if (index >= half) {
+                    specificationList += `<div class="product-specifications__item"><div class="product-specifications__item-header">${option.split(':')[0].trim()}:</div><div class="product-specifications__item-body">${option.split(':')[1].trim()}</div></div>`;
+                }
+            });
+            specificationList += '</div>';
+
+            $('.product-specifications__list').append(specificationList);
+        }
+
+        function selectOptions() {
             changeOption = true;
+            const options = getSelectedOption();
             $('.product-regular__select').find('option').each(function(){
                 const value = `${$(this).closest('.product-regular__field').find('label').text().trim()}: ${$(this).attr('value').trim()}`;
                 if (options.indexOf(value) > -1) {
@@ -52,6 +81,8 @@ $(document).ready(function(){
                 }
             });
             changeOption = false;
+
+            updateSpecification();
         }
 
         function updateVariant(currentValue) {
@@ -70,6 +101,7 @@ $(document).ready(function(){
                 });
                 if (checked) {
                     $(this).click();
+                    updateSpecification()
                     return false;
                 }
                 if (!checked && ($('.block-swatch__item').length - 1) == index) {
@@ -77,7 +109,7 @@ $(document).ready(function(){
                         var options = $(this).attr('title');
                         if (options.indexOf(currentValue) > -1) {
                             $(this).click();
-                            selectOptions(options);
+                            selectOptions();
                             return false;
                         }
                     });
@@ -91,5 +123,7 @@ $(document).ready(function(){
                 updateVariant(currentValue);
             }
         });
+
+        selectOptions();
     }
 });
