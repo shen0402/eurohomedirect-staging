@@ -2,6 +2,7 @@ $(document).ready(function(){
     if ($('.block-swatch__item').length > 1) {
         var variants = [];
         var duplicateObj = {};
+        var changeOption = false;
         $('.block-swatch__item').each(function(index){
             var variantArray = $(this).text().split(',');
             var obj = {};
@@ -42,7 +43,18 @@ $(document).ready(function(){
             }
         }
 
-        function updateVariant() {
+        function selectOptions(options) {
+            changeOption = true;
+            $('.product-regular__select').find('option').each(function(){
+                const value = `${$(this).closest('.product-regular__field').find('label').text().trim()}: ${$(this).attr('value').trim()}`;
+                if (options.indexOf(value) > -1) {
+                    $(this).prop('selected', true);
+                }
+            });
+            changeOption = false;
+        }
+
+        function updateVariant(currentValue) {
             var values = [];
             $('.product-regular__select').each(function(){
                 const label = $(this).closest('.product-regular__field').find('label').text().trim();
@@ -58,17 +70,26 @@ $(document).ready(function(){
                 });
                 if (checked) {
                     $(this).click();
-                    $('.product-form__no-product').removeClass('active');
                     return false;
                 }
                 if (!checked && ($('.block-swatch__item').length - 1) == index) {
-                    $('.product-form__no-product').addClass('active');
+                    $('.block-swatch__item').each(function(index) {
+                        var options = $(this).attr('title');
+                        if (options.indexOf(currentValue) > -1) {
+                            $(this).click();
+                            selectOptions(options);
+                            return false;
+                        }
+                    });
                 }
             });
         }
 
         $('.product-regular__select').change(function(){
-            updateVariant();
+            if (!changeOption) {
+                const currentValue = `${$(this).closest('.product-regular__field').find('label').text().trim()}: ${$(this).val().trim()}`;
+                updateVariant(currentValue);
+            }
         });
     }
 });

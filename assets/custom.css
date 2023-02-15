@@ -201,3 +201,13 @@
 [data-section-id="product-template-regular"] .scroller[data-media-count="1"] {
     display: none;
 }
+
+.product-regular__select option {
+    cursor: pointer;
+    color: #000000;
+}
+
+.product-regular__select option:disabled {
+    cursor: not-allowed;
+    color: rgb(206, 206, 206);
+}
