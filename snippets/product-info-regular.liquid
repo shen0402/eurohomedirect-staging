@@ -60,6 +60,21 @@
         </h3>
       {%- endif -%}
 
+      {% if product.tags contains 'Lead Time-2 - 3' %}
+        {% assign lead_time = 'Dispatch in approx. 2-3 weeks <sup>a)</sup>' %}
+      {% elsif product.tags contains 'Lead Time-3 - 4' %}
+        {% assign lead_time = 'Dispatch in approx. 3-4 weeks <sup>a)</sup>' %}
+      {% elsif product.tags contains 'Lead Time-4 - 5' %}
+        {% assign lead_time = 'Dispatch in approx. 4-5 weeks <sup>a)</sup>' %}
+      {% elsif product.tags contains 'Lead Time-5 - 7' %}
+        {% assign lead_time = 'Dispatch in approx. 5-7 weeks <sup>a)</sup>' %}
+      {% elsif product.tags contains 'Lead Time-3' %}
+        {% assign lead_time = 'Dispatch in approx. 3 weeks <sup>a)</sup>' %}
+      {% endif %}
+      {% if lead_time != blank %}
+        <h3 class="lead-time">{{ lead_time }}</h3>
+      {% endif %}
+
       {%- capture product_labels -%}
         {%- for tag in product.tags -%}
           {%- if tag contains '__label:' -%}

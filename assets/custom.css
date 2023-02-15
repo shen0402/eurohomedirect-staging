@@ -227,5 +227,16 @@
   
 [data-section-id=product-template-regular] .product-gallery__carousel-item.is-selected {
     opacity: 1;
-    z-index: 0
+    z-index: 0;
+}
+
+[data-section-id=product-template-regular] .product-meta__title {
+    margin-bottom: 10px;
+}
+
+.lead-time {
+    font-weight: 700;
+    line-height: 16px;
+    font-size: 16px;
+    color: #000000;
 }
