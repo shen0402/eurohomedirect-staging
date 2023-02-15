@@ -211,3 +211,21 @@
     cursor: not-allowed;
     color: rgb(206, 206, 206);
 }
+
+/* Fade CSS */
+
+[data-section-id=product-template-regular] .flickity-slider {
+    transform: none !important;
+}
+  
+[data-section-id=product-template-regular] .product-gallery__carousel-item {
+    left: 0 !important;
+    opacity: 0;
+    /* transition: opacity 0.3s ease-in-out; */
+    z-index: -1;
+}
+  
+[data-section-id=product-template-regular] .product-gallery__carousel-item.is-selected {
+    opacity: 1;
+    z-index: 0
+}
