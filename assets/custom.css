@@ -140,8 +140,11 @@
 #infiniteoptions-container > div, [data-section-id="product-template-regular"] .product-form__info-item {
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 10px;
+}
+
+#infiniteoptions-container > div, [data-section-id="product-template-regular"] .product-form__info-item p {
+    margin: 0;
 }
 
 #infiniteoptions-container > div:first-of-type {
