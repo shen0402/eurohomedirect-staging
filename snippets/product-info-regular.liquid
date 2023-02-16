@@ -523,6 +523,8 @@
         </div>
       </div>
 
+      {% assign current_variant = product.selected_or_first_available_variant %}
+      <input id="sku" type="hidden" value="{{ current_variant.sku }}"  name="properties[Sku]">
       <div class="product-form__payment-container">
         {% if pprice != 0 %}
           {%- if product.template_suffix != 'contact' -%}

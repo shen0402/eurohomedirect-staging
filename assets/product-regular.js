@@ -69,6 +69,8 @@ $(document).ready(function(){
             specificationList += '</div>';
 
             $('.product-specifications__list').append(specificationList);
+
+            $('#sku').val($('.product-meta__sku-number').text().trim());
         }
 
         function selectOptions() {
