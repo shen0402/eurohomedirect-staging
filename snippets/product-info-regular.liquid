@@ -60,21 +60,6 @@
         </h3>
       {%- endif -%}
 
-      {% if product.tags contains 'Lead Time-2 - 3' %}
-        {% assign lead_time = 'Dispatch in approx. 2-3 weeks <sup>a)</sup>' %}
-      {% elsif product.tags contains 'Lead Time-3 - 4' %}
-        {% assign lead_time = 'Dispatch in approx. 3-4 weeks <sup>a)</sup>' %}
-      {% elsif product.tags contains 'Lead Time-4 - 5' %}
-        {% assign lead_time = 'Dispatch in approx. 4-5 weeks <sup>a)</sup>' %}
-      {% elsif product.tags contains 'Lead Time-5 - 7' %}
-        {% assign lead_time = 'Dispatch in approx. 5-7 weeks <sup>a)</sup>' %}
-      {% elsif product.tags contains 'Lead Time-3' %}
-        {% assign lead_time = 'Dispatch in approx. 3 weeks <sup>a)</sup>' %}
-      {% endif %}
-      {% if lead_time != blank %}
-        <h3 class="lead-time">{{ lead_time }}</h3>
-      {% endif %}
-
       {%- capture product_labels -%}
         {%- for tag in product.tags -%}
           {%- if tag contains '__label:' -%}
@@ -518,7 +503,22 @@
         <div class="product-form__info-item">
           <div class="product-form__info-title text--strong">{{ 'product.form.lead_time' | t }}:</div>
           <div class="product-form__info-content">
-            <a href="https://wa.me/85259352062?text=Hi, what is the lead time for {{ product.title }}" class="whatsapp_lead_time">{{ 'product.form.whatsapp_lead_time' | t }}</a>
+            {% if product.tags contains 'Lead Time-2 - 3' %}
+              {% assign lead_time = 'Dispatch in approx. 2-3 weeks <sup>a)</sup>' %}
+            {% elsif product.tags contains 'Lead Time-3 - 4' %}
+              {% assign lead_time = 'Dispatch in approx. 3-4 weeks <sup>a)</sup>' %}
+            {% elsif product.tags contains 'Lead Time-4 - 5' %}
+              {% assign lead_time = 'Dispatch in approx. 4-5 weeks <sup>a)</sup>' %}
+            {% elsif product.tags contains 'Lead Time-5 - 7' %}
+              {% assign lead_time = 'Dispatch in approx. 5-7 weeks <sup>a)</sup>' %}
+            {% elsif product.tags contains 'Lead Time-3' %}
+              {% assign lead_time = 'Dispatch in approx. 3 weeks <sup>a)</sup>' %}
+            {% endif %}
+            {% if lead_time != blank %}
+              {{ lead_time }}
+            {% else %}
+              <a href="https://wa.me/85259352062?text=Hi, what is the lead time for {{ product.title }}" class="whatsapp_lead_time">{{ 'product.form.whatsapp_lead_time' | t }}</a>
+            {% endif %}
           </div>
         </div>
       </div>
