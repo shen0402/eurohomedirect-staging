@@ -282,6 +282,7 @@
 
 .product-specifications__item-header, .product-specifications__item-body {
     width: 50%;
+    padding-right: 20px;
 }
 
 .product-specifications__item-header {
