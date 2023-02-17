@@ -127,5 +127,7 @@ $(document).ready(function(){
         });
 
         selectOptions();
+    } else {
+        $('.product-specifications').remove();
     }
 });
