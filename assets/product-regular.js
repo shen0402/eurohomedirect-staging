@@ -32,7 +32,7 @@ $(document).ready(function(){
                 var select = `<div class="product-regular__field"><label>${property}</label><select class="product-regular__select">`;
                 var values = [];
                 variants.forEach(variant => {
-                    if (values.indexOf(variant[property]) === -1) {
+                    if (values.indexOf(variant[property]) === -1 && variant[property]) {
                         values.push(variant[property]);                    
                         select += `<option value="${variant[property]}">${variant[property]}</option>`
                     }
@@ -42,6 +42,12 @@ $(document).ready(function(){
                 $('.product-form__variants').append(select);
             }
         }
+
+        $('.product-regular__field').each(function(){
+            if ($(this).find('option').length <= 1) {
+                $(this).remove();
+            }
+        });
 
         function getSelectedOption() {
             return $('.block-swatch__radio:checked').val();
