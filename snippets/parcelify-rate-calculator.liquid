@@ -43,7 +43,7 @@
       <div class="rates-header">
         <span id="shipping-rates-title" x-text="$t('rate_calculator:shipping_rates')"></span>
         <button @click.prevent="show = false; quoted = false;" type="button" class="button--link" aria-controls="dialog" aria-expanded="false" tabindex="-1">
-          {% render 'icon-close' %}
+          {% render 'icon', icon: 'close' %}
         </button>
       </div>
       <ul aria-describedby="shipping-rates-title" tabindex="0">
