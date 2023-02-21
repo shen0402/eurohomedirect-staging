@@ -6,29 +6,29 @@
   <div x-show="show" style="display: none;">
     <!--  START ADDRESS INFORMATION -->
     <div x-show="!quoted">
-      <label for="rate-calculator-country" x-text="$t('address.country')"></label>
+      <label for="rate-calculator-country" x-text="$t('countries:labels.country')"></label>
       <select id="rate-calculator-country" x-model="destination.countryCode" class="full-width" :class="{ 'input--error': hasError('destination.countryCode') }" :aria-invalid="hasError('destination.countryCode')" aria-describedby="rate-calculator-country-error">
-        <option value="" disabled x-text="$t('rate_calculator:select_country')"></option>
+        <option value="" disabled x-text="$t('rate_calculator:select_one')"></option>
         <template x-for="country in countries" aria-hidden="true">
-          <option :value="country.code" x-text="country.name"></option>
+          <option :value="country.code" x-text="$t(`countries:countries.${country.code}.name`)"></option>
         </template>
       </select>
       <span id="rate-calculator-country-error" class="label--error" x-show="hasError('destination.countryCode')" x-text="getError('destination.countryCode')" role="alert"></span>
 
       <div x-show="hasProvinces">
-        <label for="rate-calculator-province" x-text="$t(`address.${provinceLabel}`)"></label>
+        <label for="rate-calculator-province" x-text="provinceLabel"></label>
         <select id="rate-calculator-province" x-model="destination.provinceCode" class="full-width" :class="{ 'input--error': hasError('destination.provinceCode') }"  :aria-invalid="hasError('destination.provinceCode')" aria-describedby="rate-calculator-province-error">
-          <option value="" x-text="$t(`rate_calculator:select_${provinceLabel}`)" disabled></option>
+          <option value="" x-text="$t('rate_calculator:select_one')" disabled></option>
           <template x-for="province in selectedCountry.provinces" aria-hidden="true">
-            <option :value="province.code" x-text="province.name"></option>
+            <option :value="province.code" x-text="$t(`countries:countries.${selectedCountry.code}.provinces.${province.code}`)"></option>
           </template>
         </select>
         <span id="rate-calculator-province-error" class="label--error" x-show="hasError('destination.provinceCode')" x-text="getError('destination.provinceCode')" role="alert"></span>
       </div>
 
       <div x-show="hasPostalCodes">
-        <label for="rate-calculator-postalcode" x-text="$t(`address.${postalCodeLabel}`)"></label>
-        <input id="rate-calculator-postalcode" x-model="destination.postalCode" class="full-width" :class="{ 'input--error': hasError('destination.postalCode') }"  :aria-invalid="hasError('destination.postalCode')" aria-describedby="rate-calculator-postalcode-error" />
+        <label for="rate-calculator-postalcode" x-text="postalCodeLabel"></label>
+        <input id="rate-calculator-postalcode" x-model="destination.postalCode" class="full-width" :class="{ 'input--error': hasError('destination.postalCode') }" type="text" :aria-invalid="hasError('destination.postalCode')" aria-describedby="rate-calculator-postalcode-error" />
         <span id="rate-calculator-postalcode-error" class="label--error" x-show="hasError('destination.postalCode')" x-text="getError('destination.postalCode')" role="alert"></span>
       </div>
 
@@ -43,7 +43,26 @@
       <div class="rates-header">
         <span id="shipping-rates-title" x-text="$t('rate_calculator:shipping_rates')"></span>
         <button @click.prevent="show = false; quoted = false;" type="button" class="button--link" aria-controls="dialog" aria-expanded="false" tabindex="-1">
-          {% render 'icon', icon: 'close' %}
+          {% assign closeIcons = "icon-close,icon-cross,icon#close,none" | split: "," %}
+          {% for closeIcon in closeIcons %}
+            {% capture renderedCloseIcon %}
+              {% case closeIcon %}
+                {% when "icon-close" %}
+                  {% render "icon-close" %}
+                {% when "icon-cross" %}
+                  {% render "icon-cross" %}
+                {% when "icon#close" %}
+                  {% render "icon" with "close" %}
+                {% when "none" %}
+                    {{ "Close" }}
+              {% endcase %}
+            {% endcapture %}
+
+            {% unless renderedCloseIcon contains "Liquid error"%}
+              {{ renderedCloseIcon }}
+              {% break %}
+            {% endunless %}
+          {% endfor %}
         </button>
       </div>
       <ul aria-describedby="shipping-rates-title" tabindex="0">
