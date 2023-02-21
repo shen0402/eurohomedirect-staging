@@ -514,6 +514,8 @@
               {% assign lead_time = 'Dispatch in approx. 4-5 weeks <sup>a)</sup>' %}
             {% elsif product.tags contains 'Lead Time-5 - 7' %}
               {% assign lead_time = 'Dispatch in approx. 5-7 weeks <sup>a)</sup>' %}
+            {% elsif product.tags contains 'Lead Time-5 - 8' %}
+              {% assign lead_time = 'Dispatch in approx. 5-8 weeks <sup>a)</sup>' %}
             {% elsif product.tags contains 'Lead Time-3' %}
               {% assign lead_time = 'Dispatch in approx. 3 weeks <sup>a)</sup>' %}
             {% endif %}
