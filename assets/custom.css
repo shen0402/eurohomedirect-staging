@@ -116,12 +116,16 @@
     [data-section-id="product-template-regular"] .product-gallery {
         background-color: #2c2c2c;
     }
+
+    [data-section-id="product-template-regular"] .product-block-list__item--gallery {
+        position: sticky;
+        top: 90px;
+    }
 }
 
 @media (min-width: 1000px) {
     [data-section-id="product-template-regular"] .product-gallery__carousel {
         margin: 0;
-        position: sticky;
     }
 }
 
