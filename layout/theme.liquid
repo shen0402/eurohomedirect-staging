@@ -113,6 +113,7 @@ window.addEventListener("load", function(){
 
         {%- comment -%}Few prefech to increase performance on commonly used third-parties{%- endcomment -%}
         <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
+        <link rel="preload" as="style" href="{{ 'custom.css' | asset_url }}">
         <link href="https://fonts.shopifycdn.com" rel="preconnect">
         <link href="https://productreviews.shopifycdn.com" rel="dns-prefetch">
         <link href="https://ajax.googleapis.com" rel="dns-prefetch">
@@ -125,6 +126,7 @@ window.addEventListener("load", function(){
         {{ content_for_header }}
 
         <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+        <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
 
         {% render 'microdata-schema' %}
 
@@ -186,7 +188,7 @@ window.addEventListener("load", function(){
             <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer></script>
             <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer></script>
         {%- endif -%}
-        <script src="{{ 'theme.min.js' | asset_url }}" defer></script>
+        <script src="{{ 'theme.js' | asset_url }}" defer></script>
         <script src="{{ 'custom.js' | asset_url }}" defer></script>
 
         {%- if request.page_type != 'cart' -%}

@@ -12402,8 +12402,8 @@
             this.productGalleryElement.style.height = "".concat(firstSlide.clientHeight, "px");
             this.flickityInstance = new flickityFade(this.productGalleryElement, {
               accessibility: false,
-              prevNextButtons: false,
-              pageDots: false,
+              prevNextButtons: true,
+              pageDots: true,
               adaptiveHeight: true,
               draggable: !Responsive.matchesBreakpoint('supports-hover'),
               fade: this.options['galleryTransitionEffect'] === 'fade',
