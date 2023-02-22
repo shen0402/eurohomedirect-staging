@@ -121,6 +121,7 @@
 @media (min-width: 1000px) {
     [data-section-id="product-template-regular"] .product-gallery__carousel {
         margin: 0;
+        position: sticky;
     }
 }
 
