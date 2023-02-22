@@ -294,14 +294,19 @@
                                 </div>
                             {%- endunless -%}
                         {%- endunless -%}
-{% if content_for_header contains 'cdn.parcelifyapp.com\/parcelify-components' %}
-  {% render 'parcelify-rate-calculator' %}
-{% endif %}
+
                         {%- comment -%}
             --------------------------------------------------------------------------------------
             SHIPPING ESTIMATOR
             --------------------------------------------------------------------------------------
             {%- endcomment -%}
+
+                        {% if content_for_header contains 'cdn.parcelifyapp.com\/parcelify-components' %}
+                          {% render 'parcelify-rate-calculator' %}
+                        {% endif %}
+
+
+      
                         <div class="card">
                             <div id="estimate-shipping">
                             </div>

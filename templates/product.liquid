@@ -7,12 +7,7 @@ If the product contains the special __gift tag, we prevent it to be completely a
     window.location.href = '/';
   </script>
 {%- else -%}
-  {% if product.tags contains 'duravit' %}
-    {% section 'product-template-regular' %}
-  {% else %}
-    {% section 'product-template' %}
-  {% endif %} 
-  
+  {% section 'product-template' %}
   {% section 'product-recommendations' %}
   {% section 'static-promotion-list' %}
   {% section 'static-recently-viewed-products' %}

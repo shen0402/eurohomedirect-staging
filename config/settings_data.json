@@ -163,6 +163,7 @@
         ],
         "settings": {
           "enable_sticky_header": true,
+          "logo": "shopify:\/\/shop_images\/EHD_Header_Logo.png",
           "logo_max_width": 100,
           "mobile_logo_max_width": 100,
           "show_locale_selector": true,
@@ -192,7 +193,7 @@
           "footer-1": {
             "type": "links",
             "settings": {
-              "menu": ""
+              "menu": "useful-links"
             }
           },
           "06ebdf98-fab5-42a9-bce0-dce01773a056": {
@@ -233,6 +234,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
+              "image": "shopify:\/\/shop_images\/ehd-l.png",
+              "mobile_image": "shopify:\/\/shop_images\/ehd-m.png",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
@@ -248,6 +251,8 @@
           "b74ed81d-db28-446b-93dd-07add76de42c": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/ecommerce-gold-award.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/ecommerce-gold-award_750x_80f4999c-d604-4cac-8967-d4ab87981e54.jpg",
               "show_overlay": false,
               "overlay_opacity": 80,
               "text_color": "#ffffff",
@@ -263,6 +268,8 @@
           "8345f38b-95ab-44de-81fe-9c62cd464dfa": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/normann-copenhagen.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/normann-copenhagen_750x_e5bcc738-ac2f-44ac-9eb7-0c719db5b188.png",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
@@ -278,6 +285,8 @@
           "4332e115-f412-4a3a-ad68-b575c719cb12": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/gaggenau.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/gaggenau_750x_808eaf9f-6604-4272-b8b0-afda749d9107.png",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
@@ -294,6 +303,8 @@
             "type": "image",
             "disabled": true,
             "settings": {
+              "image": "shopify:\/\/shop_images\/poliform.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/poliform_750x_1dbe08f3-2eb3-4e4b-997b-583fb2df7c54.png",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
@@ -309,6 +320,8 @@
           "cd34a80f-07ad-4f32-8ae3-a682274e1f94": {
             "type": "image",
             "settings": {
+              "image": "shopify:\/\/shop_images\/dornhracht.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/dornhracht_750x_5c8273ff-aac7-44f4-bc72-be25218e568e.png",
               "show_overlay": false,
               "overlay_opacity": 80,
               "text_color": "#ffffff",
@@ -428,15 +441,15 @@
           "show_sku": true,
           "show_share_buttons": true,
           "show_taxes_included": false,
-          "selector_mode": "dropdown",
+          "selector_mode": "block",
           "color_mode": "variant_image",
           "show_quantity_selector": true,
-          "show_payment_button": false,
+          "show_payment_button": true,
           "show_pickup_availability": false,
-          "image_size": "small",
+          "image_size": "large",
           "enable_video_looping": false,
-          "enable_image_zoom": true,
-          "zoom_effect": "outside",
+          "enable_image_zoom": false,
+          "zoom_effect": "inside",
           "carousel_effect": "slide",
           "show_inventory_quantity": false,
           "low_inventory_threshold": 0,
@@ -447,7 +460,7 @@
           "enable_reviews": false,
           "show_reviews_badge": false,
           "trust_title": "Payment & Security",
-          "show_payment_icons": true,
+          "show_payment_icons": false,
           "custom_security_badge_width": 200,
           "show_shipping_estimator": false,
           "shipping_estimator_default_country": "Hong Kong",
@@ -468,13 +481,13 @@
           "show_announcement": true,
           "background": "#4b9ad4",
           "text_color": "#ffffff",
-          "text": "Up to 40% off & free shipping for HK$15,000\/SG$2,600 orders!",
+          "text": "Up to 40% off!  Leading eComm platform for home renovation, est. 2017.",
           "text_position": "center",
           "link": "",
           "show_newsletter": true,
           "newsletter_button": "Subscribe & Save",
           "newsletter_title": "Newsletter",
-          "newsletter_content": "<p>Enjoy Discount On Your First Order<\/p>"
+          "newsletter_content": "<p>Enjoy Discount On Your Orders<\/p>"
         }
       },
       "popups": {
@@ -540,6 +553,7 @@
       "16361133422a4560f4": {
         "type": "image-with-text",
         "settings": {
+          "image": "shopify:\/\/shop_images\/shop-appliances.jpg",
           "image_position": "left",
           "image_width": 50,
           "title": "Shop Appliances",
@@ -551,6 +565,7 @@
       "16361133576d45d0ca": {
         "type": "image-with-text",
         "settings": {
+          "image": "shopify:\/\/shop_images\/shop-sanitary-items.jpg",
           "image_position": "right",
           "image_width": 50,
           "title": "Shop Sanitary Ware Items",
@@ -562,6 +577,7 @@
       "163611642205a9ce66": {
         "type": "image-with-text",
         "settings": {
+          "image": "shopify:\/\/shop_images\/shop-furniture.jpg",
           "image_position": "left",
           "image_width": 50,
           "title": "Shop Furniture",
@@ -811,44 +827,6 @@
           "upsell_heading": "Complete your cart",
           "upsell_collection": "",
           "upsell_products_count": 4
-        }
-      },
-      "product-template-regular": {
-        "type": "product-template-regular",
-        "settings": {
-          "show_vendor": true,
-          "show_sku": true,
-          "show_share_buttons": true,
-          "show_taxes_included": false,
-          "selector_mode": "block",
-          "color_mode": "variant_image",
-          "show_quantity_selector": true,
-          "show_payment_button": false,
-          "show_pickup_availability": false,
-          "image_size": "small",
-          "enable_video_looping": true,
-          "enable_image_zoom": false,
-          "zoom_effect": "inside",
-          "carousel_effect": "slide",
-          "show_inventory_quantity": false,
-          "low_inventory_threshold": 0,
-          "content_display_mode": "show_all_and_expand_description",
-          "tab_page_1_handle": "",
-          "tab_page_2_handle": "",
-          "tab_page_3_handle": "",
-          "enable_reviews": false,
-          "show_reviews_badge": false,
-          "trust_title": "Payment & Security",
-          "show_payment_icons": true,
-          "custom_security_badge_width": 200,
-          "show_shipping_estimator": false,
-          "shipping_estimator_default_country": "Hong Kong",
-          "show_refunds_policy": false
-        }
-      },
-      "product-description": {
-        "type": "product-description",
-        "settings": {
         }
       }
     },
