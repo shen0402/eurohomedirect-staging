@@ -298,3 +298,7 @@
         border: none !important;
     }
 }
+
+[x-show="hasProvinces"] {
+    display: none;
+}

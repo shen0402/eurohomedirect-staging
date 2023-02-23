@@ -507,17 +507,17 @@
           <div class="product-form__info-title text--strong">{{ 'product.form.lead_time' | t }}:</div>
           <div class="product-form__info-content">
             {% if product.tags contains 'Lead Time-2 - 3' %}
-              {% assign lead_time = 'Dispatch in approx. 2-3 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 2-3 weeks' %}
             {% elsif product.tags contains 'Lead Time-3 - 4' %}
-              {% assign lead_time = 'Dispatch in approx. 3-4 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 3-4 weeks' %}
             {% elsif product.tags contains 'Lead Time-4 - 5' %}
-              {% assign lead_time = 'Dispatch in approx. 4-5 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 4-5 weeks' %}
             {% elsif product.tags contains 'Lead Time-5 - 7' %}
-              {% assign lead_time = 'Dispatch in approx. 5-7 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 5-7 weeks' %}
             {% elsif product.tags contains 'Lead Time-5 - 8' %}
-              {% assign lead_time = 'Dispatch in approx. 5-8 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 5-8 weeks' %}
             {% elsif product.tags contains 'Lead Time-3' %}
-              {% assign lead_time = 'Dispatch in approx. 3 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 3 weeks' %}
             {% endif %}
             {% if lead_time != blank %}
               {{ lead_time }}
