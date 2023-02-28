@@ -299,6 +299,18 @@
     }
 }
 
-/* [x-show="hasProvinces"] {
-    display: none;
-} */
+.product-item--duravit::before, [data-section-id=product-template-regular] .aspect-ratio::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: calc(100% + 2px);
+    height: calc(10% + 1px);
+    right: -1px;
+    bottom: -1px;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+[data-section-id=product-template-regular] .aspect-ratio::before {
+    border-top: 1px solid;
+}
