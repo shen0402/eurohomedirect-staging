@@ -872,7 +872,7 @@
     "blocks": {
       "16662536352595574465": {
         "type": "shopify:\/\/apps\/filters-discovery-search\/blocks\/autocomplete\/95672d06-1c4e-4e1b-9368-e84ce1ad6886",
-        "disabled": true,
+        "disabled": false,
         "settings": {
           "path": "\/pages\/search-results",
           "new_jquery": true
