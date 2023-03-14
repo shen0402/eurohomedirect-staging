@@ -314,3 +314,53 @@
 [data-section-id=product-template-regular] .aspect-ratio::before {
     border-top: 1px solid;
 }
+
+e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseudo-h2 + .row, .download-button {
+    display: none;
+}
+
+.product-downloads__list .download-button {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-downloads__list .download-button svg {
+    width: 23px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.download-button i {
+    display: none;
+}
+
+.product-downloads {
+    background-color: #f0f0f0;
+    box-shadow: 0 1px 5px 0 rgb(0 0 0 / 15%);
+    margin-top: 50px;
+}
+
+.product-downloads__title {
+    padding: 10px 20px;
+    margin-bottom: 0;
+}
+
+.product-downloads__list {
+    background-color: #ffffff;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+@media (max-width: 767px) {
+    .product-specifications, .product-downloads {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
