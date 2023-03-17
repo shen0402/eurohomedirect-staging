@@ -97,11 +97,11 @@ $(document).ready(function(){
             var values = [];
             $('.product-regular__select').each(function(){
                 const label = $(this).closest('.product-regular__field').find('label').text().trim();
-                values.push(`${label}: ${$(this).val().trim()}`);
+                values.push(`${label}:${$(this).val().trim()}`);
             });
             $('.block-swatch__item').each(function(index) {
                 var checked = true;
-                var options = $(this).attr('title');
+                var options = $(this).attr('title').replaceAll(': ', ':');
                 values.forEach(value => {
                     if (options.indexOf(value) === -1) {
                         checked = false;
@@ -127,7 +127,7 @@ $(document).ready(function(){
 
         $('.product-regular__select').change(function(){
             if (!changeOption) {
-                const currentValue = `${$(this).closest('.product-regular__field').find('label').text().trim()}: ${$(this).val().trim()}`;
+                const currentValue = `${$(this).closest('.product-regular__field').find('label').text().trim()}:${$(this).val().trim()}`;
                 updateVariant(currentValue);
             }
         });
