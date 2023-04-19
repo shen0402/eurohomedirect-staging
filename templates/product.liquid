@@ -7,18 +7,19 @@ If the product contains the special __gift tag, we prevent it to be completely a
     window.location.href = '/';
   </script>
 {%- else -%}
-  {% if product.tags contains 'duravit' %}
+  {% if product.tags contains 'duravit' or product.tags contains 'new_brands' %}
     {% section 'product-template-regular' %}
   {% else %}
     {% section 'product-template' %}
-  {% endif %} 
-  
+  {% endif %}
   {% section 'product-recommendations' %}
   {% section 'static-promotion-list' %}
   {% section 'static-recently-viewed-products' %}
 
   <script>
-    window.ShopifyXR=window.ShopifyXR||function(){(ShopifyXR.q=ShopifyXR.q||[]).push(arguments)};
+    window.ShopifyXR = window.ShopifyXR || function() {
+      (ShopifyXR.q = ShopifyXR.q || []).push(arguments)
+    };
     ShopifyXR('addModels', {{ product.media | where: 'media_type', 'model' | json }});
   </script>
 {%- endif -%}

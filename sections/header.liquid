@@ -260,14 +260,12 @@
                                             <ul class="popover__linklist" role="list">
                                                 {%- for currency in form.available_currencies -%}
                                                     <li class="popover__linklist-item">
-                                                       
-                                                        <a name="currency_code" class="value-picker__choice-item" onClick=currencyClick("{{ currency.iso_code }}") value="{{ currency.iso_code }}" {% if currency.iso_code == form.current_currency.iso_code %} aria-current="true" {% endif %}>
+                                                        <button type="submit" name="currency_code" class="popover__link-item" value="{{ currency.iso_code }}" {% if currency.iso_code == form.current_currency.iso_code %} aria-current="true" {% endif %}>
                                                             {{ currency.iso_code }}
                                                             {% if currency.symbol %}
                                                                 {{ currency.symbol }}
                                                             {% endif %}
-                                                        </a>
-                                                      
+                                                        </button>
                                                     </li>
                                                 {%- endfor -%}
                                             </ul>
@@ -538,16 +536,6 @@
 
 <script>
   document.documentElement.style.setProperty('--header-height', document.getElementById('shopify-section-{{ section.id }}').clientHeight + 'px');
-
-  $('.value-picker__choice-item').on('click', function(e) {
-    console.log(e);
-    e.preventDefault();
-  });
-
-  function currencyClick(iso_code) {
-    console.log(iso_code);
-  }
-  
 </script>
 
 {% schema %}

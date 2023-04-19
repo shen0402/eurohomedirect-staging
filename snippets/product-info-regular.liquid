@@ -507,17 +507,19 @@
           <div class="product-form__info-title text--strong">{{ 'product.form.lead_time' | t }}:</div>
           <div class="product-form__info-content">
             {% if product.tags contains 'Lead Time-2 - 3' %}
-              {% assign lead_time = 'Dispatch in approx. 2-3 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 2-3 weeks' %}
             {% elsif product.tags contains 'Lead Time-3 - 4' %}
-              {% assign lead_time = 'Dispatch in approx. 3-4 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 3-4 weeks' %}
             {% elsif product.tags contains 'Lead Time-4 - 5' %}
-              {% assign lead_time = 'Dispatch in approx. 4-5 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 4-5 weeks' %}
             {% elsif product.tags contains 'Lead Time-5 - 7' %}
-              {% assign lead_time = 'Dispatch in approx. 5-7 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 5-7 weeks' %}
             {% elsif product.tags contains 'Lead Time-5 - 8' %}
-              {% assign lead_time = 'Dispatch in approx. 5-8 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 5-8 weeks' %}
+              {% elsif product.tags contains 'Lead Time-7 - 10' %}
+                {% assign lead_time = 'Dispatch in approx. 7-10 weeks' %}
             {% elsif product.tags contains 'Lead Time-3' %}
-              {% assign lead_time = 'Dispatch in approx. 3 weeks <sup>a)</sup>' %}
+              {% assign lead_time = 'Dispatch in approx. 3 weeks' %}
             {% endif %}
             {% if lead_time != blank %}
               {{ lead_time }}
@@ -529,7 +531,11 @@
       </div>
 
       {% assign current_variant = product.selected_or_first_available_variant %}
-      <input id="sku" type="hidden" value="{{ current_variant.sku }}"  name="properties[Sku]">
+      <input
+        id="sku"
+        type="hidden"
+        value="{{ current_variant.sku }}"
+        name="properties[Sku]">
       <div class="product-form__payment-container">
         {% if pprice != 0 %}
           {%- if product.template_suffix != 'contact' -%}

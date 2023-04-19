@@ -173,8 +173,11 @@
                     {%- endfor -%}
                   {%- endif -%}
 
-                  <a
-                    href="{{ media | img_url: '1024x' }}"rel="noopener"class="product-gallery__thumbnail {% if media.id == selected_media.id %}is-nav-selected{% endif %} {% if is_media_filtered %}is-filtered{% endif %}"data-media-id="{{ media.id }}"{% if is_media_group %}data-group-name="{{ media_group_parts.first | strip | downcase | escape }}"data-group-value="{{ media_group_parts.last | strip | downcase | escape }}"{% endif %}>
+                  <a href="{{ media | img_url: '1024x' }}"
+                    rel="noopener"
+                    class="product-gallery__thumbnail {% if media.id == selected_media.id %}is-nav-selected{% endif %} {% if is_media_filtered %}is-filtered{% endif %}"
+                    data-media-id="{{ media.id }}"
+                    {% if is_media_group %}data-group-name="{{ media_group_parts.first | strip | downcase | escape }}"data-group-value="{{ media_group_parts.last | strip | downcase | escape }}"{% endif %}>
                     {%- comment -%}Based on the type of media, we have to add an icon as per Shopify rules{%- endcomment -%}
 
                     {%- case media.media_type -%}

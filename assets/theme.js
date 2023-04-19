@@ -1,7 +1,3 @@
-$('.value-picker__choice-item').on('click', function() {
-  console.log("aaa");
-});
-
 (function (factory) {
   typeof define === 'function' && define.amd ? define('index', factory) :
     factory();
@@ -2788,7 +2784,7 @@ $('.value-picker__choice-item').on('click', function() {
 
     return ProductItemColorSwatch;
   }();
-  
+
   var Currency = /*#__PURE__*/function () {
     function Currency() {
       _classCallCheck(this, Currency);
@@ -12413,7 +12409,6 @@ $('.value-picker__choice-item').on('click', function() {
               fade: this.options['galleryTransitionEffect'] === 'fade',
               cellSelector: '.product-gallery__carousel-item:not(.is-filtered)',
               initialIndex: initialIndex,
-              wrapAround: true,
               on: {
                 ready: function ready() {
                   // Remove the pre-set height (that was used to pre-allocate the space) so that it can react properly to
