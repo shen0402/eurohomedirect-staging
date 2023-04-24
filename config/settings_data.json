@@ -874,11 +874,25 @@
           "link_title": "",
           "link_url": ""
         }
+      },
+      "09110b51-8f52-4035-acce-179ea0569030": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "appliances",
+          "title": "New In",
+          "products_count": 20,
+          "layout": "horizontal",
+          "stack_products": false,
+          "show_quick_buy": false,
+          "link_title": "",
+          "link_url": ""
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "7803dfce-1232-4be1-8f1b-4b3c02ba3c1f",
+      "09110b51-8f52-4035-acce-179ea0569030",
       "16361133422a4560f4",
       "16361133576d45d0ca",
       "163611642205a9ce66"
