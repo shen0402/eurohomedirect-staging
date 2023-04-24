@@ -870,7 +870,7 @@
           "products_count": 50,
           "layout": "vertical",
           "stack_products": false,
-          "show_quick_buy": false,
+          "show_quick_buy": true,
           "link_title": "",
           "link_url": ""
         }
@@ -883,7 +883,7 @@
           "products_count": 12,
           "layout": "horizontal",
           "stack_products": false,
-          "show_quick_buy": false,
+          "show_quick_buy": true,
           "link_title": "",
           "link_url": ""
         }
