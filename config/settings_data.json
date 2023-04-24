@@ -861,10 +861,24 @@
           "shipping_estimator_default_country": "United States",
           "show_refunds_policy": false
         }
+      },
+      "7803dfce-1232-4be1-8f1b-4b3c02ba3c1f": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "alape",
+          "title": "Our Top Picks",
+          "products_count": 50,
+          "layout": "vertical",
+          "stack_products": false,
+          "show_quick_buy": false,
+          "link_title": "View all",
+          "link_url": ""
+        }
       }
     },
     "content_for_index": [
       "slideshow",
+      "7803dfce-1232-4be1-8f1b-4b3c02ba3c1f",
       "16361133422a4560f4",
       "16361133576d45d0ca",
       "163611642205a9ce66"
