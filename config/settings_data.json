@@ -880,7 +880,7 @@
         "settings": {
           "collection": "appliances",
           "title": "New In",
-          "products_count": 20,
+          "products_count": 12,
           "layout": "horizontal",
           "stack_products": false,
           "show_quick_buy": false,
