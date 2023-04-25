@@ -14008,7 +14008,7 @@
           prevNextButtons: true,
           contain: true,
           groupCells: true,
-          cellAlign: 'left',
+          cellAlign: 'center',
           draggable: !window.matchMedia('(-moz-touch-enabled: 0), (hover: hover)').matches
         });
       }
@@ -15122,7 +15122,7 @@
             prevNextButtons: true,
             contain: true,
             groupCells: true,
-            cellAlign: 'left',
+            cellAlign: 'center',
             draggable: !window.matchMedia('(-moz-touch-enabled: 0), (hover: hover)').matches
           });
         }
@@ -15331,7 +15331,7 @@
               prevNextButtons: true,
               contain: true,
               groupCells: true,
-              cellAlign: 'left',
+              cellAlign: 'center',
               draggable: !window.matchMedia('(-moz-touch-enabled: 0), (hover: hover)').matches
             }); // If the browser supports ResizeObserver we use it to detect when the size of the items in the carousel change,
             // and if that's the case we force Flickity to resize
