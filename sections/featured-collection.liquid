@@ -5,20 +5,19 @@
 }
 {%- endcapture -%}
 
-<section class="section" data-section-id="{{ section.id }}" data-section-type="featured-collection" data-layout="{{ section.settings.layout }}" data-section-settings='{{ section_settings }}'>
+<section class="section" data-section-id="{{ section.id }}" data-section-type="featured-collection" data-section-settings='{{ section_settings }}'>
   {%- assign collection = collections[section.settings.collection] -%}
 
   <div class="container">
     <header class="section__header">
       <div class="section__header-stack">
-        <h2 class="section__title heading h3"><a href="{{ collection.url }}">{{ section.settings.title | default: collection.title | escape }}</a></h2>
+        <h2 class="section__title heading h3">{{ section.settings.title | default: collection.title | escape }}</h2>
       </div>
 
       {%- if section.settings.link_title != blank -%}
         <a href="{{ section.settings.link_url | default: collection.url | default: '#' }}" class="section__action-link link">{{ section.settings.link_title | escape }} {% render 'icon', icon: 'tail-right' %}</a>
       {%- endif -%}
     </header>
-    <div class="heading-divider heading-divider--short"></div>
   </div>
 
   <div class="container {% if section.settings.layout != 'vertical' or section.settings.stack_products %}container--flush{% endif %}">
@@ -50,9 +49,9 @@
             {%- endif -%}
           {%- elsif section.settings.layout == 'horizontal' -%}
             {%- if use_placeholder -%}
-              {%- include 'product-item-placeholder', product: product, grid_classes: '1/2--tablet 1/3--lap-and-up', show_add_to_cart: section.settings.show_quick_buy -%}
+              {%- include 'product-item-placeholder', product: product, horizontal: true, grid_classes: '1/2--tablet 1/3--lap-and-up', show_add_to_cart: false -%}
             {%- else -%}
-              {%- include 'product-item', product: product, grid_classes: '1/2--tablet 1/3--lap-and-up', show_add_to_cart: section.settings.show_quick_buy -%}
+              {%- include 'product-item', product: product, horizontal: true, grid_classes: '1/2--tablet 1/3--lap-and-up', show_add_to_cart: false -%}
             {%- endif -%}
           {%- else -%}
             {%- assign mod = forloop.index0 | modulo: 3 -%}
@@ -71,9 +70,9 @@
               {%- endif -%}
             {%- else -%}
               {%- if use_placeholder -%}
-                {%- include 'product-item-placeholder', product: product, show_add_to_cart: false -%}
+                {%- include 'product-item-placeholder', product: product, horizontal: true, show_add_to_cart: false -%}
               {%- else -%}
-                {%- include 'product-item', product: product, show_add_to_cart: false -%}
+                {%- include 'product-item', product: product, horizontal: true, show_add_to_cart: false -%}
               {%- endif -%}
             {%- endif -%}
 
