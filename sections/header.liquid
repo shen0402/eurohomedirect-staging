@@ -1,544 +1,733 @@
 {%- capture section_settings -%}
-    {
-                                          "navigationLayout":
-    {{ section.settings.desktop_navigation_layout | json }},
-                                          "desktopOpenTrigger":
-    {{ section.settings.desktop_navigation_open_trigger | json }},
-                                          "useStickyHeader":
-    {{ section.settings.enable_sticky_header | json }}
-    }
+  {
+  "navigationLayout":
+  {{ section.settings.desktop_navigation_layout | json }},
+  "desktopOpenTrigger":
+  {{ section.settings.desktop_navigation_open_trigger | json }},
+  "useStickyHeader":
+  {{ section.settings.enable_sticky_header | json }}
+  }
 {%- endcapture -%}
 
 {%- assign navigation_menu_handle = section.settings.navigation_menu | default: 'main-menu' -%}
 {%- assign navigation_menu = linklists[navigation_menu_handle] -%}
 
-<section data-section-id="{{ section.id }}" data-section-type="header" data-section-settings='{{ section_settings }}'>
-    <header class="header header--{{ section.settings.desktop_navigation_layout }} {% unless section.settings.show_condensed_search %}header--search-expanded{% endunless %}" role="banner">
-        <div class="container">
-            <div class="header__inner">
-                {%- comment -%}
+<section
+  data-section-id="{{ section.id }}"
+  data-section-type="header"
+  data-section-settings='{{ section_settings }}'>
+  <header class="header header--{{ section.settings.desktop_navigation_layout }} {% unless section.settings.show_condensed_search %}header--search-expanded{% endunless %}" role="banner">
+    <div class="container">
+      <div class="header__inner">
+        {%- comment -%}
         --------------------------------------------------------------------------------------
         MOBILE NAV
         --------------------------------------------------------------------------------------
         {%- endcomment -%}
 
-                {%- if navigation_menu.links.size > 0 -%}
-                    <nav class="header__mobile-nav hidden-lap-and-up">
-                        <button class="header__mobile-nav-toggle icon-state touch-area" data-action="toggle-menu" aria-expanded="false" aria-haspopup="true" aria-controls="mobile-menu" aria-label="{{ 'header.navigation.open_menu' | t }}">
-                            <span class="icon-state__primary">{%- render 'icon', icon: 'hamburger-mobile' -%}</span>
-                            <span class="icon-state__secondary">{%- render 'icon', icon: 'close' -%}</span>
-                        </button>
+        {%- if navigation_menu.links.size > 0 -%}
+          <nav class="header__mobile-nav hidden-lap-and-up">
+            <button
+              class="header__mobile-nav-toggle icon-state touch-area"
+              data-action="toggle-menu"
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-controls="mobile-menu"
+              aria-label="{{ 'header.navigation.open_menu' | t }}">
+              <span class="icon-state__primary">{%- render 'icon', icon: 'hamburger-mobile' -%}</span>
+              <span class="icon-state__secondary">{%- render 'icon', icon: 'close' -%}</span>
+            </button>
 
-                        {%- render 'mobile-menu', menu: navigation_menu -%}
-                    </nav>
-                {%- endif -%}
+            {%- render 'mobile-menu', menu: navigation_menu -%}
+          </nav>
+        {%- endif -%}
 
-                {%- comment -%}
-          --------------------------------------------------------------------------------------
-          DESKTOP NAV
-          --------------------------------------------------------------------------------------
-       {%- endcomment -%}
+        {%- comment -%}
+        --------------------------------------------------------------------------------------
+        DESKTOP NAV
+        --------------------------------------------------------------------------------------
+        {%- endcomment -%}
 
-                {%- if section.settings.desktop_navigation_layout == 'condensed' and navigation_menu.links.size > 0 -%}
-                    <nav class="header__desktop-nav hidden-pocket">
-                        <button class="header__desktop-nav-toggle" data-action="toggle-menu" aria-expanded="false" aria-haspopup="true" aria-label="{{ 'header.navigation.open_menu' | t }}">
-                            <span>{%- render 'icon', icon: 'hamburger' -%}
-                                <span class="header__desktop-nav-text">{{- 'header.navigation.menu' | t -}}</span>
-                            </span>
-                        </button>
+        {%- if section.settings.desktop_navigation_layout == 'condensed' and navigation_menu.links.size > 0 -%}
+          <nav class="header__desktop-nav hidden-pocket">
+            <button
+              class="header__desktop-nav-toggle"
+              data-action="toggle-menu"
+              aria-expanded="false"
+              aria-haspopup="true"
+              aria-label="{{ 'header.navigation.open_menu' | t }}">
+              <span>{%- render 'icon', icon: 'hamburger' -%}
+                <span class="header__desktop-nav-text">{{- 'header.navigation.menu' | t -}}</span>
+              </span>
+            </button>
 
-                        {%- render 'header-menu', menu: navigation_menu, index: 'desktop-menu-0' -%}
-                    </nav>
-                {%- endif -%}
+            {%- render 'header-menu', menu: navigation_menu, index: 'desktop-menu-0' -%}
+          </nav>
+        {%- endif -%}
 
-                {%- comment -%}
+        {%- comment -%}
         --------------------------------------------------------------------------------------
         LOGO COMPONENT
         --------------------------------------------------------------------------------------
         {%- endcomment -%}
 
-                {%- capture header_logo -%}
-                    <a href="{{ routes.root_url }}" class="header__logo-link">
-                        {%- if section.settings.logo != blank -%}
-                            {%- capture image_size -%}
-                                {{ section.settings.logo_max_width }}x
-                            {%- endcapture -%}
-                            <img class="header__logo-image" style="max-width: {{ section.settings.logo_max_width }}px" width="{{ section.settings.logo.width }}" height="{{ section.settings.logo.height }}" src="{{ section.settings.logo | img_url: image_size, scale: 2 }}" alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
-                        {%- else -%}
-                            <span class="header__logo-text">{{ shop.name }}</span>
-                        {%- endif -%}
-                    </a>
-                {%- endcapture -%}
+        {%- capture header_logo -%}
+          <a href="{{ routes.root_url }}" class="header__logo-link">
+            {%- if section.settings.logo != blank -%}
+              {%- capture image_size -%}
+                {{ section.settings.logo_max_width }}x
+              {%- endcapture -%}
+              <img
+                class="header__logo-image"
+                style="max-width: {{ section.settings.logo_max_width }}px"
+                width="{{ section.settings.logo.width }}"
+                height="{{ section.settings.logo.height }}"
+                src="{{ section.settings.logo | img_url: image_size, scale: 2 }}"
+                alt="{{ section.settings.logo.alt | default: shop.name | escape }}">
+            {%- else -%}
+              <span class="header__logo-text">{{ shop.name }}</span>
+            {%- endif -%}
+          </a>
+        {%- endcapture -%}
 
-                {%- if request.page_type == 'index' -%}
-                    <h1 class="header__logo">{{ header_logo }}</h1>
-                {%- else -%}
-                    <div class="header__logo">{{ header_logo }}</div>
-                {%- endif -%}
+        {%- if request.page_type == 'index' -%}
+          <h1 class="header__logo">{{ header_logo }}</h1>
+        {%- else -%}
+          <div class="header__logo">{{ header_logo }}</div>
+        {%- endif -%}
 
-                {%- comment -%}
+        {%- comment -%}
         --------------------------------------------------------------------------------------
         SEARCH COMPONENT
         --------------------------------------------------------------------------------------
         {%- endcomment -%}
 
-                <div class="header__search-bar-wrapper {% unless section.settings.show_condensed_search %}is-visible{% endunless %}">
-                    <form action="{{ routes.search_url }}" method="get" role="search" class="search-bar">
-                        {%- assign search_menu = linklists[section.settings.search_menu] -%}
+        <div class="header__search-bar-wrapper {% unless section.settings.show_condensed_search %}is-visible{% endunless %}">
+          <form
+            action="{{ routes.search_url }}"
+            method="get"
+            role="search"
+            class="search-bar">
+            {%- assign search_menu = linklists[section.settings.search_menu] -%}
 
-                        <div class="search-bar__top-wrapper">
-                            <div class="search-bar__top">
-                                <input name="type" type="hidden" value="product">
-                                <input name="options[prefix]" type="hidden" value="last">
+            <div class="search-bar__top-wrapper">
+              <div class="search-bar__top">
+                <input
+                  name="type"
+                  type="hidden"
+                  value="product">
+                <input
+                  name="options[prefix]"
+                  type="hidden"
+                  value="last">
 
-                                <div class="search-bar__input-wrapper">
-                                    <input class="search-bar__input" type="text" name="q" autocomplete="off" autocorrect="off" aria-label="{{ 'header.search.input_placeholder' | t }}" placeholder="{{ 'header.search.input_placeholder' | t }}">
-                                    <button class="search-bar__input-clear hidden-lap-and-up" data-action="clear-input" type="button">
-                                        <span class="visually-hidden">{{ 'header.search.clear' | t }}</span>
-                                        {% render 'icon', icon: 'close' %}
-                                    </button>
-                                </div>
-
-                                {%- comment -%}The type detection is sometimes a bit inaccurate as it returns empty type, so we do an additional logic{%- endcomment -%}
-
-                                {%- assign has_at_least_one_type = false -%}
-                                {%- for product_type in shop.types -%}
-                                    {%- if product_type != blank -%}
-                                        {%- assign has_at_least_one_type = true -%}
-                                        {%- break -%}
-                                    {%- endif -%}
-                                {%- endfor -%}
-
-                                {%- if section.settings.show_search_filter and has_at_least_one_type -%}
-                                    <div class="search-bar__filter">
-                                        <label class="search-bar__filter-label" for="search-product-type">
-                                            <span class="search-bar__filter-active">{{ 'header.search.all_categories' | t }}</span>
-                                            {%- render 'icon', icon: 'arrow-bottom' -%}
-                                        </label>
-
-                                        <select id="search-product-type">
-                                            <option selected="selected" value="">{{ 'header.search.all_categories' | t }}</option>
-
-                                            {%- for product_type in shop.types -%}
-                                                {%- if product_type != blank -%}
-                                                    <option value="{{ product_type | escape }}">{{ product_type | escape }}</option>
-                                                {%- endif -%}
-                                            {%- endfor -%}
-                                        </select>
-                                    </div>
-                                {%- endif -%}
-
-                                <button type="submit" class="search-bar__submit" aria-label="{{ 'header.search.submit' | t }}">
-                                    {%- render 'icon', icon: 'search' -%}
-                                    {%- render 'icon', icon: 'search-loader' -%}
-                                </button>
-                            </div>
-
-                            <button class="search-bar__close-button hidden-tablet-and-up" data-action="unfix-search" type="button">
-                                <span class="search-bar__close-text">{{ 'header.search.close_search' | t }}</span>
-                            </button>
-                        </div>
-
-                        <div class="search-bar__inner">
-                            <div class="search-bar__inner-animation">
-                                <div aria-hidden="true" class="search-bar__results">
-                                    <div class="skeleton-container">
-                                        {%- for i in (1..3) -%}
-                                            <div class="search-bar__result-item search-bar__result-item--skeleton">
-                                                <div class="search-bar__image-container">
-                                                    <div class="aspect-ratio aspect-ratio--square">
-                                                        <div class="skeleton-image"></div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="search-bar__item-info">
-                                                    <div class="skeleton-paragraph">
-                                                        <div class="skeleton-text"></div>
-                                                        <div class="skeleton-text"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        {%- endfor -%}
-                                    </div>
-
-                                    <div class="search-bar__results-inner">
-                                        {%- comment -%}Placeholder div for real results{%- endcomment -%}
-                                    </div>
-                                </div>
-
-                                {%- if search_menu.links.size > 0 -%}
-                                    <div aria-hidden="true" class="search-bar__menu-wrapper">
-                                        {%- if section.settings.show_search_menu_title -%}
-                                            <p class="search-bar__menu-title heading">{{ search_menu.title }}</p>
-                                        {%- endif -%}
-
-                                        <ul class="search-bar__menu-linklist list--unstyled" role="list">
-                                            {%- for link in search_menu.links -%}
-                                                <li>
-                                                    <a href="{{ link.url }}" class="search-bar__menu-link">{{ link.title }}</a>
-                                                </li>
-                                            {%- endfor -%}
-                                        </ul>
-                                    </div>
-                                {%- endif -%}
-                            </div>
-                        </div>
-                    </form>
+                <div class="search-bar__input-wrapper">
+                  <input
+                    class="search-bar__input"
+                    type="text"
+                    name="q"
+                    autocomplete="off"
+                    autocorrect="off"
+                    aria-label="{{ 'header.search.input_placeholder' | t }}"
+                    placeholder="{{ 'header.search.input_placeholder' | t }}">
+                  <button
+                    class="search-bar__input-clear hidden-lap-and-up"
+                    data-action="clear-input"
+                    type="button">
+                    <span class="visually-hidden">{{ 'header.search.clear' | t }}</span>
+                    {% render 'icon', icon: 'close' %}
+                  </button>
                 </div>
 
-                {%- comment -%}
+                {%- comment -%}The type detection is sometimes a bit inaccurate as it returns empty type, so we do an additional logic{%- endcomment -%}
+
+                {%- assign has_at_least_one_type = false -%}
+                {%- for product_type in shop.types -%}
+                  {%- if product_type != blank -%}
+                    {%- assign has_at_least_one_type = true -%}
+                    {%- break -%}
+                  {%- endif -%}
+                {%- endfor -%}
+
+                {%- if section.settings.show_search_filter and has_at_least_one_type -%}
+                  <div class="search-bar__filter">
+                    <label class="search-bar__filter-label" for="search-product-type">
+                      <span class="search-bar__filter-active">{{ 'header.search.all_categories' | t }}</span>
+                      {%- render 'icon', icon: 'arrow-bottom' -%}
+                    </label>
+
+                    <select id="search-product-type">
+                      <option selected="selected" value="">{{ 'header.search.all_categories' | t }}</option>
+
+                      {%- for product_type in shop.types -%}
+                        {%- if product_type != blank -%}
+                          <option value="{{ product_type | escape }}">{{ product_type | escape }}</option>
+                        {%- endif -%}
+                      {%- endfor -%}
+                    </select>
+                  </div>
+                {%- endif -%}
+
+                <button
+                  type="submit"
+                  class="search-bar__submit"
+                  aria-label="{{ 'header.search.submit' | t }}">
+                  {%- render 'icon', icon: 'search' -%}
+                  {%- render 'icon', icon: 'search-loader' -%}
+                </button>
+              </div>
+
+              <button
+                class="search-bar__close-button hidden-tablet-and-up"
+                data-action="unfix-search"
+                type="button">
+                <span class="search-bar__close-text">{{ 'header.search.close_search' | t }}</span>
+              </button>
+            </div>
+
+            <div class="search-bar__inner">
+              <div class="search-bar__inner-animation">
+                <div aria-hidden="true" class="search-bar__results">
+                  <div class="skeleton-container">
+                    {%- for i in (1..3) -%}
+                      <div class="search-bar__result-item search-bar__result-item--skeleton">
+                        <div class="search-bar__image-container">
+                          <div class="aspect-ratio aspect-ratio--square">
+                            <div class="skeleton-image"></div>
+                          </div>
+                        </div>
+
+                        <div class="search-bar__item-info">
+                          <div class="skeleton-paragraph">
+                            <div class="skeleton-text"></div>
+                            <div class="skeleton-text"></div>
+                          </div>
+                        </div>
+                      </div>
+                    {%- endfor -%}
+                  </div>
+
+                  <div class="search-bar__results-inner">{%- comment -%}Placeholder div for real results{%- endcomment -%}
+                  </div>
+                </div>
+
+                {%- if search_menu.links.size > 0 -%}
+                  <div aria-hidden="true" class="search-bar__menu-wrapper">
+                    {%- if section.settings.show_search_menu_title -%}
+                      <p class="search-bar__menu-title heading">{{ search_menu.title }}</p>
+                    {%- endif -%}
+
+                    <ul class="search-bar__menu-linklist list--unstyled" role="list">
+                      {%- for link in search_menu.links -%}
+                        <li>
+                          <a href="{{ link.url }}" class="search-bar__menu-link">{{ link.title }}</a>
+                        </li>
+                      {%- endfor -%}
+                    </ul>
+                  </div>
+                {%- endif -%}
+              </div>
+            </div>
+          </form>
+        </div>
+
+        {%- comment -%}
         --------------------------------------------------------------------------------------
         HEADER ACTIONS
         --------------------------------------------------------------------------------------
         {%- endcomment -%}
 
-                {%- if section.settings.show_currency_selector and shop.enabled_currencies.size > 0 -%}
-                    {%- assign currency_selector = true -%}
-                {%- endif -%}
+        {%- if section.settings.show_currency_selector and shop.enabled_currencies.size > 0 -%}
+          {%- assign currency_selector = true -%}
+        {%- endif -%}
 
-                {%- if section.settings.show_locale_selector and shop.published_locales.size > 1 -%}
-                    {%- assign locale_selector = true -%}
-                {%- endif -%}
+        {%- if section.settings.show_locale_selector and shop.published_locales.size > 1 -%}
+          {%- assign locale_selector = true -%}
+        {%- endif -%}
 
-                <div class="header__action-list">
-                    {%- if locale_selector -%}
-                    
-                        <div class="header__action-item header__action-item--locale hidden-pocket">
-                            {%- form 'localization', id: 'localization_form_header_locale' -%}
-                                <span class="header__action-item-title">{{ 'header.general.language' | t }}</span>
-                                <input type="hidden" name="locale_code" value="{{ form.current_locale.iso_code }}">
+        <div class="header__action-list">
+          {%- if locale_selector -%}
 
-                                <div class="header__action-item-content">
-                                    <button aria-controls="desktop-locale-selector" aria-expanded="false" class="header__action-item-link" data-action="toggle-popover">
-                                        <span class="locale-selector__value">{{ form.current_locale.endonym_name | capitalize }}</span>
-                                        {% render 'icon', icon: 'arrow-bottom' %}
-                                    </button>
+            <div class="header__action-item header__action-item--locale hidden-pocket">
+              {%- form 'localization', id: 'localization_form_header_locale' -%}
+                <span class="header__action-item-title">{{ 'header.general.language' | t }}</span>
+                <input
+                  type="hidden"
+                  name="locale_code"
+                  value="{{ form.current_locale.iso_code }}">
 
-                                    <div aria-hidden="true" class="popover popover--locale" id="desktop-locale-selector">
-                                        {%- render 'icon', icon: 'nav-triangle-borderless' -%}
-                                        <div class="popover__inner popover__inner--no-padding">
-                                            <ul class="popover__linklist" role="list">
-                                                {%- for locale in form.available_locales -%}
-                                                    <li class="popover__linklist-item">
-                                                        <button type="submit" name="locale_code" class="popover__link-item" value="{{ locale.iso_code }}" {% if locale.iso_code == form.current_locale.iso_code %} aria-current="true" {% endif %}>
-                                                            {{- locale.endonym_name | capitalize -}}
-                                                        </button>
-                                                    </li>
-                                                {%- endfor -%}
-                                            </ul>
-                                        </div>
-                                    </div>
-                                {%- endform -%}
+                <div class="header__action-item-content">
+                  <button
+                    aria-controls="desktop-locale-selector"
+                    aria-expanded="false"
+                    class="header__action-item-link"
+                    data-action="toggle-popover">
+                    <span class="locale-selector__value">{{ form.current_locale.endonym_name | capitalize }}</span>
+                    {% render 'icon', icon: 'arrow-bottom' %}
+                  </button>
+
+                  <div
+                    aria-hidden="true"
+                    class="popover popover--locale"
+                    id="desktop-locale-selector">
+                    {%- render 'icon', icon: 'nav-triangle-borderless' -%}
+                    <div class="popover__inner popover__inner--no-padding">
+                      <ul class="popover__linklist" role="list">
+                        {%- for locale in form.available_locales -%}
+                          <li class="popover__linklist-item">
+                            <button
+                              type="submit"
+                              name="locale_code"
+                              class="popover__link-item"
+                              value="{{ locale.iso_code }}"
+                              {% if locale.iso_code == form.current_locale.iso_code %}
+                              aria-current="true"
+                              {% endif %}>
+                              {{- locale.endonym_name | capitalize -}}
+                            </button>
+                          </li>
+                        {%- endfor -%}
+                      </ul>
+                    </div>
+                  </div>
+                {%- endform -%}
+              </div>
+            </div>
+
+
+          {%- endif -%}
+
+          {%- if currency_selector -%}
+
+            <div class="header__action-item header__action-item--currency">
+              {%- form 'localization', id: 'localization_form_header_currency' -%}
+
+                <span class="header__action-item-title">{{ 'header.general.currency' | t }}</span>
+                <input
+                  type="hidden"
+                  name="currency_code"
+                  value="{{ form.current_currency.iso_code }}">
+
+                <div class="header__action-item-content">
+                  <button
+                    aria-controls="desktop-currency-selector"
+                    aria-expanded="false"
+                    class="header__action-item-link"
+                    data-action="toggle-popover">
+                    <span class="currency-selector__value">{{ form.current_currency.iso_code }}
+                      {% if form.current_currency.symbol %}
+                        {{ form.current_currency.symbol }}
+                      {% endif %}
+                    </span>
+                    {% render 'icon', icon: 'arrow-bottom' %}
+                  </button>
+
+                  <div
+                    aria-hidden="true"
+                    class="popover popover--currency"
+                    id="desktop-currency-selector">
+                    {%- render 'icon', icon: 'nav-triangle-borderless' -%}
+
+                    <div class="popover__inner popover__inner--no-padding">
+                      <ul class="popover__linklist" role="list">
+                        {%- for currency in form.available_currencies -%}
+                          <li class="popover__linklist-item">
+                            <button
+                              type="submit"
+                              name="currency_code"
+                              class="popover__link-item"
+                              value="{{ currency.iso_code }}"
+                              {% if currency.iso_code == form.current_currency.iso_code %}
+                              aria-current="true"
+                              {% endif %}>
+                              {{ currency.iso_code }}
+                              {% if currency.symbol %}
+                                {{ currency.symbol }}
+                              {% endif %}
+                            </button>
+                          </li>
+                        {%- endfor -%}
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+              {%- endform -%}
+
+
+            </div>
+          {%- endif -%}
+
+          {%- if section.settings.show_condensed_search -%}
+            <div class="header__action-item hidden-tablet-and-up">
+              <a
+                class="header__action-item-link"
+                href="{{ routes.search_url }}"
+                data-action="toggle-search"
+                aria-expanded="false"
+                aria-label="{{ 'header.search.open_search' | t }}">{% render 'icon', icon: 'search' %}</a>
+            </div>
+          {%- endif -%}
+
+          {%- if shop.customer_accounts_enabled -%}
+            <div class="header__action-item header__action-item--account">
+              {%- if customer -%}
+                <span class="header__action-item-title hidden-pocket hidden-lap">{{ 'header.general.welcome' | t: first_name: customer.first_name | truncate: 20 }}</span>
+              {%- else -%}
+                <span class="header__action-item-title hidden-pocket hidden-lap">{{ 'header.general.login' | t }}</span>
+              {%- endif -%}
+
+              <div class="header__action-item-content">
+                <a
+                  href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}"
+                  class="header__action-item-link header__account-icon icon-state hidden-desk"
+                  aria-label="{{ 'header.general.account' | t }}"
+                  aria-controls="account-popover"
+                  aria-expanded="false"
+                  data-action="toggle-popover"
+                  {% if customer %}
+                  data-follow-link="phone"
+                  {% endif %}>
+                  <span class="icon-state__primary">{%- render 'icon', icon: 'account' -%}</span>
+                  <span class="icon-state__secondary">{%- render 'icon', icon: 'close' -%}</span>
+                </a>
+
+                <a
+                  href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}"
+                  class="header__action-item-link hidden-pocket hidden-lap"
+                  aria-controls="account-popover"
+                  aria-expanded="false"
+                  data-action="toggle-popover">{{ 'header.general.account' | t }}
+                  {% render 'icon', icon: 'arrow-bottom' %}</a>
+
+                <div
+                  aria-hidden="true"
+                  class="popover {% if customer %}popover--logged{% else %}popover--large popover--unlogged{% endif %}"
+                  id="account-popover">
+                  {%- render 'icon', icon: 'nav-triangle-borderless' -%}
+
+                  {%- if customer -%}
+                    <div class="popover__inner popover__inner--no-padding">
+                      <div class="popover__linklist">
+                        <a class="popover__link-item" href="{{ routes.account_url }}">{{ 'customer.general.orders' | t }}</a>
+                        <a class="popover__link-item" href="{{ routes.account_addresses_url }}">{{ 'customer.general.addresses' | t }}</a>
+                        <a
+                          class="popover__link-item"
+                          href="{{ routes.account_logout_url }}"
+                          data-no-instant>{{ 'customer.general.logout' | t }}</a>
+                      </div>
+                    </div>
+                  {%- else -%}
+                    <div class="popover__panel-list">
+                      {%- comment -%}LOGIN{%- endcomment -%}
+                      <div class="popover__panel popover__panel--default is-selected" id="header-login-panel">
+                        <div class="popover__inner">
+                          {%- form 'customer_login', name: 'login', class: 'form', id: 'header_customer_login' -%}
+                            <header class="popover__header">
+                              <h2 class="popover__title heading">{{ 'customer.login.login' | t }}</h2>
+                              <p class="popover__legend">{{ 'customer.login.description' | t }}</p>
+                            </header>
+
+                            <div class="form__input-wrapper form__input-wrapper--labelled">
+                              <input
+                                class="form__field form__field--text"
+                                id="login-customer[email]"
+                                name="customer[email]"
+                                required="required"
+                                type="email">
+                              <label class="form__floating-label" for="login-customer[email]">{{ 'customer.login.email' | t }}</label>
                             </div>
+
+                            <div class="form__input-wrapper form__input-wrapper--labelled">
+                              <input
+                                autocomplete="current-password"
+                                class="form__field form__field--text"
+                                id="login-customer[password]"
+                                name="customer[password]"
+                                required="required"
+                                type="password">
+                              <label class="form__floating-label" for="login-customer[password]">{{ 'customer.login.password' | t }}</label>
+                            </div>
+
+                            <button class="form__submit button button--primary button--full" type="submit">{{ 'customer.login.submit' | t }}</button>
+                          {%- endform -%}
+
+                          <div class="popover__secondary-action">
+                            <p>{{ 'customer.login.new_customer' | t }}
+                              <button
+                                aria-controls="header-register-panel"
+                                class="link link--accented"
+                                data-action="show-popover-panel">{{ 'customer.login.create_your_account' | t }}</button>
+                            </p>
+                            <p>{{ 'customer.login.lost_password' | t }}
+                              <a
+                                href="{{ routes.account_url }}#recover-password"
+                                aria-controls="header-recover-panel"
+                                class="link link--accented">{{ 'customer.login.recover_password' | t }}</a>
+                            </p>
+                          </div>
                         </div>
+                      </div>
 
-                    
-                    {%- endif -%}
+                      {%- comment -%}RECOVER{%- endcomment -%}
+                      <div class="popover__panel popover__panel--sliding" id="header-recover-panel">
+                        <div class="popover__inner">
+                          {%- form 'recover_customer_password', name: 'recover', class: 'form' -%}
+                            <header class="popover__header">
+                              <h2 class="popover__title heading">{{ 'customer.recover_password.recover_password' | t }}</h2>
+                              <p class="popover__legend">{{ 'customer.recover_password.description' | t }}</p>
+                            </header>
 
-                    {%- if currency_selector -%}
+                            <div class="form__input-wrapper form__input-wrapper--labelled">
+                              <input
+                                class="form__field form__field--text"
+                                id="recover-customer[recover_email]"
+                                name="email"
+                                required="required"
+                                type="email">
+                              <label class="form__floating-label" for="recover-customer[recover_email]">{{ 'customer.recover_password.email' | t }}</label>
+                            </div>
 
-                        <div class="header__action-item header__action-item--currency hidden-pocket">
-                            {%- form 'localization', id: 'localization_form_header_currency' -%}
+                            <button class="form__submit button button--primary button--full" type="submit">{{ 'customer.recover_password.submit' | t }}</button>
+                          {%- endform -%}
 
-                                <span class="header__action-item-title">{{ 'header.general.currency' | t }}</span>
-                                <input type="hidden" name="currency_code" value="{{ form.current_currency.iso_code }}">
-
-                                <div class="header__action-item-content">
-                                    <button aria-controls="desktop-currency-selector" aria-expanded="false" class="header__action-item-link" data-action="toggle-popover">
-                                        <span class="currency-selector__value">{{ form.current_currency.iso_code }}
-                                            {% if form.current_currency.symbol %}
-                                                {{ form.current_currency.symbol }}
-                                            {% endif %}
-                                        </span>
-                                        {% render 'icon', icon: 'arrow-bottom' %}
-                                    </button>
-
-                                    <div aria-hidden="true" class="popover popover--currency" id="desktop-currency-selector">
-                                        {%- render 'icon', icon: 'nav-triangle-borderless' -%}
-
-                                        <div class="popover__inner popover__inner--no-padding">
-                                            <ul class="popover__linklist" role="list">
-                                                {%- for currency in form.available_currencies -%}
-                                                    <li class="popover__linklist-item">
-                                                        <button type="submit" name="currency_code" class="popover__link-item" value="{{ currency.iso_code }}" {% if currency.iso_code == form.current_currency.iso_code %} aria-current="true" {% endif %}>
-                                                            {{ currency.iso_code }}
-                                                            {% if currency.symbol %}
-                                                                {{ currency.symbol }}
-                                                            {% endif %}
-                                                        </button>
-                                                    </li>
-                                                {%- endfor -%}
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            {%- endform -%}
-
-
+                          <div class="popover__secondary-action">
+                            <p>{{ 'customer.recover_password.remembered_your_password' | t }}
+                              <button
+                                aria-controls="header-login-panel"
+                                class="link link--accented"
+                                data-action="show-popover-panel">{{ 'customer.recover_password.back_to_login' | t }}</button>
+                            </p>
+                          </div>
                         </div>
-                    {%- endif -%}
+                      </div>
 
-                    {%- if section.settings.show_condensed_search -%}
-                        <div class="header__action-item hidden-tablet-and-up">
-                            <a class="header__action-item-link" href="{{ routes.search_url }}" data-action="toggle-search" aria-expanded="false" aria-label="{{ 'header.search.open_search' | t }}">{% render 'icon', icon: 'search' %}</a>
-                        </div>
-                    {%- endif -%}
+                      {%- comment -%}REGISTER{%- endcomment -%}
+                      <div class="popover__panel popover__panel--sliding" id="header-register-panel">
+                        <div class="popover__inner">
+                          {%- form 'create_customer', name: 'create', class: 'form' -%}
+                            <header class="popover__header">
+                              <h2 class="popover__title heading">{{ 'customer.register.create_account' | t }}</h2>
+                              <p class="popover__legend">{{ 'customer.register.description' | t }}</p>
+                            </header>
 
-                    {%- if shop.customer_accounts_enabled -%}
-                        <div class="header__action-item header__action-item--account">
-                            {%- if customer -%}
-                                <span class="header__action-item-title hidden-pocket hidden-lap">{{ 'header.general.welcome' | t: first_name: customer.first_name | truncate: 20 }}</span>
+                            {%- if request.locale.iso_code == 'ja' -%}
+                              <div class="form__input-wrapper form__input-wrapper--labelled">
+                                <input
+                                  autocomplete="family-name"
+                                  class="form__field form__field--text"
+                                  id="customer[last_name]"
+                                  name="customer[last_name]"
+                                  required="required"
+                                  type="text">
+                                <label class="form__floating-label" for="customer[last_name]">{{ 'customer.register.last_name' | t }}</label>
+                              </div>
+
+                              <div class="form__input-wrapper form__input-wrapper--labelled">
+                                <input
+                                  autocomplete="given-name"
+                                  class="form__field form__field--text"
+                                  id="customer[first_name]"
+                                  name="customer[first_name]"
+                                  required="required"
+                                  type="text">
+                                <label class="form__floating-label" for="customer[first_name]">{{ 'customer.register.first_name' | t }}</label>
+                              </div>
                             {%- else -%}
-                                <span class="header__action-item-title hidden-pocket hidden-lap">{{ 'header.general.login' | t }}</span>
+                              <div class="form__input-wrapper form__input-wrapper--labelled">
+                                <input
+                                  autocomplete="given-name"
+                                  class="form__field form__field--text"
+                                  id="customer[first_name]"
+                                  name="customer[first_name]"
+                                  required="required"
+                                  type="text">
+                                <label class="form__floating-label" for="customer[first_name]">{{ 'customer.register.first_name' | t }}</label>
+                              </div>
+
+                              <div class="form__input-wrapper form__input-wrapper--labelled">
+                                <input
+                                  autocomplete="family-name"
+                                  class="form__field form__field--text"
+                                  id="customer[last_name]"
+                                  name="customer[last_name]"
+                                  required="required"
+                                  type="text">
+                                <label class="form__floating-label" for="customer[last_name]">{{ 'customer.register.last_name' | t }}</label>
+                              </div>
                             {%- endif -%}
 
-                            <div class="header__action-item-content">
-                                <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="header__action-item-link header__account-icon icon-state hidden-desk" aria-label="{{ 'header.general.account' | t }}" aria-controls="account-popover" aria-expanded="false" data-action="toggle-popover" {% if customer %} data-follow-link="phone" {% endif %}>
-                                    <span class="icon-state__primary">{%- render 'icon', icon: 'account' -%}</span>
-                                    <span class="icon-state__secondary">{%- render 'icon', icon: 'close' -%}</span>
-                                </a>
-
-                                <a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" class="header__action-item-link hidden-pocket hidden-lap" aria-controls="account-popover" aria-expanded="false" data-action="toggle-popover">{{ 'header.general.account' | t }}
-                                    {% render 'icon', icon: 'arrow-bottom' %}</a>
-
-                                <div aria-hidden="true" class="popover {% if customer %}popover--logged{% else %}popover--large popover--unlogged{% endif %}" id="account-popover">
-                                    {%- render 'icon', icon: 'nav-triangle-borderless' -%}
-
-                                    {%- if customer -%}
-                                        <div class="popover__inner popover__inner--no-padding">
-                                            <div class="popover__linklist">
-                                                <a class="popover__link-item" href="{{ routes.account_url }}">{{ 'customer.general.orders' | t }}</a>
-                                                <a class="popover__link-item" href="{{ routes.account_addresses_url }}">{{ 'customer.general.addresses' | t }}</a>
-                                                <a class="popover__link-item" href="{{ routes.account_logout_url }}" data-no-instant>{{ 'customer.general.logout' | t }}</a>
-                                            </div>
-                                        </div>
-                                    {%- else -%}
-                                        <div class="popover__panel-list">
-                                            {%- comment -%}LOGIN{%- endcomment -%}
-                                            <div class="popover__panel popover__panel--default is-selected" id="header-login-panel">
-                                                <div class="popover__inner">
-                                                    {%- form 'customer_login', name: 'login', class: 'form', id: 'header_customer_login' -%}
-                                                        <header class="popover__header">
-                                                            <h2 class="popover__title heading">{{ 'customer.login.login' | t }}</h2>
-                                                            <p class="popover__legend">{{ 'customer.login.description' | t }}</p>
-                                                        </header>
-
-                                                        <div class="form__input-wrapper form__input-wrapper--labelled">
-                                                            <input class="form__field form__field--text" id="login-customer[email]" name="customer[email]" required="required" type="email">
-                                                            <label class="form__floating-label" for="login-customer[email]">{{ 'customer.login.email' | t }}</label>
-                                                        </div>
-
-                                                        <div class="form__input-wrapper form__input-wrapper--labelled">
-                                                            <input autocomplete="current-password" class="form__field form__field--text" id="login-customer[password]" name="customer[password]" required="required" type="password">
-                                                            <label class="form__floating-label" for="login-customer[password]">{{ 'customer.login.password' | t }}</label>
-                                                        </div>
-
-                                                        <button class="form__submit button button--primary button--full" type="submit">{{ 'customer.login.submit' | t }}</button>
-                                                    {%- endform -%}
-
-                                                    <div class="popover__secondary-action">
-                                                        <p>{{ 'customer.login.new_customer' | t }}
-                                                            <button aria-controls="header-register-panel" class="link link--accented" data-action="show-popover-panel">{{ 'customer.login.create_your_account' | t }}</button>
-                                                        </p>
-                                                        <p>{{ 'customer.login.lost_password' | t }}
-                                                            <a href="{{ routes.account_url }}#recover-password" aria-controls="header-recover-panel" class="link link--accented">{{ 'customer.login.recover_password' | t }}</a>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            {%- comment -%}RECOVER{%- endcomment -%}
-                                            <div class="popover__panel popover__panel--sliding" id="header-recover-panel">
-                                                <div class="popover__inner">
-                                                    {%- form 'recover_customer_password', name: 'recover', class: 'form' -%}
-                                                        <header class="popover__header">
-                                                            <h2 class="popover__title heading">{{ 'customer.recover_password.recover_password' | t }}</h2>
-                                                            <p class="popover__legend">{{ 'customer.recover_password.description' | t }}</p>
-                                                        </header>
-
-                                                        <div class="form__input-wrapper form__input-wrapper--labelled">
-                                                            <input class="form__field form__field--text" id="recover-customer[recover_email]" name="email" required="required" type="email">
-                                                            <label class="form__floating-label" for="recover-customer[recover_email]">{{ 'customer.recover_password.email' | t }}</label>
-                                                        </div>
-
-                                                        <button class="form__submit button button--primary button--full" type="submit">{{ 'customer.recover_password.submit' | t }}</button>
-                                                    {%- endform -%}
-
-                                                    <div class="popover__secondary-action">
-                                                        <p>{{ 'customer.recover_password.remembered_your_password' | t }}
-                                                            <button aria-controls="header-login-panel" class="link link--accented" data-action="show-popover-panel">{{ 'customer.recover_password.back_to_login' | t }}</button>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            {%- comment -%}REGISTER{%- endcomment -%}
-                                            <div class="popover__panel popover__panel--sliding" id="header-register-panel">
-                                                <div class="popover__inner">
-                                                    {%- form 'create_customer', name: 'create', class: 'form' -%}
-                                                        <header class="popover__header">
-                                                            <h2 class="popover__title heading">{{ 'customer.register.create_account' | t }}</h2>
-                                                            <p class="popover__legend">{{ 'customer.register.description' | t }}</p>
-                                                        </header>
-
-                                                        {%- if request.locale.iso_code == 'ja' -%}
-                                                            <div class="form__input-wrapper form__input-wrapper--labelled">
-                                                                <input autocomplete="family-name" class="form__field form__field--text" id="customer[last_name]" name="customer[last_name]" required="required" type="text">
-                                                                <label class="form__floating-label" for="customer[last_name]">{{ 'customer.register.last_name' | t }}</label>
-                                                            </div>
-
-                                                            <div class="form__input-wrapper form__input-wrapper--labelled">
-                                                                <input autocomplete="given-name" class="form__field form__field--text" id="customer[first_name]" name="customer[first_name]" required="required" type="text">
-                                                                <label class="form__floating-label" for="customer[first_name]">{{ 'customer.register.first_name' | t }}</label>
-                                                            </div>
-                                                        {%- else -%}
-                                                            <div class="form__input-wrapper form__input-wrapper--labelled">
-                                                                <input autocomplete="given-name" class="form__field form__field--text" id="customer[first_name]" name="customer[first_name]" required="required" type="text">
-                                                                <label class="form__floating-label" for="customer[first_name]">{{ 'customer.register.first_name' | t }}</label>
-                                                            </div>
-
-                                                            <div class="form__input-wrapper form__input-wrapper--labelled">
-                                                                <input autocomplete="family-name" class="form__field form__field--text" id="customer[last_name]" name="customer[last_name]" required="required" type="text">
-                                                                <label class="form__floating-label" for="customer[last_name]">{{ 'customer.register.last_name' | t }}</label>
-                                                            </div>
-                                                        {%- endif -%}
-
-                                                        <div class="form__input-wrapper form__input-wrapper--labelled">
-                                                            <input class="form__field form__field--text" id="register-customer[email]" name="customer[email]" required="required" type="email">
-                                                            <label class="form__floating-label" for="register-customer[email]">{{ 'customer.register.email' | t }}</label>
-                                                        </div>
-
-                                                        <div class="form__input-wrapper form__input-wrapper--labelled">
-                                                            <input autocomplete="new-password" class="form__field form__field--text" id="register-customer[password]" name="customer[password]" required="required" type="password">
-                                                            <label class="form__floating-label" for="register-customer[password]">{{ 'customer.register.password' | t }}</label>
-                                                        </div>
-
-                                                        <button class="form__submit button button--primary button--full" type="submit">{{ 'customer.register.submit' | t }}</button>
-                                                    {%- endform -%}
-
-                                                    <div class="popover__secondary-action">
-                                                        <p>{{ 'customer.register.already_have_account' | t }}
-                                                            <button aria-controls="header-login-panel" class="link link--accented" data-action="show-popover-panel">{{ 'customer.register.login' | t }}</button>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    {% endif %}
-                                </div>
+                            <div class="form__input-wrapper form__input-wrapper--labelled">
+                              <input
+                                class="form__field form__field--text"
+                                id="register-customer[email]"
+                                name="customer[email]"
+                                required="required"
+                                type="email">
+                              <label class="form__floating-label" for="register-customer[email]">{{ 'customer.register.email' | t }}</label>
                             </div>
+
+                            <div class="form__input-wrapper form__input-wrapper--labelled">
+                              <input
+                                autocomplete="new-password"
+                                class="form__field form__field--text"
+                                id="register-customer[password]"
+                                name="customer[password]"
+                                required="required"
+                                type="password">
+                              <label class="form__floating-label" for="register-customer[password]">{{ 'customer.register.password' | t }}</label>
+                            </div>
+
+                            <button class="form__submit button button--primary button--full" type="submit">{{ 'customer.register.submit' | t }}</button>
+                          {%- endform -%}
+
+                          <div class="popover__secondary-action">
+                            <p>{{ 'customer.register.already_have_account' | t }}
+                              <button
+                                aria-controls="header-login-panel"
+                                class="link link--accented"
+                                data-action="show-popover-panel">{{ 'customer.register.login' | t }}</button>
+                            </p>
+                          </div>
                         </div>
-                    {%- endif -%}
-
-                    <div class="header__action-item header__action-item--cart">
-                        <a class="header__action-item-link header__cart-toggle" href="{{ routes.cart_url }}" {% if settings.cart_type != 'page' and template != 'cart' %} aria-controls="mini-cart" aria-expanded="false" data-action="toggle-mini-cart" {% endif %} data-no-instant>
-                            <div class="header__action-item-content">
-                                <div aria-expanded="false" class="header__cart-icon icon-state">
-                                    <span class="icon-state__primary">
-                                        {%- render 'icon', icon: 'cart' -%}
-                                        <span class="header__cart-count">{{ cart.item_count }}</span>
-                                    </span>
-
-                                    <span class="icon-state__secondary">{%- render 'icon', icon: 'close' -%}</span>
-                                </div>
-
-                                <span class="hidden-pocket hidden-lap">{{ 'header.general.cart' | t }}</span>
-                            </div>
-                        </a>
-
-                        {%- if settings.cart_type != 'page' and template != 'cart' -%}
-                            {%- render 'mini-cart' -%}
-                        {%- endif -%}
+                      </div>
                     </div>
+                  {% endif %}
                 </div>
+              </div>
             </div>
+          {%- endif -%}
+
+          <div class="header__action-item header__action-item--cart">
+            <a
+              class="header__action-item-link header__cart-toggle"
+              href="{{ routes.cart_url }}"
+              {% if settings.cart_type != 'page' and template != 'cart' %}
+              aria-controls="mini-cart"
+              aria-expanded="false"
+              data-action="toggle-mini-cart"
+              {% endif %}
+              data-no-instant>
+              <div class="header__action-item-content">
+                <div aria-expanded="false" class="header__cart-icon icon-state">
+                  <span class="icon-state__primary">
+                    {%- render 'icon', icon: 'cart' -%}
+                    <span class="header__cart-count">{{ cart.item_count }}</span>
+                  </span>
+
+                  <span class="icon-state__secondary">{%- render 'icon', icon: 'close' -%}</span>
+                </div>
+
+                <span class="hidden-pocket hidden-lap">{{ 'header.general.cart' | t }}</span>
+              </div>
+            </a>
+
+            {%- if settings.cart_type != 'page' and template != 'cart' -%}
+              {%- render 'mini-cart' -%}
+            {%- endif -%}
+          </div>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
 
-    {%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
-        <nav class="nav-bar">
-            <div class="nav-bar__inner">
-                <div class="container">
-                    <ul class="nav-bar__linklist list--unstyled" data-type="menu" role="list">
-                        {%- for link in linklists.header-menu.links -%}
-                            <li class="nav-bar__item">
-                                {%- if link.links.size == 0 -%}
-                                    <a href="{{ link.url }}" class="nav-bar__link link" data-type="menuitem">{{ link.title }}</a>
-                                {%- else -%}
-                                    {%- capture index -%}desktop-menu-0-{{ forloop.index }}
-                                    {%- endcapture -%}
-                                    <a href="{{ link.url }}" class="nav-bar__link link" data-type="menuitem" aria-expanded="false" aria-controls="{{ index }}" aria-haspopup="true">
-                                        {{- link.title -}}
-                                        {%- render 'icon', icon: 'arrow-bottom' -%}
-                                        {%- render 'icon', icon: 'nav-triangle' -%}
-                                    </a>
-                                    {%- render 'desktop-menu', menu: link, index: index -%}
-                                {%- endif -%}
-                            </li>
-                        {%- endfor -%}
-                    </ul>
+  {%- if section.settings.desktop_navigation_layout == 'inline' and navigation_menu.links.size > 0 -%}
+    <nav class="nav-bar">
+      <div class="nav-bar__inner">
+        <div class="container">
+          <ul
+            class="nav-bar__linklist list--unstyled"
+            data-type="menu"
+            role="list">
+            {%- for link in linklists.header-menu.links -%}
+              <li class="nav-bar__item">
+                {%- if link.links.size == 0 -%}
+                  <a
+                    href="{{ link.url }}"
+                    class="nav-bar__link link"
+                    data-type="menuitem">{{ link.title }}</a>
+                {%- else -%}
+                  {%- capture index -%}desktop-menu-0-{{ forloop.index }}
+                  {%- endcapture -%}
+                  <a
+                    href="{{ link.url }}"
+                    class="nav-bar__link link"
+                    data-type="menuitem"
+                    aria-expanded="false"
+                    aria-controls="{{ index }}"
+                    aria-haspopup="true">
+                    {{- link.title -}}
+                    {%- render 'icon', icon: 'arrow-bottom' -%}
+                    {%- render 'icon', icon: 'nav-triangle' -%}
+                  </a>
+                  {%- render 'desktop-menu', menu: link, index: index -%}
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
 
-                </div>
-            </div>
-        </nav>
-    {%- endif -%}
+        </div>
+      </div>
+    </nav>
+  {%- endif -%}
 </section>
 
-<style>
-  :root {
-    --header-is-sticky: {% if section.settings.enable_sticky_header %}1{% else %}0{% endif %};
-    --header-inline-navigation: {% if section.settings.desktop_navigation_layout == 'inline' %}1{% else %}0{% endif %};
+<style > :root
+{
+  --header-is-sticky: {% if section.settings.enable_sticky_header %}
+    1{% else %}
+    0{% endif %};
+  --header-inline-navigation: {% if section.settings.desktop_navigation_layout == 'inline' %}
+    1{% else %}
+    0{% endif %};
+}
+
+#shopify-section-{{ section.id }}{
+  position: relative;
+  z-index: 5;
+
+  {%- if section.settings.enable_sticky_header -%}
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  {%- endif -%}
+}
+
+{%- if section.settings.logo -%}
+  .header__logo-image {
+    max-width: {{ section.settings.mobile_logo_max_width }}
+    px !important;
   }
 
-  #shopify-section-{{ section.id }} {
-    position: relative;
-    z-index: 5;
-
-    {%- if section.settings.enable_sticky_header -%}
-      position: -webkit-sticky;
-      position: sticky;
-      top: 0;
-    {%- endif -%}
-  }
-
-  {%- if section.settings.logo -%}
+  @media screen and (min-width: 641px) {
     .header__logo-image {
-      max-width: {{ section.settings.mobile_logo_max_width }}px !important;
+      max-width: {{ section.settings.logo_max_width }}
+      px !important;
     }
+  }
+{%- endif -%}
 
-    @media screen and (min-width: 641px) {
-      .header__logo-image {
-        max-width: {{ section.settings.logo_max_width }}px !important;
-      }
+{%- if settings.header_background == settings.secondary_background -%}
+  .search-bar__top {
+    box-shadow: 1px 1px var(--header-border-color) inset, -1px -1px var(--header-border-color) inset;
+  }
+
+  @media screen and (min-width: 1000px) {
+    /* This allows to reduce the padding if header background is the same as secondary background to avoid space that is too big */
+    .header:not(.header--condensed) {
+      padding-bottom: 0;
     }
-  {%- endif -%}
-
-  {%- if settings.header_background == settings.secondary_background -%}
-    .search-bar__top {
-      box-shadow: 1px 1px var(--header-border-color) inset, -1px -1px var(--header-border-color) inset;
+  }
+{%- else -%}
+  @media screen and (min-width: 1000px) {
+    .search-bar.is-expanded .search-bar__top {
+      box-shadow: 0 -1px var(--border-color) inset;
     }
-
-    @media screen and (min-width: 1000px) {
-      /* This allows to reduce the padding if header background is the same as secondary background to avoid space that is too big */
-      .header:not(.header--condensed) {
-        padding-bottom: 0;
-      }
-    }
-  {%- else -%}
-    @media screen and (min-width: 1000px) {
-      .search-bar.is-expanded .search-bar__top {
-        box-shadow: 0 -1px var(--border-color) inset;
-      }
-    }
-  {%- endif -%}
-</style>
-
-<script>
-  document.documentElement.style.setProperty('--header-height', document.getElementById('shopify-section-{{ section.id }}').clientHeight + 'px');
-</script>
-
-{% schema %}
+  }
+{%- endif -%}
+</style><script>
+document.documentElement.style.setProperty('--header-height', document.getElementById('shopify-section- {{ section.id }}').clientHeight + 'px');
+</script>{% schema %}
 {
   "name": "Header",
   "class": "shopify-section__header",
@@ -568,8 +757,7 @@
       "unit": "px",
       "label": "Image width",
       "default": 140
-    },
-    {
+    }, {
       "type": "range",
       "id": "mobile_logo_max_width",
       "min": 50,
@@ -578,40 +766,33 @@
       "unit": "px",
       "label": "Mobile image width",
       "default": 100
-    },
-    {
+    }, {
       "type": "header",
       "content": "Language selector",
       "info": "To add a language, go to your [language settings.](/admin/settings/languages)"
-    },
-    {
+    }, {
       "type": "checkbox",
       "id": "show_locale_selector",
       "label": "Show language selector",
       "default": true
-    },
-    {
+    }, {
       "type": "header",
       "content": "Currency selector",
       "info": "To add a currency, go to your [payment settings.](/admin/settings/payments)"
-    },
-    {
+    }, {
       "type": "checkbox",
       "id": "show_currency_selector",
       "label": "Show currency selector",
       "default": true
-    },
-    {
+    }, {
       "type": "header",
       "content": "Navigation"
-    },
-    {
+    }, {
       "type": "link_list",
       "id": "navigation_menu",
       "label": "Menu",
       "default": "main-menu"
-    },
-    {
+    }, {
       "type": "select",
       "id": "desktop_navigation_layout",
       "label": "Desktop layout",
@@ -619,15 +800,13 @@
         {
           "value": "condensed",
           "label": "Condensed"
-        },
-        {
+        }, {
           "value": "inline",
           "label": "Inline"
         }
       ],
       "default": "condensed"
-    },
-    {
+    }, {
       "type": "select",
       "id": "desktop_navigation_open_trigger",
       "label": "Open dropdown on...",
@@ -635,58 +814,48 @@
         {
           "value": "hover",
           "label": "Hover"
-        },
-        {
+        }, {
           "value": "click",
           "label": "Click"
         }
       ],
       "default": "hover"
-    },
-    {
+    }, {
       "type": "header",
       "content": "Mobile navigation"
-    },
-    {
+    }, {
       "type": "checkbox",
       "id": "show_navigation_social_media",
       "label": "Show social media",
       "default": true
-    },
-    {
+    }, {
       "type": "text",
       "id": "navigation_phone_number",
       "label": "Phone number text"
-    },
-    {
+    }, {
       "type": "text",
       "id": "navigation_email",
       "label": "Email"
-    },
-    {
+    }, {
       "type": "header",
       "content": "Search"
-    },
-    {
+    }, {
       "type": "checkbox",
       "id": "show_condensed_search",
       "label": "Minimise search on mobile",
       "default": true
-    },
-    {
+    }, {
       "type": "checkbox",
       "id": "show_search_filter",
       "label": "Show search filter",
       "default": true,
       "info": "Refine by product type. [Learn more](https://support.maestrooo.com/article/184-navigation-filtering-search-results-by-product-type)"
-    },
-    {
+    }, {
       "type": "link_list",
       "id": "search_menu",
       "label": "Quick links menu",
       "info": "Show quick links when the user hasn't type anything. This menu won't show dropdown items."
-    },
-    {
+    }, {
       "type": "checkbox",
       "id": "show_search_menu_title",
       "label": "Show quick links title",
@@ -719,41 +888,34 @@
           "id": "image_1_heading",
           "label": "Heading",
           "default": "Your image"
-        },
-        {
+        }, {
           "type": "text",
           "id": "image_1_text",
           "label": "Text",
           "default": "Tell your story"
-        },
-        {
+        }, {
           "type": "url",
           "id": "image_1_link",
           "label": "Link"
-        },
-        {
+        }, {
           "type": "header",
           "content": "Image 2"
-        },
-        {
+        }, {
           "type": "image_picker",
           "id": "image_2",
           "label": "Image",
           "info": "600 x 400px .jpg recommended"
-        },
-        {
+        }, {
           "type": "text",
           "id": "image_2_heading",
           "label": "Heading",
           "default": "Your image"
-        },
-        {
+        }, {
           "type": "text",
           "id": "image_2_text",
           "label": "Text",
           "default": "Tell your story"
-        },
-        {
+        }, {
           "type": "url",
           "id": "image_2_link",
           "label": "Link"

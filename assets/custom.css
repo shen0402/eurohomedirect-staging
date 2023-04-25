@@ -415,3 +415,36 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
 .heading-divider--short {
     width: 70px;
 }
+
+@media (max-width: 767px) {
+    .header__action-item--currency {
+        padding: 0;
+        margin: 0;
+    }
+    .shopify-localization-form .header__action-item-title {
+        display: none;
+    }
+
+    .shopify-localization-form .header__action-item-link {
+        font-size: 12px;
+    }
+
+    .shopify-localization-form .popover__inner {
+        padding: 0;
+    }
+    
+    .shopify-localization-form .popover__linklist {
+        background-color: #ffffff;
+    }
+
+    .shopify-localization-form .popover .icon--nav-triangle-borderless {
+        right: 14px;
+    }
+
+    .shopify-localization-form .popover {
+        width: auto;
+        left: unset;
+        right: 120px;
+        background-color: transparent;
+    }
+}
