@@ -291,8 +291,29 @@
 
       <div class="product-form__info-list">
         <div class="product-form__info-item">
-          <div class="product-form__info-title text--strong">{{ 'product.form.lead_time' | t }}:</div>
-          <div class="product-form__info-content"><a href="https://wa.me/85259352062?text=Hi, what is the lead time for {{ product.title }}" class="whatsapp_lead_time">{{ 'product.form.whatsapp_lead_time' | t }}</a></div>
+          {% case product.vendor %}
+            {% when 'Miele' %}
+              <div class="product-form__info-title text--strong">Lead Time (est.):</div>
+              <div class="product-form__info-content">1-3 months <a href="https://wa.me/85259352062?text=Hi, what is the lead time for {{ product.title }}" class="whatsapp_lead_time">(Whatsapp us to enquire)</a></div>
+            {% when 'Vzug' %}
+              <div class="product-form__info-title text--strong">Lead Time (est.):</div>
+              <div class="product-form__info-content">3-6 weeks <a href="https://wa.me/85259352062?text=Hi, what is the lead time for {{ product.title }}" class="whatsapp_lead_time">(Whatsapp us to enquire)</a></div>
+            {% when 'Bosch' %}
+              <div class="product-form__info-title text--strong">Lead Time (est.):</div>
+              <div class="product-form__info-content">5-16 weeks <a href="https://wa.me/85259352062?text=Hi, what is the lead time for {{ product.title }}" class="whatsapp_lead_time">(Whatsapp us to enquire)</a></div>
+            {% when 'Siemens' %}
+              <div class="product-form__info-title text--strong">Lead Time (est.):</div>
+              <div class="product-form__info-content">5-16 weeks <a href="https://wa.me/85259352062?text=Hi, what is the lead time for {{ product.title }}" class="whatsapp_lead_time">(Whatsapp us to enquire)</a></div>
+            {% when 'Libeherr' %}
+              <div class="product-form__info-title text--strong">Lead Time (est.):</div>
+              <div class="product-form__info-content">4-12 weeks <a href="https://wa.me/85259352062?text=Hi, what is the lead time for {{ product.title }}" class="whatsapp_lead_time">(Whatsapp us to enquire)</a></div>
+            {% when 'Gaggenau' %}
+              <div class="product-form__info-title text--strong">Lead Time (est.):</div>
+              <div class="product-form__info-content">10-22 weeks <a href="https://wa.me/85259352062?text=Hi, what is the lead time for {{ product.title }}" class="whatsapp_lead_time">(Whatsapp us to enquire)</a></div>
+            {% else %}
+              <div class="product-form__info-title text--strong">{{ 'product.form.lead_time' | t }}:</div>
+              <div class="product-form__info-content"><a href="https://wa.me/85259352062?text=Hi, what is the lead time for {{ product.title }}" class="whatsapp_lead_time">{{ 'product.form.whatsapp_lead_time' | t }}</a></div>
+          {% endcase %}
         </div>
       </div>
 
