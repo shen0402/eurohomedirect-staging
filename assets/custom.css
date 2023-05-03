@@ -169,6 +169,14 @@
     width: 60%;
 }
 
+.whatsapp_lead_time {
+    color: var(--accent-color);
+}
+
+.whatsapp_lead_time:hover {
+    text-decoration: underline;
+}
+
 .spb-select select {
     width: 100%;
     padding: 10px;
