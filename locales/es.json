@@ -1,481 +1,521 @@
 {
   "general": {
     "meta": {
-      "tags": "Etiquetada \"{{ tags }}\"",
-      "page": "Página {{ page }}"
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
     },
     "accessibility": {
-      "skip_to_content": "Ir directamente al contenido",
-      "close": "Cerrar",
-      "next": "Siguiente",
-      "previous": "Anterior",
-      "new_window": "Abre en una nueva ventana."
+      "skip_to_content": "Skip to content",
+      "close": "Close",
+      "next": "Next",
+      "previous": "Previous",
+      "new_window": "Opens in a new window."
     },
     "password": {
-      "enter_password": "Ingresar la contraseña",
-      "password_input": "Contraseña",
-      "password_submit": "Entrar",
-      "newsletter_input": "Tu correo electrónico",
-      "newsletter_submit": "Notificarme",
-      "newsletter_success": "Gracias por suscribirte!",
-      "powered_by_html": "Tienda impulsada por {{shopify_link}}",
-      "login_title": "Eres el dueño de la tienda ?",
-      "login_link": "Conectarte",
-      "follow_us": "Síguenos"
+      "enter_password": "Enter using password",
+      "password_input": "Password",
+      "password_submit": "Enter",
+      "newsletter_input": "Your email address",
+      "newsletter_submit": "Notify me",
+      "newsletter_success": "Thanks for signing up!",
+      "powered_by_html": "This store will be powered by {{shopify_link}}",
+      "login_title": "Are you the store owner?",
+      "login_link": "Login here",
+      "follow_us": "Follow Us"
     },
     "pagination": {
-      "previous_page": "Anterior",
-      "next_page": "Siguiente",
-      "go_to_page": "Navegar a la página {{page}}",
-      "page_count": "Página {{current_page}} \/ {{pages}}"
+      "previous_page": "Previous",
+      "next_page": "Next",
+      "go_to_page": "Navigate to page {{page}}",
+      "page_count": "Page {{current_page}} \/ {{pages}}"
     },
     "breadcrumb": {
-      "title": "Navegación",
-      "home": "Inicio",
-      "account": "Mi cuenta"
+      "title": "Breadcrumb",
+      "home": "Home",
+      "account": "My account"
     },
     "social": {
-      "follow_label": "Síguenos en {{social_media}}",
-      "facebook_share": "Compartir en Facebook",
-      "pinterest_pin": "Pin en Pinterest",
-      "twitter_tweet": "Tweet en Twitter",
-      "email_share": "Compartir por email"
+      "follow_label": "Follow us on {{social_media}}",
+      "facebook_share": "Share on Facebook",
+      "pinterest_pin": "Pin on Pinterest",
+      "twitter_tweet": "Tweet on Twitter",
+      "email_share": "Share by email"
     },
     "popup": {
-      "success": "! Te has registrado a la newsletter !",
-      "email_placeholder": "Tu email",
-      "subscribe": "Suscribir"
+      "success": "You have been registered to our newsletter!",
+      "email_placeholder": "Your email",
+      "subscribe": "Subscribe"
     }
   },
   "header": {
     "general": {
-      "currency": "Moneda",
-      "language": "Idioma",
-      "account": "Mi cuenta",
-      "login": "Iniciar sesión \/ Registrar",
-      "welcome": "Hola {{first_name}}",
-      "cart": "Carrito"
+      "currency": "Currency",
+      "language": "Language",
+      "account": "My account",
+      "login": "Login \/ Signup",
+      "welcome": "Hello {{first_name}}",
+      "cart": "Cart"
     },
     "navigation": {
-      "menu": "Menú",
-      "open_menu": "Abrir menú",
-      "back": "Atrás",
-      "need_help": "Necesitas ayuda?",
-      "follow_us": "Siguenos"
+      "menu": "Menu",
+      "open_menu": "Open menu",
+      "back": "Back",
+      "need_help": "Need help?",
+      "follow_us": "Follow Us"
     },
     "search": {
-      "open_search": "Abrir buscador",
-      "close_search": "Cerrar",
-      "clear": "Limpiar",
-      "input_placeholder": "Buscar...",
-      "all_categories": "Todas las categorias",
-      "no_results": "Ningún resultado encontrado",
-      "submit": "Buscar",
-      "view_products": "Ver todos los productos",
-      "view_results": "Ver todos los resultads",
-      "products": "Productos",
-      "blog_posts": "Artículos",
-      "pages": "Páginas",
-      "blog_posts_and_pages": "Páginas & Artículos"
+      "open_search": "Open search",
+      "close_search": "Close",
+      "clear": "Clear",
+      "input_placeholder": "Search...",
+      "all_categories": "All categories",
+      "no_results": "No results matched",
+      "submit": "Search",
+      "view_products": "View all products",
+      "view_results": "View all results",
+      "products": "Products",
+      "blog_posts": "Blog posts",
+      "pages": "Pages",
+      "blog_posts_and_pages": "Pages & Blog posts"
     }
   },
   "footer": {
     "general": {
-      "currency": "Moneda",
-      "language": "Idioma",
-      "follow_us": "Síguenos",
-      "we_accept": "Aceptamos"
+      "currency": "Currency",
+      "language": "Language",
+      "follow_us": "Follow Us",
+      "we_accept": "We Accept"
     },
     "newsletter": {
-      "success": "¡ Te has registrado a la newsletter !",
-      "input": "Tu email",
-      "submit": "Suscribir"
+      "success": "You have been registered to our newsletter!",
+      "input": "Your email",
+      "submit": "Subscribe"
     }
   },
   "search": {
     "general": {
-      "title": "Buscar",
-      "title_with_terms": "Resultados para \"{{terms}}\"",
-      "products_with_terms": "Productos para \"{{terms}}\"",
-      "articles_with_terms": "Artículos para \"{{terms}}\"",
-      "pages_with_terms": "Páginas para \"{{terms}}\"",
-      "pages_and_articles_with_terms": "Páginas y artículos para \"{{terms}}\"",
-      "content": "Usa la barra de búsqueda para encontrar productos:",
-      "input_placeholder": "Buscar...",
-      "no_results_with_terms": "No se ha encontrado ningún resultado para \"{{terms}}\"",
-      "go_back_home": "o haz clic aquí para volver al página de inicio",
+      "title": "Search",
+      "title_with_terms": "Search results for \"{{terms}}\"",
+      "products_with_terms": "Products for \"{{terms}}\"",
+      "articles_with_terms": "Blog posts for \"{{terms}}\"",
+      "pages_with_terms": "Pages for \"{{terms}}\"",
+      "pages_and_articles_with_terms": "Pages and blog posts for \"{{terms}}\"",
+      "content": "Use the search bar below to find products:",
+      "input_placeholder": "Search...",
+      "no_results_with_terms": "No results could be found for \"{{terms}}\"",
+      "go_back_home": "or click here to go back home",
       "results_count": {
-        "zero": "0 resultado",
-        "one": "1 resultado",
-        "other": "{{count}} resultados"
+        "zero": "0 result",
+        "one": "1 result",
+        "other": "{{count}} results"
       },
       "showing_count": {
-        "zero": "Ningún resultado",
-        "one": "Mostrando {{offset}} - {{page_size}} de {{count}} resultado",
-        "other": "Mostrando {{offset}} - {{page_size}} de {{count}} resultados"
+        "zero": "No results",
+        "one": "Showing {{offset}} - {{page_size}} of {{count}} result",
+        "other": "Showing {{offset}} - {{page_size}} of {{count}} results"
       }
     }
   },
   "404": {
     "general": {
-      "title": "Página no encontrada",
-      "content": "No se ha encontrado la página que estás buscando.",
-      "search": "Buscando en tienda...",
-      "continue_shopping": "Haz clic aquí para seguir comprando"
+      "title": "Page not found",
+      "content": "The page you are looking for cannot be found.",
+      "search": "Search in store...",
+      "continue_shopping": "Click here to continue shopping"
     }
   },
   "home_page": {
     "onboarding": {
-      "vendor_title": "Nombre de la marca",
-      "product_title": "Nombre del producto",
+      "vendor_title": "Brand's name",
+      "product_title": "Product's name",
       "product_sku": "SKU-1234",
-      "product_description": "Se puede usar una descripción del producto para mostrar las características y ventajas de su producto. Puede consultar el blog ecommerce de Shopify en busca de inspiración y consejos para comercializar adecuadamente sus productos.",
-      "collection_title": "Nombre de la colección",
-      "article_title": "Nombre del artículo",
-      "article_author": "Escrito por",
-      "article_category": "Categoría",
-      "article_excerpt": "Aún no se ha publicado ningún artículo en tu tienda. Se puede usar un blog artículo hablar sobre lanzamientos de nuevos productos, sugerencias u otras noticias que desee compartir con sus clientes. Puede consultar el artículo de comercio electrónico de Shopify en busca de inspiración y consejos para su propia tienda y blog.",
+      "product_description": "A product description can be used to showcase the features and advantages of your product. You can check out Shopify's ecommerce blog for inspiration and advice for properly market your products.",
+      "collection_title": "Collection's name",
+      "article_title": "Post's name",
+      "article_author": "Written by you",
+      "article_category": "Category",
+      "article_excerpt": "Your store hasn’t published any blog posts yet. A blog can be used to talk about new product launches, tips, or other news you want to share with your customers. You can check out Shopify’s ecommerce blog for inspiration and advice for your own store and blog.",
       "instagram_likes": "28 likes",
-      "instagram_caption": "Este es un ejemplo de título."
+      "instagram_caption": "This is a caption example."
     },
     "newsletter": {
-      "success": "¡ Te has registrado a la newsletter !",
-      "input": "Tu email",
-      "submit": "Suscribirse"
+      "success": "You have been registered to our newsletter!",
+      "input": "Your email",
+      "submit": "Subscribe"
     }
   },
   "collection": {
     "general": {
-      "all_collections": "Todas las colecciones",
-      "all_products": "Todos los productos",
-      "view_more": "Ver mas",
-      "view_less": "Ver menos",
-      "brands": "Marcas",
-      "empty": "Esta colección esta vacía",
-      "empty_button": "Volver a la página principal",
-      "no_results": "Tus criterios no coinciden con ningún producto.",
-      "view_products": "Ver productos",
-      "display": "Mostrar",
+      "all_collections": "All collections",
+      "all_products": "All products",
+      "view_more": "View more",
+      "view_less": "View less",
+      "brands": "Brands",
+      "empty": "This collection is empty",
+      "empty_button": "Go to Homepage",
+      "no_results": "Your criteria did not match any products.",
+      "view_products": "View products",
+      "display": "Display",
       "products_count": {
-        "zero": "{{count}} producto",
-        "one": "{{count}} producto",
-        "other": "{{count}} productos"
+        "zero": "{{count}} products",
+        "one": "{{count}} product",
+        "other": "{{count}} products"
       },
       "results_count": {
-        "zero": "{{count}} resultado",
-        "one": "{{count}} resultado",
-        "other": "{{count}} resultados"
+        "zero": "{{count}} results",
+        "one": "{{count}} result",
+        "other": "{{count}} results"
       },
       "showing_count": {
-        "zero": "Ningún producto",
-        "one": "Mostrando {{offset}} - {{page_size}} de {{count}} producto",
-        "other": "Mostrando {{offset}} - {{page_size}} de {{count}} productos"
+        "zero": "No products",
+        "one": "Showing {{offset}} - {{page_size}} of {{count}} product",
+        "other": "Showing {{offset}} - {{page_size}} of {{count}} products"
       },
-      "page_size": "{{page_size}} por página"
+      "page_size": "{{page_size}} per page"
     },
     "filter": {
-      "title": "Filtro",
-      "show_filter": "Mostrar filtros",
-      "select_category": "Seleccionar una categoría",
-      "all": "Filtros",
-      "clear_all": "Limpiar todo",
-      "clear": "Limpiar",
-      "view_results": "Ver resultados"
+      "title": "Filter",
+      "show_filter": "Show filters",
+      "select_category": "Select a category",
+      "all": "Filters",
+      "clear_all": "Clear all",
+      "clear": "Clear",
+      "view_results": "View results"
     },
     "sorting": {
-      "title": "Ordenar por"
+      "title": "Sort by"
     },
     "layout": {
-      "title": "Ver",
-      "grid": "Mostrar productos como cuadrícula",
-      "list": "Mostrar productos como lista"
+      "title": "View",
+      "grid": "Display products as grid",
+      "list": "Display products as list"
     },
     "product": {
-      "from_price_html": "Desde {{price_min}}",
-      "add_to_cart": "Añadir al carrito",
-      "pre_order": "Reservar",
-      "quick_view": "Vista rápida",
-      "choose_options": "Escoger opción",
-      "sold_out": "Agotado",
-      "in_stock": "Disponible",
-      "oversell_stock": "Pronto en stock",
-      "discount_html": "Ahorrar {{savings}}",
+      "from_price_html": "From {{price_min}}",
+      "add_to_cart": "Add to cart",
+      "pre_order": "Pre-order",
+      "quick_view": "Quick view",
+      "choose_options": "Choose options",
+      "model": "Model: ",
+      "sold_out": "Sold out",
+      "in_stock": "In stock",
+      "oversell_stock": "Re-stocking soon",
+      "discount_html": "Save {{savings}}",
       "low_stock_with_quantity_count": {
-        "one": "Solo queda {{count}} unidad",
-        "other": "Solo quedan {{count}} unidades"
+        "one": "Only {{count}} unit left",
+        "other": "Only {{count}} units left"
       },
       "in_stock_with_quantity_count": {
-        "one": "Disponible, {{count}} unidad",
-        "other": "Disponibles, {{count}} unidades"
+        "one": "In stock, {{count}} unit",
+        "other": "In stock, {{count}} units"
       }
     }
   },
   "customer": {
     "general": {
-      "my_account": "Mi cuenta",
-      "orders": "Mis pedidos",
-      "addresses": "Mis direcciones",
-      "logout": "Cerrar sesión",
-      "no_orders": "Ningún pedido",
-      "no_orders_button": "Haz tu primer pedido"
+      "my_account": "My account",
+      "orders": "My orders",
+      "addresses": "My addresses",
+      "logout": "Logout",
+      "no_orders": "No orders yet",
+      "no_orders_button": "Make your first order"
     },
     "login": {
-      "login": "Conectarme a mi cuenta",
-      "description": "Ingresar tu e-mail y contraseña:",
+      "login": "Login to my account",
+      "description": "Enter your e-mail and password:",
       "email": "Email",
-      "password": "Contraseña",
-      "submit": "Entrar",
-      "new_customer": "¿ Nuevo cliente ?",
-      "create_your_account": "Crear cuenta",
-      "lost_password": "¿ Contraseña olvidada ?",
-      "recover_password": "Recuperar contraseña"
+      "password": "Password",
+      "submit": "Login",
+      "new_customer": "New customer?",
+      "create_your_account": "Create your account",
+      "lost_password": "Lost password?",
+      "recover_password": "Recover password"
     },
     "order": {
-      "order": "Pedido",
-      "order_number": "Pedido {{order_number}}",
-      "back_to_orders": "Volver a los pedidos",
-      "date": "Fecha",
-      "payment_status": "Estado de pago",
-      "fulfillment_status": "Estado de la preparación",
-      "back_to_account": "Volver à la cuenta",
-      "cancelled_at": "Pedido cancelado el {{date}}. Razón: {{reason}}.",
-      "fulfillment_with_url_and_number_html": "Todos los productos han sido enviados. Sigue el envío con el número {{tracking_number}} o haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí<\/a>.",
-      "fulfillment_with_url_html": "Todos los productos han sido enviados. Sigue el envío haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí<\/a>.",
-      "fulfillment_with_number_html": "Todos los productos han sido enviados. Sigue tu pedido con le número {{tracking_number}}.",
-      "fulfillment_html": "Todos tus productos han sido enviados.",
-      "line_fulfillment_with_url_and_number_html": "Este producto ha sido enviado. Sigue el envio con el número {{tracking_number}} o haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí<\/a>.",
-      "line_fulfillment_with_url_html": "Este producto ha sido enviado. Sigue el envío haciendo <a href=\"{{tracking_url}}\" target=\"_blank\">clic aquí<\/a>.",
-      "line_fulfillment_with_number_html": "Este producto ha sido enviado. Sigue tu pedido con le número {{tracking_number}}.",
-      "line_fulfillment_html": "Este producto ha sido enviado.",
-      "product": "Producto",
-      "quantity": "Cantidad",
+      "order": "Order",
+      "order_number": "Order {{order_number}}",
+      "back_to_orders": "Back to orders",
+      "date": "Date",
+      "payment_status": "Payment status",
+      "fulfillment_status": "Fulfillment status",
+      "back_to_account": "Back to account",
+      "cancelled_at": "Order cancelled on {{date}}. Reason: {{reason}}.",
+      "fulfillment_with_url_and_number_html": "All products have been sent. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "fulfillment_with_url_html": "All products have been sent. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "fulfillment_with_number_html": "All products have been sent. Track the shipment with number {{tracking_number}}.",
+      "fulfillment_html": "All products have been sent.",
+      "line_fulfillment_with_url_and_number_html": "This product has been sent. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "line_fulfillment_with_url_html": "This product has been sent. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "line_fulfillment_with_number_html": "This product has been sent. Track the shipment with number {{tracking_number}}.",
+      "line_fulfillment_html": "This product has been sent.",
+      "product": "Product",
+      "quantity": "Quantity",
       "total": "Total",
       "subtotal": "Subtotal",
-      "discount": "Descuento",
-      "shipping": "Enviando",
-      "tax_included": "Impuestos incluidos",
-      "tax_excluded": "Impuestos no incluidos",
-      "shipping_address": "Dirección de envío",
-      "billing_address": "Dirección de facturación",
-      "no_billing_address": "No se requirió una dirección de facturación para este pedido.",
-      "no_shipping_address": "No se requirió una dirección de envío para este pedido."
+      "discount": "Discount",
+      "shipping": "Shipping",
+      "tax_included": "Tax included",
+      "tax_excluded": "Tax excluded",
+      "shipping_address": "Shipping address",
+      "billing_address": "Billing address",
+      "no_billing_address": "No billing address was required for this order.",
+      "no_shipping_address": "No shipping address was required for this order."
     },
     "activate_account": {
-      "activate_account": "Activar cuenta",
-      "description": "Ingrese una contraseña para crear su cuenta:",
-      "password": "Contraseña",
-      "password_confirmation": "Confirmar contraseña",
-      "submit": "Activar",
-      "decline": "Rechazar"
+      "activate_account": "Activate account",
+      "description": "Enter a password to create your account:",
+      "password": "Password",
+      "password_confirmation": "Confirm password",
+      "submit": "Activate",
+      "decline": "Decline"
     },
     "recover_password": {
-      "recover_password": "Recuperar contraseña",
-      "description": "Introduce tu email:",
+      "recover_password": "Recover password",
+      "description": "Enter your email:",
       "email": "Email",
-      "submit": "Recuperar",
-      "success": "Te hemos enviado un correo electrónico con instrucciones para restablecer tu contraseña.",
-      "remembered_your_password": "Recordar tu contraseña?",
-      "back_to_login": "Volver para iniciar sesión "
+      "submit": "Recover",
+      "success": "We have sent you an email with instructions to reset your password.",
+      "remembered_your_password": "Remembered your password?",
+      "back_to_login": "Back to login"
     },
     "reset_password": {
-      "reset_password": "Restablecer la contraseña",
-      "description": "Introduzca una nueva contraseña:",
-      "password": "Contraseña",
-      "password_confirmation": "Confirmar contraseña",
-      "submit": "Restablecer contraseña"
+      "reset_password": "Reset password",
+      "description": "Enter a new password:",
+      "password": "Password",
+      "password_confirmation": "Confirm password",
+      "submit": "Reset password"
     },
     "addresses": {
-      "no_addresses": "Aún no hay direcciones",
-      "no_addresses_button": "Añade tu primera dirección",
-      "default_address": "Dirección por defecto",
-      "address_number": "Dirección {{number}}",
-      "edit": "Modificar",
-      "delete": "Borrar",
-      "add_address": "Añadir una nueva dirección",
-      "edit_address": "Modificar dirección",
-      "form_subtitle": "Por favor complete la información a continuación:",
-      "first_name": "Nombre",
-      "last_name": "Apellidos",
-      "company": "Empresa",
-      "address1": "Dirección 1",
-      "address2": "Dirección 2",
-      "city": "Cuidad",
-      "country": "País",
-      "province": "Provincia",
-      "zip": "Código postal",
-      "phone": "Teléfono",
-      "set_default": "Establecer como dirección principal"
+      "no_addresses": "No addresses yet",
+      "no_addresses_button": "Add your first address",
+      "default_address": "Default address",
+      "address_number": "Address {{number}}",
+      "edit": "Edit",
+      "delete": "Delete",
+      "add_address": "Add a new address",
+      "edit_address": "Edit address",
+      "form_subtitle": "Please fill in the information below:",
+      "first_name": "First name",
+      "last_name": "Last name",
+      "company": "Company",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "city": "City",
+      "country": "Country",
+      "province": "Province",
+      "zip": "Zip code",
+      "phone": "Phone",
+      "set_default": "Set as default address"
     },
     "register": {
-      "create_account": "Crear mi cuenta",
-      "description": "Por favor complete la información a continuación:",
-      "first_name": "Nombre",
-      "last_name": "Apellidos",
+      "create_account": "Create my account",
+      "description": "Please fill in the information below:",
+      "first_name": "First name",
+      "last_name": "Last name",
       "email": "Email",
-      "password": "Contraseña",
-      "submit": "Crear mi cuenta",
-      "already_have_account": "¿ Ya tienes una cuenta ?",
-      "login": "Entrar aquí"
+      "password": "Password",
+      "submit": "Create my account",
+      "already_have_account": "Already have an account?",
+      "login": "Login here"
     }
   },
   "cart": {
     "general": {
-      "title": "Mi carrito",
-      "empty": "Tu carrito esta vacío",
-      "empty_button": "Compra nuestros productos",
-      "search": "Buscar...",
-      "view_cart": "Ver carrito",
-      "note_title": "Instrucciones de pedido",
-      "edit_note": "Modificar",
-      "save_note": "Guardar",
-      "secure_payments": "Pago 100% seguro",
-      "free_shipping": "¡ Te regalamos los gastos de envío !",
-      "free_shipping_remaining_html": "¡ Gasta {{remaining_amount}} más y obtén envío gratis !",
-      "amount_saved_html": "¡ Has ahorrado {{amount_saved}} !",
-      "free": "¡ Gratis !",
-      "taxes_and_shipping_at_checkout": "Impuestos y gastos de envío calculados en la caja",
-      "taxes_and_shipping_policy_at_checkout_html": "Impuestos y <a href=\"{{ link }}\">gastos de envío<\/a> calculados en la caja",
-      "taxes_included_but_shipping_at_checkout": "Impuestos incluidos. Gastos de envío calculados en la caja",
-      "taxes_included_and_shipping_policy_html": "Impuestos incluidos. <a href=\"{{ link }}\">Gastos de envío<\/a> calculados en la caja",
+      "title": "My cart",
+      "empty": "Your cart is empty",
+      "empty_button": "Shop our products",
+      "search": "Search...",
+      "view_cart": "View cart",
+      "note_title": "Order instructions",
+      "edit_note": "Edit",
+      "save_note": "Save",
+      "secure_payments": "100% Secure Payments",
+      "free_shipping": "You are eligible for free shipping!",
+      "free_shipping_remaining_html": "Spend {{remaining_amount}} more and get free shipping!",
+      "amount_saved_html": "You saved {{amount_saved}}!",
+      "free": "Free!",
+      "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
+      "taxes_included_but_shipping_at_checkout": "Tax included. Shipping calculated at checkout",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout",
       "total": "Total",
-      "checkout": "Caja"
+      "checkout": "Checkout"
     },
     "items": {
-      "decrease_quantity": "Disminuir la cantidad en 1",
-      "increase_quantity": "Aumentar la cantidad en 1",
-      "no_more_stock": "No queda stock",
-      "remove": "Quitar"
+      "decrease_quantity": "Decrease quantity by 1",
+      "increase_quantity": "Increase quantity by 1",
+      "no_more_stock": "No more stock",
+      "remove": "Remove"
     },
     "gift_wrap": {
-      "price_html": "Solo {{price}}"
+      "price_html": "Only {{price}}"
     },
     "shipping_estimator": {
-      "title": "Gasto estimado de envío",
-      "country": "País",
-      "province": "Provincia",
-      "zip_code": "Código postal",
-      "estimate": "Estimación",
-      "no_results_title": "No se pudo encontrar envío para su dirección.",
-      "one_result_title": "Hay una tarifa de envío para su dirección :",
-      "multiple_results_title": "Hay {{count}} tarifas de envío para su dirección :",
-      "errors": "Hay algunos errores :"
+      "title": "Estimate shipping",
+      "country": "Country",
+      "province": "Province",
+      "zip_code": "Zip code",
+      "estimate": "Estimate",
+      "no_results_title": "No shipping could be found for your address.",
+      "one_result_title": "There is one shipping rate for your address:",
+      "multiple_results_title": "There are {{count}} shipping rates for your address:",
+      "errors": "There are some errors:"
     }
   },
   "product": {
     "general": {
-      "previous_product": "Anterior",
-      "next_product": "Siguiente",
-      "description": "Descripción",
+      "previous_product": "Prev",
+      "next_product": "Next",
+      "description": "Description",
+      "description_text": "EuroHomeDirect® offers the {{ title }} directly from Europe. We only sell brand new and genuine products pre-packaged by the manufacturer with parts warranty.",
+      "description_how_title": "How can we offer the {{ title }} at such a great discount in Hong Kong and Singapore?",
+      "description_how": "We offer the {{ title }} for a greatly reduced price compared to the local prices in Hong Kong and Singapore because we are offering it directly from Europe with wholesale price.",
+      "description_warranty_title": "{{ title }} Compatibility & Warranty",
+      "description_warranty": "All {{ vendor }} sold by us are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V with UK style power plug (type G). For all other markets with different standards, you may need to use a voltage converter and\/or an adapter. All {{ vendor }} appliances sold come with 1-year parts warranty. You can read more about Compatibility and Warranty in our FAQ Page.",
       "sku": "SKU: ",
-      "share": "Comparte este producto",
-      "reviews": "Reseñas",
-      "regular_price": "Precio habitual",
-      "sale_price": "Precio de venta",
-      "view_in_space": "Ver en tu espacio",
-      "zoom": "Pasa el cursor sobre la imagen para ampliarla.",
-      "zoom_mobile": "Clic en la imagen para aumentar",
-      "view_more": "Ver mas",
-      "view_less": "Ver menos",
-      "payment": "Métodos de pago",
-      "security": "Seguridad",
-      "payment_notice": "Su información de pago se procesa de forma segura. No almacenamos los detalles de la tarjeta de crédito ni tenemos acceso a la información de su tarjeta de crédito.",
-      "estimate_shipping": "Gastos estimados de envío",
-      "refund_policy": "Política de reembolso",
-      "include_taxes": "Impuestos incluidos",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Gastos de envío<\/a> calculados en la caja"
+      "model": "Model: ",
+      "share": "Share this product",
+      "reviews": "Reviews",
+      "regular_price": "Regular price",
+      "sale_price": "Sale price",
+      "zoom": "Roll over image to zoom in",
+      "zoom_mobile": "Click on image to zoom",
+      "image_by": "Image By",
+      "view_in_space": "View in your space",
+      "view_more": "View more",
+      "view_less": "View less",
+      "payment": "Payment methods",
+      "security": "Security",
+      "payment_notice": "Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.",
+      "shipping_desc_title": "Buying the {{title}} in Hong Kong and Singapore",
+      "shipping_warning": "*We have limited shipping options due to COVID-19. Surcharges may apply due to increase in prices imposed by our shipping partners. While our warehouses stay open, supplies from the manufacturers may be delayed.",
+      "shipping_desc": "EuroHomeDirect® sells the {{title}} to Hong Kong and Singapore with free shipping for orders over HKD $15,000 \/ SGD $2,600 (except for oversized items). We only ship with the most reputable courier partners – DHL, Fedex, and CH Robinson. Your order will arrive safely on time when you purchase from us.",
+      "estimate_shipping": "Estimate shipping",
+      "refund_policy": "Refund Policy",
+      "include_taxes": "Tax included",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Shipping calculated<\/a> at checkout",
+      "note": "Note",
+      "parallel_import": "This is a genuine parallel import item"
     },
     "labels": {
-      "sold_out": "Agotado"
+      "sold_out": "Sold out"
     },
     "form": {
-      "variant": "Variante",
-      "price": "Precio",
+      "lead_time": "Lead Time",
+      "whatsapp_lead_time": "Whatsapp us to ask about lead time",
+      "variant": "Variant",
+      "price": "Price",
       "inventory": "Stock",
-      "quantity": "Cantidad",
-      "in_stock": "Disponible",
-      "oversell_stock": "Pronto en stock",
+      "quantity": "Quantity",
+      "in_stock": "In stock",
+      "oversell_stock": "Re-stocking soon",
       "low_stock_with_quantity_count": {
-        "one": "Solo queda {{count}} unidad",
-        "other": "Solo quedan {{count}} unidades"
+        "one": "Only {{count}} unit left",
+        "other": "Only {{count}} units left"
       },
       "in_stock_with_quantity_count": {
-        "one": "Disponible ({{count}} unidad), lista para ser enviada",
-        "other": "Disponibles ({{count}} unidades), listas para ser enviadas"
+        "one": "In stock ({{count}} unit), ready to be shipped",
+        "other": "In stock ({{count}} units), ready to be shipped"
       },
-      "add_to_cart": "Añadir al carrito",
-      "sold_out": "Agotado",
-      "pre_order": "Reservar",
-      "unavailable": "No disponible",
-      "contact_us": "Contactanos",
-      "added": "El producto ha sido añadido al carrito",
-      "added_short": "Añadido !"
+      "add_to_cart": "Add to cart",
+      "sold_out": "Sold out",
+      "pre_order": "Pre-order",
+      "unavailable": "Unavailable",
+      "contact_us": "Contact us",
+      "contact_us_inquire": "Contact us to inquire",
+      "whatsapp_us": "Whatsapp us",
+      "added": "Product has been added to your cart",
+      "added_short": "Added!"
     }
   },
   "store_availability": {
     "general": {
-      "view_store_info": "Ver información de la tienda",
-      "check_other_stores": "Verificar disponibilidad en otras tiendas",
-      "pick_up_available": "Retiro disponible",
-      "pick_up_currently_unavailable": "Retiro no disponible actualmente",
-      "pick_up_available_at": "Retiro disponible en {{ location_name }}",
-      "pick_up_unavailable_at": "Retiro no disponible actualmente en {{ location_name }}"
+      "view_store_info": "View store information",
+      "check_other_stores": "Check availability at other stores",
+      "pick_up_available": "Pickup available",
+      "pick_up_currently_unavailable": "Pickup currently unavailable",
+      "pick_up_available_at": "Pickup available at {{ location_name }}",
+      "pick_up_unavailable_at": "Pickup currently unavailable at {{ location_name }}"
     }
   },
   "gift_card": {
     "issued": {
-      "subtext": "¡ Aquí está tu tarjeta de regalo !",
-      "disabled": "Su tarjeta de regalo está deshabilitada.",
-      "expired": "Su tarjeta de regalo caducó el {{expiry}}.",
-      "expires_on": "Caduca: {{expiry}}",
-      "redeem": "Use este código al momento de pagar para canjear su tarjeta de regalo:",
-      "remaining_amount": "{{amount}} restante",
-      "shop_link": "Empieza a comprar",
-      "print": "Imprimir",
-      "add_to_apple_wallet": "Añadir a Apple Wallet"
+      "subtext": "Here's your gift card!",
+      "disabled": "Your gift card is disabled.",
+      "expired": "Your gift card expired on {{expiry}}.",
+      "expires_on": "Expires: {{expiry}}",
+      "redeem": "Use this code at checkout to redeem your gift card:",
+      "remaining_amount": "{{amount}} remaining",
+      "shop_link": "Start shopping",
+      "print": "Print",
+      "add_to_apple_wallet": "Add to Apple Wallet"
     }
   },
   "blog": {
     "general": {
-      "empty": "Este blog no tiene artículos.",
-      "empty_button": "Ir a la página de inicio",
-      "categories": "Categorías",
-      "all_tag": "Todas"
+      "empty": "This blog has no articles",
+      "empty_button": "Go to Homepage",
+      "categories": "Categories",
+      "all_tag": "All"
     },
     "article": {
-      "tags": "Tags :",
+      "tags": "Tags:",
       "written_by": "{{author}}",
-      "share": "Compartir",
-      "previous_article": "Artículo anterior",
-      "next_article": "Artículo siguiente",
+      "share": "Share",
+      "previous_article": "Previous article",
+      "next_article": "Next article",
       "comments_count": {
-        "zero": "{{count}} comentario",
-        "one": "{{count}} comentario",
-        "other": "{{count}} comentarios"
+        "zero": "{{count}} comments",
+        "one": "{{count}} comment",
+        "other": "{{count}} comments"
       }
     },
     "comments": {
-      "leave_comment": "Deja un comentario",
-      "name": "Nombre",
+      "leave_comment": "Leave a comment",
+      "name": "Name",
       "email": "Email",
-      "content": "Contenido",
-      "approval_notice": "Todos los comentarios son moderados antes de ser publicados",
-      "submit": "Publicar comentario",
-      "success": "Tu comentario ha sido publicado.",
-      "success_moderated": "¡ Tu comentario ha sido enviado. Será visible una vez que el dueño de la tienda lo haya aceptado !"
+      "content": "Content",
+      "approval_notice": "All comments are moderated before being published",
+      "submit": "Post comment",
+      "success": "Your comment has been published.",
+      "success_moderated": "Your comment has been sent. It will be visible once the shop owner has accepted it!"
     }
   },
   "contact": {
     "form": {
-      "name": "Tu nombre",
-      "email": "Tu email",
-      "message": "Tu mensaje",
-      "submit": "Enviar mesaje",
-      "successfully_sent": "Tu mensaje ha sido enviado con éxito."
+      "name": "Your name",
+      "email": "Your email",
+      "message": "Your message",
+      "submit": "Send message",
+      "successfully_sent": "Your message has been successfully sent."
     }
   },
   "date_formats": {
-    "month_day_year": "%d %B %Y",
-    "short_month_day_year": "%d\/%B\/%Y",
-    "month_day_year_time": "%d %B %Y, %I:%M"
+    "month_day_year": "%B %d, %Y",
+    "short_month_day_year": "%b %d, %Y",
+    "month_day_year_time": "%B %d, %Y at %H:%M%P"
+  },
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "free_total_label": "To be Confirmed"
+      },
+      "order_summary": {
+        "free_total_label": "To Be Confirmed"
+      },
+      "shipping": {
+        "free_rate_label": "Please consult with us before checkout"
+      }
+    }
+  },
+  "about": {
+    "about_us": {
+      "heading": "About Us",
+      "text_html": "<p>EuroHomeDirect® is an international eCommerce-company that offers consumers worldwide the exciting opportunity to purchase <a href=\"\/collections\/sanitary-wares\">luxury home renovation products<\/a> of all major high-end brands directly from Europe. We are a pure online retailer with flat structures and efficient organization so our prices are very competitive.<\/p><p>EuroHomeDirect® strives to be your one-stop home renovation outlet offering you a <a href=\"\/collections\/appliances\">full range of high-end luxury appliances<\/a>, <a href=\"\/collections\/sanitary-wares\">sanitary<\/a>, <a href=\"\/collections\/furniture\">furniture<\/a> and sci-fi gadgets such as smart glass or smart home systems.<\/p><p>Our warehouses in Germany &amp; UK will promptly process and <a href=\"\/policies\/shipping-policy\">ship your orders worldwide<\/a>. We also provide professional installation services as an add-on to your purchase in Hong Kong &amp; Singapore should you require. With a full range of home products for you to select and a team of friendly consultants to assist, we are sure you will find a suitable solution for your application.<\/p>"
+    },
+    "why_us": {
+      "heading": "Why Us?",
+      "text_html": "<p>With warehouses based in Europe, we have the most complete stock of products ready to ship worldwide. Even products that require months of wait time at your local retailers or hard to source European-specific models, you can count on us for having them available for you.<\/p><p>What’s more? We strive to price our products competitively to ensure you pay the same retail prices as you would in Europe! You will not pay a premium over local European consumers just because you are living on a different continent. That’s the kind of guarantee you have when you shop with us!<\/p>"
+    }
   }
 }
