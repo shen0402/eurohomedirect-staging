@@ -220,7 +220,7 @@
         "settings": {
           "show_social_media": true,
           "show_payment_icons": false,
-          "show_locale_selector": true,
+          "show_locale_selector": false,
           "show_currency_selector": false,
           "show_cookie_bar": false,
           "text": "<p>EuroHomeDirect® uses technology such as cookies and scripts to personalize content and ads, provide social media features, and analyze our traffic. Click \"Accept\" to consent to the use of this technology on our website – and don’t worry, we respect your privacy. You can of course change your mind and withdraw your consent at any time, by returning to this site after clearing the cookies on your computer or device.<br\/>This site uses functional cookies and external scripts to improve your experience.<\/p>",
