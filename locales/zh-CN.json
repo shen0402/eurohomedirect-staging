@@ -9,7 +9,7 @@
       "close": "关闭",
       "next": "下一个",
       "previous": "以前的",
-      "new_window": "在新窗口中打开。"
+      "new_window": "在新窗口中打开."
     },
     "password": {
       "enter_password": "使用密码输入",
@@ -17,9 +17,9 @@
       "password_submit": "进入",
       "newsletter_input": "您的电子邮件地址",
       "newsletter_submit": "提醒我",
-      "newsletter_success": "感谢您的注册！",
+      "newsletter_success": "感谢您的注册!",
       "powered_by_html": "这家商店将由 {{shopify_link}} 提供支持",
-      "login_title": "你是店主吗？",
+      "login_title": "你是店主吗?",
       "login_link": "在此登录",
       "follow_us": "跟着我们"
     },
@@ -42,7 +42,7 @@
       "email_share": "通过电子邮件分享"
     },
     "popup": {
-      "success": "您已注册我们的时事通讯！",
+      "success": "您已注册我们的时事通讯!",
       "email_placeholder": "你的邮件",
       "subscribe": "订阅"
     }
@@ -60,7 +60,7 @@
       "menu": "菜单",
       "open_menu": "打开菜单",
       "back": "后退",
-      "need_help": "需要帮忙？",
+      "need_help": "需要帮忙?",
       "follow_us": "跟着我们"
     },
     "search": {
@@ -87,7 +87,7 @@
       "we_accept": "我们接受"
     },
     "newsletter": {
-      "success": "您已注册我们的时事通讯！",
+      "success": "您已注册我们的时事通讯!",
       "input": "你的邮件",
       "submit": "订阅"
     }
@@ -119,7 +119,7 @@
   "404": {
     "general": {
       "title": "找不到网页",
-      "content": "无法找到您要查找的页面。",
+      "content": "无法找到您要查找的页面.",
       "search": "在商店中搜索...",
       "continue_shopping": "点击此处继续购物"
     }
@@ -129,17 +129,17 @@
       "vendor_title": "品牌名称",
       "product_title": "产品名称",
       "product_sku": "SKU-1234",
-      "product_description": "产品说明可用于展示产品的特性和优势。 您可以查看 Shopify 的电子商务博客，以获得正确营销产品的灵感和建议。",
+      "product_description": "产品说明可用于展示产品的特性和优势. 您可以查看 Shopify 的电子商务博客, 以获得正确营销产品的灵感和建议.",
       "collection_title": "收藏品名称",
       "article_title": "帖子名称",
       "article_author": "你写的",
       "article_category": "类别",
-      "article_excerpt": "您的商店尚未发布任何博客文章。 博客可用于谈论新产品发布、技巧或您想要与客户分享的其他新闻。 您可以查看 Shopify 的电子商务博客，为您自己的商店和博客寻找灵感和建议。",
+      "article_excerpt": "您的商店尚未发布任何博客文章. 博客可用于谈论新产品发布、技巧或您想要与客户分享的其他新闻. 您可以查看 Shopify 的电子商务博客, 为您自己的商店和博客寻找灵感和建议.",
       "instagram_likes": "28 个赞",
-      "instagram_caption": "这是一个标题示例。"
+      "instagram_caption": "这是一个标题示例."
     },
     "newsletter": {
-      "success": "您已注册我们的时事通讯！",
+      "success": "您已注册我们的时事通讯!",
       "input": "你的邮件",
       "submit": "订阅"
     }
@@ -153,7 +153,7 @@
       "brands": "品牌",
       "empty": "此集合为空",
       "empty_button": "去首页",
-      "no_results": "您的标准不符合任何产品。",
+      "no_results": "您的标准不符合任何产品.",
       "view_products": "查看产品",
       "display": "展示",
       "products_count": {
@@ -206,8 +206,8 @@
         "other": "只剩下 {{count}} 个单位"
       },
       "in_stock_with_quantity_count": {
-        "one": "有货，{{count}} 件",
-        "other": "有货，{{count}} 件"
+        "one": "有货, {{count}} 件",
+        "other": "有货, {{count}} 件"
       }
     }
   },
@@ -226,9 +226,9 @@
       "email": "电子邮件",
       "password": "密码",
       "submit": "登录",
-      "new_customer": "新客户？",
+      "new_customer": "新客户?",
       "create_your_account": "创建您的帐户",
-      "lost_password": "忘记密码？",
+      "lost_password": "忘记密码?",
       "recover_password": "恢复密码"
     },
     "order": {
@@ -239,15 +239,15 @@
       "payment_status": "支付状态",
       "fulfillment_status": "履行状态",
       "back_to_account": "返回账户",
-      "cancelled_at": "订单于 {{date}} 取消。 原因：{{reason}}。",
-      "fulfillment_with_url_and_number_html": "所有产品已发送。 使用编号 {{tracking_number}} 或通过<a href=\"{{tracking_url}}\" target=\"_blank\">单击此处<\/a> 跟踪货件。",
-      "fulfillment_with_url_html": "所有产品已发送。 通过<a href=\"{{tracking_url}}\" target=\"_blank\">点击此处<\/a>追踪货物。",
-      "fulfillment_with_number_html": "所有产品已发送。 跟踪编号为 {{tracking_number}} 的货件。",
-      "fulfillment_html": "所有产品已发送。",
-      "line_fulfillment_with_url_and_number_html": "此产品已发送。 使用编号 {{tracking_number}} 或通过<a href=\"{{tracking_url}}\" target=\"_blank\">单击此处<\/a> 跟踪货件。",
-      "line_fulfillment_with_url_html": "此产品已发送。 通过<a href=\"{{tracking_url}}\" target=\"_blank\">点击此处<\/a>追踪货物。",
-      "line_fulfillment_with_number_html": "此产品已发送。 跟踪编号为 {{tracking_number}} 的货件。",
-      "line_fulfillment_html": "此产品已发送。",
+      "cancelled_at": "订单于 {{date}} 取消. 原因：{{reason}}.",
+      "fulfillment_with_url_and_number_html": "所有产品已发送. 使用编号 {{tracking_number}} 或通过<a href=\"{{tracking_url}}\" target=\"_blank\">单击此处<\/a> 跟踪货件.",
+      "fulfillment_with_url_html": "所有产品已发送. 通过<a href=\"{{tracking_url}}\" target=\"_blank\">点击此处<\/a>追踪货物.",
+      "fulfillment_with_number_html": "所有产品已发送. 跟踪编号为 {{tracking_number}} 的货件.",
+      "fulfillment_html": "所有产品已发送.",
+      "line_fulfillment_with_url_and_number_html": "此产品已发送. 使用编号 {{tracking_number}} 或通过<a href=\"{{tracking_url}}\" target=\"_blank\">单击此处<\/a> 跟踪货件.",
+      "line_fulfillment_with_url_html": "此产品已发送. 通过<a href=\"{{tracking_url}}\" target=\"_blank\">点击此处<\/a>追踪货物.",
+      "line_fulfillment_with_number_html": "此产品已发送. 跟踪编号为 {{tracking_number}} 的货件.",
+      "line_fulfillment_html": "此产品已发送.",
       "product": "产品",
       "quantity": "数量",
       "total": "全部的",
@@ -258,8 +258,8 @@
       "tax_excluded": "不含税",
       "shipping_address": "收件地址",
       "billing_address": "帐单地址",
-      "no_billing_address": "此订单不需要账单地址。",
-      "no_shipping_address": "此订单不需要送货地址。"
+      "no_billing_address": "此订单不需要账单地址.",
+      "no_shipping_address": "此订单不需要送货地址."
     },
     "activate_account": {
       "activate_account": "激活账户",
@@ -274,8 +274,8 @@
       "description": "输入你的电子邮箱：",
       "email": "电子邮件",
       "submit": "恢复",
-      "success": "我们已向您发送一封电子邮件，其中包含重置密码的说明。",
-      "remembered_your_password": "记住密码了吗？",
+      "success": "我们已向您发送一封电子邮件, 其中包含重置密码的说明.",
+      "remembered_your_password": "记住密码了吗?",
       "back_to_login": "回到登入"
     },
     "reset_password": {
@@ -315,7 +315,7 @@
       "email": "电子邮件",
       "password": "密码",
       "submit": "创建我的账户",
-      "already_have_account": "已有帐户？",
+      "already_have_account": "已有帐户?",
       "login": "在此登录"
     }
   },
@@ -330,14 +330,14 @@
       "edit_note": "编辑",
       "save_note": "节省",
       "secure_payments": "100% 安全支付",
-      "free_shipping": "您有资格享受免费送货服务！",
-      "free_shipping_remaining_html": "再消费 {{remaining_amount}} 即可免运费！",
-      "amount_saved_html": "您节省了 {{amount_saved}}！",
-      "free": "自由的！",
+      "free_shipping": "您有资格享受免费送货服务!",
+      "free_shipping_remaining_html": "再消费 {{remaining_amount}} 即可免运费!",
+      "amount_saved_html": "您节省了 {{amount_saved}}!",
+      "free": "自由的!",
       "taxes_and_shipping_at_checkout": "税费和运费在结账时计算",
       "taxes_and_shipping_policy_at_checkout_html": "结账时计算税金和<a href=\"{{ link }}\">运费<\/a>",
-      "taxes_included_but_shipping_at_checkout": "含税。 结账时计算运费",
-      "taxes_included_and_shipping_policy_html": "含税。 <a href=\"{{ link }}\">运费<\/a>在结账时计算",
+      "taxes_included_but_shipping_at_checkout": "含税. 结账时计算运费",
+      "taxes_included_and_shipping_policy_html": "含税. <a href=\"{{ link }}\">运费<\/a>在结账时计算",
       "total": "全部的",
       "checkout": "查看"
     },
@@ -356,7 +356,7 @@
       "province": "省",
       "zip_code": "邮政编码",
       "estimate": "估计",
-      "no_results_title": "找不到您的地址的运费。",
+      "no_results_title": "找不到您的地址的运费.",
       "one_result_title": "您的地址只有一种运费：",
       "multiple_results_title": "您的地址有 {{count}} 个运费：",
       "errors": "有一些错误："
@@ -367,11 +367,11 @@
       "previous_product": "上一条",
       "next_product": "下一个",
       "description": "描述",
-      "description_text": "EuroHomeDirect® 直接从欧洲提供 {{ title }}。 我们只销售由制造商预先包装并提供零件保修的全新正品产品。",
-      "description_how_title": "我们如何在香港和新加坡以如此大的折扣提供{{ title }}？",
-      "description_how": "与香港和新加坡的当地价格相比，我们以大大优惠的价格提供 {{ title }}，因为我们直接从欧洲以批发价提供。",
+      "description_text": "EuroHomeDirect® 直接从欧洲提供 {{ title }}. 我们只销售由制造商预先包装并提供零件保修的全新正品产品.",
+      "description_how_title": "我们如何在香港和新加坡以如此大的折扣提供{{ title }}?",
+      "description_how": "与香港和新加坡的当地价格相比, 我们以大大优惠的价格提供 {{ title }}, 因为我们直接从欧洲以批发价提供.",
       "description_warranty_title": "{{ title }} 兼容性和保修",
-      "description_warranty": "我们出售的所有{{ vendor }} 均符合香港和新加坡标准，无需任何修改。 我们的电器采用英式电源插头（G 型），可在 220-240V 电压下运行。 对于具有不同标准的所有其他市场，您可能需要使用电压转换器和/或适配器。 所有售出的 {{ vendor }} 设备均享有 1 年零件保修。 您可以在我们的常见问题解答页面中阅读有关兼容性和保修的更多信息。",
+      "description_warranty": "我们出售的所有{{ vendor }} 均符合香港和新加坡标准, 无需任何修改. 我们的电器采用英式电源插头（G 型）, 可在 220-240V 电压下运行. 对于具有不同标准的所有其他市场, 您可能需要使用电压转换器和/或适配器. 所有售出的 {{ vendor }} 设备均享有 1 年零件保修. 您可以在我们的常见问题解答页面中阅读有关兼容性和保修的更多信息.",
       "sku": "SKU: ",
       "model": "模型：",
       "share": "分享这个产品",
@@ -386,10 +386,10 @@
       "view_less": "少看",
       "payment": "支付方式",
       "security": "安全",
-      "payment_notice": "您的付款信息得到安全处理。 我们不会存储信用卡详细信息，也无法访问您的信用卡信息。",
+      "payment_notice": "您的付款信息得到安全处理. 我们不会存储信用卡详细信息, 也无法访问您的信用卡信息.",
       "shipping_desc_title": "在香港和新加坡购买{{title}}",
-      "shipping_warning": "*由于 COVID-19，我们的运输选择有限。 由于我们的运输合作伙伴提高价格，可能会收取附加费。 虽然我们的仓库保持开放，但制造商的供应可能会延迟。",
-      "shipping_desc": "EuroHomeDirect® 将 {{title}} 销售至香港和新加坡，订单满 15,000 港元\/ 2,600 新元（超大件商品除外）免运费。 我们只与最有信誉的快递合作伙伴——DHL、Fedex 和 CH Robinson 一起运送。 当您从我们这里购买时，您的订单将准时安全送达。",
+      "shipping_warning": "*由于 COVID-19, 我们的运输选择有限. 由于我们的运输合作伙伴提高价格, 可能会收取附加费. 虽然我们的仓库保持开放, 但制造商的供应可能会延迟.",
+      "shipping_desc": "EuroHomeDirect® 将 {{title}} 销售至香港和新加坡, 订单满 15,000 港元\/ 2,600 新元（超大件商品除外）免运费. 我们只与最有信誉的快递合作伙伴——DHL、Fedex 和 CH Robinson 一起运送. 当您从我们这里购买时, 您的订单将准时安全送达.",
       "estimate_shipping": "预计运输",
       "refund_policy": "退款政策",
       "include_taxes": "含税",
@@ -414,8 +414,8 @@
         "other": "只剩下 {{count}} 个单位"
       },
       "in_stock_with_quantity_count": {
-        "one": "有货（{{count}} 件），准备发货",
-        "other": "有库存（{{count}} 件），准备发货"
+        "one": "有货（{{count}} 件）, 准备发货",
+        "other": "有库存（{{count}} 件）, 准备发货"
       },
       "add_to_cart": "添加到购物车",
       "sold_out": "售罄",
@@ -425,7 +425,7 @@
       "contact_us_inquire": "联系我们查询",
       "whatsapp_us": "Whatsapp 我们",
       "added": "产品已添加到您的购物车",
-      "added_short": "添加！"
+      "added_short": "添加!"
     }
   },
   "store_availability": {
@@ -440,9 +440,9 @@
   },
   "gift_card": {
     "issued": {
-      "subtext": "这是您的礼品卡！",
-      "disabled": "您的礼品卡已停用。",
-      "expired": "您的礼品卡已于 {{expiry}} 过期。",
+      "subtext": "这是您的礼品卡!",
+      "disabled": "您的礼品卡已停用.",
+      "expired": "您的礼品卡已于 {{expiry}} 过期.",
       "expires_on": "过期：{{过期}}",
       "redeem": "在结账时使用此代码兑换您的礼品卡：",
       "remaining_amount": "剩余 {{amount}}",
@@ -477,8 +477,8 @@
       "content": "内容",
       "approval_notice": "所有评论在发布前都经过审核",
       "submit": "发表评论",
-      "success": "您的评论已发布。",
-      "success_moderated": "您的评论已发送。 一旦店主接受，它就会可见！"
+      "success": "您的评论已发布.",
+      "success_moderated": "您的评论已发送. 一旦店主接受, 它就会可见!"
     }
   },
   "contact": {
@@ -487,7 +487,7 @@
       "email": "你的邮件",
       "message": "您的留言",
       "submit": "发信息",
-      "successfully_sent": "您的留言已成功发送。"
+      "successfully_sent": "您的留言已成功发送."
     }
   },
   "date_formats": {
@@ -506,6 +506,16 @@
       "shipping": {
         "free_rate_label": "请在结账前咨询我们"
       }
+    }
+  },
+  "about": {
+    "about_us": {
+      "heading": "關於我們",
+      "text_html": "EuroHomeDirect 是一間國際電子商務公司, 專門為全球消費者供應歐洲各大尊貴品牌<a href=\"\/collections\/sanitary-wares\">豪華家居裝修產品.<\/a> 我們是一間架構簡單、高效的純網上零售商, 因而價格十分優惠.<br>EuroHomeDirect 致力成為您的一站式家居裝修專賣店,<a href=\"\/collections\/appliances\">為您提供全方位的高端奢華電器<\/a>,<a href=\"\/collections\/sanitary-wares\">衛浴<\/a>,<a href=\"\/collections\/furniture\">傢俬及高科技掌上裝置<\/a>, 如智能玻璃或智能家居系統.<br>我們的倉庫設於德國和英國, <a href=\"\/policies\/shipping-policy\">可及時處理您的訂單並發往世界各地<\/a>.如有需要, 我們亦可為香港及和新加坡顧客提供額外的專業安裝服務.我們相信, 在我們友善的顧問團隊的熱心幫助下, 您定能在可選購的全方位家居產品中, 找到切合所需的解決方案"
+    },
+    "why_us": {
+      "heading": "Why Us?",
+      "text_html": "我們的倉庫設於歐洲, 庫存產品種類齊全, 可隨時運往世界各地.即使是需要在當地零售商處苦等數月才能到貨的產品, 或是很難買到的歐洲專有型號, 我們亦能為您效勞.<br>此外, 我們致力提供價格實惠的產品, 以確保您支付的零售價和歐洲相同!您再也不必因為住在不同地方而需要支付比歐洲當地消費者更高的價格.這就是我們為您提供的購物保證!"
     }
   }
 }
