@@ -518,5 +518,58 @@
       "heading": "Why Us?",
       "text_html": "With warehouses based in Europe, we have the most complete stock of products ready to ship worldwide. Even products that require months of wait time at your local retailers or hard to source European-specific models, you can count on us for having them available for you.<br>What’s more? We strive to price our products competitively to ensure you pay the same retail prices as you would in Europe! You will not pay a premium over local European consumers just because you are living on a different continent. That’s the kind of guarantee you have when you shop with us!"
     }
+  },
+  "faq": {
+    "header": {
+      "title": "FAQ"
+    },
+    "group1": {
+      "header": "Products",
+      "question1": "How are we able to sell at such competitive prices?",
+      "answer1": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We are able to supply top European household products at the lowest prices to local consumers because no distributors or dealers are involved in the process.<\/p>",
+      "question2": "Are there any additional discounts for the products sold?",
+      "answer2": "<p>We only offer B2B discounts to companies with single order amount above HKD $400000 or SGD $70000 in one single category.<\/p>",
+      "question3": "How to authenticate the products sold are genuine?",
+      "answer3": "<p>EuroHomeDirect® only sells brand new and genuine products pre-packaged by the manufacturer. No unboxed or second grade products are sold. We welcome our customers to validate the serial numbers with the original manufacturers.<\/p>",
+      "question4": "How do I obtain a quote for the furniture category?",
+      "answer4": "<p>In order for us to supply you with a quote, please specify what brand, model, and configurations (ie. size + material) you’re interested in purchasing. Quote request may only be sent by email to [info@eurohomedirect.com]. It is not possible to quote otherwise due to the vast possibility of variations. Please note that order time is about 3-4 months because everything is made to order. Please also expect we are highly competitive compared to local retail prices.<\/p>",
+      "question5": "Are the products sold compatible with local standards?",
+      "answer5": "<p>All appliances sold are CE compliant, and would require no further safety certification to be imported into Hong Kong and Singapore.<br\/><br\/><strong>For Hong Kong & Singapore:<\/strong><br\/><br\/>Yes, all products sold are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V, 50-60Hz with UK style power plug (type G).<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>A voltage converter and\/or an adapter may be required. Please check the compatibility.<\/p>",
+      "question6": "Is there any waste disposal service?",
+      "answer6": "<p>We offer waste disposal service for refrigerators and washing machines in Hong Kong as required by the government. The service is free of charge.<\/p>"
+    },
+    "group2": {
+      "header": "Warranty, Refund or Exchange",
+      "question1": "Is there any warranty for the products?",
+      "answer1": "<p>All products sold come with 1-year parts warranty. This warranty only covers technical faults and does not apply if damage is caused by factors including: wrong installation, abuse, mishandling, accident, liquid damage, or failure to follow operating instructions.<\/p>",
+      "question2": "What happens after the warranty period expired?",
+      "answer2": "<p>You may contact the local service centre to perform a check and repair.<\/p>",
+      "question3": "Is there any refund or exchange policy?",
+      "answer3": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes &amp; customs formalities unless there is a manufacturing defect or transportation damage. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.<\/p>"
+    },
+    "group3": {
+      "header": "Tax",
+      "question1": "Do I have to pay tax for my order?",
+      "answer1": "<p><strong>For Hong Kong:<br\/><\/strong><br\/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong are not subject to any customs tariffs.<br\/><br\/><strong>For Singapore:<\/strong><br\/><br\/>Singapore levies a 7% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>You are responsible to pay the applicable import taxes and duties.<\/p>"
+    },
+    "group4": {
+      "header": "Buying Procedure and Payment",
+      "question1": "What is the buying procedure?",
+      "answer1": "<p>Please add all the products you would like to purchase to cart and proceed with payment and/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.<\/p>",
+      "question2": "What are the payment options?",
+      "answer2": "<p>We accept the following payment methods:<br\/><br\/><strong>1. Bank transfer<\/strong><br\/><br\/><strong>2. Credit Card by Stripe (Visa\/Mastercard\/American Express)<\/strong><br\/><br\/><strong>3. PayPal<\/strong><\/p>",
+      "question3": "How do we ensure payment security?",
+      "answer3": "<p>There is no safer way to shop online as we take cyber security very seriously! EuroHomeDirect® has no access to your payment information. All online payments are processed securely through Shopify Payment and Paypal, some of the most reputable third-party payment gateways. When you purchase from us, you are well protected from any potential data leak of your personal information.<\/p>",
+      "question4": "What is the minimum order amount?",
+      "answer4": "<p>The minimum order amount in one single category is HKD $4000 or SGD $700.<\/p>"
+    },
+    "any_questions": {
+      "header": "Any question?",
+      "text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.<\/p>",
+      "icon1_text": "Customer support",
+      "icon1_link": "+852 5935 2062 (Whatsapp Only)",
+      "icon2_text": "Send a message",
+      "icon2_link": "info@eurohomedirect.com"
+    }
   }
 }
