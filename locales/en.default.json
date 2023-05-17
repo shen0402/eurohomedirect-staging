@@ -565,7 +565,7 @@
     },
     "any_questions": {
       "header": "Any question?",
-      "text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.<\/p>",
+      "text": "If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.",
       "icon1_text": "Customer support",
       "icon1_link": "+852 5935 2062 (Whatsapp Only)",
       "icon2_text": "Send a message",
