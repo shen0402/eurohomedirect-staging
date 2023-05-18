@@ -159,7 +159,7 @@
                 {%- endif -%}
               </div>
 
-              <div class="card">
+              <div class="card card-additional">
                 <div class="card__header">
                   <h2 class="card__title heading h3">Additional information</h2>
                 </div>
@@ -175,6 +175,7 @@
                         {% assign collectionObj = collection %}
                       {% endif %}
                     {% endfor %}
+                    {{ collectionObj.title }}
                     {% if collectionObj.title == 'Appliances' %}
                       {{ 'product.appliances.text1_html' | t: product_title: product.title }}
 

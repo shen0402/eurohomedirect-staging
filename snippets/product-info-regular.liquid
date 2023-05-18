@@ -516,8 +516,8 @@
               {% assign lead_time = 'Dispatch in approx. 5-7 weeks' %}
             {% elsif product.tags contains 'Lead Time-5 - 8' %}
               {% assign lead_time = 'Dispatch in approx. 5-8 weeks' %}
-              {% elsif product.tags contains 'Lead Time-7 - 10' %}
-                {% assign lead_time = 'Dispatch in approx. 7-10 weeks' %}
+            {% elsif product.tags contains 'Lead Time-7 - 10' %}
+              {% assign lead_time = 'Dispatch in approx. 7-10 weeks' %}
             {% elsif product.tags contains 'Lead Time-3' %}
               {% assign lead_time = 'Dispatch in approx. 3 weeks' %}
             {% endif %}
@@ -696,6 +696,54 @@
             </div>
           {%- endif -%}
         {%- endif -%}
+      </div>
+      <div class="card">
+        <div class="card__header">
+          <h2 class="card__title heading h3">Additional information</h2>
+        </div>
+        <div class="card__section">
+          <div class="rte text--pull">
+            {% assign collectionObj = collections['appliances'] %}
+            {% for collection in product.collections %}
+              {% if collection.title == 'Appliances' %}
+                {% assign collectionObj = collection %}
+              {% elsif if collection.title == 'Sanitary Wares' %}
+                {% assign collectionObj = collection %}
+              {% elsif if collection.title == 'Furniture' %}
+                {% assign collectionObj = collection %}
+              {% endif %}
+            {% endfor %}
+            {% if collectionObj.title == 'Appliances' %}
+              {{ 'product.appliances.text1_html' | t: product_title: product.title }}
+
+              <h3 class="card__title heading h3">{{ 'product.appliances.header1' | t: product_title: product.title }}</h3>
+
+              {{ 'product.appliances.text2_html' | t: product_title: product.title }}
+
+              <h3 class="card__title heading h3">{{ 'product.appliances.header2' | t: product_title: product.title }}</h3>
+
+              {{ 'product.appliances.text3_html' | t: product_title: product.title }}
+
+              <h3 class="card__title heading h3">{{ 'product.appliances.header3' | t: product_title: product.title }}</h3>
+
+              {{ 'product.appliances.text4_html' | t: collection_title: collectionObj.title }}
+              {{ 'product.appliances.text5_html' | t: product_title: product.title }}
+              <a
+                href="{{ collectionObj.url }}"
+                target="_blank"
+                rel="noopener noreferrer">{{ collectionObj.title }} {{ 'product.appliances.link_label' | t }}</a>.
+            {% elsif collectionObj.title == 'Sanitary Wares' %}
+              {{ 'product.sanitary.text1_html' | t: product_title: product.title }}
+              <h3>{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
+              {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
+              <h3>{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
+              {{ 'product.sanitary.text3_html' | t: product_title: product.title }}
+            {% elsif collectionObj.title == 'Furniture' %}
+              <h3>{{ 'product.furniture.header1' | t: brand: product.vendor }}</h3>
+              {{ 'product.furniture.text1_html' | t }}
+            {% endif %}
+          </div>
+        </div>
       </div>
     </div>
   {%- endif -%}
