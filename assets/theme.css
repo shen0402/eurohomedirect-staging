@@ -13247,6 +13247,7 @@ a.empty-state__button.button.button--primary {
 }
 .product-block-list__item--description .card__title.active, .product-block-list__item--description .card__title:hover {
     font-weight: bold;
+    transition: 0.3s;
 }
 .shopify-policy__body .ui-accordion .ui-accordion-header {
     background: #f2f2f2;

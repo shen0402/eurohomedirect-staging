@@ -178,15 +178,15 @@
                     {% if collectionObj.title == 'Appliances' %}
                       {{ 'product.appliances.text1_html' | t: product_title: product.title }}
 
-                      <h3 class="card__title heading h3">{{ 'product.appliances.header1' | t: product_title: product.title }}</h3>
+                      <h3 class="heading h3">{{ 'product.appliances.header1' | t: product_title: product.title }}</h3>
 
                       {{ 'product.appliances.text2_html' | t: product_title: product.title }}
 
-                      <h3 class="card__title heading h3">{{ 'product.appliances.header2' | t: product_title: product.title }}</h3>
+                      <h3 class="heading h3">{{ 'product.appliances.header2' | t: product_title: product.title }}</h3>
 
                       {{ 'product.appliances.text3_html' | t: product_title: product.title }}
 
-                      <h3 class="card__title heading h3">{{ 'product.appliances.header3' | t: product_title: product.title }}</h3>
+                      <h3 class="heading h3">{{ 'product.appliances.header3' | t: product_title: product.title }}</h3>
 
                       {{ 'product.appliances.text4_html' | t: collection_title: collectionObj.title }}
                       {{ 'product.appliances.text5_html' | t: product_title: product.title }}
@@ -196,12 +196,12 @@
                         rel="noopener noreferrer">{{ collectionObj.title }} {{ 'product.appliances.link_label' | t }}</a>.
                     {% elsif collectionObj.title == 'Sanitary Wares' %}
                       {{ 'product.sanitary.text1_html' | t: product_title: product.title }}
-                      <h3>{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
+                      <h3 class="heading h3">{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
                       {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
-                      <h3>{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
+                      <h3 class="heading h3">{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
                       {{ 'product.sanitary.text3_html' | t: product_title: product.title }}
                     {% elsif collectionObj.title == 'Furniture' %}
-                      <h3>{{ 'product.furniture.header1' | t: brand: product.vendor }}</h3>
+                      <h3 class="heading h3">{{ 'product.furniture.header1' | t: brand: product.vendor }}</h3>
                       {{ 'product.furniture.text1_html' | t }}
                     {% endif %}
                   </div>
