@@ -89,3 +89,9 @@ $(document).ready(function () {
     }
     
 });
+
+$(document).on('click', '.card__title', function(){
+    const id = $(this).data('id');
+    $('.product-block-list__item--description .cad').hide();
+    $(id).show();
+});

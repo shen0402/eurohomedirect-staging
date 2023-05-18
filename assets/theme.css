@@ -13232,6 +13232,9 @@ a.empty-state__button.button.button--primary {
     width: 50%;
     text-align: left;
 }
+.product-block-list__item--description .card:last-of-type {
+    display: none;
+}
 .shopify-policy__body .ui-accordion .ui-accordion-header {
     background: #f2f2f2;
     color: #5f6368;

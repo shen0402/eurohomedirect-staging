@@ -395,7 +395,8 @@
       "include_taxes": "Tax included",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Shipping calculated<\/a> at checkout",
       "note": "Note",
-      "parallel_import": "This is a genuine parallel import item"
+      "parallel_import": "This is a genuine parallel import item",
+      "additional_information": "Additional information"
     },
     "labels": {
       "sold_out": "Sold out"

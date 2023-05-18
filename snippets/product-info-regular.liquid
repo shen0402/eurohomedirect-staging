@@ -651,7 +651,11 @@
 
   {%- if product.description != blank -%}
     <div class="product-block-list__item product-block-list__item--description">
-      <div class="card">
+      <div class="card__header">
+        <h2 class="card__title heading h3" data-id="product-general-description">{{ 'product.general.description' | t }}</h2>
+        <h2 class="card__title heading h3" data-id="product-additional-description">{{ 'product.general.additional_information' | t }}</h2>
+      </div>
+      <div class="card" id="product-general-description">
         {%- if section.settings.content_display_mode == 'collapse_all' -%}
           <button
             aria-controls="product-description"
@@ -670,9 +674,7 @@
             </div>
           </div>
         {%- else -%}
-          <div class="card__header">
-            <h2 class="card__title heading h3">{{ 'product.general.description' | t }}</h2>
-          </div>
+
 
           {%- if section.settings.content_display_mode == 'show_all_and_expand_description' -%}
             <div class="card__section">
@@ -697,10 +699,8 @@
           {%- endif -%}
         {%- endif -%}
       </div>
-      <div class="card">
-        <div class="card__header">
-          <h2 class="card__title heading h3">Additional information</h2>
-        </div>
+
+      <div class="card" id="product-additional-description">
         <div class="card__section">
           <div class="rte text--pull">
             {% assign collectionObj = collections['appliances'] %}

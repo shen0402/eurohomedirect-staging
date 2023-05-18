@@ -395,7 +395,8 @@
       "include_taxes": "含税",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">结账时计算运费<\/a>",
       "note": "笔记",
-      "parallel_import": "这是一个真正的平行进口项目"
+      "parallel_import": "这是一个真正的平行进口项目",
+      "additional_information": "附加信息"
     },
     "labels": {
       "sold_out": "售罄"
