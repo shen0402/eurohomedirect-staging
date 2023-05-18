@@ -159,7 +159,7 @@
                 {%- endif -%}
               </div>
 
-              <div class="card card-additional">
+              <div class="card">
                 <div class="card__header">
                   <h2 class="card__title heading h3">Additional information</h2>
                 </div>
@@ -169,9 +169,9 @@
                     {% for collection in product.collections %}
                       {% if collection.title == 'Appliances' %}
                         {% assign collectionObj = collection %}
-                      {% elsif if collection.title == 'Sanitary Wares' %}
+                      {% elsif collection.title == 'Sanitary Wares' %}
                         {% assign collectionObj = collection %}
-                      {% elsif if collection.title == 'Furniture' %}
+                      {% elsif collection.title == 'Furniture' %}
                         {% assign collectionObj = collection %}
                       {% endif %}
                     {% endfor %}

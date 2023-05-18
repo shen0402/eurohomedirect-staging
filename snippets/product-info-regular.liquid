@@ -707,12 +707,13 @@
             {% for collection in product.collections %}
               {% if collection.title == 'Appliances' %}
                 {% assign collectionObj = collection %}
-              {% elsif if collection.title == 'Sanitary Wares' %}
+              {% elsif collection.title == 'Sanitary Wares' %}
                 {% assign collectionObj = collection %}
-              {% elsif if collection.title == 'Furniture' %}
+              {% elsif collection.title == 'Furniture' %}
                 {% assign collectionObj = collection %}
               {% endif %}
             {% endfor %}
+            {{ collectionObj.title }}
             {% if collectionObj.title == 'Appliances' %}
               {{ 'product.appliances.text1_html' | t: product_title: product.title }}
 

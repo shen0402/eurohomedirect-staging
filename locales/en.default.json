@@ -428,7 +428,7 @@
       "added_short": "Added!"
     },
     "appliances": {
-      "text1_html": "EuroHomeDirect offers the {{product_title}} directly from Europe. We only sell brand new and genuine products pre-packaged by the manufacturer with parts warranty.<br><br>Please click “Additional Information” to see the technical details of the {{ product.title }}.",
+      "text1_html": "EuroHomeDirect offers the {{product_title}} directly from Europe. We only sell brand new and genuine products pre-packaged by the manufacturer with parts warranty.<br><br>Please click “Additional Information” to see the technical details of the .{{product_title}}.",
       "header1": "Buying the {{product_title}} in Hong Kong, Singapore and Worldwide",
       "text2_html": "EuroHomeDirect sells the {{product_title}} to Hong Kong, Singapore and worldwide with free shipping for orders over HKD $15,000 / SGD $2,600 / MYR RM9,000 / TWD $60,000 (except for oversized items). We only ship with the most reputable courier partners – DHL, Fedex, and CH Robinson. Your order will arrive safely on time when you purchase from us.",
       "header2": "How can we offer the {{product_title}} at such a great discount in Hong Kong, Singapore and Worldwide?",
