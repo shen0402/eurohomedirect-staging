@@ -483,11 +483,29 @@
   },
   "contact": {
     "form": {
-      "name": "你的名字",
-      "email": "你的邮件",
+      "title": "聯絡我們",
+      "name": "姓名",
+      "email": "電郵",
       "message": "您的留言",
-      "submit": "发信息",
-      "successfully_sent": "您的留言已成功发送."
+      "submit": "提交",
+      "successfully_sent": "您的留言已成功发送.",
+      "contact_us": "联络我们"
+    },
+    "about": {
+      "header": "关于 EuroHomeDirect",
+      "text_html": "EuroHomeDirect 是一间国际电子商务公司,专门为全球消费者供应欧洲各大尊贵品牌豪华家居装修产品。我们是一间架构简单、高效的纯网上零售商,因而价格十分优惠。为了提供您对奢侈品所期望的优质服务,我们专门为您所在的市场提供当地的联络专员及客户服务。"
+    },
+    "technical_support": {
+      "header": "技術支援",
+      "text_html": "<strong>營業時間:<\/strong>週一至週五,上午 10 時 – 下午 6 時<br><strong>電郵:<\/strong> info@eurohomedirect.com"
+    },
+    "crydom_services": {
+      "header": "快達服務(香港)有限公司",
+      "text_html": "<strong>地址:<\/strong>香港中環雲咸街 44 號雲咸商業中心 9 樓<br><strong>香港:<\/strong> +852 3421 1222"
+    },
+    "instant_services": {
+      "header": "Instant Services Trading (Singapore) Pte. Ltd.",
+      "text_html": "<strong>地址:<\/strong> 13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<br><strong>新加坡:<\/strong> +65 3138 8699"
     }
   },
   "date_formats": {

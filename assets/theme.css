@@ -4641,6 +4641,7 @@ tr.line-item.line-item--stack {
 .form__input-wrapper--labelled .form__field {
     padding-top: 20px;
     padding-bottom: 3px;
+    border: 1px solid;
 }
 
 .form__field--large+.form__floating-label {

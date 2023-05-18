@@ -483,11 +483,29 @@
   },
   "contact": {
     "form": {
+      "title": "Contact",
       "name": "Your name",
       "email": "Your email",
       "message": "Your message",
       "submit": "Send message",
-      "successfully_sent": "Your message has been successfully sent."
+      "successfully_sent": "Your message has been successfully sent.",
+      "contact_us": "Contact us"
+    },
+    "about": {
+      "header": "About EuroHomeDirect",
+      "text_html": "EuroHomeDirect is an international e-commerce company specializing in the supply of luxury home improvement products from major European brands to consumers around the world. We are a simple, efficient pure online retailer, resulting in very favorable prices. In order to provide the high-quality service you expect from luxury goods, we provide local liaison specialists and customer service dedicated to your market."
+    },
+    "technical_support": {
+      "header": "Technical Support",
+      "text_html": "<strong>Opening Hours:<\/strong> Monday to Friday, 10:00am - 6:00pm<br><strong>Email:<\/strong> info@eurohomedirect.com"
+    },
+    "crydom_services": {
+      "header": "Crydom Services (Hong Kong) Limited",
+      "text_html": "<strong>Address:<\/strong> 9th Floor, Wyndham Commercial Centre, 44 Wyndham Street, Central, Hong Kong<br><strong>Hong Kong:<\/strong> +852 3421 1222"
+    },
+    "instant_services": {
+      "header": "Instant Services Trading (Singapore) Pte. Ltd.",
+      "text_html": "<strong>Address:<\/strong> 13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<br><strong>Singapore:<\/strong> +65 3138 8699"
     }
   },
   "date_formats": {
