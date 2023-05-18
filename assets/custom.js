@@ -90,8 +90,10 @@ $(document).ready(function () {
     
 });
 
-$(document).on('click', '.card__title', function(){
-    const id = $(this).data('id');
-    $('.product-block-list__item--description .cad').hide();
+$(document).on('click', '.product-block-list__item--description .card__title', function(){
+    const id = '#' + $(this).data('id');
+    $('.product-block-list__item--description .card__title').removeClass('active');
+    $(this).addClass('active');
+    $('.product-block-list__item--description .card').hide();
     $(id).show();
 });
