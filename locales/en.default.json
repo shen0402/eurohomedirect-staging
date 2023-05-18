@@ -426,6 +426,28 @@
       "whatsapp_us": "Whatsapp us",
       "added": "Product has been added to your cart",
       "added_short": "Added!"
+    },
+    "appliances": {
+      "text1_html": "EuroHomeDirect offers the {{product_title}} directly from Europe. We only sell brand new and genuine products pre-packaged by the manufacturer with parts warranty.<br><br>Please click “Additional Information” to see the technical details of the {{ product.title }}.",
+      "header1": "Buying the {{product_title}} in Hong Kong, Singapore and Worldwide",
+      "text2_html": "EuroHomeDirect sells the {{product_title}} to Hong Kong, Singapore and worldwide with free shipping for orders over HKD $15,000 / SGD $2,600 / MYR RM9,000 / TWD $60,000 (except for oversized items). We only ship with the most reputable courier partners – DHL, Fedex, and CH Robinson. Your order will arrive safely on time when you purchase from us.",
+      "header2": "How can we offer the {{product_title}} at such a great discount in Hong Kong, Singapore and Worldwide?",
+      "text3_html": "We offer the {{product_title}} for a greatly reduced price compared to the local prices in Hong Kong, Singapore and other countries because we are offering it directly from Europe with wholesale price. We are able to supply top European appliances at the most competitive prices to local consumers because no distributors or dealers are involved in the process.",
+      "header3": "{{product_title}} Compatibility & Warranty",
+      "text4_html": "All {{collection_title}} sold by us are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V with UK style power plug (type G). For all other markets with different standards, you may need to use a voltage converter and/or an adapter. All {{collectionObj_title}} appliances sold come with 1-year parts warranty. You can read more about Compatibility and Warranty in our FAQ Page.",
+      "text5_html": "Please do not hesitate to contact us if you have further questions about the {{product_title}} or other appliances.<br><br>You can also find more information about the {{product_title}} on the",
+      "link_label": "website by clicking here"
+    },
+    "sanitary": {
+      "text1_html": "EuroHomeDirect offers the {{product_title}} directly from Europe. We only sell brand new and genuine products pre-packaged by the manufacturer with original warranty.<br><br>Series: Sanitary Wares",
+      "header1": "Buying the {{product_title}} in Hong Kong, Singapore, and Worldwide",
+      "text2_html": "EuroHomeDirect sells the {{product_title}} to Hong Kong, Singapore, and Worldwide with free shipping for orders over HKD $15,000 / SGD $2,600. We only ship with the most reputable courier partners – DHL and FedEx. Your order will arrive safely on time when you purchase from us.",
+      "header2": "How can we offer the {{product_title}} at such a great discount in Hong Kong, Singapore, and Worldwide?",
+      "text3_html": "We offer the {{product_title}} for a greatly reduced price compared to the local prices in Hong Kong, Singapore, and other countries because we are offering it directly from Europe with wholesale price. We are able to supply top European sanitary wares at the most competitive prices to local consumers because no distributors or dealers are involved in the process.<br><br>Please don’t hesitate to contact us if you have further questions about the {{product_title}} or other sanitary wares."
+    },
+    "furniture": {
+      "header1": "How to Buy {{brand}} Furniture in Hong Kong, Singapore and Worldwide?",
+      "text1_html": "In order for us to supply you with a quote, please let us know what configurations (ie. size + material) you are interested in. Please understand that without this information it is not possible to quote a price due to the vast possibility of variations. We are approximately 30-40% more competitive than local retail prices."
     }
   },
   "store_availability": {
