@@ -46,7 +46,7 @@
     "show_reviews_badge": false,
     "cart_type": "drawer",
     "cart_empty_button_link": "shopify:\/\/collections\/all",
-    "cart_show_checkout_button": true,
+    "cart_show_checkout_button": false,
     "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": "15000",
     "social_facebook": "https:\/\/www.facebook.com\/EuroHomeDirect\/",
