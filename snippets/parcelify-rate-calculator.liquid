@@ -1,7 +1,7 @@
 {{ 'parcelify-rate-calculator.css' | asset_url | stylesheet_tag }}
 
 <shipping-rate-calculator>
-  <button type="submit" x-show="!show" @click.prevent="show=true" class="full-width button" x-text="$t('rate_calculator:calculate_shipping')" disabled :disabled="loading">Calculate shipping</button>
+  <button type="submit" x-show="!show" @click.prevent="show=true" class="full-width button button--primary" x-text="$t('rate_calculator:calculate_shipping')" disabled :disabled="loading">Calculate shipping</button>
 
   <div x-show="show" style="display: none;">
     <!--  START ADDRESS INFORMATION -->
