@@ -198,7 +198,7 @@
 
                 <div class="mini-cart__button-container">
                     <div class="button-group button-group--loose button-group--fit">
-                        <a href="{{ routes.cart_url }}" class="button button--secondary">{{ 'cart.general.view_cart' | t }}</a>
+                        <a href="{{ routes.cart_url }}" class="button button--primary">{{ 'cart.general.view_cart' | t }}</a>
                         {%- if settings.cart_show_checkout_button -%}
                             <button class="button button--primary" name="checkout" type="submit">{{ 'cart.general.checkout' | t }}</button>
                         {%- endif -%}
