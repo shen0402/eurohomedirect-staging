@@ -444,7 +444,7 @@
           "selector_mode": "block",
           "color_mode": "variant_image",
           "show_quantity_selector": true,
-          "show_payment_button": true,
+          "show_payment_button": false,
           "show_pickup_availability": false,
           "image_size": "large",
           "enable_video_looping": false,
