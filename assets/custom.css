@@ -505,6 +505,17 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
     font-weight: bold;
 }
 
+.learn_more {
+    color: var(--header-accent-color);
+    transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+    .learn_more:hover {
+        text-decoration: underline;
+    }
+}
+
 @media (max-width: 767px) {
     .collection-introduction__popup-content {
         padding: 50px 20px;
