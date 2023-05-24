@@ -430,7 +430,7 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
     height: 90vh;
     max-width: 800px;
     padding: 70px 50px;
-    border-radius: 30px;
+    border-radius: 10px;
     box-shadow: 5px 5px 10px;
     background-color: #ffffff;
 }
@@ -519,6 +519,7 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
 @media (max-width: 767px) {
     .collection-introduction__popup-content {
         padding: 50px 20px;
+        border-radius: 5px;
     }
 
     .collection-popup-close {
