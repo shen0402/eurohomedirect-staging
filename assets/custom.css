@@ -443,8 +443,12 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
     padding-right: 20px;
 }
 
+.collection-introduction__popup-content .heading {
+    font-weight: bold;
+}
+
 .collection-introduction__popup-inner::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
     border-radius: 5px;
 }
 
@@ -456,6 +460,7 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
 .collection-introduction__popup-inner::-webkit-scrollbar-thumb {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    background-color: aqua;
 }
 
 .collection-popup-close {
@@ -493,4 +498,24 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
 
 .link-items a:hover {
     text-decoration: underline;
+}
+
+.collection-introduction__store-info {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .collection-introduction__popup-content {
+        padding: 50px 20px;
+    }
+
+    .collection-popup-close {
+        top: 20px;
+        right: 20px;
+    }
+
+    .collection-introduction__popup-inner {
+        padding-right: 10px;
+    }
 }
