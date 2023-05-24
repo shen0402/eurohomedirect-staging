@@ -1,0 +1,104 @@
+<div class="collection-banner">
+    <div class="container container--flush">
+        {% if collection.tags contains 'Grohe' or collection.title == 'grohe' %}
+            <div class="rte collection-introduction">
+                {{ 'collection.bosch.introduction' : t }}
+            </div>
+            <a href="javascript:;" class="link learn_more">{{ 'collection.labels.learn_more' : t }}</a>
+        {% endif %}
+        <div class="collection-introduction__popup">
+            <span class="collection-popup-close">{%- render 'icon', icon: 'close' -%}</span>
+            <div class="collection-introduction__popup-content">
+                <h2>{{ 'collection.bosch.header1' : t }}</h2>
+                <div class="rte">
+                    {{ 'collection.bosch.text1_1' : t }}
+                </div>
+                <div class="rte">
+                    {{ 'collection.bosch.text1_2' : t }}
+                </div>
+                <div class="rte">
+                    {{ 'collection.bosch.text1_3' : t }}
+                </div>
+                <div class="rte">
+                    {{ 'collection.bosch.text1_4' : t }}
+                </div>
+                <div class="rte">
+                    {{ 'collection.bosch.text1_5' : t }}
+                </div>
+                <div class="rte">
+                    {{ 'collection.bosch.text1_6' : t }}
+                </div>
+                <h2>{{ 'collection.bosch.header2' : t }}</h2>
+                <div class="rte">
+                    {{ 'collection.bosch.text2_1' : t }}
+                </div>
+                <div class="rte">
+                    {{ 'collection.bosch.text2_2' : t }}
+                </div>
+                <h2>{{ 'collection.bosch.header3' : t }}</h2>
+                <div class="rte">
+                    {{ 'collection.bosch.text3_1' : t }}
+                </div>
+                <div class="rte">
+                    {{ 'collection.bosch.text3_2' : t }}
+                </div>
+                <div class="collection-introduction__steps">
+                    <div class="step-item">
+                        <h2>{{ 'collection.labels.step1' : t }}</h2>
+                        <h2>{{ 'collection.bosch.step1_header' : t }}</h2>
+                        <div class="rte">
+                            {{ 'collection.bosch.step1_text1' : t }}
+                        </div>
+                        <div class="rte">
+                            {{ 'collection.bosch.step1_text2' : t }}
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <h2>{{ 'collection.labels.step2' : t }}</h2>
+                        <h2>{{ 'collection.bosch.step2_header' : t }}</h2>
+                        <div class="rte">
+                            {{ 'collection.bosch.step2_text1' : t }}
+                        </div>
+                        <div class="rte">
+                            {{ 'collection.bosch.step2_text2' : t }}
+                        </div>
+                    </div>
+                    <div class="step-item">
+                        <h2>{{ 'collection.labels.step3' : t }}</h2>
+                        <h2>{{ 'collection.bosch.step3_header' : t }}</h2>
+                        <div class="rte">
+                            {{ 'collection.bosch.step3_text1' : t }}
+                        </div>
+                        <div class="rte">
+                            {{ 'collection.bosch.step3_text2' : t }}
+                        </div>
+                        <div class="rte">
+                            {{ 'collection.bosch.step3_text3' : t }}
+                        </div>
+                    </div>
+                </div>
+                <h2>{{ 'collection.bosch.header4' : t }}</h2>
+                <h2>{{ 'collection.bosch.header5' : t }}</h2>
+                <div class="rte">
+                    {{ 'collection.bosch.text5' : t }}
+                </div>
+                <h2>{{ 'collection.bosch.header6' : t }}</h2>
+                <h2>{{ 'collection.bosch.header7' : t }}</h2>
+                <div class="rte">
+                    {{ 'collection.bosch.text7' : t }}
+                </div>
+                <div class="collection-introduction__links">
+                    <h2 class="link-header">
+                        {{ 'collection.bosch.ul_header' : t }}
+                    </h2>
+                    <ul class="link-items">
+                        {{ 'collection.bosch.li_html' : t }}
+                    </ul>
+                </div>
+                <div class="collection-introduction__store-info rte">
+                    {{ 'collection.bosch.store_info_html' : t }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

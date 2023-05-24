@@ -209,6 +209,47 @@
         "one": "In stock, {{count}} unit",
         "other": "In stock, {{count}} units"
       }
+    },
+    "labels": {
+      "step1": "step 1",
+      "step2": "step 2",
+      "step3": "step 3",
+      "learn_more": "Learn more"
+    },
+    "bosch": {
+      "introduction": "ALAPE sanitary ware, up to 50% off, direct from Germany!<br><br>Best prices in Hong Kong, Singapore and Asia<br><br>Save up to 50% on direct sales from Europe!<br><br>Brand new Agape sanitary ware products, direct air freight from Germany, fast delivery. Get the latest model at a great price with a 1-year factory warranty. The complete Alape product line is available for purchase. Contact us today to get the best price on Alape sanitary ware products.",
+      "header1": "ALAPE luxury sanitary ware",
+      "text1_1": "Everyone's personality is unique, and this unique personality will be reflected in the design of his residence. To reflect this uniqueness unbiasedly, it is important to focus on the basic concept, that is, the uniqueness of personality and style.",
+      "text1_2": "Alape's aesthetic solutions meet these unique needs. As an expression of individuality, Alape brings people and design, personality and living environment into harmony.",
+      "text1_3": "View All ALAPE Sanitary Ware<br>Glazed steel",
+      "tedt1_4": "Alape washbasins and washstands are entirely manufactured in enamelled steel. This unique material allows Alape to create a wide variety of interesting shapes, surfaces and sizes with unique precision. Enameled steel is lightweight yet extremely strong. This composite material is harder than granite or green corundum, and its superior impact resistance sets it apart.",
+      "text1_5": "Unique manufacturing processes allow products to be custom tuned for special configurations. Its good looks, smooth feel and self-cleaning properties make it worth the money throughout its lifetime.",
+      "text1_6": "Enameled steel combines the strength and design qualities of steel with the hardness and chemical resistance of glass. Glaze - a very thin layer of enamel, which will be baked and applied to the steel body, so that the glaze and steel are tightly connected and inseparable. The airtight, non-porous surface is absolutely hygienic, paint- and discoloration-resistant, permanently corrosion-resistant, and also scratch- and abrasion-resistant. Brightly colored glazes are even resistant to weather effects and strong UV rays. Durable \"Made in Germany\".",
+      "header2": "ecological responsibility",
+      "text2_1": "The product is made of titanium-strengthened low-carbon special steel. Steel is a material with a wide range of applications, and there are quite a lot of them. It is a recyclable material, in other words it saves resources. The raw materials of the glaze are mainly naturally occurring minerals, which have existed in the earth's crust for a long time and are abundant. The washbasin and washstand are made of enamelled steel, and the production process is very environmentally friendly.",
+      "text2_2": "In principle, Alape's products do not contain any substances harmful to nature, such as cadmium, lead or solvents, and are therefore very much in line with the concept of sustainable construction.",
+      "header3": "Alape quality",
+      "text3_1": "Quality is a persistence. From material selection, to shape design, to the production process, Alape always implements the highest standards, and Alape's quality mark is a reliable guarantee of quality.",
+      "text3_2": "More than a hundred years of innovation and inheritance, creating a high-quality brand<br>Since 1896, Alape has been synonymous with quality solutions in the sanitary ware field. The world's first built-in washbasin and first bathroom cabinet vanity combination also comes from this traditional company. With this, Alape also had a decisive influence on the development of the bathroom.",
+      "step1_header": "Pick the model you need",
+      "step1_text1": "Selection of major German sanitary ware brands",
+      "step1_text2": "We only sell brand new and authentic products prepackaged by the manufacturer with original factory warranty. You can choose from all the latest Miele models in UK specification. We also stock hundreds of other European luxury appliances from Liebherr, Miele, Bosch, Siemens and more. For assistance with your purchase, simply contact us via email, phone or WhatsApp. We are always happy to help you!",
+      "step2_header": "order directly",
+      "step2_text1": "One-click ordering, safe and convenient",
+      "step2_text2": "At EuroHomeDirect you can place orders directly in our webshop 24/7/365. Shopping online is safe because we take online security very seriously! We do not have access to your payment information. All online payments are securely processed through Stripe and Paypal, the most reputable third-party payment gateways. When you purchase products from us, your personal or payment details will be fully protected and not disclosed.",
+      "step3_header": "Your home appliances will be delivered directly from Europe",
+      "step3_text1": "Safe and fast delivery directly to your door from Europe",
+      "step3_text2": "Once you've placed your order, we'll ship your new appliance straight from Europe to your door. Depending on the size of the model selected and the total amount of the order, several safe and fast shipping options are available. Small appliances can be shipped with couriers such as DHL or FedEx, while larger shipments are usually delivered by air or sea with DB Schenker. All shipments are insured and can be tracked, so you can always know when your order arrives.",
+      "step3_text3": "More luxury appliances<br>EuroHomeDirect provides Gaggenau, Miele, Liebherr, Sub-Zero Wolf, Bosch, Siemens and other famous high-end brand home appliances, including coffee machines, refrigerators, microwave ovens, steam ovens, gas cooking stoves, range hoods, dishwashers, washing machines and clothes dryer!",
+      "header4": "View all home appliance brands",
+      "header5": "+ luxury sanitary ware",
+      "text5": "Browse a selection of boutique sanitary ware brands such as Alape, Boffi, Dornbracht, Duravit, Emco, Geberit, Grohe, Hansa, Hansgrohe, Laufen, Vola, Villeroy & Boch and more! All imported directly from Europe, enjoy great discounts.",
+      "header6": "View All Sanitary Ware Brands",
+      "header7": "Your One-Stop Home Furnishings Online Shop",
+      "text_7": "To cater to the individual needs of each customer, EuroHomeDirect offers a complete range of home furnishing products to choose from. Whether it is home appliances, sanitary ware, furniture, as well as frosted glass or smart home systems that appear in science fiction movies, we have it all.",
+      "ul_header": "useful links",
+      "li_html": "<li><a href=\"\/pages\/about-us\">about Us<\/a><\/li><li><a href=\"\/pages\/faq\">Faq<\/a><\/li><li><a href=\"\/policies\/shipping-policies\">Shipping & Installation<\/a><\/li><li><a href=\"\/products\/eurohomedirect\">Reviews<\/a><\/li><li><a href=\"\/pages\/selected-projects\">Selected Projects<\/a><\/li><li><a href=\"\/policies\/terms-of-service\">Terms & Conditions<\/a><\/li><li><a href=\"\/pages\/b2b\">B2B<\/a><\/li><li><a href=\"\/pages\/about-us\">net<\/a><\/li><li><a href=\"\/pages\/contact\">contact us<\/a><\/li>",
+      "store_info_html": "10:00 am - 6:00 pm<br>from Monday to Friday<br>(by appointment only)"
     }
   },
   "customer": {
