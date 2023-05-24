@@ -429,8 +429,7 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
     width: 90%;
     height: 90vh;
     max-width: 800px;
-    max-height: 600px;
-    padding: 30px 50px;
+    padding: 70px 50px;
     border-radius: 30px;
     box-shadow: 5px 5px 10px;
     background-color: #ffffff;
@@ -441,18 +440,22 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
     scrollbar-width: thin;
     scrollbar-color: #6969dd #e0e0e0;
     height: 100%;
+    padding-right: 20px;
 }
 
 .collection-introduction__popup-inner::-webkit-scrollbar {
     width: 10px;
+    border-radius: 5px;
 }
 
 .collection-introduction__popup-inner::-webkit-scrollbar-track {
     background-color: darkgrey;
+    border-radius: 5px;
 }
 
 .collection-introduction__popup-inner::-webkit-scrollbar-thumb {
     box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
 }
 
 .collection-popup-close {
@@ -467,8 +470,27 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 .step-item {
-    width: 30%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.collection-introduction__links {
+    margin-top: 20px;
+}
+
+.link-items {
+    list-style: none;
+}
+
+.link-items a {
+    color: var(--header-accent-color);
+    transition: 0.3s;
+}
+
+.link-items a:hover {
+    text-decoration: underline;
 }
