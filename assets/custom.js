@@ -98,7 +98,8 @@ $(document).on('click', '.product-block-list__item--description .card__title', f
     $(id).show();
 });
 
-$(document).on('click', '.learn_more', function(){
+$(document).on('click', '.learn_more', function(e){
+    e.preventDefault();
     $('.collection-introduction__popup').fadeIn();
 });
 
