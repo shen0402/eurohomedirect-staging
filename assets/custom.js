@@ -97,3 +97,11 @@ $(document).on('click', '.product-block-list__item--description .card__title', f
     $('.product-block-list__item--description .card').hide();
     $(id).show();
 });
+
+$(document).on('click', '.learn_more', function(){
+    $('.collection-introduction__popup').fadeIn();
+});
+
+$(document).on('click', '.collection-popup-close', function(){
+    $('.collection-introduction__popup').fadeOut();
+});
