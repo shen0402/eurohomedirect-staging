@@ -1,491 +1,658 @@
 {
   "general": {
     "meta": {
-      "tags": "",
-      "page": ""
+      "tags": "已标记 \"{{ tags }}\"",
+      "page": "页 {{ page }}"
     },
     "accessibility": {
-      "skip_to_content": "",
-      "close": "",
-      "next": "",
-      "previous": "",
-      "new_window": ""
+      "skip_to_content": "跳到内容",
+      "close": "关闭",
+      "next": "下一个",
+      "previous": "以前的",
+      "new_window": "在新窗口中打开."
     },
     "password": {
-      "enter_password": "",
-      "password_input": "",
-      "password_submit": "",
-      "newsletter_input": "",
-      "newsletter_submit": "",
-      "newsletter_success": "",
-      "powered_by_html": "",
-      "login_title": "",
-      "login_link": "",
-      "follow_us": ""
+      "enter_password": "使用密码输入",
+      "password_input": "密码",
+      "password_submit": "进入",
+      "newsletter_input": "您的电子邮件地址",
+      "newsletter_submit": "提醒我",
+      "newsletter_success": "感谢您的注册!",
+      "powered_by_html": "这家商店将由 {{shopify_link}} 提供支持",
+      "login_title": "你是店主吗?",
+      "login_link": "在此登录",
+      "follow_us": "跟着我们"
     },
     "pagination": {
-      "previous_page": "",
-      "next_page": "",
-      "go_to_page": "",
-      "page_count": ""
+      "previous_page": "以前的",
+      "next_page": "下一个",
+      "go_to_page": "导航至页面 {{page}}",
+      "page_count": "页 {{current_page}} \/ {{pages}}"
     },
     "breadcrumb": {
-      "title": "",
-      "home": "",
-      "account": ""
+      "title": "面包屑",
+      "home": "家",
+      "account": "我的账户"
     },
     "social": {
-      "follow_label": "",
-      "facebook_share": "",
-      "pinterest_pin": "",
-      "twitter_tweet": "",
-      "email_share": ""
+      "follow_label": "在 {{social_media}} 上关注我们",
+      "facebook_share": "在脸书上分享",
+      "pinterest_pin": "Pin 在 Pinterest 上",
+      "twitter_tweet": "在推特上发推文",
+      "email_share": "通过电子邮件分享"
     },
     "popup": {
-      "success": "",
-      "email_placeholder": "",
-      "subscribe": ""
+      "success": "您已注册我们的时事通讯!",
+      "email_placeholder": "你的邮件",
+      "subscribe": "订阅"
     }
   },
   "header": {
     "general": {
       "currency": "货币",
       "language": "语言",
-      "account": "",
-      "login": "",
-      "welcome": "",
-      "cart": ""
+      "account": "我的账户",
+      "login": "登录 \/ 报名",
+      "welcome": "你好{{first_name}}",
+      "cart": "大车"
     },
     "navigation": {
-      "menu": "",
-      "open_menu": "",
-      "back": "",
-      "need_help": "",
-      "follow_us": ""
+      "menu": "菜单",
+      "open_menu": "打开菜单",
+      "back": "后退",
+      "need_help": "需要帮忙?",
+      "follow_us": "跟着我们"
     },
     "search": {
-      "open_search": "",
-      "close_search": "",
-      "clear": "",
-      "input_placeholder": "",
-      "all_categories": "",
-      "no_results": "",
-      "submit": "",
-      "view_products": "",
-      "view_results": "",
-      "products": "",
-      "blog_posts": "",
-      "pages": "",
-      "blog_posts_and_pages": ""
+      "open_search": "打开搜索",
+      "close_search": "关闭",
+      "clear": "清除",
+      "input_placeholder": "搜索...",
+      "all_categories": "所有类别",
+      "no_results": "没有匹配的结果",
+      "submit": "搜索",
+      "view_products": "查看所有产品",
+      "view_results": "查看所有结果",
+      "products": "产品",
+      "blog_posts": "博文",
+      "pages": "页数",
+      "blog_posts_and_pages": "页面和博客文章"
     }
   },
   "footer": {
     "general": {
-      "currency": "",
-      "language": "",
-      "follow_us": "",
-      "we_accept": ""
+      "currency": "货币",
+      "language": "语言",
+      "follow_us": "跟着我们",
+      "we_accept": "我们接受"
     },
     "newsletter": {
-      "success": "",
-      "input": "",
-      "submit": ""
+      "success": "您已注册我们的时事通讯!",
+      "input": "你的邮件",
+      "submit": "订阅"
     }
   },
   "search": {
     "general": {
-      "title": "",
-      "title_with_terms": "",
-      "products_with_terms": "",
-      "articles_with_terms": "",
-      "pages_with_terms": "",
-      "pages_and_articles_with_terms": "",
-      "content": "",
-      "input_placeholder": "",
-      "no_results_with_terms": "",
-      "go_back_home": "",
+      "title": "搜索",
+      "title_with_terms": "\"{{terms}}\" 的搜索结果",
+      "products_with_terms": "\"{{terms}}\" 的产品",
+      "articles_with_terms": "\"{{terms}}\" 的博文",
+      "pages_with_terms": "\"{{terms}}\" 的页面",
+      "pages_and_articles_with_terms": "\"{{terms}}\" 的页面和博文",
+      "content": "使用下面的搜索栏查找产品：",
+      "input_placeholder": "搜索...",
+      "no_results_with_terms": "找不到\"{{terms}}\"的结果",
+      "go_back_home": "或单击此处返回主页",
       "results_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "0 结果",
+        "one": "1 结果",
+        "other": "{{count}} 结果"
       },
       "showing_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "没有结果",
+        "one": "显示 {{offset}} - {{page_size}} 共 {{count}} 个结果",
+        "other": "显示 {{offset}} - {{page_size}} 共 {{count}} 个结果"
       }
     }
   },
   "404": {
     "general": {
-      "title": "",
-      "content": "",
-      "search": "",
-      "continue_shopping": ""
+      "title": "找不到网页",
+      "content": "无法找到您要查找的页面.",
+      "search": "在商店中搜索...",
+      "continue_shopping": "点击此处继续购物"
     }
   },
   "home_page": {
     "onboarding": {
-      "vendor_title": "",
-      "product_title": "",
-      "product_sku": "",
-      "product_description": "",
-      "collection_title": "",
-      "article_title": "",
-      "article_author": "",
-      "article_category": "",
-      "article_excerpt": "",
-      "instagram_likes": "",
-      "instagram_caption": ""
+      "vendor_title": "品牌名称",
+      "product_title": "产品名称",
+      "product_sku": "SKU-1234",
+      "product_description": "产品说明可用于展示产品的特性和优势. 您可以查看 Shopify 的电子商务博客, 以获得正确营销产品的灵感和建议.",
+      "collection_title": "收藏品名称",
+      "article_title": "帖子名称",
+      "article_author": "你写的",
+      "article_category": "类别",
+      "article_excerpt": "您的商店尚未发布任何博客文章. 博客可用于谈论新产品发布、技巧或您想要与客户分享的其他新闻. 您可以查看 Shopify 的电子商务博客, 为您自己的商店和博客寻找灵感和建议.",
+      "instagram_likes": "28 个赞",
+      "instagram_caption": "这是一个标题示例."
     },
     "newsletter": {
-      "success": "",
-      "input": "",
-      "submit": ""
+      "success": "您已注册我们的时事通讯!",
+      "input": "你的邮件",
+      "submit": "订阅"
     }
   },
   "collection": {
     "general": {
-      "all_collections": "",
-      "all_products": "",
-      "view_more": "",
-      "view_less": "",
-      "brands": "",
-      "empty": "",
-      "empty_button": "",
-      "no_results": "",
-      "view_products": "",
-      "display": "",
+      "all_collections": "所有收藏",
+      "all_products": "所有产品",
+      "view_more": "查看更多",
+      "view_less": "少看",
+      "brands": "品牌",
+      "empty": "此集合为空",
+      "empty_button": "去首页",
+      "no_results": "您的标准不符合任何产品.",
+      "view_products": "查看产品",
+      "display": "展示",
       "products_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "{{count}} 个产品",
+        "one": "{{count}} 个产品",
+        "other": "{{count}} 个产品"
       },
       "results_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "{{count}} 个结果",
+        "one": "{{count}} 个结果",
+        "other": "{{count}} 个结果"
       },
       "showing_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "没有产品",
+        "one": "显示 {{offset}} - {{page_size}} 的 {{count}} 产品",
+        "other": "显示 {{offset}} - {{page_size}} 的 {{count}} 产品"
       },
-      "page_size": ""
+      "page_size": "{{page_size}} 每页"
     },
     "filter": {
-      "title": "",
-      "show_filter": "",
-      "select_category": "",
-      "all": "",
-      "clear_all": "",
-      "clear": "",
-      "view_results": ""
+      "title": "筛选",
+      "show_filter": "显示过滤器",
+      "select_category": "选择一个类别",
+      "all": "过滤器",
+      "clear_all": "全部清除",
+      "clear": "清除",
+      "view_results": "查看结果"
     },
     "sorting": {
-      "title": ""
+      "title": "排序方式"
     },
     "layout": {
-      "title": "",
-      "grid": "",
-      "list": ""
+      "title": "看法",
+      "grid": "将产品显示为网格",
+      "list": "将产品显示为列表"
     },
     "product": {
-      "from_price_html": "",
-      "add_to_cart": "",
-      "pre_order": "",
-      "quick_view": "",
-      "choose_options": "",
-      "model": "",
-      "sold_out": "",
-      "in_stock": "",
-      "oversell_stock": "",
-      "discount_html": "",
+      "from_price_html": "从 {{price_min}}",
+      "add_to_cart": "添加到购物车",
+      "pre_order": "预购",
+      "quick_view": "快速浏览",
+      "choose_options": "选择选项",
+      "model": "模型：",
+      "sold_out": "售罄",
+      "in_stock": "有存货",
+      "oversell_stock": "即将补货",
+      "discount_html": "节省{{储蓄}}",
       "low_stock_with_quantity_count": {
-        "one": "",
-        "other": ""
+        "one": "仅剩 {{count}} 个单位",
+        "other": "只剩下 {{count}} 个单位"
       },
       "in_stock_with_quantity_count": {
-        "one": "",
-        "other": ""
+        "one": "有货, {{count}} 件",
+        "other": "有货, {{count}} 件"
       }
+    },
+    "labels": {
+      "step1": "第 1 步",
+      "step2": "第 2 步",
+      "step3": "第 3 步",
+      "learn_more": "了解詳情"
+    },
+    "alape": {
+      "introduction_html": "ALAPE 潔具, 高達 5 折優惠, 德國直送!<br>最優惠價格, 盡在香港、新加坡和亞洲<br>歐洲直銷, 最高可省 50%!<br>全新 Agape 潔具產品, 德國空運直送, 快速到貨. 以優惠相宜價格購買入附送 1 年原廠保養的最新型號產品. 備有完整 Alape 產品系列可供選購. 立即聯絡我們, 享受 Alape 潔具產品的最優惠價格.",
+      "header1": "ALAPE 豪華潔具",
+      "text1_1_html": "每個人的個性都是獨特的, 這種獨特的個性會體現在他的居所設計上. 要不偏不倚地反映出這種獨特性, 着眼於基本的概念至為重要, 亦即個性和風格的獨特性.",
+      "text1_2_html": "Alape 的美學解決方案可以滿足這些獨特的需求. 作為個性的表達方式, Alape 使人與設計、個性和生活環境得以和諧共存.",
+      "text1_3_html": "查看全部 ALAPE 潔具<br>釉鋼",
+      "text1_4_html": "Alape 洗手盆和洗手台全部以釉鋼製造而成. 這種別具一格的材質讓 Alape 得以打造各式各樣又不失獨特精度的趣緻形狀、表面和尺寸. 釉鋼質量輕, 但卻極為堅固. 這種複合材料較花崗岩或綠剛玉更堅硬, 出色的抗衝擊性, 令它顯得與眾不同.",
+      "text1_5_html": "獨特的製造工藝使得產品可針對特殊配置定製調整. 美麗的外觀、光滑的觸感和自潔特性, 令它在整個壽命期內都能令用家感到物有所值.",
+      "text1_6_html": "釉鋼將鋼的強度和設計質量與玻璃的硬度和耐化學腐蝕性相融合. 釉——一層極薄的琺瑯, 會經過烘烤塗覆到鋼體上, 讓釉和鋼緊緊連接在一起, 密不可分. 密閉的無孔表面絕對衛生、抗漆、不變色、永久防蝕, 而且防刮、抗磨損. 色彩明艷的釉甚至無懼氣候影響和強烈的紫外線照射. 經久耐用「德國製造」.",
+      "header2": "生態責任",
+      "text2_1_html": "產品採用鈦強化低碳特殊鋼製造. 鋼是一種應用廣泛的材料, 數量相當龐大. 它是一種可回收材料, 換言之, 它可以節約資源. 釉的原材料主要是天然存在的礦物質, 長期存在於地殼中, 且含量充足. 洗手盆和洗手台選用釉鋼製造, 生產過程非常環保.",
+      "text2_2_html": "原則上, Alape 的產品不含任何對大自然有害的物質, 如鎘、鉛或溶劑, 因而非常符合可持續建築的理念.",
+      "header3": "Alape 的品質",
+      "text3_1_html": "品質是一份堅持. 從材料選擇, 到造型設計, 再到生產過程, Alape 始終貫徹最高標準, 而Alape 的品質標誌正是對品質的可靠保證.",
+      "text3_2_html": "逾百年創新傳承, 鑄就優質品牌<br>自 1896 年以來, Alape 在潔具領域就一直是優質解決方案的代名詞. 世界上第一個嵌入式洗手盆和第一個浴室櫃洗漱台組合, 亦出自這間饒富傳統的公司之手. 憑藉這點, Alape 對浴室的發展也產生了決定性的影響.",
+      "step1_header": "挑選您所需的型號",
+      "step1_text1_html": "精選德國各大潔具品牌",
+      "step1_text2_html": "我們只銷售由製造商預先包裝並附有原廠保養的全新正品. 您可從英國規格的所有最新 Miele 型號中選購. 我們亦提供過百款 Liebherr、Miele、Bosch、Siemens 等其他歐洲豪華家電. 如需協助選購, 只需以電郵、電話或 WhatsApp 聯絡我們即可. 我們隨時樂意為您效勞!",
+      "step2_header": "直接訂購",
+      "step2_text1_html": "一鍵下單, 安全又便利",
+      "step2_text2_html": "在 EuroHomeDirect, 您可全年全天候直接在我們的網店下單. 網上購物很安全, 因為我們十分重視網絡安全！我們無法知悉您的支付資料. 所有網上付款均透過最具信譽的第三方支付閘道 Stripe 和 Paypal 安全處理. 當您從我們這裡購買產品時, 您的個人或支付資料將會受到充分保護而不會洩露.",
+      "step3_header": "您的家電將從歐洲直送上門",
+      "step3_text1_html": "從歐洲直送上門, 安全又快捷",
+      "step3_text2_html": "在您下單後, 我們會將您的新家電從歐洲直送到您府上. 視乎所選型號大小和訂單總額, 有多項安全又快捷的運輸選項可供選擇. 小家電可以 DHL 或 FedEx 等速遞公司運輸, 較大貨品通常以 DB Schenker 空運或海運遞送. 全部貨件均購有保險並可進行追蹤, 方便您時刻掌握訂單到貨時間.",
+      "step3_text3_html": "更多豪華家電<br>EuroHomeDirect 提供 Gaggenau、Miele、Liebherr、Sub-Zero Wolf、Bosch、Siemens 等各大知名高端品牌家電, 包括咖啡機、雪櫃、微波爐、蒸爐、氣體煮食爐、抽油煙機、洗碗機、洗衣機和乾衣機!",
+      "header4": "查看全部家電品牌",
+      "header5": "+ 豪華潔具",
+      "text5_html": "瀏覽精選精品潔具品牌, 如 Alape、Boffi、Dornbracht、Duravit、Emco、Geberit、Grohe、Hansa、Hansgrohe、Laufen、Vola、Villeroy & Boch 等！全部從歐洲直接進口, 盡享超值優惠.",
+      "header6": "查看全部潔具品牌",
+      "header7": "您的一站式家居設備網店",
+      "text7_html": "為迎合每位顧客的個性需要, EuroHomeDirect 提供一系列完善的家居產品可供選擇. 無論是家電、潔具、傢俬, 以至科幻片裏出現的霧化玻璃或智能家居系統, 我們都有提供.",
+      "ul_header": "實用連結",
+      "li_html": "<li><a href=\"\/pages\/about-us\">關於我們<\/a><\/li><li><a href=\"\/pages\/faq\">常見問題<\/a><\/li><li><a href=\"\/policies\/shipping-policies\">送貨及安裝<\/a><\/li><li><a href=\"\/products\/eurohomedirect\">評論<\/a><\/li><li><a href=\"\/pages\/selected-projects\">精選項目<\/a><\/li><li><a href=\"\/policies\/terms-of-service\">條款及細則<\/a><\/li><li><a href=\"\/pages\/b2b\">B2B 合作<\/a><\/li><li><a href=\"\/pages\/about-us\">網綕<\/a><\/li><li><a href=\"\/pages\/contact\">聯絡我們<\/a><\/li>",
+      "store_info_html": "上午 10 時 - 下午 6 時<br>星期一至五<br>（僅限預約諮詢）"
     }
   },
   "customer": {
     "general": {
-      "my_account": "",
-      "orders": "",
-      "addresses": "",
-      "logout": "",
-      "no_orders": "",
-      "no_orders_button": ""
+      "my_account": "我的账户",
+      "orders": "我的订单",
+      "addresses": "我的地址",
+      "logout": "登出",
+      "no_orders": "暂无订单",
+      "no_orders_button": "做你的第一个订单"
     },
     "login": {
-      "login": "",
-      "description": "",
-      "email": "",
-      "password": "",
-      "submit": "",
-      "new_customer": "",
-      "create_your_account": "",
-      "lost_password": "",
-      "recover_password": ""
+      "login": "登入我的帐户",
+      "description": "输入您的电子邮件和密码：",
+      "email": "电子邮件",
+      "password": "密码",
+      "submit": "登录",
+      "new_customer": "新客户?",
+      "create_your_account": "创建您的帐户",
+      "lost_password": "忘记密码?",
+      "recover_password": "恢复密码"
     },
     "order": {
-      "order": "",
-      "order_number": "",
-      "back_to_orders": "",
-      "date": "",
-      "payment_status": "",
-      "fulfillment_status": "",
-      "back_to_account": "",
-      "cancelled_at": "",
-      "fulfillment_with_url_and_number_html": "",
-      "fulfillment_with_url_html": "",
-      "fulfillment_with_number_html": "",
-      "fulfillment_html": "",
-      "line_fulfillment_with_url_and_number_html": "",
-      "line_fulfillment_with_url_html": "",
-      "line_fulfillment_with_number_html": "",
-      "line_fulfillment_html": "",
-      "product": "",
-      "quantity": "",
-      "total": "",
-      "subtotal": "",
-      "discount": "",
-      "shipping": "",
-      "tax_included": "",
-      "tax_excluded": "",
-      "shipping_address": "",
-      "billing_address": "",
-      "no_billing_address": "",
-      "no_shipping_address": ""
+      "order": "命令",
+      "order_number": "订单 {{order_number}}",
+      "back_to_orders": "返回订单",
+      "date": "日期",
+      "payment_status": "支付状态",
+      "fulfillment_status": "履行状态",
+      "back_to_account": "返回账户",
+      "cancelled_at": "订单于 {{date}} 取消. 原因：{{reason}}.",
+      "fulfillment_with_url_and_number_html": "所有产品已发送. 使用编号 {{tracking_number}} 或通过<a href=\"{{tracking_url}}\" target=\"_blank\">单击此处<\/a> 跟踪货件.",
+      "fulfillment_with_url_html": "所有产品已发送. 通过<a href=\"{{tracking_url}}\" target=\"_blank\">点击此处<\/a>追踪货物.",
+      "fulfillment_with_number_html": "所有产品已发送. 跟踪编号为 {{tracking_number}} 的货件.",
+      "fulfillment_html": "所有产品已发送.",
+      "line_fulfillment_with_url_and_number_html": "此产品已发送. 使用编号 {{tracking_number}} 或通过<a href=\"{{tracking_url}}\" target=\"_blank\">单击此处<\/a> 跟踪货件.",
+      "line_fulfillment_with_url_html": "此产品已发送. 通过<a href=\"{{tracking_url}}\" target=\"_blank\">点击此处<\/a>追踪货物.",
+      "line_fulfillment_with_number_html": "此产品已发送. 跟踪编号为 {{tracking_number}} 的货件.",
+      "line_fulfillment_html": "此产品已发送.",
+      "product": "产品",
+      "quantity": "数量",
+      "total": "全部的",
+      "subtotal": "小计",
+      "discount": "折扣",
+      "shipping": "船运",
+      "tax_included": "含税",
+      "tax_excluded": "不含税",
+      "shipping_address": "收件地址",
+      "billing_address": "帐单地址",
+      "no_billing_address": "此订单不需要账单地址.",
+      "no_shipping_address": "此订单不需要送货地址."
     },
     "activate_account": {
-      "activate_account": "",
-      "description": "",
-      "password": "",
-      "password_confirmation": "",
-      "submit": "",
-      "decline": ""
+      "activate_account": "激活账户",
+      "description": "输入密码以创建您的帐户：",
+      "password": "密码",
+      "password_confirmation": "确认密码",
+      "submit": "启用",
+      "decline": "衰退"
     },
     "recover_password": {
-      "recover_password": "",
-      "description": "",
-      "email": "",
-      "submit": "",
-      "success": "",
-      "remembered_your_password": "",
-      "back_to_login": ""
+      "recover_password": "恢复密码",
+      "description": "输入你的电子邮箱：",
+      "email": "电子邮件",
+      "submit": "恢复",
+      "success": "我们已向您发送一封电子邮件, 其中包含重置密码的说明.",
+      "remembered_your_password": "记住密码了吗?",
+      "back_to_login": "回到登入"
     },
     "reset_password": {
-      "reset_password": "",
-      "description": "",
-      "password": "",
-      "password_confirmation": "",
-      "submit": ""
+      "reset_password": "重设密码",
+      "description": "输入新的密码：",
+      "password": "密码",
+      "password_confirmation": "确认密码",
+      "submit": "重设密码"
     },
     "addresses": {
-      "no_addresses": "",
-      "no_addresses_button": "",
-      "default_address": "",
-      "address_number": "",
-      "edit": "",
-      "delete": "",
-      "add_address": "",
-      "edit_address": "",
-      "form_subtitle": "",
-      "first_name": "",
-      "last_name": "",
-      "company": "",
-      "address1": "",
-      "address2": "",
-      "city": "",
-      "country": "",
-      "province": "",
-      "zip": "",
-      "phone": "",
-      "set_default": ""
+      "no_addresses": "还没有地址",
+      "no_addresses_button": "添加您的第一个地址",
+      "default_address": "默认地址",
+      "address_number": "地址 {{number}}",
+      "edit": "编辑",
+      "delete": "删除",
+      "add_address": "增加一个新地址",
+      "edit_address": "修改地址",
+      "form_subtitle": "请填写以下信息：",
+      "first_name": "名",
+      "last_name": "姓",
+      "company": "公司",
+      "address1": "地址1",
+      "address2": "地址2",
+      "city": "城市",
+      "country": "国家",
+      "province": "省",
+      "zip": "邮政编码",
+      "phone": "电话",
+      "set_default": "设为默认地址"
     },
     "register": {
-      "create_account": "",
-      "description": "",
-      "first_name": "",
-      "last_name": "",
-      "email": "",
-      "password": "",
-      "submit": "",
-      "already_have_account": "",
-      "login": ""
+      "create_account": "创建我的账户",
+      "description": "请填写以下信息：",
+      "first_name": "名",
+      "last_name": "姓",
+      "email": "电子邮件",
+      "password": "密码",
+      "submit": "创建我的账户",
+      "already_have_account": "已有帐户?",
+      "login": "在此登录"
     }
   },
   "cart": {
     "general": {
-      "title": "",
-      "empty": "",
-      "empty_button": "",
-      "search": "",
-      "view_cart": "",
-      "note_title": "",
-      "edit_note": "",
-      "save_note": "",
-      "secure_payments": "",
-      "free_shipping": "",
-      "free_shipping_remaining_html": "",
-      "amount_saved_html": "",
-      "free": "",
-      "taxes_and_shipping_at_checkout": "",
-      "taxes_and_shipping_policy_at_checkout_html": "",
-      "taxes_included_but_shipping_at_checkout": "",
-      "taxes_included_and_shipping_policy_html": "",
-      "total": "",
-      "checkout": ""
+      "title": "我的车",
+      "empty": "您的购物车是空的",
+      "empty_button": "购买我们的产品",
+      "search": "搜索...",
+      "view_cart": "查看购物车",
+      "note_title": "订购须知",
+      "edit_note": "编辑",
+      "save_note": "节省",
+      "secure_payments": "100% 安全支付",
+      "free_shipping": "您有资格享受免费送货服务!",
+      "free_shipping_remaining_html": "再消费 {{remaining_amount}} 即可免运费!",
+      "amount_saved_html": "您节省了 {{amount_saved}}!",
+      "free": "自由的!",
+      "taxes_and_shipping_at_checkout": "税费和运费在结账时计算",
+      "taxes_and_shipping_policy_at_checkout_html": "结账时计算税金和<a href=\"{{ link }}\">运费<\/a>",
+      "taxes_included_but_shipping_at_checkout": "含税. 结账时计算运费",
+      "taxes_included_and_shipping_policy_html": "含税. <a href=\"{{ link }}\">运费<\/a>在结账时计算",
+      "total": "全部的",
+      "checkout": "查看"
     },
     "items": {
-      "decrease_quantity": "",
-      "increase_quantity": "",
-      "no_more_stock": "",
-      "remove": ""
+      "decrease_quantity": "将数量减少 1",
+      "increase_quantity": "数量增加 1",
+      "no_more_stock": "没有库存了",
+      "remove": "消除"
     },
     "gift_wrap": {
-      "price_html": ""
+      "price_html": "只有{{price}}"
     },
     "shipping_estimator": {
-      "title": "",
-      "country": "",
-      "province": "",
-      "zip_code": "",
-      "estimate": "",
-      "no_results_title": "",
-      "one_result_title": "",
-      "multiple_results_title": "",
-      "errors": ""
+      "title": "预计运输",
+      "country": "国家",
+      "province": "省",
+      "zip_code": "邮政编码",
+      "estimate": "估计",
+      "no_results_title": "找不到您的地址的运费.",
+      "one_result_title": "您的地址只有一种运费：",
+      "multiple_results_title": "您的地址有 {{count}} 个运费：",
+      "errors": "有一些错误："
     }
   },
   "product": {
     "general": {
-      "previous_product": "",
-      "next_product": "",
-      "description": "",
-      "description_text": "",
-      "description_how_title": "",
-      "description_how": "",
-      "description_warranty_title": "",
-      "description_warranty": "",
-      "sku": "",
-      "model": "",
-      "share": "",
-      "reviews": "",
-      "regular_price": "",
-      "sale_price": "",
-      "zoom": "",
-      "zoom_mobile": "",
-      "view_in_space": "",
-      "view_more": "",
-      "view_less": "",
-      "payment": "",
-      "security": "",
-      "payment_notice": "",
-      "shipping_desc_title": "",
-      "shipping_warning": "",
-      "shipping_desc": "",
-      "estimate_shipping": "",
-      "refund_policy": "",
-      "include_taxes": "",
-      "shipping_policy_html": ""
+      "previous_product": "上一条",
+      "next_product": "下一个",
+      "description": "描述",
+      "description_text": "EuroHomeDirect® 直接从欧洲提供 {{ title }}. 我们只销售由制造商预先包装并提供零件保修的全新正品产品.",
+      "description_how_title": "我们如何在香港和新加坡以如此大的折扣提供{{ title }}?",
+      "description_how": "与香港和新加坡的当地价格相比, 我们以大大优惠的价格提供 {{ title }}, 因为我们直接从欧洲以批发价提供.",
+      "description_warranty_title": "{{ title }} 兼容性和保修",
+      "description_warranty": "我们出售的所有{{ vendor }} 均符合香港和新加坡标准, 无需任何修改. 我们的电器采用英式电源插头（G 型）, 可在 220-240V 电压下运行. 对于具有不同标准的所有其他市场, 您可能需要使用电压转换器和\/或适配器. 所有售出的 {{ vendor }} 设备均享有 1 年零件保修. 您可以在我们的常见问题解答页面中阅读有关兼容性和保修的更多信息.",
+      "sku": "SKU: ",
+      "model": "模型：",
+      "share": "分享这个产品",
+      "reviews": "点评",
+      "regular_price": "正常价格",
+      "sale_price": "销售价格",
+      "zoom": "滚动图像以放大",
+      "zoom_mobile": "点击图片放大",
+      "image_by": "图片来源",
+      "view_in_space": "在您的空间中查看",
+      "view_more": "查看更多",
+      "view_less": "少看",
+      "payment": "支付方式",
+      "security": "安全",
+      "payment_notice": "您的付款信息得到安全处理. 我们不会存储信用卡详细信息, 也无法访问您的信用卡信息.",
+      "shipping_desc_title": "在香港和新加坡购买{{title}}",
+      "shipping_warning": "*由于 COVID-19, 我们的运输选择有限. 由于我们的运输合作伙伴提高价格, 可能会收取附加费. 虽然我们的仓库保持开放, 但制造商的供应可能会延迟.",
+      "shipping_desc": "EuroHomeDirect® 将 {{title}} 销售至香港和新加坡, 订单满 15,000 港元\/ 2,600 新元（超大件商品除外）免运费. 我们只与最有信誉的快递合作伙伴——DHL、Fedex 和 CH Robinson 一起运送. 当您从我们这里购买时, 您的订单将准时安全送达.",
+      "estimate_shipping": "预计运输",
+      "refund_policy": "退款政策",
+      "include_taxes": "含税",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">结账时计算运费<\/a>",
+      "note": "笔记",
+      "parallel_import": "这是一个真正的平行进口项目",
+      "additional_information": "附加信息"
     },
     "labels": {
-      "sold_out": ""
+      "sold_out": "售罄"
     },
     "form": {
-      "variant": "",
-      "price": "",
-      "inventory": "",
-      "quantity": "",
-      "in_stock": "",
-      "oversell_stock": "",
+      "lead_time": "交货时间",
+      "whatsapp_lead_time": "Whatsapp我们询问交货时间",
+      "variant": "变体",
+      "price": "价格",
+      "inventory": "库存",
+      "quantity": "数量",
+      "in_stock": "有存货",
+      "oversell_stock": "即将补货",
       "low_stock_with_quantity_count": {
-        "one": "",
-        "other": ""
+        "one": "仅剩 {{count}} 个单位",
+        "other": "只剩下 {{count}} 个单位"
       },
       "in_stock_with_quantity_count": {
-        "one": "",
-        "other": ""
+        "one": "有货（{{count}} 件）, 准备发货",
+        "other": "有库存（{{count}} 件）, 准备发货"
       },
-      "add_to_cart": "",
-      "sold_out": "",
-      "pre_order": "",
-      "unavailable": "",
-      "contact_us": "",
-      "added": "",
-      "added_short": ""
+      "add_to_cart": "添加到购物车",
+      "sold_out": "售罄",
+      "pre_order": "预购",
+      "unavailable": "不可用",
+      "contact_us": "联系我们",
+      "contact_us_inquire": "联系我们查询",
+      "whatsapp_us": "Whatsapp 我们",
+      "added": "产品已添加到您的购物车",
+      "added_short": "添加!"
+    },
+    "appliances": {
+      "text1_html": "EuroHomeDirect直接從歐洲進口 {{product_title}} . 我們只銷售由原廠預先包裝的全新正品, 並提供零件保養.",
+      "header1": "在香港、新加坡及世界各地購買 {{product_title}}",
+      "text2_html": "EuroHomeDirect向香港、新加坡及世界各地銷售 {{product_title}} , 合資格的香港及新加玻訂單即可免運 (不適用於超大型商品). 我們只會以最具信譽的速遞合作夥伴– DHL、Fedex、 CH Robinson等運送貨品. 您的訂單將會安全及時送達.",
+      "header2": "我們如何在香港、新加坡及其他地區以如此優惠的價格提供 {{product_title}}?",
+      "text3_html": "我們提供的 {{product_title}} , 與香港、新加坡和其他地區零售價相比, 價格大幅降低；因為我們直接從歐洲批發進口產品, 並以最具競爭力的價格向本地消費者提供頂級歐洲電器, 沒有中間商賺取利差.",
+      "header3": "{{product_title}} 兼容性和保養",
+      "text4_html": "所有由我們出售的 {{collection_title}} 在未經任何改動的情況下, 均符合香港及新加坡標準. 我們的電器的工作電壓為 220-240V, 使用英式插頭（G 型）. 至於標準不同的所有其他市場, 則可能需使用電壓轉換器及\/或適配器.  所有出售的 {{collection_title}} 電器均享有多達3年零件保養. 您可以在我們的常見問題頁面閱讀有關兼容性和保養的更多信息.",
+      "text5_html": "如果您對 {{product_title}} 或其他設備有任何疑問, 請隨時與我們聯繫",
+      "link_label": "Optional: 您還可以點擊此處在 {{product_title}} 網站上找到有關",
+      "link_text": "的更多信息"
+    },
+    "sanitary": {
+      "text1_html": "EuroHomeDirect直接從歐洲進口 {{product_title}}. 我們只銷售由原廠預先包裝的全新正品, 並提供零件保養.<br><br>系列: Sanitary Wares",
+      "header1": "在香港、新加坡和全球購買 {{product_title}}",
+      "text2_html": "EuroHomeDirect向香港、新加坡和全球銷售 {{product_title}}, 合資格的香港及新加玻訂單即可免運 (不適用於超大型商品). 我們只會以最具信譽的速遞合作夥伴– DHL、Fedex、 CH Robinson等運送貨品. 您的訂單將會安全及時送達.",
+      "header2": "我們如何在香港、新加坡和全球範圍內以如此優惠的價格提供 {{product_title}}?",
+      "text3_html": "我們提供的 {{product_title}}, 與香港、新加坡和其他地區零售價相比, 價格大幅降低；因為我們直接從歐洲批發進口產品, 並以最具競爭力的價格向本地消費者提供頂級歐洲電器, 沒有中間商賺取利差.<br><br>如果您對 {{product_title}} 或其他衛浴潔具有任何疑問, 請隨時與我們聯繫."
+    },
+    "furniture": {
+      "header1": "如何在香港、新加坡和其他地區購買 {{brand}} 家具?",
+      "text1_html": "為了能讓我們為您提供準確報價, 請告訴我們您感興趣的家具組合（即尺寸+物料）. 如果沒有此信息, 我們將無法為你提供準確報價.  而我們所售的價錢會比當地零售價優惠約30-40％."
     }
   },
   "store_availability": {
     "general": {
-      "view_store_info": "",
-      "check_other_stores": "",
-      "pick_up_available": "",
-      "pick_up_currently_unavailable": "",
-      "pick_up_available_at": "",
-      "pick_up_unavailable_at": ""
+      "view_store_info": "查看店铺信息",
+      "check_other_stores": "查看其他商店的可用性",
+      "pick_up_available": "可取货",
+      "pick_up_currently_unavailable": "目前无法取件",
+      "pick_up_available_at": "{{ location_name }} 可取货",
+      "pick_up_unavailable_at": "目前无法在 {{ location_name }} 取货"
     }
   },
   "gift_card": {
     "issued": {
-      "subtext": "",
-      "disabled": "",
-      "expired": "",
-      "expires_on": "",
-      "redeem": "",
-      "remaining_amount": "",
-      "shop_link": "",
-      "print": "",
-      "add_to_apple_wallet": ""
+      "subtext": "这是您的礼品卡!",
+      "disabled": "您的礼品卡已停用.",
+      "expired": "您的礼品卡已于 {{expiry}} 过期.",
+      "expires_on": "过期：{{过期}}",
+      "redeem": "在结账时使用此代码兑换您的礼品卡：",
+      "remaining_amount": "剩余 {{amount}}",
+      "shop_link": "开始购物",
+      "print": "打印",
+      "add_to_apple_wallet": "添加到苹果钱包"
     }
   },
   "blog": {
     "general": {
-      "empty": "",
-      "empty_button": "",
-      "categories": "",
-      "all_tag": ""
+      "empty": "该博客没有文章",
+      "empty_button": "去首页",
+      "categories": "类别",
+      "all_tag": "全部"
     },
     "article": {
-      "tags": "",
-      "written_by": "",
-      "share": "",
-      "previous_article": "",
-      "next_article": "",
+      "tags": "标签：",
+      "written_by": "{{author}}",
+      "share": "分享",
+      "previous_article": "上一篇",
+      "next_article": "下一篇",
       "comments_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "{{count}} 条评论",
+        "one": "{{count}} 条评论",
+        "other": "{{count}} 条评论"
       }
     },
     "comments": {
-      "leave_comment": "",
-      "name": "",
-      "email": "",
-      "content": "",
-      "approval_notice": "",
-      "submit": "",
-      "success": "",
-      "success_moderated": ""
+      "leave_comment": "发表评论",
+      "name": "姓名",
+      "email": "电子邮件",
+      "content": "内容",
+      "approval_notice": "所有评论在发布前都经过审核",
+      "submit": "发表评论",
+      "success": "您的评论已发布.",
+      "success_moderated": "您的评论已发送. 一旦店主接受, 它就会可见!"
     }
   },
   "contact": {
     "form": {
-      "name": "",
-      "email": "",
-      "message": "",
-      "submit": "",
-      "successfully_sent": ""
+      "title": "聯絡我們",
+      "name": "姓名",
+      "email": "電郵",
+      "message": "您的留言",
+      "submit": "提交",
+      "successfully_sent": "您的留言已成功发送.",
+      "contact_us": "联络我们"
+    },
+    "about": {
+      "header": "关于 EuroHomeDirect",
+      "text_html": "EuroHomeDirect 是一间国际电子商务公司,专门为全球消费者供应欧洲各大尊贵品牌豪华家居装修产品.我们是一间架构简单、高效的纯网上零售商,因而价格十分优惠.为了提供您对奢侈品所期望的优质服务,我们专门为您所在的市场提供当地的联络专员及客户服务."
+    },
+    "technical_support": {
+      "header": "技術支援",
+      "text_html": "<strong>營業時間:<\/strong>週一至週五,上午 10 時 – 下午 6 時<br><strong>電郵:<\/strong> info@eurohomedirect.com"
+    },
+    "crydom_services": {
+      "header": "快達服務(香港)有限公司",
+      "text_html": "<strong>地址:<\/strong>香港中環雲咸街 44 號雲咸商業中心 9 樓<br><strong>香港:<\/strong> +852 3421 1222"
+    },
+    "instant_services": {
+      "header": "Instant Services Trading (Singapore) Pte. Ltd.",
+      "text_html": "<strong>地址:<\/strong> 13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<br><strong>新加坡:<\/strong> +65 3138 8699"
     }
   },
   "date_formats": {
-    "month_day_year": "",
-    "short_month_day_year": "",
-    "month_day_year_time": ""
+    "month_day_year": "%B %d, %Y",
+    "short_month_day_year": "%b %d, %Y",
+    "month_day_year_time": "%B %d, %Y at %H:%M%P"
+  },
+  "shopify": {
+    "checkout": {
+      "delivery_options": {
+        "free_total_label": "待确认"
+      },
+      "order_summary": {
+        "free_total_label": "待确认"
+      },
+      "shipping": {
+        "free_rate_label": "请在结账前咨询我们"
+      }
+    }
+  },
+  "about": {
+    "about_us": {
+      "heading": "關於我們",
+      "text_html": "EuroHomeDirect 是一間國際電子商務公司, 專門為全球消費者供應歐洲各大尊貴品牌<a href=\"\/collections\/sanitary-wares\">豪華家居裝修產品.<\/a> 我們是一間架構簡單、高效的純網上零售商, 因而價格十分優惠.<br>EuroHomeDirect 致力成為您的一站式家居裝修專賣店,<a href=\"\/collections\/appliances\">為您提供全方位的高端奢華電器<\/a>,<a href=\"\/collections\/sanitary-wares\">衛浴<\/a>,<a href=\"\/collections\/furniture\">傢俬及高科技掌上裝置<\/a>, 如智能玻璃或智能家居系統.<br>我們的倉庫設於德國和英國, <a href=\"\/policies\/shipping-policy\">可及時處理您的訂單並發往世界各地<\/a>.如有需要, 我們亦可為香港及和新加坡顧客提供額外的專業安裝服務.我們相信, 在我們友善的顧問團隊的熱心幫助下, 您定能在可選購的全方位家居產品中, 找到切合所需的解決方案",
+      "text2_html": ""
+    },
+    "why_us": {
+      "heading": "為何要選擇我們?",
+      "text_html": "我們的倉庫設於歐洲, 庫存產品種類齊全, 可隨時運往世界各地.即使是需要在當地零售商處苦等數月才能到貨的產品, 或是很難買到的歐洲專有型號, 我們亦能為您效勞.<br>此外, 我們致力提供價格實惠的產品, 以確保您支付的零售價和歐洲相同!您再也不必因為住在不同地方而需要支付比歐洲當地消費者更高的價格.這就是我們為您提供的購物保證!"
+    }
+  },
+  "faq": {
+    "header": {
+      "title": "常見問題"
+    },
+    "group1": {
+      "header": "產品",
+      "question1": "我們為何能以這麼低的價格銷售?",
+      "answer1_html": "<p>EuroHomeDirect 的產品是以批發價在歐洲採購,並直送至香港、新加坡及世界各地的顧客手中.我們之所以能夠以最低的價格為當地消費者提供頂級歐洲家居產品,就是因為完全不經分銷商或經銷商.<\/p>",
+      "question2": "所售產品是否提供任何額外折扣優惠?",
+      "answer2_html": "<p>我們只為單一類別產品的單一類別單筆訂單金額超過港幣 40 萬元 或坡幣 7 萬元 的公司提供 B2B 折扣優惠.<\/p>",
+      "question3": "如何驗證所售產品是否為正品?",
+      "answer3_html": "<p>EuroHomeDirect 只銷售製造商預先包裝的全新正品.不會銷售二手產品或次品.歡迎客戶向原廠驗證序號.<\/p>",
+      "question4": "如何獲取傢俬類產品的報價?",
+      "answer4_html": "<p>為方便我們向您提供報價,請告知您有意購買的品牌、型號及配置（即尺寸 + 材料）.報價要求只能透過電郵傳送至 [info@eurohomedirect.com].由於容易有變動,因此不能以其他方式報價.請注意,由於所有產品均是定做,訂單需時約3-4 個月,.與當地零售商相比,我們的價格更優惠.<\/p>",
+      "question5": "所售產品是否符合當地標準?",
+      "answer5_html": "<p><strong>香港及新加坡:<\/strong><br\/><br\/>是,所有出售的產品在未經任何修改的情況下,均符合香港及新加坡標準.我們的電器的工作電壓為 220-240V,使用英式插頭(G 型).<br\/><br\/><strong>所有其他市場:<\/strong><br\/><br\/>可能需要電壓轉換器及\/或適配器.請檢查相容性.<\/p>",
+      "question6": "有垃圾处理服务吗?",
+      "answer6_html": "<p>根据政府要求,我们在香港提供冰箱和洗衣机的废物处理服务. 该服务是免费的.<\/p>"
+    },
+    "group2": {
+      "header": "保用、退款或更換貨品",
+      "question1": "產品是否提供保用?",
+      "answer1_html": "<p>所有出售的產品均附有一年零件保用期.此保用僅涵蓋技術故障,不適用於因安裝不當、濫用、處理不當、意外、進水或不遵循使用說明書等原因引起的損壞.<\/p>",
+      "question2": "保用期期滿後會怎樣?",
+      "answer2_html": "<p>您可聯絡當地服務中心進行檢查和維修.<\/p>",
+      "question3": "能否退款或更換貨品?",
+      "answer3_html": "<p>由於有高運輸成本、進口稅及海關手續,除非存在製造缺陷或運輸損壞,否則產品一經售出,恕不退換.如遇到上述任何問題,請盡快與我們聯絡.<\/p>"
+    },
+    "group3": {
+      "header": "稅項",
+      "question1": "我的訂單需要繳稅嗎?",
+      "answer1_html": "<p><strong>香港:<br\/><\/strong><br\/>香港是免稅港.除汽車、烈酒、煙草、烴油及甲醇外,進口貨物均不徵收任何關稅或稅項.所有銷往香港的產品,均無須繳納任何關稅.<br\/><br\/><strong>新加坡:<\/strong><br\/><br\/>新加坡徵收 7% 的商品服務稅 (GST).GST 根據到岸價格（成本、保險及運費）徵收.所有銷往新加坡的產品,均須繳納新加坡 GST..<br\/><br\/><strong>所有其他市場:<\/strong><br\/><br\/>您須支付適用的進口稅項及關稅.<\/p>"
+    },
+    "group4": {
+      "header": "購買程序及付款",
+      "question1": "如何購買?",
+      "answer1_html": "<p>請將要購買的所有產品加入購物車,然後付款及\/或提交訂單.我們將透過電郵向您發送確認及發票.如果提交訂單後未有收到確認,請檢查您的垃圾郵件.<\/p>",
+      "question2": "有哪些付款方式?",
+      "answer2_html": "<p>我們接受以下付款方式:<br\/><br\/><strong>1.銀行轉帳<\/strong><br\/><br\/><strong>2.Stripe 信用卡付款(Visa\/萬事達卡\/美國運通卡)<\/strong><br\/><br\/><strong>3.PayPal<\/strong><\/p>",
+      "question3": "我們如何確保付款安全?",
+      "answer3_html": "<p>我們非常重視網絡安全,所以沒有比網上購物更安全的方式了!EuroHomeDirect 無權存取您的付款資訊.所有網上付款均透過最具信譽的第三方支付閘道 Stripe 和 Paypal 安全處理.當您在我們這裡購物時,您的個人資料將得到妥善保護,以防發生任何潛在資料洩露.<\/p>",
+      "question4": "最低訂單金額是多少?",
+      "answer4_html": "<p>單一類別最低訂單金額為港幣 4000 元或坡幣 700 元.<\/p>"
+    },
+    "any_questions": {
+      "header": "任何问题?",
+      "text": "如果我们仍然没有回答您的问题,您可以在下方联系我们,我们会尽快回复您.",
+      "icon1_text": "客户支持",
+      "icon1_link": "+852 5935 2062 (仅限Whatsapp)",
+      "icon2_text": "发送一个消息",
+      "icon2_link": "info@eurohomedirect.com"
+    }
   }
 }

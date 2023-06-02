@@ -1,0 +1,119 @@
+<section
+  class="collection-banner"
+  data-section-id="{{ section.id }}"
+  data-section-type="collection-banner">
+  <div class="container container--flush">
+    {% if collection.tags contains 'Brand_Alape' or collection.title == 'Alape' %}
+      <div class="rte collection-introduction">
+        {{ 'collection.alape.introduction_html' | t }}
+      </div>
+      <br>
+      <a href="javascript:;" class="link learn_more">{{ 'collection.labels.learn_more' | t }}</a>
+    {% endif %}
+    <div class="collection-introduction__popup">
+      <div class="collection-introduction__popup-content">
+        <span class="collection-popup-close">{%- render 'icon', icon: 'close' -%}</span>
+        <div class="collection-introduction__popup-inner">
+          <h2 class="heading">{{ 'collection.alape.header1' | t }}</h2>
+          <div class="rte">
+            {{ 'collection.alape.text1_1_html' | t }}
+          </div>
+          <div class="rte">
+            {{ 'collection.alape.text1_2_html' | t }}
+          </div>
+          <div class="rte">
+            {{ 'collection.alape.text1_3_html' | t }}
+          </div>
+          <div class="rte">
+            {{ 'collection.alape.text1_4_html' | t }}
+          </div>
+          <div class="rte">
+            {{ 'collection.alape.text1_5_html' | t }}
+          </div>
+          <div class="rte">
+            {{ 'collection.alape.text1_6_html' | t }}
+          </div>
+          <br>
+          <h2 class="heading">{{ 'collection.alape.header2' | t }}</h2>
+          <div class="rte">
+            {{ 'collection.alape.text2_1_html' | t }}
+          </div>
+          <div class="rte">
+            {{ 'collection.alape.text2_2_html' | t }}
+          </div>
+          <br>
+          <h2 class="heading">{{ 'collection.alape.header3' | t }}</h2>
+          <div class="rte">
+            {{ 'collection.alape.text3_1_html' | t }}
+          </div>
+          <div class="rte">
+            {{ 'collection.alape.text3_2_html' | t }}
+          </div>
+          <div class="collection-introduction__steps">
+            <div class="step-item">
+              <h2 class="heading">{{ 'collection.labels.step1' | t }}</h2>
+              <h2 class="heading">{{ 'collection.alape.step1_header' | t }}</h2>
+              <div class="rte">
+                {{ 'collection.alape.step1_text1_html' | t }}
+              </div>
+              <div class="rte">
+                {{ 'collection.alape.step1_text2_html' | t }}
+              </div>
+            </div>
+            <div class="step-item">
+              <h2 class="heading">{{ 'collection.labels.step2' | t }}</h2>
+              <h2 class="heading">{{ 'collection.alape.step2_header' | t }}</h2>
+              <div class="rte">
+                {{ 'collection.alape.step2_text1_html' | t }}
+              </div>
+              <div class="rte">
+                {{ 'collection.alape.step2_text2_html' | t }}
+              </div>
+            </div>
+            <div class="step-item">
+              <h2 class="heading">{{ 'collection.labels.step3' | t }}</h2>
+              <h2 class="heading">{{ 'collection.alape.step3_header' | t }}</h2>
+              <div class="rte">
+                {{ 'collection.alape.step3_text1_html' | t }}
+              </div>
+              <div class="rte">
+                {{ 'collection.alape.step3_text2_html' | t }}
+              </div>
+              <div class="rte">
+                {{ 'collection.alape.step3_text3_html' | t }}
+              </div>
+            </div>
+          </div>
+          <h2 class="heading">{{ 'collection.alape.header4' | t }}</h2>
+          <h2 class="heading">{{ 'collection.alape.header5' | t }}</h2>
+          <div class="rte">
+            {{ 'collection.alape.text5_html' | t }}
+          </div>
+          <br>
+          <h2 class="heading">{{ 'collection.alape.header6' | t }}</h2>
+          <h2 class="heading">{{ 'collection.alape.header7' | t }}</h2>
+          <div class="rte">
+            {{ 'collection.alape.text7_html' | t }}
+          </div>
+          <div class="collection-introduction__links">
+            <h2 class="heading" class="link-header">
+              {{ 'collection.alape.ul_header' | t }}
+            </h2>
+            <ul class="link-items">
+              {{ 'collection.alape.li_html' | t }}
+            </ul>
+          </div>
+          <div class="collection-introduction__store-info rte">
+            {{ 'collection.alape.store_info_html' | t }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Collection Banner",
+    "settings": []
+  }
+{% endschema %}

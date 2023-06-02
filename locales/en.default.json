@@ -134,7 +134,7 @@
       "article_title": "Post's name",
       "article_author": "Written by you",
       "article_category": "Category",
-      "article_excerpt": "Your store hasn’t published any blog posts yet. A blog can be used to talk about new product launches, tips, or other news you want to share with your customers. You can check out Shopify’s ecommerce blog for inspiration and advice for your own store and blog.",
+      "article_excerpt": "Your store hasn't published any blog posts yet. A blog can be used to talk about new product launches, tips, or other news you want to share with your customers. You can check out Shopify's ecommerce blog for inspiration and advice for your own store and blog.",
       "instagram_likes": "28 likes",
       "instagram_caption": "This is a caption example."
     },
@@ -209,6 +209,47 @@
         "one": "In stock, {{count}} unit",
         "other": "In stock, {{count}} units"
       }
+    },
+    "labels": {
+      "step1": "step 1",
+      "step2": "step 2",
+      "step3": "step 3",
+      "learn_more": "Learn more"
+    },
+    "alape": {
+      "introduction_html": "ALAPE sanitary ware, up to 50% off, direct from Germany!<br>Best prices in Hong Kong, Singapore and Asia<br>Save up to 50% on direct sales from Europe!<br>Brand new Agape sanitary ware products, direct air freight from Germany, fast delivery. Get the latest model at a great price with a 1-year factory warranty. The complete Alape product line is available for purchase. Contact us today to get the best price on Alape sanitary ware products.",
+      "header1": "ALAPE luxury sanitary ware",
+      "text1_1_html": "Everyone's personality is unique, and this unique personality will be reflected in the design of his residence. To reflect this uniqueness unbiasedly, it is important to focus on the basic concept, that is, the uniqueness of personality and style.",
+      "text1_2_html": "Alape's aesthetic solutions meet these unique needs. As an expression of individuality, Alape brings people and design, personality and living environment into harmony.",
+      "text1_3_html": "View All ALAPE Sanitary Ware<br>Glazed steel",
+      "text1_4_html": "Alape washbasins and washstands are entirely manufactured in enamelled steel. This unique material allows Alape to create a wide variety of interesting shapes, surfaces and sizes with unique precision. Enameled steel is lightweight yet extremely strong. This composite material is harder than granite or green corundum, and its superior impact resistance sets it apart.",
+      "text1_5_html": "Unique manufacturing processes allow products to be custom tuned for special configurations. Its good looks, smooth feel and self-cleaning properties make it worth the money throughout its lifetime.",
+      "text1_6_html": "Enameled steel combines the strength and design qualities of steel with the hardness and chemical resistance of glass. Glaze - a very thin layer of enamel, which will be baked and applied to the steel body, so that the glaze and steel are tightly connected and inseparable. The airtight, non-porous surface is absolutely hygienic, paint- and discoloration-resistant, permanently corrosion-resistant, and also scratch- and abrasion-resistant. Brightly colored glazes are even resistant to weather effects and strong UV rays. Durable \"Made in Germany\".",
+      "header2": "ecological responsibility",
+      "text2_1_html": "The product is made of titanium-strengthened low-carbon special steel. Steel is a material with a wide range of applications, and there are quite a lot of them. It is a recyclable material, in other words it saves resources. The raw materials of the glaze are mainly naturally occurring minerals, which have existed in the earth's crust for a long time and are abundant. The washbasin and washstand are made of enamelled steel, and the production process is very environmentally friendly.",
+      "text2_2_html": "In principle, Alape's products do not contain any substances harmful to nature, such as cadmium, lead or solvents, and are therefore very much in line with the concept of sustainable construction.",
+      "header3": "Alape quality",
+      "text3_1_html": "Quality is a persistence. From material selection, to shape design, to the production process, Alape always implements the highest standards, and Alape's quality mark is a reliable guarantee of quality.",
+      "text3_2_html": "More than a hundred years of innovation and inheritance, creating a high-quality brand<br>Since 1896, Alape has been synonymous with quality solutions in the sanitary ware field. The world's first built-in washbasin and first bathroom cabinet vanity combination also comes from this traditional company. With this, Alape also had a decisive influence on the development of the bathroom.",
+      "step1_header": "Pick the model you need",
+      "step1_text1_html": "Selection of major German sanitary ware brands",
+      "step1_text2_html": "We only sell brand new and authentic products prepackaged by the manufacturer with original factory warranty. You can choose from all the latest Miele models in UK specification. We also stock hundreds of other European luxury appliances from Liebherr, Miele, Bosch, Siemens and more. For assistance with your purchase, simply contact us via email, phone or WhatsApp. We are always happy to help you!",
+      "step2_header": "order directly",
+      "step2_text1_html": "One-click ordering, safe and convenient",
+      "step2_text2_html": "At EuroHomeDirect you can place orders directly in our webshop 24\/7\/365. Shopping online is safe because we take online security very seriously! We do not have access to your payment information. All online payments are securely processed through Stripe and Paypal, the most reputable third-party payment gateways. When you purchase products from us, your personal or payment details will be fully protected and not disclosed.",
+      "step3_header": "Your home appliances will be delivered directly from Europe",
+      "step3_text1_html": "Safe and fast delivery directly to your door from Europe",
+      "step3_text2_html": "Once you've placed your order, we'll ship your new appliance straight from Europe to your door. Depending on the size of the model selected and the total amount of the order, several safe and fast shipping options are available. Small appliances can be shipped with couriers such as DHL or FedEx, while larger shipments are usually delivered by air or sea with DB Schenker. All shipments are insured and can be tracked, so you can always know when your order arrives.",
+      "step3_text3_html": "More luxury appliances<br>EuroHomeDirect provides Gaggenau, Miele, Liebherr, Sub-Zero Wolf, Bosch, Siemens and other famous high-end brand home appliances, including coffee machines, refrigerators, microwave ovens, steam ovens, gas cooking stoves, range hoods, dishwashers, washing machines and clothes dryer!",
+      "header4": "View all home appliance brands",
+      "header5": "+ luxury sanitary ware",
+      "text5_html": "Browse a selection of boutique sanitary ware brands such as Alape, Boffi, Dornbracht, Duravit, Emco, Geberit, Grohe, Hansa, Hansgrohe, Laufen, Vola, Villeroy & Boch and more! All imported directly from Europe, enjoy great discounts.",
+      "header6": "View All Sanitary Ware Brands",
+      "header7": "Your One-Stop Home Furnishings Online Shop",
+      "text7_html": "To cater to the individual needs of each customer, EuroHomeDirect offers a complete range of home furnishing products to choose from. Whether it is home appliances, sanitary ware, furniture, as well as frosted glass or smart home systems that appear in science fiction movies, we have it all.",
+      "ul_header": "useful links",
+      "li_html": "<li><a href=\"\/pages\/about-us\">about Us<\/a><\/li><li><a href=\"\/pages\/faq\">Faq<\/a><\/li><li><a href=\"\/policies\/shipping-policies\">Shipping & Installation<\/a><\/li><li><a href=\"\/products\/eurohomedirect\">Reviews<\/a><\/li><li><a href=\"\/pages\/selected-projects\">Selected Projects<\/a><\/li><li><a href=\"\/policies\/terms-of-service\">Terms & Conditions<\/a><\/li><li><a href=\"\/pages\/b2b\">B2B<\/a><\/li><li><a href=\"\/pages\/about-us\">net<\/a><\/li><li><a href=\"\/pages\/contact\">contact us<\/a><\/li>",
+      "store_info_html": "10:00 am - 6:00 pm<br>from Monday to Friday<br>(by appointment only)"
     }
   },
   "customer": {
@@ -395,7 +436,8 @@
       "include_taxes": "Tax included",
       "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Shipping calculated<\/a> at checkout",
       "note": "Note",
-      "parallel_import": "This is a genuine parallel import item"
+      "parallel_import": "This is a genuine parallel import item",
+      "additional_information": "Additional information"
     },
     "labels": {
       "sold_out": "Sold out"
@@ -426,6 +468,29 @@
       "whatsapp_us": "Whatsapp us",
       "added": "Product has been added to your cart",
       "added_short": "Added!"
+    },
+    "appliances": {
+      "text1_html": "EuroHomeDirect offers the {{product_title}} directly from Europe. We only sell brand new and genuine products pre-packaged by the manufacturer with parts warranty.",
+      "header1": "Buying the {{product_title}} in Hong Kong, Singapore and Worldwide",
+      "text2_html": "EuroHomeDirect sells the {{product_title}} to Hong Kong, Singapore and worldwide with free shipping to Hong Kong and Singapore for selected orders. We only ship with the most reputable courier partners – DHL, Fedex, and CH Robinson and others to ensure your order will arrive safely on time when you purchase from us.",
+      "header2": "How can we offer the {{product_title}} at such a great price in Hong Kong, Singapore and Worldwide?",
+      "text3_html": "We offer the {{product_title}} for a greatly reduced price compared to the local prices in Hong Kong, Singapore and other countries because we ship directly from Europe at wholesale price with best price guarantee. We are able to supply top European appliances at the most competitive prices to local consumers because no distributors or dealers are involved in the process.",
+      "header3": "{{product_title}} Compatibility & Warranty",
+      "text4_html": "All {{collection_title}} sold by us are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V with UK style power plug (type G). For all other markets with different standards, you may need to use a voltage converter and\/or an adapter. All {{collectionObj_title}} appliances sold come with up to 3-year parts warranty. You can read more about Compatibility and Warranty in our FAQ Page.",
+      "text5_html": "Please do not hesitate to contact us if you have further questions about the {{product_title}} or other appliances",
+      "link_label": "Optional: (You can also find more information about the {{product_title}} on the: ",
+      "link_text": "website by clicking here"
+    },
+    "sanitary": {
+      "text1_html": "EuroHomeDirect offers the {{product_title}} directly from Europe. We only sell brand new and genuine products pre-packaged by the manufacturer with parts warranty.<br><br>Series: Sanitary Wares",
+      "header1": "Buying the {{product_title}} in Hong Kong, Singapore, and Worldwide",
+      "text2_html": "EuroHomeDirect sells the {{product_title}} to Hong Kong, Singapore and worldwide with free shipping to Hong Kong and Singapore for selected orders. We only ship with the most reputable courier partners – DHL, Fedex, and CH Robinson and others to ensure your order will arrive safely on time when you purchase from us.",
+      "header2": "How can we offer the {{product_title}} at such a great price in Hong Kong, Singapore, and Worldwide?",
+      "text3_html": "We offer the {{product_title}} for a greatly reduced price compared to the local prices in Hong Kong, Singapore and other countries because we ship directly from Europe at wholesale price with best price guarantee. We are able to supply top European appliances at the most competitive prices to local consumers because no distributors or dealers are involved in the process.<br><br>Please don't hesitate to contact us if you have further questions about the {{product_title}} or other sanitary wares."
+    },
+    "furniture": {
+      "header1": "How to Buy {{brand}} Furniture in Hong Kong, Singapore and Worldwide?",
+      "text1_html": "In order for us to supply you with a quote, please let us know what configurations (ie. size + material) you are interested in. Please understand that without this information it is not possible to quote a price due to the vast possibility of variations. We are approximately 30-40% more competitive than local retail prices."
     }
   },
   "store_availability": {
@@ -483,11 +548,29 @@
   },
   "contact": {
     "form": {
+      "title": "Contact",
       "name": "Your name",
       "email": "Your email",
       "message": "Your message",
       "submit": "Send message",
-      "successfully_sent": "Your message has been successfully sent."
+      "successfully_sent": "Your message has been successfully sent.",
+      "contact_us": "Contact us"
+    },
+    "about": {
+      "header": "About EuroHomeDirect",
+      "text_html": "EuroHomeDirect is an international e-commerce company specializing in the supply of luxury home improvement products from major European brands to consumers around the world. We are a simple, efficient pure online retailer, resulting in very favorable prices. In order to provide the high-quality service you expect from luxury goods, we provide local liaison specialists and customer service dedicated to your market."
+    },
+    "technical_support": {
+      "header": "Technical Support",
+      "text_html": "<strong>Opening Hours:<\/strong> Monday to Friday, 10:00am - 6:00pm<br><strong>Email:<\/strong> info@eurohomedirect.com"
+    },
+    "crydom_services": {
+      "header": "Crydom Services (Hong Kong) Limited",
+      "text_html": "<strong>Address:<\/strong> 9th Floor, Wyndham Commercial Centre, 44 Wyndham Street, Central, Hong Kong<br><strong>Hong Kong:<\/strong> +852 3421 1222"
+    },
+    "instant_services": {
+      "header": "Instant Services Trading (Singapore) Pte. Ltd.",
+      "text_html": "<strong>Address:<\/strong> 13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<br><strong>Singapore:<\/strong> +65 3138 8699"
     }
   },
   "date_formats": {
@@ -506,6 +589,70 @@
       "shipping": {
         "free_rate_label": "Please consult with us before checkout"
       }
+    }
+  },
+  "about": {
+    "about_us": {
+      "heading": "About Us",
+      "text_html": "EuroHomeDirect® is an international eCommerce-company that offers consumers worldwide the exciting opportunity to purchase <a href=\"\/collections\/sanitary-wares\">luxury home renovation products<\/a> of all major high-end brands directly from Europe. We are a pure online retailer with flat structures and efficient organization so our prices are very competitive.<br>EuroHomeDirect® strives to be your one-stop home renovation outlet offering you a <a href=\"\/collections\/appliances\">full range of high-end luxury appliances<\/a>, <a href=\"\/collections\/sanitary-wares\">sanitary<\/a>, <a href=\"\/collections\/furniture\">furniture<\/a> and sci-fi gadgets such as smart glass or smart home systems.<br>",
+      "text2_html": "Our warehouses in Germany &amp; UK will promptly process and <a href=\"\/policies\/shipping-policy\">ship your orders worldwide<\/a>. We also provide professional installation services as an add-on to your purchase in Hong Kong &amp; Singapore should you require. With a full range of home products for you to select and a team of friendly consultants to assist, we are sure you will find a suitable solution for your application."
+    },
+    "why_us": {
+      "heading": "Why Us?",
+      "text_html": "With warehouses based in Europe, we have the most complete stock of products ready to ship worldwide. Even products that require months of wait time at your local retailers or hard to source European-specific models, you can count on us for having them available for you.<br>What's more? We strive to price our products competitively to ensure you pay the same retail prices as you would in Europe! You will not pay a premium over local European consumers just because you are living on a different continent. That's the kind of guarantee you have when you shop with us!"
+    }
+  },
+  "faq": {
+    "header": {
+      "title": "FAQ"
+    },
+    "group1": {
+      "header": "Products",
+      "question1": "How are we able to sell at such competitive prices?",
+      "answer1_html": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We are able to supply top European household products at the lowest prices to local consumers because no distributors or dealers are involved in the process.<\/p>",
+      "question2": "Are there any additional discounts for the products sold?",
+      "answer2_html": "<p>We only offer B2B discounts to companies with single order amount above HKD $400000 or SGD $70000 in one single category.<\/p>",
+      "question3": "How to authenticate the products sold are genuine?",
+      "answer3_html": "<p>EuroHomeDirect® only sells brand new and genuine products pre-packaged by the manufacturer. No unboxed or second grade products are sold. We welcome our customers to validate the serial numbers with the original manufacturers.<\/p>",
+      "question4": "How do I obtain a quote for the furniture category?",
+      "answer4_html": "<p>In order for us to supply you with a quote, please specify what brand, model, and configurations (ie. size + material) you're interested in purchasing. Quote request may only be sent by email to [info@eurohomedirect.com]. It is not possible to quote otherwise due to the vast possibility of variations. Please note that order time is about 3-4 months because everything is made to order. Please also expect we are highly competitive compared to local retail prices.<\/p>",
+      "question5": "Are the products sold compatible with local standards?",
+      "answer5_html": "<p>All appliances sold are CE compliant, and would require no further safety certification to be imported into Hong Kong and Singapore.<br\/><br\/><strong>For Hong Kong & Singapore:<\/strong><br\/><br\/>Yes, all products sold are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V, 50-60Hz with UK style power plug (type G).<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>A voltage converter and\/or an adapter may be required. Please check the compatibility.<\/p>",
+      "question6": "Is there any waste disposal service?",
+      "answer6_html": "<p>We offer waste disposal service for refrigerators and washing machines in Hong Kong as required by the government. The service is free of charge.<\/p>"
+    },
+    "group2": {
+      "header": "Warranty, Refund or Exchange",
+      "question1": "Is there any warranty for the products?",
+      "answer1_html": "<p>All products sold come with 1-year parts warranty. This warranty only covers technical faults and does not apply if damage is caused by factors including: wrong installation, abuse, mishandling, accident, liquid damage, or failure to follow operating instructions.<\/p>",
+      "question2": "What happens after the warranty period expired?",
+      "answer2_html": "<p>You may contact the local service centre to perform a check and repair.<\/p>",
+      "question3": "Is there any refund or exchange policy?",
+      "answer3_html": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes &amp; customs formalities unless there is a manufacturing defect or transportation damage. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.<\/p>"
+    },
+    "group3": {
+      "header": "Tax",
+      "question1": "Do I have to pay tax for my order?",
+      "answer1_html": "<p><strong>For Hong Kong:<br\/><\/strong><br\/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong are not subject to any customs tariffs.<br\/><br\/><strong>For Singapore:<\/strong><br\/><br\/>Singapore levies a 7% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>You are responsible to pay the applicable import taxes and duties.<\/p>"
+    },
+    "group4": {
+      "header": "Buying Procedure and Payment",
+      "question1": "What is the buying procedure?",
+      "answer1_html": "<p>Please add all the products you would like to purchase to cart and proceed with payment and\/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.<\/p>",
+      "question2": "What are the payment options?",
+      "answer2_html": "<p>We accept the following payment methods:<br\/><br\/><strong>1. Bank transfer<\/strong><br\/><br\/><strong>2. Credit Card by Stripe (Visa\/Mastercard\/American Express)<\/strong><br\/><br\/><strong>3. PayPal<\/strong><\/p>",
+      "question3": "How do we ensure payment security?",
+      "answer3_html": "<p>There is no safer way to shop online as we take cyber security very seriously! EuroHomeDirect® has no access to your payment information. All online payments are processed securely through Shopify Payment and Paypal, some of the most reputable third-party payment gateways. When you purchase from us, you are well protected from any potential data leak of your personal information.<\/p>",
+      "question4": "What is the minimum order amount?",
+      "answer4_html": "<p>The minimum order amount in one single category is HKD $4000 or SGD $700.<\/p>"
+    },
+    "any_questions": {
+      "header": "Any question?",
+      "text": "If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.",
+      "icon1_text": "Customer support",
+      "icon1_link": "+852 5935 2062 (Whatsapp Only)",
+      "icon2_text": "Send a message",
+      "icon2_link": "info@eurohomedirect.com"
     }
   }
 }

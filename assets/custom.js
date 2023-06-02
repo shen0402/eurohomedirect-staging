@@ -89,3 +89,20 @@ $(document).ready(function () {
     }
     
 });
+
+$(document).on('click', '.product-block-list__item--description .card__title', function(){
+    const id = '#' + $(this).data('id');
+    $('.product-block-list__item--description .card__title').removeClass('active');
+    $(this).addClass('active');
+    $('.product-block-list__item--description .card').hide();
+    $(id).show();
+});
+
+$(document).on('click', '.learn_more', function(e){
+    e.preventDefault();
+    $('.collection-introduction__popup').fadeIn();
+});
+
+$(document).on('click', '.collection-popup-close', function(){
+    $('.collection-introduction__popup').fadeOut();
+});
