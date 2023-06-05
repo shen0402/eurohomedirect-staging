@@ -13239,15 +13239,31 @@ a.empty-state__button.button.button--primary {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
+    border-bottom: 1px solid #DAE0E7;
+    background: #d9d9d9;
+    padding: 12px 12px 0;
+    margin-bottom: 40px;
 }
 
 .product-block-list__item--description .card__title {
     cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 8px 8px 0 0;
 }
 .product-block-list__item--description .card__title.active, .product-block-list__item--description .card__title:hover {
-    font-weight: bold;
     transition: 0.3s;
+    background: #fff;
+}
+@media (max-width: 767px) {
+    .product-block-list__item--description .card__title {
+        font-size: 18px;
+    }
+}
+@media (min-width: 768px) {
+    .product-block-list__item--description {
+        padding: 30px;
+    }
 }
 .shopify-policy__body .ui-accordion .ui-accordion-header {
     background: #f2f2f2;
