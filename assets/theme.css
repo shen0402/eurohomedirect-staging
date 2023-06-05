@@ -13263,6 +13263,8 @@ a.empty-state__button.button.button--primary {
 @media (min-width: 768px) {
     .product-block-list__item--description {
         padding: 30px;
+        border: 1px solid #5f6368;
+        border-radius: 5px;
     }
 }
 .shopify-policy__body .ui-accordion .ui-accordion-header {
