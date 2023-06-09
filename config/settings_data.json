@@ -166,7 +166,7 @@
           "logo": "shopify:\/\/shop_images\/EHD_Header_Logo.png",
           "logo_max_width": 100,
           "mobile_logo_max_width": 100,
-          "show_locale_selector": true,
+          "show_locale_selector": false,
           "show_currency_selector": true,
           "navigation_menu": "main-menu",
           "desktop_navigation_layout": "inline",
