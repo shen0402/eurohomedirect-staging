@@ -20,3 +20,15 @@
     transition: opacity .3s ease-in-out;
 
 }
+@media(max-width:768px) {
+    .custom-brand .brand-logo {
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+  @media(max-width:425px) {
+    .custom-brand .brand-logo {
+      grid-template-columns: 1fr 1fr;
+    }
+
+  }
