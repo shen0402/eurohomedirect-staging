@@ -6,6 +6,7 @@
 .custom-brand .brand-title {
     font-size: 30px;
     text-align: center;
+    padding-bottom: 20px;
 }
 .custom-brand .brand-logo {
     display: grid;
