@@ -15,10 +15,18 @@
             "logo_image": "shopify:\/\/shop_images\/5369972ae59cc40fa995bf29406470b1_1080x_ecd7b57a-0969-458a-987c-0a7caef812b0.jpg",
             "logo_link": "shopify:\/\/collections\/gaggenau"
           }
+        },
+        "2b8fd534-c146-4c07-9445-ee9a011b27bc": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/eb1ca7269d5e74de30f6a50b25d8414a_1080x_dbf37f5c-0339-406b-84b5-57f6364337d4.jpg",
+            "logo_link": "shopify:\/\/collections\/bosch"
+          }
         }
       },
       "block_order": [
-        "7fe38387-099e-49fa-8d24-717139f4d209"
+        "7fe38387-099e-49fa-8d24-717139f4d209",
+        "2b8fd534-c146-4c07-9445-ee9a011b27bc"
       ],
       "settings": {
         "heading": "Brands",
