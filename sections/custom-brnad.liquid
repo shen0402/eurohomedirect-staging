@@ -1,5 +1,18 @@
 {{ 'custom-brand.css' | asset_url | stylesheet_tag }}
-<div class="section-{{section.id}} custom-brand">
+<style>
+  .section--{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  @media (max-width: 767px) {
+      .section--{{ section.id }} {
+          padding-top: {{section.settings.padding_top_m}}px;
+          padding-bottom: {{section.settings.padding_bottom_m}}px
+      }
+  }
+</style>
+<div class="section--{{section.id}} custom-brand">
   <div class="brand-title">
     <h1>{{ section.settings.heading }}</h1>
   </div>
