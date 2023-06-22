@@ -1,0 +1,36 @@
+{% schema %}
+{
+  "name": "Custom brand section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Title",
+      "default": "Brands"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Item",
+      "name": "item",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "logo_image",
+          "label": "Logo Image"
+        },
+        {
+          "type": "url",
+          "id": "logo_link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Brand Section"
+    }
+  ]
+}
+{% endschema %}
