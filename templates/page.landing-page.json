@@ -22,11 +22,35 @@
             "logo_image": "shopify:\/\/shop_images\/eb1ca7269d5e74de30f6a50b25d8414a_1080x_dbf37f5c-0339-406b-84b5-57f6364337d4.jpg",
             "logo_link": "shopify:\/\/collections\/bosch"
           }
+        },
+        "e026192f-d7e0-4961-abaa-6ffa941a9cd6": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/1f2682648c3a5e2bd96a28dc8ea51fa6_1080x_d7808373-f7db-4845-9f3d-5687d1ec8823.jpg",
+            "logo_link": "shopify:\/\/collections\/siemens"
+          }
+        },
+        "78db04d5-adc4-45d1-86d6-28763c73d6e8": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/64a3b811f8b8015a48cf5d5af7dd5859_1080x_77028341-6c30-40fc-8a1d-242302dd9f9e.jpg",
+            "logo_link": "shopify:\/\/collections\/smeg"
+          }
+        },
+        "4474e281-e54b-40ae-b39d-2272801d7cf9": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/52c8d710cc735a458eb0cf5664ed8453_1080x_1.jpg",
+            "logo_link": "shopify:\/\/collections\/liebherr"
+          }
         }
       },
       "block_order": [
         "7fe38387-099e-49fa-8d24-717139f4d209",
-        "2b8fd534-c146-4c07-9445-ee9a011b27bc"
+        "2b8fd534-c146-4c07-9445-ee9a011b27bc",
+        "e026192f-d7e0-4961-abaa-6ffa941a9cd6",
+        "78db04d5-adc4-45d1-86d6-28763c73d6e8",
+        "4474e281-e54b-40ae-b39d-2272801d7cf9"
       ],
       "settings": {
         "heading": "Brands",
