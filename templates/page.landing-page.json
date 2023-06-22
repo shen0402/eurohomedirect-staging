@@ -295,6 +295,41 @@
             "logo_image": "shopify:\/\/shop_images\/Lefroy_logo_1080x_22875ad4-4b23-4380-968e-f90ca11da36c.jpg",
             "logo_link": ""
           }
+        },
+        "f51408cb-983a-4425-8d11-189df6692263": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/a19309a322e110f6d1a6322b700b6086_1080x_4505a01d-2a12-4b6f-b0fe-a69d26bf1694.jpg",
+            "logo_link": ""
+          }
+        },
+        "d2b3b90f-0db9-4331-bd1f-597bd6f9e632": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/logo-scarabeo-1_1080x_845e08a8-611c-4aea-90d5-9ce6b8a44b9a.png",
+            "logo_link": ""
+          }
+        },
+        "d43ce0b6-f3b7-4d8b-bc68-b53b34ea11dc": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/e5ea1cbc22404b17c02879461aa34342_1080x_34851a6f-eea0-4123-a1c8-7909876e22d9.jpg",
+            "logo_link": ""
+          }
+        },
+        "3d105ea1-4455-43b8-ae6b-1dbcee8d545b": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/722ed0a0ff2e0864aadb9bf65ff85c4d_1080x_4efc75e6-633e-4f9a-a221-494d3a9943c7.jpg",
+            "logo_link": ""
+          }
+        },
+        "148037c7-42a5-4bc5-8d7e-e0d545525126": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/7691522ecff98cb28424dee59d0c8ec0_1080x_241a44c5-313a-41b4-b445-b0ccf36c6115.png",
+            "logo_link": ""
+          }
         }
       },
       "block_order": [
@@ -338,7 +373,12 @@
         "b5c9c61b-36ed-438a-aaf2-636a1a21cba2",
         "02f603a9-4c16-402a-96fd-f23466d42a8d",
         "4c4fa912-42a7-417d-984e-0a755da796b9",
-        "b5febcee-04f5-4e1f-9de1-60ab0ee5ce9c"
+        "b5febcee-04f5-4e1f-9de1-60ab0ee5ce9c",
+        "f51408cb-983a-4425-8d11-189df6692263",
+        "d2b3b90f-0db9-4331-bd1f-597bd6f9e632",
+        "d43ce0b6-f3b7-4d8b-bc68-b53b34ea11dc",
+        "3d105ea1-4455-43b8-ae6b-1dbcee8d545b",
+        "148037c7-42a5-4bc5-8d7e-e0d545525126"
       ],
       "settings": {
         "heading": "Brands",
