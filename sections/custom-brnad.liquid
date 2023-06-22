@@ -1,3 +1,25 @@
+{{ 'custom-brand.css' | asset_url | stylesheet_tag }}
+<div class="section-{{section.id}} custom-brand">
+  <div class="brand-title">
+    <h1>{{ section.settings.heading }}</h1>
+  </div>
+  <div class="brand-logo">
+    {% for block in section.blocks %}
+      <div class="image-item">
+        {% if block.settings.logo_image != blank %}
+          <img
+            class="brand-image"
+            src="{{block.settings.logo_image | img_url: '100x' }}"
+            alt="Logo image"
+            loading="lazy"
+            href="{{block.settings.logo_link}}"
+          >
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
 {% schema %}
 {
   "name": "Custom brand section",
