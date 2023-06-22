@@ -1,0 +1,23 @@
+.custom-brand {
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+}
+.custom-brand .brand-title {
+    font-size: 30px;
+    text-align: center;
+}
+.custom-brand .brand-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+.custom-brand .brand-logo .image-item {
+    padding: 24px;
+    box-shadow: 1px 0 var(--border-color),0 1px var(--border-color);
+}
+.custom-brand .brand-logo .image-item img {
+    transition: opacity .3s ease-in-out;
+    border: 
+
+}
