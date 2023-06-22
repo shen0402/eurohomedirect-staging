@@ -5,9 +5,32 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "4b0a5145-2a3b-4aa0-a312-1a234e876efa": {
+      "type": "custom-brnad",
+      "blocks": {
+        "7fe38387-099e-49fa-8d24-717139f4d209": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/5369972ae59cc40fa995bf29406470b1_1080x_ecd7b57a-0969-458a-987c-0a7caef812b0.jpg",
+            "logo_link": "shopify:\/\/collections\/gaggenau"
+          }
+        }
+      },
+      "block_order": [
+        "7fe38387-099e-49fa-8d24-717139f4d209"
+      ],
+      "settings": {
+        "heading": "Brands",
+        "padding_top": 35,
+        "padding_bottom": 35,
+        "padding_top_m": 35,
+        "padding_bottom_m": 35
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4b0a5145-2a3b-4aa0-a312-1a234e876efa"
   ]
 }
