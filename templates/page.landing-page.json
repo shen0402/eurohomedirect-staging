@@ -43,6 +43,13 @@
             "logo_image": "shopify:\/\/shop_images\/52c8d710cc735a458eb0cf5664ed8453_1080x_1.jpg",
             "logo_link": "shopify:\/\/collections\/liebherr"
           }
+        },
+        "e9dfeb4e-0b46-4a1f-b165-ca420239322c": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/delonghi-logo_1080x_589d1480-ac9d-4634-94bd-9a1b637ff1da.jpg",
+            "logo_link": ""
+          }
         }
       },
       "block_order": [
@@ -50,7 +57,8 @@
         "2b8fd534-c146-4c07-9445-ee9a011b27bc",
         "e026192f-d7e0-4961-abaa-6ffa941a9cd6",
         "78db04d5-adc4-45d1-86d6-28763c73d6e8",
-        "4474e281-e54b-40ae-b39d-2272801d7cf9"
+        "4474e281-e54b-40ae-b39d-2272801d7cf9",
+        "e9dfeb4e-0b46-4a1f-b165-ca420239322c"
       ],
       "settings": {
         "heading": "Brands",
