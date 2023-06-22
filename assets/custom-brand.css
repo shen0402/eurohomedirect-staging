@@ -21,7 +21,7 @@
     width: 100%;
     height: 100%;
 }
-.custom-brand .brand-logo .image-item:hover .image-item img{
+.custom-brand .brand-logo .image-item img:hover {
     transform: scale(1.2);
     transition: transform .1s;
 }
