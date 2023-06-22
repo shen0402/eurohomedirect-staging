@@ -190,6 +190,111 @@
             "logo_image": "shopify:\/\/shop_images\/8b080bb20eae3412927270f8af1ed990_1080x_b05ed7cb-7f15-473c-b8e8-1d7309e166fd.jpg",
             "logo_link": ""
           }
+        },
+        "ad6d9322-c344-4d3a-bf8f-8f7b948c64d2": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/708cb9e6ad0d743c10b120717246c477_1080x_5bbd694c-371b-4f7e-9726-24a1b6a5df35.jpg",
+            "logo_link": ""
+          }
+        },
+        "b013a924-38c6-4350-aec4-e247d28cc00c": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/66a185640462d1cf3ad8c39617caaf32_1080x_cbece273-d778-4477-901d-953d32a69ace.jpg",
+            "logo_link": ""
+          }
+        },
+        "e31201ed-6ffc-4c61-9a93-b2912de1e867": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Falper_logo_1080x_e60e51bc-07c1-446f-a2e8-71df3f4fc1cd.png",
+            "logo_link": ""
+          }
+        },
+        "ab99d4f1-dcc9-4801-91a9-01bd8cf5feef": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/439b7d7582f56aad6b4db040ff3df4b5_1080x_06f986af-0a7c-4db8-aaee-7dcd5e9bc9e1.png",
+            "logo_link": ""
+          }
+        },
+        "7f8f62dc-60ad-475a-a48f-9752cec822e7": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/6d5f039ac2d0a40716572107087db95b_1080x_7a71a732-8613-4d75-925e-15f276639660.jpg",
+            "logo_link": ""
+          }
+        },
+        "3a813e8d-9d7f-4bc3-8fb9-3e999061e163": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/f7204b48b3881286c3c7efc6def85e6f_1080x_1cbb5df8-5345-403e-a5f3-4041142f081d.png",
+            "logo_link": ""
+          }
+        },
+        "6cceb748-5a64-4546-b623-735ab1f12ec1": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/ded0470a29b7e0619a07b309558632c3_1080x_18cfe6f7-e1c3-493a-a6cf-2b5a0d85351c.jpg",
+            "logo_link": ""
+          }
+        },
+        "be448e08-b5f5-47d7-82f8-1205a27781a8": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/7cb9815629b4568ac75006c21268f119_1080x_334af5f7-b8b8-42ae-8ece-a642efca3e1f.jpg",
+            "logo_link": ""
+          }
+        },
+        "2a5d8d70-330e-4f05-a9f3-c174d2b6e6aa": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Graff_logo_1080x_90a02106-3375-42d7-9366-d45bf67d37db.png",
+            "logo_link": ""
+          }
+        },
+        "b4e08fa3-f043-482e-aed6-e8afee7d9c99": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/d69d3bf8dd4dc63e509ded24aa60d689_4a378f94-8482-45a4-b765-0551f10bf819_1080x_1.jpg",
+            "logo_link": ""
+          }
+        },
+        "4c54e1d1-a302-4576-bad7-f41266edacac": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Kaldewei_Logo_1080x_8590668a-7cc3-47d0-a112-198857d51d65.jpg",
+            "logo_link": ""
+          }
+        },
+        "b5c9c61b-36ed-438a-aaf2-636a1a21cba2": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/6c29b69ed6871305a9bfc3b510f4923d_1080x_ee394c84-71af-4980-9b0a-58364e287702.png",
+            "logo_link": ""
+          }
+        },
+        "02f603a9-4c16-402a-96fd-f23466d42a8d": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/KWC_logo_1080x_5fc74cdc-37f0-4dfe-86aa-f39ae7a85350.png",
+            "logo_link": ""
+          }
+        },
+        "4c4fa912-42a7-417d-984e-0a755da796b9": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/9da825beddc3d5e39694af8646298719_1080x_a0d9b9c6-dc50-4a54-9a66-6e24d3b5078d.jpg",
+            "logo_link": ""
+          }
+        },
+        "b5febcee-04f5-4e1f-9de1-60ab0ee5ce9c": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Lefroy_logo_1080x_22875ad4-4b23-4380-968e-f90ca11da36c.jpg",
+            "logo_link": ""
+          }
         }
       },
       "block_order": [
@@ -218,7 +323,22 @@
         "2640c527-8462-4571-bf16-48446f342e9a",
         "0d59e793-ac8d-4531-b145-67bee7b54846",
         "88931017-a9a8-42dc-a150-db3ea58ca39c",
-        "bdd01702-cb9d-484b-ba57-95f61e1980b1"
+        "bdd01702-cb9d-484b-ba57-95f61e1980b1",
+        "ad6d9322-c344-4d3a-bf8f-8f7b948c64d2",
+        "b013a924-38c6-4350-aec4-e247d28cc00c",
+        "e31201ed-6ffc-4c61-9a93-b2912de1e867",
+        "ab99d4f1-dcc9-4801-91a9-01bd8cf5feef",
+        "7f8f62dc-60ad-475a-a48f-9752cec822e7",
+        "3a813e8d-9d7f-4bc3-8fb9-3e999061e163",
+        "6cceb748-5a64-4546-b623-735ab1f12ec1",
+        "be448e08-b5f5-47d7-82f8-1205a27781a8",
+        "2a5d8d70-330e-4f05-a9f3-c174d2b6e6aa",
+        "b4e08fa3-f043-482e-aed6-e8afee7d9c99",
+        "4c54e1d1-a302-4576-bad7-f41266edacac",
+        "b5c9c61b-36ed-438a-aaf2-636a1a21cba2",
+        "02f603a9-4c16-402a-96fd-f23466d42a8d",
+        "4c4fa912-42a7-417d-984e-0a755da796b9",
+        "b5febcee-04f5-4e1f-9de1-60ab0ee5ce9c"
       ],
       "settings": {
         "heading": "Brands",
