@@ -180,6 +180,8 @@
                         {% assign collectionObj = collection %}
                       {% elsif collection.title == 'Cassina' %}
                         {% assign collectionObj = collection %}
+                      {% elsif collection.title == 'Living' %}
+                        {% assign collectionObj = collection %}
                       {% endif %}
                     {% endfor %}
                     {{ collectionObj.title }}
@@ -208,7 +210,7 @@
                       {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
                       <h3 class="heading h3">{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
                       {{ 'product.sanitary.text3_html' | t: product_title: product.title }}
-                    {% elsif collectionObj.title == 'Furniture' or collectionObj.title == 'Koinor' or collectionObj.title == 'Accessories' or collectionObj.title == 'Lighting' or collectionObj.title == 'Cassina' %}
+                    {% elsif collectionObj.title == 'Furniture' or collectionObj.title == 'Koinor' or collectionObj.title == 'Accessories' or collectionObj.title == 'Lighting' or collectionObj.title == 'Cassina' or collectionObj.title == 'Living' %}
                       <h3 class="heading h3">{{ 'product.furniture.header1' | t: brand: product.vendor }}</h3>
                       {{ 'product.furniture.text1_html' | t }}
                     {% endif %}
