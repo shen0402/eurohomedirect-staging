@@ -84,7 +84,7 @@
                 {%- assign mega_menu_sub_class = 'mega' -%}
             {%- endif -%}
             <div class="mega-menu__column {{ mega_menu_ul }}" id="menu-{{ mega_menu_link_id | remove: "#" | remove: "^" | replace: "&", "" }}">
-              <span class="mega-menu__title heading">
+              <span class="a mega-menu__title heading">
                 <a href="{{ link.url }}">{{ link.title | remove: "#" | remove: "^" | replace: "_", " " }}</a>
               </span>
                 {%- if link.title contains 'By Brand' %}
