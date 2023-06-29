@@ -40,7 +40,7 @@
       {%- endif -%}
     {%- endif -%}
 
-    <div class="mega-menu__inner {{ mega_menu_classes }}"  style="display:flex; flex-direction: column">
+    <div class="mega-menu__inner {{ mega_menu_classes }}"  >
       {%- if mega_menu_block.settings.image_1 != blank -%}
         <a href="{{ mega_menu_block.settings.image_1_link | default: '#' }}" class="mega-menu__promo">
           <div class="mega-menu__image-wrapper">
