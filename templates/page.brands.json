@@ -30,11 +30,25 @@
             "logo_link": "shopify:\/\/collections\/liebherr"
           }
         },
+        "e9dfeb4e-0b46-4a1f-b165-ca420239322c": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/miele-logo-png-transparent.png",
+            "logo_link": ""
+          }
+        },
         "e026192f-d7e0-4961-abaa-6ffa941a9cd6": {
           "type": "Item",
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/1f2682648c3a5e2bd96a28dc8ea51fa6_1080x_d7808373-f7db-4845-9f3d-5687d1ec8823.jpg",
             "logo_link": "shopify:\/\/collections\/siemens"
+          }
+        },
+        "8bac1b49-f18b-41e4-a41c-c746757b37c8": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/1200px-V-Zug_logo_svg.png",
+            "logo_link": ""
           }
         },
         "78db04d5-adc4-45d1-86d6-28763c73d6e8": {
@@ -79,11 +93,25 @@
             "logo_link": "shopify:\/\/collections\/emco"
           }
         },
+        "4e292e20-67ad-4ff3-acec-719af8de73a9": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/Duravit-Logo.png",
+            "logo_link": ""
+          }
+        },
         "6cceb748-5a64-4546-b623-735ab1f12ec1": {
           "type": "Item",
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/ded0470a29b7e0619a07b309558632c3_1080x_18cfe6f7-e1c3-493a-a6cf-2b5a0d85351c.jpg",
             "logo_link": "shopify:\/\/collections\/gessi"
+          }
+        },
+        "bdd13f6f-5868-4e8b-aff5-2c182f9cd1e5": {
+          "type": "Item",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/grohe-vector-logo.png",
+            "logo_link": ""
           }
         },
         "b4e08fa3-f043-482e-aed6-e8afee7d9c99": {
@@ -114,71 +142,44 @@
             "logo_link": "shopify:\/\/collections\/molteni-c"
           }
         },
-        "e9dfeb4e-0b46-4a1f-b165-ca420239322c": {
-          "type": "Item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/delonghi-logo_1080x_589d1480-ac9d-4634-94bd-9a1b637ff1da.jpg",
-            "logo_link": ""
-          }
-        },
-        "8bac1b49-f18b-41e4-a41c-c746757b37c8": {
-          "type": "Item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/cac2b1cf9c4214cda7feaa05e3199867_1080x_05566c89-c1b2-41be-b94b-6ff9f892c5ab.jpg",
-            "logo_link": ""
-          }
-        },
-        "4e292e20-67ad-4ff3-acec-719af8de73a9": {
-          "type": "Item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/Jura_Logo_1080x_0b5b23eb-08a2-47a5-824e-36416014822c.jpg",
-            "logo_link": ""
-          }
-        },
-        "bdd13f6f-5868-4e8b-aff5-2c182f9cd1e5": {
-          "type": "Item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/0920e9e7c53f97435c25b55afabed3f0_1080x_97bfef6d-d564-4938-bbfb-12e0e8d46d75.jpg",
-            "logo_link": ""
-          }
-        },
         "2dc604be-f3b3-4784-8100-16b606370a00": {
           "type": "Item",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/133d06c26ccb15a8f62b8289b0611701_1080x_80b68c18-8d44-44f2-887a-a8ae97f6ffcd.jpg",
+            "logo_image": "shopify:\/\/shop_images\/NormannBlackLogoTransparent.png",
             "logo_link": ""
           }
         },
         "fbc511b7-54be-4dca-ac94-a73fa82bfffc": {
           "type": "Item",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/583aa66556ca8137b6dab4e3db190eb2_1080x_3132c959-bc2c-4415-ab9c-bbe463b7f6bd.jpg",
+            "logo_image": "shopify:\/\/shop_images\/poliform-logo.png",
             "logo_link": ""
           }
         },
         "bde5abd0-0725-4109-9c9a-59e624f3ef17": {
           "type": "Item",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/a75baffcdaf0b03f196bce210750d5c5_1080x_6b69fd54-abc3-4409-b9f3-318b757337d1.jpg",
+            "logo_image": "shopify:\/\/shop_images\/Logo-cassina-2021.png",
             "logo_link": ""
           }
         },
         "b681430f-424c-4381-ac90-c3016f1226fd": {
           "type": "Item",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/a607c685c917aa6e9d25eb4989d7a79f_1080x_63b6e7a3-3ec1-4c29-b22b-5e9fa4d0e62b.png",
+            "logo_image": "shopify:\/\/shop_images\/koinor-polstermoebel-gmbh-und-co-kg-logo-vector.png",
             "logo_link": ""
           }
         },
         "6b8c1b4a-1383-4597-a497-984b0a76376d": {
           "type": "Item",
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/265f0806427b66107486ba7fce600d0d_1080x_5dda4d4c-70ac-4d45-95ab-4e9f5738a9ca.png",
+            "logo_image": "shopify:\/\/shop_images\/logo-ligne-roset.png",
             "logo_link": ""
           }
         },
         "e9f5b111-a47d-42cd-80df-fdad9bf4f80f": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/2239cd201dad92c04c62f94eadd5b4db_1080x_d30b4a2a-e9f3-423a-962b-690401a820b8.jpg",
             "logo_link": ""
@@ -186,6 +187,7 @@
         },
         "1d465343-4429-4264-8b2c-7733a458628f": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/8a18a03c8791c34470c189d85ffb141c_1080x_fe0f6b4a-f90a-4cdc-89bf-612e3f7ec044.png",
             "logo_link": ""
@@ -193,6 +195,7 @@
         },
         "27b2a81f-90b9-4397-80d9-4b099d569738": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/Agape_logo_1080x_d988f45e-431e-49dc-8a54-5e98ec106994.jpg",
             "logo_link": ""
@@ -200,6 +203,7 @@
         },
         "6da0f72e-bd5c-49db-86d6-0222b746510a": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/Antonio_Lupi_logo_1080x_6ba4a3b7-d97d-4963-bda1-662f4fda59bc.gif",
             "logo_link": ""
@@ -207,6 +211,7 @@
         },
         "df39b9f7-499d-4c8c-86ca-ba4fe7bf1d5c": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/57d5d657385db1be3de79ec54fbb2cd2_1080x_591af307-67f1-4eb0-a75b-683b0657ba26.png",
             "logo_link": ""
@@ -214,6 +219,7 @@
         },
         "0d59e793-ac8d-4531-b145-67bee7b54846": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/c31aaba1ce17539d0a35f2d8321f9c88_1080x_bba192b0-4eb5-4669-b50c-ad61f5b8452e.png",
             "logo_link": ""
@@ -221,6 +227,7 @@
         },
         "88931017-a9a8-42dc-a150-db3ea58ca39c": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/Cielo_logo_1080x_ace82214-dd4c-4eb8-90ae-2c7785c3717b.png",
             "logo_link": ""
@@ -228,6 +235,7 @@
         },
         "bdd01702-cb9d-484b-ba57-95f61e1980b1": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/8b080bb20eae3412927270f8af1ed990_1080x_b05ed7cb-7f15-473c-b8e8-1d7309e166fd.jpg",
             "logo_link": ""
@@ -235,6 +243,7 @@
         },
         "e31201ed-6ffc-4c61-9a93-b2912de1e867": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/Falper_logo_1080x_e60e51bc-07c1-446f-a2e8-71df3f4fc1cd.png",
             "logo_link": ""
@@ -242,6 +251,7 @@
         },
         "ab99d4f1-dcc9-4801-91a9-01bd8cf5feef": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/439b7d7582f56aad6b4db040ff3df4b5_1080x_06f986af-0a7c-4db8-aaee-7dcd5e9bc9e1.png",
             "logo_link": ""
@@ -249,6 +259,7 @@
         },
         "7f8f62dc-60ad-475a-a48f-9752cec822e7": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/6d5f039ac2d0a40716572107087db95b_1080x_7a71a732-8613-4d75-925e-15f276639660.jpg",
             "logo_link": ""
@@ -256,6 +267,7 @@
         },
         "3a813e8d-9d7f-4bc3-8fb9-3e999061e163": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/f7204b48b3881286c3c7efc6def85e6f_1080x_1cbb5df8-5345-403e-a5f3-4041142f081d.png",
             "logo_link": ""
@@ -263,6 +275,7 @@
         },
         "be448e08-b5f5-47d7-82f8-1205a27781a8": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/7cb9815629b4568ac75006c21268f119_1080x_334af5f7-b8b8-42ae-8ece-a642efca3e1f.jpg",
             "logo_link": ""
@@ -270,6 +283,7 @@
         },
         "2a5d8d70-330e-4f05-a9f3-c174d2b6e6aa": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/Graff_logo_1080x_90a02106-3375-42d7-9366-d45bf67d37db.png",
             "logo_link": ""
@@ -277,6 +291,7 @@
         },
         "4c54e1d1-a302-4576-bad7-f41266edacac": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/Kaldewei_Logo_1080x_8590668a-7cc3-47d0-a112-198857d51d65.jpg",
             "logo_link": ""
@@ -284,6 +299,7 @@
         },
         "b5c9c61b-36ed-438a-aaf2-636a1a21cba2": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/6c29b69ed6871305a9bfc3b510f4923d_1080x_ee394c84-71af-4980-9b0a-58364e287702.png",
             "logo_link": ""
@@ -291,6 +307,7 @@
         },
         "02f603a9-4c16-402a-96fd-f23466d42a8d": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/KWC_logo_1080x_5fc74cdc-37f0-4dfe-86aa-f39ae7a85350.png",
             "logo_link": ""
@@ -298,6 +315,7 @@
         },
         "b5febcee-04f5-4e1f-9de1-60ab0ee5ce9c": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/Lefroy_logo_1080x_22875ad4-4b23-4380-968e-f90ca11da36c.jpg",
             "logo_link": ""
@@ -305,6 +323,7 @@
         },
         "f51408cb-983a-4425-8d11-189df6692263": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/a19309a322e110f6d1a6322b700b6086_1080x_4505a01d-2a12-4b6f-b0fe-a69d26bf1694.jpg",
             "logo_link": ""
@@ -312,6 +331,7 @@
         },
         "d2b3b90f-0db9-4331-bd1f-597bd6f9e632": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/logo-scarabeo-1_1080x_845e08a8-611c-4aea-90d5-9ce6b8a44b9a.png",
             "logo_link": ""
@@ -319,6 +339,7 @@
         },
         "3d105ea1-4455-43b8-ae6b-1dbcee8d545b": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/722ed0a0ff2e0864aadb9bf65ff85c4d_1080x_4efc75e6-633e-4f9a-a221-494d3a9943c7.jpg",
             "logo_link": ""
@@ -326,6 +347,7 @@
         },
         "148037c7-42a5-4bc5-8d7e-e0d545525126": {
           "type": "Item",
+          "disabled": true,
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/7691522ecff98cb28424dee59d0c8ec0_1080x_241a44c5-313a-41b4-b445-b0ccf36c6115.png",
             "logo_link": ""
@@ -336,22 +358,22 @@
         "2b8fd534-c146-4c07-9445-ee9a011b27bc",
         "7fe38387-099e-49fa-8d24-717139f4d209",
         "4474e281-e54b-40ae-b39d-2272801d7cf9",
+        "e9dfeb4e-0b46-4a1f-b165-ca420239322c",
         "e026192f-d7e0-4961-abaa-6ffa941a9cd6",
+        "8bac1b49-f18b-41e4-a41c-c746757b37c8",
         "78db04d5-adc4-45d1-86d6-28763c73d6e8",
         "ce83e638-b778-45ce-a805-195eb74a43c8",
         "19824540-8e47-417b-be40-1e275c903a93",
         "2640c527-8462-4571-bf16-48446f342e9a",
         "ad6d9322-c344-4d3a-bf8f-8f7b948c64d2",
         "b013a924-38c6-4350-aec4-e247d28cc00c",
+        "4e292e20-67ad-4ff3-acec-719af8de73a9",
         "6cceb748-5a64-4546-b623-735ab1f12ec1",
+        "bdd13f6f-5868-4e8b-aff5-2c182f9cd1e5",
         "b4e08fa3-f043-482e-aed6-e8afee7d9c99",
         "4c4fa912-42a7-417d-984e-0a755da796b9",
         "d43ce0b6-f3b7-4d8b-bc68-b53b34ea11dc",
         "06503a24-1713-4a6e-ace8-73f95e04d8fc",
-        "e9dfeb4e-0b46-4a1f-b165-ca420239322c",
-        "8bac1b49-f18b-41e4-a41c-c746757b37c8",
-        "4e292e20-67ad-4ff3-acec-719af8de73a9",
-        "bdd13f6f-5868-4e8b-aff5-2c182f9cd1e5",
         "2dc604be-f3b3-4784-8100-16b606370a00",
         "fbc511b7-54be-4dca-ac94-a73fa82bfffc",
         "bde5abd0-0725-4109-9c9a-59e624f3ef17",
