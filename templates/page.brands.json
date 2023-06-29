@@ -34,7 +34,7 @@
           "type": "Item",
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/miele-logo-png-transparent.png",
-            "logo_link": ""
+            "logo_link": "shopify:\/\/collections\/miele"
           }
         },
         "e026192f-d7e0-4961-abaa-6ffa941a9cd6": {
@@ -48,7 +48,7 @@
           "type": "Item",
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/1200px-V-Zug_logo_svg.png",
-            "logo_link": ""
+            "logo_link": "shopify:\/\/collections\/v-zug"
           }
         },
         "78db04d5-adc4-45d1-86d6-28763c73d6e8": {
@@ -97,7 +97,7 @@
           "type": "Item",
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/Duravit-Logo.png",
-            "logo_link": ""
+            "logo_link": "shopify:\/\/collections\/duravit"
           }
         },
         "6cceb748-5a64-4546-b623-735ab1f12ec1": {
@@ -111,7 +111,7 @@
           "type": "Item",
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/grohe-vector-logo.png",
-            "logo_link": ""
+            "logo_link": "shopify:\/\/collections\/grohe"
           }
         },
         "b4e08fa3-f043-482e-aed6-e8afee7d9c99": {
@@ -153,7 +153,7 @@
           "type": "Item",
           "settings": {
             "logo_image": "shopify:\/\/shop_images\/poliform-logo.png",
-            "logo_link": ""
+            "logo_link": "shopify:\/\/collections\/poliform"
           }
         },
         "bde5abd0-0725-4109-9c9a-59e624f3ef17": {
