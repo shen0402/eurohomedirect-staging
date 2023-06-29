@@ -82,6 +82,7 @@
             {%- else -%}
                 {%- assign mega_menu_ul = '' -%}
                 {%- assign mega_menu_sub_class = 'mega' -%}
+                <div class="mega-menu-style">{{ mega_menu_link_id }}</div>
             {%- endif -%}
             <div class="mega-menu__column {{ mega_menu_ul }}" id="menu-{{ mega_menu_link_id | remove: "#" | remove: "^" | replace: "&", "" }}">
               <span class="a mega-menu__title heading">
