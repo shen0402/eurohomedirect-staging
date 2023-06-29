@@ -405,7 +405,7 @@
       "settings": {
         "heading": "Brands",
         "padding_top": 35,
-        "padding_bottom": 35,
+        "padding_bottom": 60,
         "padding_top_m": 35,
         "padding_bottom_m": 35
       }
