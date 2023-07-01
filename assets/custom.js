@@ -54,7 +54,7 @@ $(document).ready(function () {
         //     console.log("appp")    
         // }
         // if (this.attr('aria-controls') == 'desktop-menu-0-1') {
-            console.log(this);
+            console.log(this.attr('aria-controls'));
         // }
     })
     $('.mega-menu__link.link.mega').mouseover(function () {
