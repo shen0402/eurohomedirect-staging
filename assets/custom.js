@@ -49,8 +49,9 @@ $(document).ready(function () {
     //     $("div.mega-menu__column.mouseover_two").hide();
     //     $('#menu-' + megamenuvar_two).show();
     // });
-    $('.nav-bar__link').first().mouseover(function (){
-            console.log('---?');
+    $('.nav-bar__link').mouseover(function (){
+        var firstMenu = $('.nav-bar__link:first');
+            console.log(firstMenu, '---?');
             $('.mega-menu__inner').css('height', '600px');
            
     })
