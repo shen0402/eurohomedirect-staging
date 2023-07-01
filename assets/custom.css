@@ -531,3 +531,12 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
         padding-right: 10px;
     }
 }
+
+/* megamenu */
+.mega-menu .mega-menu__inner  {
+    display: flex;
+    flex-direction: column;
+}
+.mega-menu .maga-menu--style {
+    display: flex;
+}
