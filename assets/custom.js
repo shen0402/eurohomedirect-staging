@@ -51,6 +51,9 @@ $(document).ready(function () {
     // });
     $('.nav-bar__link').first().mouseover(function (){
             console.log('---?');
+            $('.mega-menu__inner').css('height', '600px');
+            $('.mega-menu--style').last().css('position', 'absolute');
+            $('.mega-menu--style').last().css('top', '300px');
     })
     $('.mega-menu__link.link.mega').mouseover(function () {
         megamenuvar = this.id;
