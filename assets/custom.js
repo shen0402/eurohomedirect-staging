@@ -51,7 +51,6 @@ $(document).ready(function () {
     // });
     $('.nav-bar__link').mouseover(function (){
 
-        console.log($(this).attr('aria-controls'), '---?');
 
         if ($(this).attr('aria-controls') == 'desktop-menu-0-1') {
             console.log('---?');
