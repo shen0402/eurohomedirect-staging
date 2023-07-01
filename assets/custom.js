@@ -53,9 +53,9 @@ $(document).ready(function () {
         
         contain_val = $(this).attr('aria-controls');
         console.log(contain_val);
-        // if (contain_val.contains('desktop-menu-0-1')) {
-        //     console.log($(this).attr('aria-controls'), '---?');
-        // }
+        if ($.contains(contain_val, 'desktop-menu-0-1')) {
+            console.log('---?');
+        }
     })
     $('.mega-menu__link.link.mega').mouseover(function () {
         megamenuvar = this.id;
