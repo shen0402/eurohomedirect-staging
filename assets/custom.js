@@ -55,7 +55,6 @@ $(document).ready(function () {
         console.log(megamenuvar, "mouseover--->")
         $("div.mega-menu__column.mouseover").hide();
         $('#menu-' + megamenuvar).show();
-        this.closest('.mega-menu__inner').addClass('aaa');
         $('.mega-menu__inner .mega-menu--style').last().addClass('position');
     });
     $('.mega__two').mouseover(function () {
