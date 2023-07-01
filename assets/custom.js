@@ -50,11 +50,12 @@ $(document).ready(function () {
     //     $('#menu-' + megamenuvar_two).show();
     // });
     $('.nav-bar__link').mouseover(function (){
-
-
-        if ($(this).attr('aria-controls').contains('desktop-menu-0-1')) {
-            console.log('---?');
-        }
+        
+        contain_cal = $(this).attr('aria-controls');
+        console.log(contain_val);
+        // if (contain_val.contains('desktop-menu-0-1')) {
+        //     console.log($(this).attr('aria-controls'), '---?');
+        // }
     })
     $('.mega-menu__link.link.mega').mouseover(function () {
         megamenuvar = this.id;
