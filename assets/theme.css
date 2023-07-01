@@ -7066,8 +7066,8 @@ button.footer__title.heading span {
    it can become scrollable. The 40px is just a way to give a bit more space below */
 
 .nav-bar .mega-menu {
-    max-height: calc(100vh - 0px - 0px - 40px);
-    max-height: calc(100vh - var(--header-height, 0px) - var(--announcement-bar-height, 0px) - 40px);
+    /* max-height: calc(100vh - 0px - 0px - 40px); */
+    /* max-height: calc(100vh - var(--header-height, 0px) - var(--announcement-bar-height, 0px) - 40px); */
     overflow: auto;
     -ms-scroll-chaining: none;
     overscroll-behavior: contain;
