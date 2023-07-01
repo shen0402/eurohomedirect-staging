@@ -50,10 +50,7 @@ $(document).ready(function () {
     //     $('#menu-' + megamenuvar_two).show();
     // });
     $('.nav-bar__link').mouseover(function (){
-        var firstMenu = $('.nav-bar__link:first');
-            $.(firstMenu).mouseover(function(){
-                console.log('first');
-            })
+            
             $('.mega-menu__inner').css('height', '600px');
            
     })
