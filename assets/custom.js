@@ -52,7 +52,7 @@ $(document).ready(function () {
     $('.nav-bar__link').mouseover(function (){
 
 
-        if ($(this).attr('aria-controls') == 'desktop-menu-0-1') {
+        if ($(this).attr('aria-controls').contains('desktop-menu-0-1')) {
             console.log('---?');
         }
     })
