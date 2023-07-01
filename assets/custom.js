@@ -60,9 +60,7 @@ $(document).ready(function () {
     $('.mega__two').mouseover(function () {
         megamenuvar_this = this.id;
         megamenuvar_two = this.closest('.mouseover').id;
-        
         id = megamenuvar_two + '_' + megamenuvar_this;
-        console.log(id, 'mega_two')
         $("div.mega-menu__column.mouseover_two").hide();
         $('#' + id).show();
         $('.mega-menu__inner .mega-menu--style').last().addClass('position');
