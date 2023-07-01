@@ -50,8 +50,11 @@ $(document).ready(function () {
     //     $('#menu-' + megamenuvar_two).show();
     // });
     $('.nav-bar__link').mouseover(function (){
+
+        console.log($(this).attr('aria-controls'), '---?');
+
         if ($(this).attr('aria-controls') == 'desktop-menu-0-1') {
-            console.log($(this).attr('aria-controls'), '---?');
+            console.log('---?');
         }
     })
     $('.mega-menu__link.link.mega').mouseover(function () {
