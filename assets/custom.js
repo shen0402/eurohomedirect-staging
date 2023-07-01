@@ -52,11 +52,10 @@ $(document).ready(function () {
     $('.mega-menu__link.link.mega').mouseover(function () {
         
         megamenuvar = this.id;
-        megamenu_style = this.closest('.mega-menu__ineer');
-        console.log(megamenu_style, '--->');
         console.log(megamenuvar, "mouseover--->")
         $("div.mega-menu__column.mouseover").hide();
         $('#menu-' + megamenuvar).show();
+        console.log($('.mega-menu__inner .mega-menu--style').last());
         $('.mega-menu__inner .mega-menu--style').last().addClass('position');
     });
     $('.mega__two').mouseover(function () {
