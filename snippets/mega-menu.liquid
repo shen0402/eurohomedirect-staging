@@ -103,7 +103,7 @@
                     {%- else -%}
                         <li class="mega-menu__item">
                           {%- assign mega_menu_sub_link_id = sub_link.title | replace: ' ', '_' | remove: "#" | remove: "^" -%}
-                          <a href="{{ sub_link.url }}" class="mega-menu__link link {{ mega_menu_sub_class }}" id="{{- menu_id_prefix | remove: "^" | replace: "&", "" -}}{{ mega_menu_sub_link_id | remove: "^" | replace: "&", "" }}">{{ sub_link.title | replace: "&", "" }}</a>
+                          <a href="{{ sub_link.url }}" class="mega-menu__link link {{ mega_menu_sub_class }} {{- menu_id_prefix | remove: "^" | replace: "&", "" -}}" id="{{- menu_id_prefix | remove: "^" | replace: "&", "" -}}{{ mega_menu_sub_link_id | remove: "^" | replace: "&", "" }}">{{ sub_link.title | replace: "&", "" }}</a>
                         </li>
                     {%- endif -%}
                   {%- endfor -%}
