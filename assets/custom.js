@@ -52,8 +52,8 @@ $(document).ready(function () {
     $('.nav-bar__link').first().mouseover(function (){
             console.log('---?');
             $('.mega-menu__inner').css('height', '600px');
-            $('.mega-menu__inner .mega-menu--style.2').css('position', 'absolute');
-            $('.mega-menu__inner .mega-menu--style.2').css('top', '300px');
+            $('.mega-menu__inner .mega-menu--style.57').css('position', 'absolute');
+            $('.mega-menu__inner .mega-menu--style.57').css('top', '300px');
     })
     $('.mega-menu__link.link.mega').mouseover(function () {
         megamenuvar = this.id;
