@@ -39,15 +39,31 @@
  * 
  */
 $(document).ready(function () {
+    // $('.mega-menu__link.link.mega').mouseover(function () {
+    //     megamenuvar = this.id;
+    //     $("div.mega-menu__column.mouseover").hide();
+    //     $('#menu-' + megamenuvar).show();
+    // });
+    // $('.mega__two').mouseover(function () {
+    //     megamenuvar_two = this.id;
+    //     $("div.mega-menu__column.mouseover_two").hide();
+    //     $('#menu-' + megamenuvar_two).show();
+    // });
     $('.mega-menu__link.link.mega').mouseover(function () {
+        
         megamenuvar = this.id;
+        console.log(megamenuvar, "mouseover--->")
         $("div.mega-menu__column.mouseover").hide();
         $('#menu-' + megamenuvar).show();
     });
     $('.mega__two').mouseover(function () {
-        megamenuvar_two = this.id;
+        megamenuvar_this = this.id;
+        megamenuvar_two = this.closest('.mouseover').id;
+        
+        id = megamenuvar_two + '_' + megamenuvar_this;
+        console.log(id, 'mega_two')
         $("div.mega-menu__column.mouseover_two").hide();
-        $('#menu-' + megamenuvar_two).show();
+        $('#' + id).show();
     });
 
     $("#block-06ebdf98-fab5-42a9-bce0-dce01773a056").append("<div id=\"direct-contact\"><br><br><p><a aria-describedby=\"a11y-new-window-message\" aria-label=\"Share by email\" href=\"mailto:info@eurohomedirect.com\" rel=\"noopener\" target=\"_blank\"><svg class=\"icon icon--bi-email\" focusable=\"false\" role=\"presentation\" viewbox=\"0 0 22 22\"><g fill-rule=\"evenodd\" fill=\"none\"><path d=\"M.916667 10.08333367l3.66666667-2.65833334v4.65849997zm20.1666667 0L17.416667 7.42500033v4.65849997z\" stroke=\"#4b99d3\"></path><path d=\"M4.58333367 7.42500033L.916667 10.08333367V21.0833337h20.1666667V10.08333367L17.416667 7.42500033\" stroke-width=\"2\" stroke=\"#FFFFFF\"></path><path d=\"M4.58333367 12.1000003V.916667H17.416667v11.1833333m-16.5-2.01666663L21.0833337 21.0833337m0-11.00000003L11.0000003 15.5833337\" stroke-width=\"2\" stroke=\"#FFFFFF\"></path><path d=\"M8.25000033 5.50000033h5.49999997M8.25000033 9.166667h5.49999997\" stroke-linecap=\"square\" stroke-width=\"2\" stroke=\"#4b99d3\"></path></g></svg> info@eurohomedirect.com</a></p><p><a aria-describedby=\"a11y-new-window-message\" aria-label=\"Contact us by Whatsapp\" href=\"https://api.whatsapp.com/send/?phone=85259352062\" rel=\"noopener\" target=\"_blank\"><svg class=\"icon icon--bi-phone\" focusable=\"false\" role=\"presentation\" viewbox=\"0 0 24 24\"><g fill-rule=\"evenodd\" fill=\"none\" stroke-linecap=\"square\" stroke-width=\"2\"><path d=\"M17 15l-3 3-8-8 3-3-5-5-3 3c0 9.941 8.059 18 18 18l3-3-5-5z\" stroke=\"#FFFFFF\"></path><path d=\"M14 1c4.971 0 9 4.029 9 9m-9-5c2.761 0 5 2.239 5 5\" stroke=\"#4b99d3\"></path></g></svg> +852 5935 2062 (Whatsapp Only)</a></p></div>");
