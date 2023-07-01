@@ -82,36 +82,9 @@
             {%- else -%}
                 {%- assign mega_menu_ul = '' -%}
                 {%- assign mega_menu_sub_class = 'mega' -%}
-                 {% comment %} <div class="mega-menu-style">
-                  <div class="mega-menu__column {{ mega_menu_ul }}" id="menu-{{ mega_menu_link_id | remove: "#" | remove: "^" | replace: "&", "" }}">
-                    <span class="a mega-menu__title heading">
-                      <a href="{{ link.url }}">{{ link.title | remove: "#" | remove: "^" | replace: "_", " " }}</a>
-                    </span>
-                      {%- if link.title contains 'By Brand' %}
-                        {%- assign menu_id_prefix = '' -%}
-                      {%- else -%}
-                        {%- assign menu_id_prefix = link.title | replace: ' ', '-' | append: '_' -%}
-                      {%- endif -%}
-                    {%- if link.links.size > 0 -%}
-                      <ul class="mega-menu__linklist">
-                        {%- for sub_link in link.links -%}
-                          {%- if sub_link.title contains "#" -%}
-                              </ul>
-                              <a href="{{ sub_link.url }}" class="mega-menu__title heading">{{ sub_link.title | remove: "#" }}</a>
-                              <ul class="mega-menu__linklist" role="list">
-                          {%- else -%}
-                              <li class="mega-menu__item">
-                                {%- assign mega_menu_sub_link_id = sub_link.title | replace: ' ', '_' | remove: "#" | remove: "^" -%}
-                                <a href="{{ sub_link.url }}" class="mega-menu__link link {{ mega_menu_sub_class }}" id="{{- menu_id_prefix | remove: "^" | replace: "&", "" -}}{{ mega_menu_sub_link_id | remove: "^" | replace: "&", "" }}">{{ sub_link.title | replace: "&", "" }}</a>
-                              </li>
-                          {%- endif -%}
-                        {%- endfor -%}
-                      </ul>
-                    {%- endif -%}
-                  </div>
-                </div> {% endcomment %}
+                 
             {%- endif -%}
-            <div class="mega-menu__column {{ mega_menu_ul }}" id="menu-{{ mega_menu_link_id | remove: "#" | remove: "^" | replace: "&", "" }}">
+            {% comment %} <div class="mega-menu__column {{ mega_menu_ul }}" id="menu-{{ mega_menu_link_id | remove: "#" | remove: "^" | replace: "&", "" }}">
               <span class="a mega-menu__title heading">
                 <a href="{{ link.url }}">{{ link.title | remove: "#" | remove: "^" | replace: "_", " " }}</a>
               </span>
@@ -136,7 +109,48 @@
                   {%- endfor -%}
                 </ul>
               {%- endif -%}
-            </div>
+            </div> {% endcomment %}
+
+            {% unless mega_menu_link_id contains "^" or mega_menu_link_id contains "#" %}
+              {% if forloop.first %}
+                <div class="maga-menu--style">
+                  {% else %}
+                </div>
+                <div class="maga-menu--style">
+              {% endif %}
+            {% endunless %}
+            
+              <div class="mega-menu__column {{ mega_menu_ul }}" id="menu-{{ mega_menu_link_id | remove: "#" | remove: "^" | replace: "&", "" }}">
+                <span class="a mega-menu__title heading">
+                  <a href="{{ link.url }}">{{ link.title | remove: "#" | remove: "^" | replace: "_", " " }}</a>
+                </span>
+                  {%- if link.title contains 'By Brand' or 'By Type' %}
+                    {%- assign menu_id_prefix = '' -%}
+                  {%- else -%}
+                    {%- assign menu_id_prefix = link.title | replace: ' ', '-' | append: '_' -%}
+                  {%- endif -%}
+                {%- if link.links.size > 0 -%}
+                  <ul class="mega-menu__linklist">
+                    {%- for sub_link in link.links -%}
+                      {%- if sub_link.title contains "#" -%}
+                          </ul>
+                          <a href="{{ sub_link.url }}" class="b mega-menu__title heading">{{ sub_link.title | remove: "#" }}</a>
+                          <ul class="mega-menu__linklist" role="list">
+                      {%- else -%}
+                          <li class="mega-menu__item">
+                            {%- assign mega_menu_sub_link_id = sub_link.title | replace: ' ', '_' | remove: "#" | remove: "^" -%}
+                            <a href="{{ sub_link.url }}" class="mega-menu__link link {{ mega_menu_sub_class }}" id="{{- menu_id_prefix | remove: "^" | replace: "&", "" -}}{{ mega_menu_sub_link_id | remove: "^" | replace: "&", "" }}">{{ sub_link.title  }}</a>
+                          </li>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  </ul>
+                {%- endif -%}
+              </div>
+            
+            {% if forloop.last %}
+             </div>
+            {% endif %}
+            
           {%- endfor -%}
         {%- endcapture -%}
 
