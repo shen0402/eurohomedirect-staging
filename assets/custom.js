@@ -50,7 +50,7 @@ $(document).ready(function () {
     //     $('#menu-' + megamenuvar_two).show();
     // });
     $('.mega-menu__link.link.mega').mouseover(function () {
-        $('.mega-menu__inner .mega-menu--style').last().addClass('position');
+        $('.mega-menu__inner .mega-menu--style').addClass('pon');
         megamenuvar = this.id;
         $("div.mega-menu__column.mouseover").hide();
         $('#menu-' + megamenuvar).show();
