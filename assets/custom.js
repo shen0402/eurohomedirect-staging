@@ -49,7 +49,7 @@ $(document).ready(function () {
     //     $("div.mega-menu__column.mouseover_two").hide();
     //     $('#menu-' + megamenuvar_two).show();
     // });
-    $('.nav-bar__link').mouseover(function (){
+    $('.nav-bar__link:first').mouseover(function (){
             
             $('.mega-menu__inner').css('height', '600px');
            
