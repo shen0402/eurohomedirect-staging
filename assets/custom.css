@@ -537,12 +537,11 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 600px;
 }
 .mega-menu .mega-menu--style {
     display: flex;
 }
 .mega-menu .mega-menu--style:last-child {
-    position: absolute;
-    top: 300px;
+    /* position: absolute;
+    top: 300px; */
 }
