@@ -539,4 +539,5 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
 }
 .mega-menu .maga-menu--style {
     display: flex;
+    max-height: 280px;
 }
