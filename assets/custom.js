@@ -49,6 +49,12 @@ $(document).ready(function () {
     //     $("div.mega-menu__column.mouseover_two").hide();
     //     $('#menu-' + megamenuvar_two).show();
     // });
+    $('.nav-bar__link').hover(function(){
+        if (this.attr('aria-controls'), 'desktop-menu-0-1') {
+            console.log("appp")    
+        }
+        
+    })
     $('.mega-menu__link.link.mega').mouseover(function () {
         megamenuvar = this.id;
         $("div.mega-menu__column.mouseover").hide();
