@@ -50,12 +50,11 @@ $(document).ready(function () {
     //     $('#menu-' + megamenuvar_two).show();
     // });
     $('.mega-menu__link.link.mega').mouseover(function () {
-        
+        $('.mega-menu__inner .mega-menu--style').last().addClass('position');
         megamenuvar = this.id;
-        console.log(megamenuvar, "mouseover--->")
         $("div.mega-menu__column.mouseover").hide();
         $('#menu-' + megamenuvar).show();
-        $('.mega-menu__inner .mega-menu--style').last().addClass('position');
+        console.log('hhh')
     });
     $('.mega__two').mouseover(function () {
         megamenuvar_this = this.id;
