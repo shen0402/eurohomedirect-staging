@@ -49,13 +49,8 @@ $(document).ready(function () {
     //     $("div.mega-menu__column.mouseover_two").hide();
     //     $('#menu-' + megamenuvar_two).show();
     // });
-    $('.nav-bar__link').mouseover(function (){
-        
-        contain_val = $(this).attr('aria-controls');
-        console.log(contain_val);
-        if (contain_val == 'desktop-menu-0-1') {
+    $('.nav-bar__link').first().mouseover(function (){
             console.log('---?');
-        }
     })
     $('.mega-menu__link.link.mega').mouseover(function () {
         megamenuvar = this.id;
