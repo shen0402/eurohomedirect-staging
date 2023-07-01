@@ -51,8 +51,7 @@ $(document).ready(function () {
     // });
     $('.nav-bar__link').mouseover(function (){
         var firstMenu = $('.nav-bar__link:first');
-            console.log(firstMenu, '---?');
-            $('#'+firstMenu).mouseover(function(){
+            $.(firstMenu).mouseover(function(){
                 console.log('first');
             })
             $('.mega-menu__inner').css('height', '600px');
