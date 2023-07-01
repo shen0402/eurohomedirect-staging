@@ -53,7 +53,7 @@ $(document).ready(function () {
         
         contain_val = $(this).attr('aria-controls');
         console.log(contain_val);
-        if ($.contains(contain_val, 'desktop-menu-0-1')) {
+        if (contain_val == 'desktop-menu-0-1') {
             console.log('---?');
         }
     })
