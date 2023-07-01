@@ -50,9 +50,9 @@ $(document).ready(function () {
     //     $('#menu-' + megamenuvar_two).show();
     // });
     $('.nav-bar__link').mouseover(function (){
-        if (this.attr('aria-controls'), 'desktop-menu-0-1') {
-            console.log("appp")    
-        }
+        // if (this.attr('aria-controls'), 'desktop-menu-0-1') {
+        //     console.log("appp")    
+        // }
         
     })
     $('.mega-menu__link.link.mega').mouseover(function () {
