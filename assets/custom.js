@@ -52,6 +52,8 @@ $(document).ready(function () {
     $('.mega-menu__link.link.mega').mouseover(function () {
         
         megamenuvar = this.id;
+        megamenu_style = thsis.closest('.mega-menu__ineer');
+        console.log(megamenu_style, '--->');
         console.log(megamenuvar, "mouseover--->")
         $("div.mega-menu__column.mouseover").hide();
         $('#menu-' + megamenuvar).show();
