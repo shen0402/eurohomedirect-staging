@@ -84,7 +84,7 @@
                 {%- assign mega_menu_sub_class = 'mega' -%}
                  
             {%- endif -%}
-            <div class="mega-menu__column {{ mega_menu_ul }}" id="menu-{{ mega_menu_link_id | remove: "#" | remove: "^" | replace: "&", "" }}">
+            {% comment %} <div class="mega-menu__column {{ mega_menu_ul }}" id="menu-{{ mega_menu_link_id | remove: "#" | remove: "^" | replace: "&", "" }}">
               <span class="a mega-menu__title heading">
                 <a href="{{ link.url }}">{{ link.title | remove: "#" | remove: "^" | replace: "_", " " }}</a>
               </span>
@@ -109,9 +109,9 @@
                   {%- endfor -%}
                 </ul>
               {%- endif -%}
-            </div>
+            </div> {% endcomment %}
 
-            {% comment %} {% unless mega_menu_link_id contains "^" or mega_menu_link_id contains "#" %}
+           {% unless mega_menu_link_id contains "^" or mega_menu_link_id contains "#" %}
               {% if forloop.first %}
                 <div class="maga-menu--style">
                   {% else %}
@@ -149,7 +149,7 @@
             
             {% if forloop.last %}
              </div>
-            {% endif %} {% endcomment %}
+            {% endif %}
             
           {%- endfor -%}
         {%- endcapture -%}
