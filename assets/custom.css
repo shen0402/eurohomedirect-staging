@@ -542,6 +542,6 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
     display: flex;
 }
 .mega-menu .maga-menu--style:last-child {
-    position: absolute;
+    /* position: absolute; */
     /* top: 285px; */
 }
