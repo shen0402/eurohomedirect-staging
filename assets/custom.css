@@ -541,3 +541,7 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
 .mega-menu .mega-menu--style {
     display: flex;
 }
+.mega-menu .mega-menu--style.list-57 {
+    position: absolute;
+    top: 300px;
+}
