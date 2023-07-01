@@ -50,9 +50,7 @@ $(document).ready(function () {
     //     $('#menu-' + megamenuvar_two).show();
     // });
     $('.nav-bar__link:first').mouseover(function (){
-            
-            $('.mega-menu__inner').css('height', '600px');
-           
+        $('.mega-menu__inner').css('height', '600px');
     })
     $('.nav-bar__link:not(:first)').mouseover(function() {
         $('.mega-menu__inner').css('height', 'unset');
