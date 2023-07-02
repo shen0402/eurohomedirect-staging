@@ -60,6 +60,10 @@ $(document).ready(function () {
         $("div.mega-menu__column.mouseover").hide();
         $('#menu-' + megamenuvar).show();
     });
+    $('.mega-menu__link.link.mega').mouseleave(function () {
+        megamenuvar = this.id;
+        $('#menu-' + megamenuvar).hide();
+    });
     $('.mega__two').mouseover(function () {
         megamenuvar_this = this.id;
         megamenuvar_two = this.closest('.mouseover').id;
