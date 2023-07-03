@@ -57,6 +57,7 @@ $(document).ready(function () {
     })
     $('.mega-menu__link.link.mega').mouseover(function () {
         megamenuvar = this.id;
+        console.log(megamenuvar, "mega");
         $("div.mega-menu__column.mouseover").hide();
         $('#menu-' + megamenuvar).show();
     });
