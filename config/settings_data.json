@@ -556,7 +556,7 @@
           "image": "shopify:\/\/shop_images\/shop-appliances.jpg",
           "image_position": "left",
           "image_width": 50,
-          "title": "Shop Appliances",
+          "title": "Shop Appliances From Europe",
           "content": "<p>At EuroHomeDirect®, we see home renovation as arts, passion, and mission. Only the finest brands are selected by our team of experts to be listed on our website. Start building your dream home today to showcase your exquisite taste! We are more than happy to assist.<\/p>",
           "button_text": "See All Brands",
           "button_link": "shopify:\/\/collections\/appliances"
@@ -861,10 +861,21 @@
           "shipping_estimator_default_country": "United States",
           "show_refunds_policy": false
         }
+      },
+      "10dbcd7d-6a4d-4f1a-9c38-f22a67aeea45": {
+        "type": "rich-text",
+        "settings": {
+          "text_width": "narrow",
+          "title": "EuroHomeDirect® - European Appliances, Furniture, and Sanitary Ware in Hong Kong and Singapore",
+          "content": "",
+          "button_text": "",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
       "slideshow",
+      "10dbcd7d-6a4d-4f1a-9c38-f22a67aeea45",
       "16361133422a4560f4",
       "16361133576d45d0ca",
       "163611642205a9ce66"
