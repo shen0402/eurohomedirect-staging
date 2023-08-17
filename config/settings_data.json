@@ -555,7 +555,7 @@
           "2726a973-22a8-47f8-ad5a-7cae3edfe3cd"
         ],
         "settings": {
-          "show_section": true,
+          "show_section": false,
           "stack_mobile": true
         }
       },
