@@ -519,28 +519,29 @@
             "type": "item",
             "settings": {
               "icon": "bi-shop",
-              "title": "",
-              "content": "<h2><strong>World-Class Sanitary Ware Brands<\/strong><\/h2><p>As your one-stop luxury home renovation store, we only stock products crafted by some of Europe’s key high-end brands. We appreciate that each home and individual have a personal sense of style, meaning all our brands have been carefully selected for their aesthetic adaptability in addition to their functionality. We are also happy to discuss any specific customisation preferences or requirements to ensure you receive a product that is perfectly suited to your home. <\/p><p> Our bathroom and sanitary ware brands include Alape, Axor, Blanco, Dornbracht, Duravit, Emco, Gessi, Grohe, Hansgrohe, Laufen, and Villroy & Boch. <\/p>"
+              "title": "Top European brands with competitive pricing of up to 40%",
+              "content": "<p>In a globalised world, we think it’s important to price-match consumer products across continents. EuroHomeDirect® provides up to 40% savings compared to local retail prices, so you can enjoy similar pricing to the product’s country of origin. We do this by using flat and efficient structures that allow us to provide products shipped directly from Europe to help extend your savings.<\/p>"
             }
           },
           "text-with-icons-2": {
             "type": "item",
             "settings": {
               "icon": "bi-customer-support",
-              "title": "",
-              "content": "<h2><strong>Luxury Bathroom Fittings with Innovative Technology<\/strong><\/h2><p>We understand that the best bathrooms are those that pose minimal problems, which is why we handpick sanitary solutions that utilise innovative technologies to make all your everyday tasks easier. <\/p><p>Quality sink basins and faucets, state-of-the-art rain shower sets, mirrors with sensor-activated LED lighting and heating, bespoke <a href=\"https:\/\/eurohomedirect.com\/pages\/smart-glass\" target=\"_blank\">smart switchable glass<\/a> solutions, and whirlpool baths are all set to change your bathroom for the better. Many of these products will be available in a range of different designs, sizes, and colours so you can easily find the best fit for your bathroom.  <\/p><p>We also strive to ensure our products are as environmentally-friendly and sustainable as possible, with an emphasis on smart home technologies and self-cleaning processes whenever available – all to enhance the convenience levels within your own home. <\/p>"
+              "title": "Full suite of services from consultation, direct shipping, and after-sale service",
+              "content": "<p>Here at EuroHomeDirect®, we pride ourselves on being able to go above and beyond. We provide professional consultation, to best help you decide which product is best for your needs, as well as providing direct shipping services and after-sale service to ensure customer satisfaction is our top priority.<\/p>"
             }
           },
           "text-with-icons-1": {
             "type": "item",
             "settings": {
               "icon": "bi-add-to-cart",
-              "title": "",
-              "content": "<h2><strong>Sophisticated Bathroom Accessories<\/strong><\/h2><p>Elevate your bathroom even further by adding some sleek accessories and furnishings. Whether you prefer looks that complement or contrast, our range of luxury brands carry shelving solutions and towel racks, shower cubbies, floating drawers and cabinets, hooks, cosmetic mirrors, shower rails, pendant lights, washstands, and soap dispensers to make the space truly your own. Stick to a specific collection to give your bathroom a fully cohesive look or choose from an array of different brands to create an atmosphere that is effortlessly unique. <\/p><h2><strong>For Other Home Renovation Ideas<\/strong><\/h2><p>Want to explore more options beyond sanitary ware, bathroom fittings and accessories? If you are interested in constructing your luxury kitchen , we carry a full range of different <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\">appliances in Hong Kong<\/a> and Singapore by reputable European brands, such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\">Siemens Home Appliances<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\">Bosch Appliances, Gaggenau Home Appliances, Liebherr Home Appliances for Hong Kong and Singapore kitchens<\/a>. To elevate your living room, dining room, bedroom or home office, we stock designer<a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\"> furniture<\/a> items by leading brands including Molteni & C, Poliform and Normann Copenhagen. <\/p><h2><\/h2>"
+              "title": "Full range of renovation products",
+              "content": "<p>EuroHomeDirect® offers a variety of products, in appliance, furniture, and sanitary ware categories. With such a broad range, we are able to better provide the ideal solution for your home renovation needs. We also work with you when exploring customization options, so you can get the best fit for you and your home.<\/p>"
             }
           },
           "2726a973-22a8-47f8-ad5a-7cae3edfe3cd": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "bi-customer-support",
               "title": "",
