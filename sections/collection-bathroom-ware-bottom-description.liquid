@@ -11,10 +11,13 @@
   }
   
   @media screen and (min-width: 1280px) {
+    .collection-bottom-des-container {
+      padding: unset;
+    }
+    
     .collection-bottom-des {
       margin-right: auto;
       margin-left: auto;
-      padding: unset;
     }
     
     .col-xl-4 {
@@ -25,7 +28,7 @@
 
 {%- if section.settings.show_section -%}
   <section class="card__section card__section--tight" data-section-id="{{ section.id }}" data-section-type="collection-bathroom-ware-bottom-description">
-    <div class="container container--flush">
+    <div class="container container--flush collection-bottom-des-container">
       <div class="text-with-icons collection-bottom-des {% if section.settings.stack_mobile %}text-with-icons--stacked{% endif %}">
         {%- for block in section.blocks -%}
           <div class="text-with-icons__item col-xl-4" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
