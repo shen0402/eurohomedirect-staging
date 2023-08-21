@@ -1,4 +1,10 @@
 <style>
+  .collection-bottom-des {
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
   @media (min-width: 768px) {
     .col-md-4 {
       width: 25%
@@ -9,7 +15,7 @@
 {%- if section.settings.show_section -%}
   <section class="card__section card__section--tight" data-section-id="{{ section.id }}" data-section-type="collection-bathroom-ware-bottom-description">
     <div class="container container--flush">
-      <div class="text-with-icons {% if section.settings.stack_mobile %}text-with-icons--stacked{% endif %}">
+      <div class="text-with-icons collection-bottom-des {% if section.settings.stack_mobile %}text-with-icons--stacked{% endif %}">
         {%- for block in section.blocks -%}
           <div class="text-with-icons__item col-md-4" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
 
