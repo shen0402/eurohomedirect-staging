@@ -955,6 +955,61 @@
           "show_section": true,
           "stack_mobile": false
         }
+      },
+      "collection-kitchen-fittings-bottom-description": {
+        "type": "collection-kitchen-fittings-bottom-description",
+        "blocks": {
+          "collection-kitchen-fittings-bottom-description-0": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-delivery",
+              "title": "Luxury Kitchen Ware by Top European Brands",
+              "content": "<p>Explore a wide range of elegant kitchen sinks from BLANCO and exquisite faucet designs from Dornbracht. Find award-winning styles that range from classic to contemporary for your kitchen.<\/p><p>For design enthusiasts, the Blanco SILGRANIT black is the ultimate color to have. The latest offering from Blanco boasts a captivating depth that adds stunningly lavish touches to kitchens with light-colored countertops. Alternatively, it exudes a sense of luxurious mystery as an elegant choice for all-black kitchens.<\/p><p>Blending the aesthetics of a contemporary icon with practical versatility, Dornbracht kitchen faucets combine style and functionality seamlessly. With its elevated spout and ergonomically positioned lever featuring a sleek right-angle design, it exudes a stylish and distinctive look. The Dorbracht Tara Ultra series offer a pull-down variant, characterized by its tall, slender spout and a lever with a sharp, right-angle design. The slim profile of this version helps create more available workspace in the adjacent kitchen area.<\/p><p>We are proud to stock outstanding products crafted by leading homeware brands in Europe, providing you with a specially curated assortment that takes pride in all aspects of functionality, innovation, sustainability, and elegance. We also strive to ensure our products come in a variety of colours, sizes, and designs to suit individual preferences and housing layouts. If you see a product you like that might need some personalisation, we are always happy to discuss any customisation options or specific requirements you had in mind to ensure you receive a product that fits perfectly in your home.<\/p><p>Our kitchen fittings brands available for delivery to Hong Kong, Singapore, and across the world include Blanco, Grohe, Dornbracht, Hansgrohe, Axor, Gessi and V&B, all European made courier to your doorstep!<\/p>"
+            }
+          },
+          "collection-kitchen-fittings-bottom-description-1": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-returns",
+              "title": "Innovative Kitchen Fittings for Modern Living",
+              "content": "<p>When shopping for home appliances nowadays, convenience, functionality, and sustainability generally go hand in hand, thanks to the rise of innovative new products that allow for all three of these things at once. For the kitchen, we have an assortment of accessories and fittings that will delight seasoned chefs and beginner cooks alike.<\/p>"
+            }
+          },
+          "collection-kitchen-fittings-bottom-description-2": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "Direct Shipping to Your Doorstep",
+              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. If needed, you can opt for professional installation services in Hong Kong, however many of our free-standing kitchen Fittings are very easy and convenient to set up once received.<\/p><p>We provide consultation prior to your purchase should you need any advice on the best kitchen fittings for your needs, as well as provide after-sale service to ensure that you are happy with your delivery. You can rest assured that our expert team is with you every step of the way throughout your renovation journey.<\/p>"
+            }
+          },
+          "collection-kitchen-fittings-bottom-description-3": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-secure-payment",
+              "title": "For Other Home Renovation Ideas",
+              "content": "<p>Want to browse other options beyond kitchen fittings on our <a href=\"https:\/\/eurohomedirect.com\/collections\/\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/\">designer furniture store<\/a>? To elevate your living room, dining room, or home office, we stock <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/furniture\">luxury furniture<\/a> items by leading brands such as Molteni & C, Poliform and Normann Copenhagen. If you are interested in luxury bathroom fittings, we carry comprehensive sanitary ware and products by brands such as Alape, AXOR, BLANCO, Dornbracht, Duravit, Emco, Gessi, GROHE, Hansgrohe, LAUFEN, and Villeroy & Boch.<\/p>"
+            }
+          },
+          "c516862a-f0eb-43f1-97b9-68effbe530f4": {
+            "type": "column",
+            "settings": {
+              "contact_us_title": "Contact Us",
+              "contact_us_content": "<p>If you have questions about <a href=\"https:\/\/eurohomedirect.com\/collections\/kitchen-wares\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/kitchen-wares\">Kitchen Fittings<\/a> at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at <a href=\"https:\/\/wa.me\/85259352062\" target=\"_blank\" title=\"https:\/\/wa.me\/85259352062\">+852 5935 2062<\/a>, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\" title=\"mailto:info@eurohomedirect.com\">send us a message<\/a>. We will get back to you as soon as possible.<\/p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\">Gaggenau<\/a> and other premier <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/appliances\">home appliances<\/a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability.<\/p><p>Are you searching for incredible deals on luxury appliances, or seeking specific pieces from a particular <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/furniture\">designer furniture<\/a> brand? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "collection-kitchen-fittings-bottom-description-0",
+          "collection-kitchen-fittings-bottom-description-1",
+          "collection-kitchen-fittings-bottom-description-2",
+          "collection-kitchen-fittings-bottom-description-3",
+          "c516862a-f0eb-43f1-97b9-68effbe530f4"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": false
+        }
       }
     },
     "content_for_index": [
