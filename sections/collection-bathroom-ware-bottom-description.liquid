@@ -13,6 +13,12 @@
       margin-top: 2rem;
     }
   }
+
+  @media screen and (max-width: 1279px) {
+    .contact-us-container {
+      padding: 0 120px;
+    }
+  }
   
   @media screen and (min-width: 1280px) {
     .collection-bottom-des-container {
@@ -59,7 +65,7 @@
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'column' %}
-          <div class="container">
+          <div class="container contact-us-container">
             {%- if block.settings.contact_us_title != blank -%}
               <h2 class="text--strong">{{ block.settings.contact_us_title }}</h2>
             {%- endif -%}
