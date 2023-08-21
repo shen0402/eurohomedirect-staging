@@ -1010,6 +1010,68 @@
           "show_section": true,
           "stack_mobile": false
         }
+      },
+      "collection-appliances-bottom-description": {
+        "type": "collection-appliances-bottom-description",
+        "blocks": {
+          "collection-appliances-bottom-description-0": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-delivery",
+              "title": "Quality Products Designed by Premium European Brands",
+              "content": "<p>Experience elegance and sophistication with our range of high-end home and kitchen appliances from renowned European brands. Our curated collection is handpicked for their excellent performance, superior craftsmanship, and innovative technology. We are proud to bring you the finest appliances from brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\">Gaggenau<\/a>, Liebherr, Miele, and V-ZUG, delivered straight to your doorstep in Hong Kong, Singapore, or beyond. From induction hobs, ovens, steamers, dishwashers, to wine coolers and built-in refrigerators, our products are set to become household staples for years to come.<\/p>"
+            }
+          },
+          "collection-appliances-bottom-description-1": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-returns",
+              "title": "Home Appliances for Everyday Tasks",
+              "content": "<p>Ease your daily tasks and chores with our comprehensive line of home appliances. Experience the wonders of a state-of-the-art washing machine with special built-in programmes and functions, or a fully-integrated dishwasher that enables all kinds of washing preferences. Our selection is designed to simplify your everyday routine and increase comfort in your home, allowing you more time for relaxation. Our products are not only functional but elegantly designed, blending seamlessly into your home decor and providing you with the convenience you deserve.<\/p>"
+            }
+          },
+          "collection-appliances-bottom-description-2": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "Kitchen Appliances for Convenient Cooking",
+              "content": "<p>Unlock a world of culinary possibilities with our extensive range of kitchen appliances. Our assortment of ovens, cooktops, and induction hobs will bring out the best in all your meals. Feel the difference in quality products that households in Hong Kong, Singapore and worldwide rely on for high energy efficiency, safety, and precise temperature control. Our kitchen appliance selection combines practicality with sleek design, ensuring you can cook with style and ease.<\/p>"
+            }
+          },
+          "99320313-c4de-4084-9f56-f380323f72b1": {
+            "type": "twocol",
+            "settings": {
+              "title": "Stylish Kitchen Must-have Appliances",
+              "content": "<p>Our range of built-in refrigerators, wine fridges, and coffee makers are all fitted out with the latest technologies and sustainable innovations guaranteed to make your kitchen activities better than ever. Store food in specially delegated fridge and freezer compartments with humidity levels designed to keep your products fresher for longer, all bundled in a design that fits seamlessly into your kitchen interior for a modern, streamlined look. Wine enthusiasts in Hong Kong and Singapore will enjoy our premium wine fridges and coolers, which provide optimal conditions for storing your favourite bottles via multiple temperature compartments. Our range of coffee machines also spare no expense, proffering multiple functions for delicious brews and hot milk beverages from an intense espresso flavour to a creamy latte.<\/p><p>Our refrigerators and fridge-freezers incorporate a range of built-in features that make kitchen life so much easier – including BioFrech technology which keeps food fresher for longer, humidity controls for different types of groceries, water and ice dispensers, internal water and air filters, and design elements allowing for easy organisation and separation of food.<\/p><p>Microwaves and ovens have never been more user-friendly, where we offer appliances with multiple different output levels, functions, and programmes. From defrosting to baking, from heating up pizzas to grilling, these innovative ovens enable all sorts of cooking possibilities to take place regardless of skill level. Many of these items are also fitted with touch screens and Smart Home connectivity, allowing for remote monitoring and hands-free control.<\/p><p>Our range of dishwashers recognises the need for easy, speedy cleaning, with integrated features enabling various washing preferences, automatic detergent dispensing, energy-efficient drying, and touch controls, along with self-cleaning filter systems.<\/p><p>We are also proud to offer appliances that feature high energy grading or rating such as “A”, making each purchase an environmentally-friendly one for your kitchen.<\/p>"
+            }
+          },
+          "1c8a66ab-0655-4f23-8f85-30ba9f9afa2c": {
+            "type": "twocol",
+            "settings": {
+              "title": "Direct Shipping to Your Doorstep",
+              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. If needed, you can opt for professional installation services in Hong Kong, however many of our free-standing appliances are very easy and convenient to set up once received.<\/p><p>We also provide consultation prior to your purchase should you need any advice on the kitchen appliances to build your dream kitchen.  We also offer after-sales service to make sure that you are happy with and well-supported after your purchase. You can rest assured that our expert team is with you every step of the way throughout your renovation journey.<\/p>"
+            }
+          },
+          "3e636478-bb47-41bb-b2dd-5e720b04226e": {
+            "type": "column",
+            "settings": {
+              "contact_us_title": "Contact Us",
+              "contact_us_content": "<p>If you have questions about Kitchen Fitttings & Home Appliances at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\" title=\"mailto:info@eurohomedirect.com\">send us a message<\/a>. We will get back to you as soon as possible.<\/p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\">Gaggenau<\/a>, VZUG and other premier <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/appliances\">home appliances<\/a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability.<\/p><p>Are you searching for incredible deals on luxury appliances, or perhaps seeking specific pieces from a particular <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/furniture\">designer furniture<\/a> brand? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "collection-appliances-bottom-description-0",
+          "collection-appliances-bottom-description-1",
+          "collection-appliances-bottom-description-2",
+          "99320313-c4de-4084-9f56-f380323f72b1",
+          "1c8a66ab-0655-4f23-8f85-30ba9f9afa2c",
+          "3e636478-bb47-41bb-b2dd-5e720b04226e"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": false
+        }
       }
     },
     "content_for_index": [
