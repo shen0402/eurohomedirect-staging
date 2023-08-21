@@ -61,7 +61,7 @@
         {% case block.type %}
           {% when 'column' %}
             {%- if block.contact_us_title != blank -%}
-              <h2>{{ block.settings.contact_us_title | escape }}</h2>
+              <h2>{{ block.settings.contact_us_title }}</h2>
             {%- endif -%}
             {%- if block.contact_us_content != blank -%}
               <div>{{ block.settings.contact_us_content }}</div>
