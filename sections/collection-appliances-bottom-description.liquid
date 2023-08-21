@@ -81,27 +81,31 @@
     </div>
   </section>
   <section class="card__section card__section--tight">
-      {% for block in section.blocks %}
-        {% case block.type %}
-          {% when 'twocol' %}
-          <div class="text-with-icons__item col-xl-6" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
-    
-                {%- if block.settings.title != blank or block.settings.content != blank -%}
-                  <div class="text-with-icons__content-wrapper">
-                    {%- if block.settings.title != blank -%}
-                      <p class="collection-bottom-des__title text--strong">{{ block.settings.title | escape }}</p>
-                    {%- endif -%}
-    
-                    {%- if block.settings.content != blank -%}
-                      <div class="text-with-icons__content rte">
-                        {{ block.settings.content  }}
-                      </div>
-                    {%- endif -%}
-                  </div>
-                {%- endif -%}
-              </div>
-        {% endcase %} 
-      {% endfor %}
+    <div class="container container--flush collection-bottom-des-container">
+      <div class="text-with-icons collection-bottom-des {% if section.settings.stack_mobile %}text-with-icons--stacked{% endif %}">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'twocol' %}
+            <div class="text-with-icons__item col-xl-6" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+      
+                  {%- if block.settings.title != blank or block.settings.content != blank -%}
+                    <div class="text-with-icons__content-wrapper">
+                      {%- if block.settings.title != blank -%}
+                        <p class="collection-bottom-des__title text--strong">{{ block.settings.title | escape }}</p>
+                      {%- endif -%}
+      
+                      {%- if block.settings.content != blank -%}
+                        <div class="text-with-icons__content rte">
+                          {{ block.settings.content  }}
+                        </div>
+                      {%- endif -%}
+                    </div>
+                  {%- endif -%}
+                </div>
+          {% endcase %} 
+        {% endfor %}
+      </div>
+    </div>
   </section>
   <section class="card__section card__section--tight">
       {% for block in section.blocks %}
