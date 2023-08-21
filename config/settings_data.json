@@ -966,15 +966,6 @@
               "content": "<p>Explore a wide range of elegant kitchen sinks from BLANCO and exquisite faucet designs from Dornbracht. Find award-winning styles that range from classic to contemporary for your kitchen.<\/p><p>For design enthusiasts, the Blanco SILGRANIT black is the ultimate color to have. The latest offering from Blanco boasts a captivating depth that adds stunningly lavish touches to kitchens with light-colored countertops. Alternatively, it exudes a sense of luxurious mystery as an elegant choice for all-black kitchens.<\/p><p>Blending the aesthetics of a contemporary icon with practical versatility, Dornbracht kitchen faucets combine style and functionality seamlessly. With its elevated spout and ergonomically positioned lever featuring a sleek right-angle design, it exudes a stylish and distinctive look. The Dorbracht Tara Ultra series offer a pull-down variant, characterized by its tall, slender spout and a lever with a sharp, right-angle design. The slim profile of this version helps create more available workspace in the adjacent kitchen area.<\/p><p>We are proud to stock outstanding products crafted by leading homeware brands in Europe, providing you with a specially curated assortment that takes pride in all aspects of functionality, innovation, sustainability, and elegance. We also strive to ensure our products come in a variety of colours, sizes, and designs to suit individual preferences and housing layouts. If you see a product you like that might need some personalisation, we are always happy to discuss any customisation options or specific requirements you had in mind to ensure you receive a product that fits perfectly in your home.<\/p><p>Our kitchen fittings brands available for delivery to Hong Kong, Singapore, and across the world include Blanco, Grohe, Dornbracht, Hansgrohe, Axor, Gessi and V&B, all European made courier to your doorstep!<\/p>"
             }
           },
-          "collection-kitchen-fittings-bottom-description-0": {
-            "type": "item",
-            "disabled": true,
-            "settings": {
-              "icon": "bi-delivery",
-              "title": "Luxury Kitchen Ware by Top European Brands",
-              "content": "<p>Explore a wide range of elegant kitchen sinks from BLANCO and exquisite faucet designs from Dornbracht. Find award-winning styles that range from classic to contemporary for your kitchen.<\/p><p>For design enthusiasts, the Blanco SILGRANIT black is the ultimate color to have. The latest offering from Blanco boasts a captivating depth that adds stunningly lavish touches to kitchens with light-colored countertops. Alternatively, it exudes a sense of luxurious mystery as an elegant choice for all-black kitchens.<\/p><p>Blending the aesthetics of a contemporary icon with practical versatility, Dornbracht kitchen faucets combine style and functionality seamlessly. With its elevated spout and ergonomically positioned lever featuring a sleek right-angle design, it exudes a stylish and distinctive look. The Dorbracht Tara Ultra series offer a pull-down variant, characterized by its tall, slender spout and a lever with a sharp, right-angle design. The slim profile of this version helps create more available workspace in the adjacent kitchen area.<\/p><p>We are proud to stock outstanding products crafted by leading homeware brands in Europe, providing you with a specially curated assortment that takes pride in all aspects of functionality, innovation, sustainability, and elegance. We also strive to ensure our products come in a variety of colours, sizes, and designs to suit individual preferences and housing layouts. If you see a product you like that might need some personalisation, we are always happy to discuss any customisation options or specific requirements you had in mind to ensure you receive a product that fits perfectly in your home.<\/p><p>Our kitchen fittings brands available for delivery to Hong Kong, Singapore, and across the world include Blanco, Grohe, Dornbracht, Hansgrohe, Axor, Gessi and V&B, all European made courier to your doorstep!<\/p>"
-            }
-          },
           "collection-kitchen-fittings-bottom-description-1": {
             "type": "item",
             "settings": {
@@ -1009,7 +1000,6 @@
         },
         "block_order": [
           "a674da9b-9a44-40a9-9ba0-4d69e253e32e",
-          "collection-kitchen-fittings-bottom-description-0",
           "collection-kitchen-fittings-bottom-description-1",
           "collection-kitchen-fittings-bottom-description-2",
           "collection-kitchen-fittings-bottom-description-3",
