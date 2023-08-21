@@ -891,6 +891,53 @@
           "button_text": "Our products",
           "button_link": "shopify:\/\/collections\/all"
         }
+      },
+      "collection-bathroom-ware-bottom-description": {
+        "type": "collection-bathroom-ware-bottom-description",
+        "blocks": {
+          "collection-bathroom-ware-bottom-description-0": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-delivery",
+              "title": "World-Class Sanitary Ware Brands",
+              "content": "<p>As your one-stop luxury home renovation store, we only stock products crafted by some of Europe’s key high-end brands. We appreciate that each home and individual have a personal sense of style, meaning all our brands have been carefully selected for their aesthetic adaptability in addition to their functionality. We are also happy to discuss any specific customisation preferences or requirements to ensure you receive a product that is perfectly suited to your home.<\/p><p><\/p><p>Our bathroom and sanitary ware brands include Alape, Axor, Blanco, Dornbracht, Duravit, Emco, Gessi, Grohe, Hansgrohe, Laufen, and Villroy & Boch. <\/p>"
+            }
+          },
+          "collection-bathroom-ware-bottom-description-1": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-returns",
+              "title": "Luxury Bathroom Fittings with Innovative Technology",
+              "content": "<p>We understand that the best bathrooms are those that pose minimal problems, which is why we handpick sanitary solutions that utilise innovative technologies to make all your everyday tasks easier.<\/p><p>Quality sink basins and faucets, state-of-the-art rain shower sets, mirrors with sensor-activated LED lighting and heating, bespoke <a href=\"https:\/\/eurohomedirect.com\/pages\/smart-glass\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/pages\/smart-glass\">smart switchable glass<\/a> solutions, and whirlpool baths are all set to change your bathroom for the better. Many of these products will be available in a range of different designs, sizes, and colours so you can easily find the best fit for your bathroom. <\/p><p>We also strive to ensure our products are as environmentally-friendly and sustainable as possible, with an emphasis on smart home technologies and self-cleaning processes whenever available – all to enhance the convenience levels within your own home. <\/p>"
+            }
+          },
+          "collection-bathroom-ware-bottom-description-2": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "Sophisticated Bathroom Accessories",
+              "content": "<p>Elevate your bathroom even further by adding some sleek accessories and furnishings. Whether you prefer looks that complement or contrast, our range of luxury brands carry shelving solutions and towel racks, shower cubbies, floating drawers and cabinets, hooks, cosmetic mirrors, shower rails, pendant lights, washstands, and soap dispensers to make the space truly your own. Stick to a specific collection to give your bathroom a fully cohesive look or choose from an array of different brands to create an atmosphere that is effortlessly unique.<\/p>"
+            }
+          },
+          "collection-bathroom-ware-bottom-description-3": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-secure-payment",
+              "title": "Direct Shipping to Your Doorstep",
+              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. You can also opt for professional installation services in Hong Kong, however many of our free-standing items are very easy and convenient to set up once received. <\/p><p>We also provide consultation prior to your purchase should you need any advice on the best sanitary ware or fittings for your bathroom. In addition, we have parts warranty and lifetime after-sale services to ensure you are happy with your purchase. You can rest assured that our expert team is with you every step of the way throughout your renovation journey.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "collection-bathroom-ware-bottom-description-0",
+          "collection-bathroom-ware-bottom-description-1",
+          "collection-bathroom-ware-bottom-description-2",
+          "collection-bathroom-ware-bottom-description-3"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": false
+        }
       }
     },
     "content_for_index": [
