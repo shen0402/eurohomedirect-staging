@@ -9,9 +9,9 @@
 {%- if section.settings.show_section -%}
   <section class="card__section card__section--tight" data-section-id="{{ section.id }}" data-section-type="collection-bathroom-ware-bottom-description">
     <div class="container container--flush">
-      <div class="text-with-icons col-md-4 {% if section.settings.stack_mobile %}text-with-icons--stacked{% endif %}">
+      <div class="text-with-icons {% if section.settings.stack_mobile %}text-with-icons--stacked{% endif %}">
         {%- for block in section.blocks -%}
-          <div class="text-with-icons__item" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
+          <div class="text-with-icons__item col-md-4" data-block-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
 
             {%- if block.settings.title != blank or block.settings.content != blank -%}
               <div class="text-with-icons__content-wrapper">
