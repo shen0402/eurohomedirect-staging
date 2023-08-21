@@ -15,19 +15,19 @@
   }
 
   @media screen and (max-width: 640px) {
-    .contact-us-container {
+    .single-col-container {
       padding: 0;
     }
   }
 
   @media screen and (min-width: 641px) and (max-width: 999px) {
-    .contact-us-container {
+    .single-col-container {
       padding: 0 40px;
     }
   }
 
   @media screen and (min-width: 1000px) and (max-width: 1279px) {
-    .contact-us-container {
+    .single-col-container {
       padding: 0 140px;
     }
   }
@@ -49,6 +49,21 @@
 </style>
 
 {%- if section.settings.show_section -%}
+  <section class="card__section card__section--tight">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'singlecol' %}
+          <div class="container single-col-container">
+            {%- if block.settings.title != blank -%}
+              <h2 class="text--strong">{{ block.settings.title }}</h2>
+            {%- endif -%}
+            {%- if block.settings.content != blank -%}
+              <div class="rte">{{ block.settings.content }}</div>
+            {%- endif -%}
+          </div>
+        {% endcase %} 
+      {% endfor %}
+  </section>
   <section class="card__section card__section--tight" data-section-id="{{ section.id }}" data-section-type="collection-bathroom-ware-bottom-description">
     <div class="container container--flush collection-bottom-des-container">
       <div class="text-with-icons collection-bottom-des {% if section.settings.stack_mobile %}text-with-icons--stacked{% endif %}">
@@ -77,7 +92,7 @@
       {% for block in section.blocks %}
         {% case block.type %}
           {% when 'column' %}
-          <div class="container contact-us-container">
+          <div class="container single-col-container">
             {%- if block.settings.contact_us_title != blank -%}
               <h2 class="text--strong">{{ block.settings.contact_us_title }}</h2>
             {%- endif -%}
@@ -291,6 +306,24 @@
           "id": "contact_us_content",
           "label": "Contact Content",
           "default": "<p>Contact Us content</p>"
+        }
+      ]
+    },
+    {
+      "type": "singlecol",
+      "name": "Single Column",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Single Column Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Single Column Content",
+          "default": "<p>Single Column content</p>"
         }
       ]
     }
