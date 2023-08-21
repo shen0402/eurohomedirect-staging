@@ -60,7 +60,7 @@
         {% case block.type %}
           {% when 'column' %}
           <div class="container">
-            <script>console.log({{ block | json }});</script>
+            <script>console.log({{ block }});</script>
             {%- if block.contact_us_title != blank -%}
               <h2>{{ block.settings.contact_us_title }}</h2>
             {%- endif -%}
