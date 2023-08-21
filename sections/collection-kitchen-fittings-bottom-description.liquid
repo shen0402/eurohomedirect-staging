@@ -4,6 +4,10 @@
     justify-content: flex-start;
   }
 
+  .text-primary {
+    color: var(--header-accent-color);
+  }
+
   @media screen and (max-width: 640px) {
     .text-with-icons__item {
       text-align: left;
@@ -59,6 +63,9 @@
             {%- endif -%}
             {%- if block.settings.content != blank -%}
               <div class="rte">{{ block.settings.content }}</div>
+            {%- endif -%}
+            {%- if block.settings.content_in_blue != blank -%}
+              <div class="rte text-primary">{{ block.settings.content_in_blue }}</div>
             {%- endif -%}
           </div>
         {% endcase %} 
@@ -327,6 +334,12 @@
           "id": "content",
           "label": "Single Column Content",
           "default": "<p>Single Column content</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "content_in_blue",
+          "label": "Content In Blue",
+          "default": "<p>Content In Blue</p>"
         }
       ]
     }
