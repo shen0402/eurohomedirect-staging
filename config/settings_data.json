@@ -926,13 +926,22 @@
               "title": "Direct Shipping to Your Doorstep",
               "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. You can also opt for professional installation services in Hong Kong, however many of our free-standing items are very easy and convenient to set up once received. <\/p><p>We also provide consultation prior to your purchase should you need any advice on the best sanitary ware or fittings for your bathroom. In addition, we have parts warranty and lifetime after-sale services to ensure you are happy with your purchase. You can rest assured that our expert team is with you every step of the way throughout your renovation journey.<\/p>"
             }
+          },
+          "3e1f35fa-a2de-453d-b479-3583a72c61de": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "For Other Home Renovation Ideas",
+              "content": "<p>Want to explore more options beyond sanitary ware,  bathroom fittings and accessories? If you are interested in constructing your luxury kitchen, we carry a full range of different <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/appliances\">appliances in Hong Kong<\/a> and Singapore by reputable European brands, such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens Home Appliances<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch Appliances<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau \" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/gaggenau \">Gaggenau Home Appliances<\/a>, Liebherr Home Appliances for Hong Kong and Singapore kitchens. To elevate your living room, dining room, bedroom or home office, we stock designer <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/furniture\">furniture<\/a> items by leading brands including Molteni & C, Poliform and Normann Copenhagen. <\/p>"
+            }
           }
         },
         "block_order": [
           "collection-bathroom-ware-bottom-description-0",
           "collection-bathroom-ware-bottom-description-1",
           "collection-bathroom-ware-bottom-description-2",
-          "collection-bathroom-ware-bottom-description-3"
+          "collection-bathroom-ware-bottom-description-3",
+          "3e1f35fa-a2de-453d-b479-3583a72c61de"
         ],
         "settings": {
           "show_section": true,
