@@ -61,10 +61,10 @@
           {% when 'column' %}
           <div class="container">
             {%- if block.settings.contact_us_title != blank -%}
-              <h2>{{ block.settings.contact_us_title }}</h2>
+              <h2 class="text--strong">{{ block.settings.contact_us_title }}</h2>
             {%- endif -%}
             {%- if block.settings.contact_us_content != blank -%}
-              <div>{{ block.settings.contact_us_content }}</div>
+              <div class="rte">{{ block.settings.contact_us_content }}</div>
             {%- endif -%}
           </div>
         {% endcase %} 
