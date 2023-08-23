@@ -1842,7 +1842,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".mega-menu__column {margin-right: 50px !important;}"
+      ".mega-menu__column {margin-right: 150px !important;}"
     ]
   }
 }
