@@ -1842,7 +1842,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".mega-menu:not(.mega-menu--floating) .mega-menu__column {padding-right: 150px !important;}"
+      ".mega-menu:not(.mega-menu--floating) .mega-menu__column {margin-right: 50px !important;}"
     ]
   }
 }
