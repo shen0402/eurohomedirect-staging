@@ -1839,5 +1839,10 @@
         "1542984882560"
       ]
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".mega-menu:not(.mega-menu--floating) .mega-menu__column {padding-right: 150px !important;}"
+    ]
   }
 }
