@@ -432,102 +432,160 @@
       "shipping_desc": "EuroHomeDirect® 將{{title}}銷往香港和新加坡，訂單金額超過 15,000 港元\/2,600 新元（超大商品除外）可免運費。我們只與最有信譽的快遞合作夥伴合作 - DHL、Fedex 和 CH Robinson。當您從我們這裡購買時，您的訂單將安全準時到達。",
       "estimate_shipping": "預計運輸",
       "refund_policy": "退款政策",
-      "include_taxes": "",
-      "shipping_policy_html": "",
-      "image_by": "圖片來自"
+      "include_taxes": "含稅",
+      "shipping_policy_html": "結賬時<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link link--accented\">計算運費<\/a>",
+      "image_by": "圖片來自",
+      "note": "筆記",
+      "parallel_import": "這是正品平行進口商品",
+      "additional_information": "附加信息"
     },
     "labels": {
-      "sold_out": ""
+      "sold_out": "售罄"
     },
     "form": {
-      "variant": "",
-      "price": "",
-      "inventory": "",
-      "quantity": "",
-      "in_stock": "",
-      "oversell_stock": "",
+      "variant": "變體",
+      "price": "價格",
+      "inventory": "庫存",
+      "quantity": "數量",
+      "in_stock": "有存貨",
+      "oversell_stock": "即將補貨",
       "low_stock_with_quantity_count": {
-        "one": "",
-        "other": ""
+        "one": "僅剩{{count}}單位",
+        "other": "僅剩{{count}}件"
       },
       "in_stock_with_quantity_count": {
-        "one": "",
-        "other": ""
+        "one": "有庫存（ {{count}}件），準備發貨",
+        "other": "有庫存（ {{count}}件），準備發貨"
       },
-      "add_to_cart": "",
-      "sold_out": "",
-      "pre_order": "",
-      "unavailable": "",
-      "contact_us": "",
-      "added": "",
-      "added_short": ""
+      "add_to_cart": "添加到購物車",
+      "sold_out": "售罄",
+      "pre_order": "預購",
+      "unavailable": "不可用",
+      "contact_us": "聯繫我們",
+      "added": "產品已添加到您的購物車",
+      "added_short": "添加！",
+      "lead_time": "交貨時間",
+      "whatsapp_lead_time": "Whatsapp 我們詢問交貨時間",
+      "contact_us_inquire": "聯繫我們詢問",
+      "whatsapp_us": "Whatsapp 我們"
+    },
+    "appliances": {
+      "text1_html": "EuroHomeDirect 直接從歐洲提供{{product_title}} 。我們只銷售由製造商預包裝的全新正品產品，並提供零件保修。",
+      "header1": "在香港、新加坡和全球範圍內購買{{product_title}}",
+      "text2_html": "EuroHomeDirect 將{{product_title}}銷售到香港、新加坡和世界各地，並為選定的訂單提供免費送貨到香港和新加坡的服務。我們僅與最有信譽的快遞合作夥伴合作 - DHL、Fedex 和 CH Robinson 等，以確保您從我們這裡購買的訂單能夠按時安全送達。",
+      "header2": "我們如何才能在香港、新加坡和全球範圍內以如此優惠的價格提供{{product_title}} ？",
+      "text3_html": "與香港、新加坡和其他國家的當地價格相比，我們提供的{{product_title}}價格大大降低，因為我們以批發價直接從歐洲發貨，並保證最優惠的價格。我們能夠以最具競爭力的價格向當地消費者提供頂級歐洲電器，因為沒有分銷商或經銷商參與這一過程。",
+      "header3": "{{product_title}}兼容性和保修",
+      "text4_html": "我們出售的所有{{collection_title}}均符合香港和新加坡標準，無需任何修改。我們的電器採用英式電源插頭（G 型），在 220-240V 電壓下運行。對於具有不同標準的所有其他市場，您可能需要使用電壓轉換器和\/或適配器。所有出售的{{collectionObj_title}}電器均享有長達 3 年的零件保修。您可以在我們的常見問題解答頁面中閱讀有關兼容性和保修的更多信息。",
+      "text5_html": "如果您對{{product_title}}或其他設備還有其他疑問，請隨時與我們聯繫",
+      "link_label": "可選：（您還可以在以下位置找到有關{{product_title}}的更多信息：",
+      "link_text": "網站點擊這裡"
+    },
+    "sanitary": {
+      "text1_html": "EuroHomeDirect 直接從歐洲提供{{product_title}} 。我們只銷售由製造商預包裝的全新正品產品，並提供零件保修。<br> <br>系列: 衛浴潔具",
+      "header1": "在香港、新加坡和全球範圍內購買{{product_title}}",
+      "text2_html": "EuroHomeDirect 將{{product_title}}銷售到香港、新加坡和世界各地，並為選定的訂單提供免費送貨到香港和新加坡的服務。我們僅與最有信譽的快遞合作夥伴合作 - DHL、Fedex 和 CH Robinson 等，以確保您從我們這裡購買的訂單能夠按時安全送達。",
+      "header2": "我們如何才能在香港、新加坡和全球範圍內以如此優惠的價格提供{{product_title}} ？",
+      "text3_html": "與香港、新加坡和其他國家的當地價格相比，我們提供的{{product_title}}價格大大降低，因為我們以批發價直接從歐洲發貨，並保證最優惠的價格。我們能夠以最具競爭力的價格向當地消費者提供頂級歐洲電器，因為沒有分銷商或經銷商參與這一過程。<br> <br>如果您對{{product_title}}或其他衛浴潔具還有其他疑問，請隨時與我們聯繫。"
+    },
+    "furniture": {
+      "header1": "如何在香港、新加坡和世界各地購買{{brand}}家具？",
+      "text1_html": "為了便於我們向您提供報價，請告知我們您感興趣的配置（即尺寸 + 材料）。請理解，如果沒有此信息，則無法報價，因為差異很大。 。我們的價格比當地零售價格大約高 30-40%。"
     }
   },
   "store_availability": {
     "general": {
-      "view_store_info": "",
-      "check_other_stores": "",
-      "pick_up_available": "",
-      "pick_up_currently_unavailable": "",
-      "pick_up_available_at": "",
-      "pick_up_unavailable_at": ""
+      "view_store_info": "查看店鋪信息",
+      "check_other_stores": "檢查其他商店的庫存情況",
+      "pick_up_available": "提供接送服務",
+      "pick_up_currently_unavailable": "目前無法取貨",
+      "pick_up_available_at": "可以在{{ location_name }}取貨",
+      "pick_up_unavailable_at": "目前無法在{{ location_name }}取貨"
     }
   },
   "gift_card": {
     "issued": {
-      "subtext": "",
-      "disabled": "",
-      "expired": "",
-      "expires_on": "",
-      "redeem": "",
-      "remaining_amount": "",
-      "shop_link": "",
-      "print": "",
-      "add_to_apple_wallet": ""
+      "subtext": "這是您的禮品卡！",
+      "disabled": "您的禮品卡已被禁用。",
+      "expired": "您的禮品卡已於{{expiry}}過期。",
+      "expires_on": "過期時間： {{expiry}}",
+      "redeem": "結賬時使用此代碼兌換您的禮品卡：",
+      "remaining_amount": "剩餘{{amount}}",
+      "shop_link": "開始購物",
+      "print": "打印",
+      "add_to_apple_wallet": "添加到蘋果錢包"
     }
   },
   "blog": {
     "general": {
-      "empty": "",
-      "empty_button": "",
-      "categories": "",
-      "all_tag": ""
+      "empty": "該博客沒有文章",
+      "empty_button": "去首頁",
+      "categories": "類別",
+      "all_tag": "全部"
     },
     "article": {
-      "tags": "",
+      "tags": "標籤：",
       "written_by": "",
-      "share": "",
-      "previous_article": "",
-      "next_article": "",
+      "share": "分享",
+      "previous_article": "上一篇文章",
+      "next_article": "下一篇",
       "comments_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "{{count}}條評論",
+        "one": "{{count}}條評論",
+        "other": "{{count}}條評論"
       }
     },
     "comments": {
-      "leave_comment": "",
-      "name": "",
-      "email": "",
-      "content": "",
-      "approval_notice": "",
-      "submit": "",
-      "success": "",
-      "success_moderated": ""
+      "leave_comment": "發表評論",
+      "name": "姓名",
+      "email": "電子郵件",
+      "content": "內容",
+      "approval_notice": "所有評論在發布前都會經過審核",
+      "submit": "發表評論",
+      "success": "您的評論已發布。",
+      "success_moderated": "您的評論已發送。店主接受後即可可見！"
     }
   },
   "contact": {
     "form": {
-      "name": "",
-      "email": "",
-      "message": "",
-      "submit": "",
-      "successfully_sent": ""
+      "name": "你的名字",
+      "email": "你的郵件",
+      "message": "您的留言",
+      "submit": "發信息",
+      "successfully_sent": "您的留言已成功發送。",
+      "title": "接觸",
+      "contact_us": "聯繫我們"
+    },
+    "about": {
+      "header": "關於 EuroHomeDirect",
+      "text_html": "EuroHomeDirect 是一家國際電子商務公司，專門向世界各地的消費者供應歐洲主要品牌的豪華家居裝修產品。我們是一家簡單、高效的純在線零售商，因此價格非常優惠。為了提供您期望從奢侈品中獲得的高質量服務，我們提供專門針對您的市場的當地聯絡專家和客戶服務。"
+    },
+    "technical_support": {
+      "header": "技術支援",
+      "text_html": "<strong>開放時間：<\/strong>週一至週五，上午 10:00 至下午 6:00<br><strong>電子郵件：<\/strong> info@eurohomedirect.com"
+    },
+    "crydom_services": {
+      "header": "快達服務（香港）有限公司",
+      "text_html": "<strong>地址：<\/strong>香港中環雲咸街44號雲咸商業中心9樓<br><strong>香港：<\/strong> +852 3421 1222"
+    },
+    "instant_services": {
+      "header": "即時服務貿易（新加坡）私人有限公司有限公司",
+      "text_html": "<strong>地址：<\/strong> 13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<br><strong>新加坡：<\/strong> +65 3138 8699"
     }
   },
   "date_formats": {
-    "month_day_year": "",
-    "short_month_day_year": "",
-    "month_day_year_time": ""
+    "month_day_year": "%B%d，%Y",
+    "short_month_day_year": "%b %d，%Y",
+    "month_day_year_time": "%B %d，%Y 在 %H:%M%P"
+  },
+  "about": {
+    "about_us": {
+      "heading": "關於我們",
+      "text_html": "EuroHomeDirect® 是一家國際電子商務公司，為全球消費者提供直接從歐洲購買所有主要高端品牌的<a href=\"\/collections\/sanitary-wares\">豪華家居裝修產品的<\/a>激動人心的機會。我們是一家純粹的在線零售商，具有扁平的結構和高效的組織，因此我們的價格非常有競爭力。<br> EuroHomeDirect® 致力於成為您的一站式家居裝修商店，為您提供<a href=\"\/collections\/appliances\">全系列高端豪華電器<\/a>、<a href=\"\/collections\/sanitary-wares\">衛浴<\/a>、<a href=\"\/collections\/furniture\">家具<\/a>和科幻小玩意，例如智能玻璃或智能家居系統。<br>",
+      "text2_html": "我們位於德國和英國的倉庫將及時處理<a href=\"\/policies\/shipping-policy\">您的訂單並將其運送到世界各地<\/a>。如果您需要，我們還提供專業的安裝服務，作為您在香港和新加坡購買的附加服務。我們有全系列的家居產品供您選擇，並有友好的顧問團隊提供協助，我們相信您會找到適合您的應用的解決方案。"
+    },
+    "why_us": {
+      "heading": "為什麼是我們？"
+    }
   }
 }
