@@ -35,16 +35,16 @@
       "account": "帳戶"
     },
     "social": {
-      "follow_label": "",
-      "facebook_share": "",
-      "pinterest_pin": "",
-      "twitter_tweet": "",
-      "email_share": ""
+      "follow_label": "在{{social_media}}上關注我們",
+      "facebook_share": "在臉書上分享",
+      "pinterest_pin": "固定在 Pinterest 上",
+      "twitter_tweet": "在 Twitter 上發推文",
+      "email_share": "通過電子郵件分享"
     },
     "popup": {
-      "success": "",
-      "email_placeholder": "",
-      "subscribe": ""
+      "success": "您已註冊我們的時事通訊！",
+      "email_placeholder": "你的郵件",
+      "subscribe": "訂閱"
     }
   },
   "header": {
@@ -57,142 +57,142 @@
       "cart": "購物車"
     },
     "navigation": {
-      "menu": "",
-      "open_menu": "",
-      "back": "",
-      "need_help": "",
-      "follow_us": ""
+      "menu": "菜單",
+      "open_menu": "打開菜單",
+      "back": "後退",
+      "need_help": "需要幫忙？",
+      "follow_us": "跟著我們"
     },
     "search": {
-      "open_search": "",
-      "close_search": "",
-      "clear": "",
-      "input_placeholder": "",
-      "all_categories": "",
-      "no_results": "",
-      "submit": "",
-      "view_products": "",
-      "view_results": "",
-      "products": "",
-      "blog_posts": "",
-      "pages": "",
-      "blog_posts_and_pages": ""
+      "open_search": "打開搜索",
+      "close_search": "關閉",
+      "clear": "清除",
+      "input_placeholder": "搜索...",
+      "all_categories": "所有類別",
+      "no_results": "沒有匹配的結果",
+      "submit": "搜索",
+      "view_products": "查看所有產品",
+      "view_results": "查看所有結果",
+      "products": "產品",
+      "blog_posts": "博客文章",
+      "pages": "頁數",
+      "blog_posts_and_pages": "頁面和博客文章"
     }
   },
   "footer": {
     "general": {
-      "currency": "",
-      "language": "",
-      "follow_us": "",
-      "we_accept": ""
+      "currency": "貨幣",
+      "language": "語言",
+      "follow_us": "跟著我們",
+      "we_accept": "我們接受"
     },
     "newsletter": {
-      "success": "",
-      "input": "",
-      "submit": ""
+      "success": "您已註冊我們的時事通訊！",
+      "input": "你的郵件",
+      "submit": "訂閱"
     }
   },
   "search": {
     "general": {
-      "title": "",
-      "title_with_terms": "",
-      "products_with_terms": "",
-      "articles_with_terms": "",
-      "pages_with_terms": "",
-      "pages_and_articles_with_terms": "",
-      "content": "",
-      "input_placeholder": "",
-      "no_results_with_terms": "",
-      "go_back_home": "",
+      "title": "搜索",
+      "title_with_terms": "“ {{terms}} ”的搜索結果",
+      "products_with_terms": "“ {{terms}} ”的產品",
+      "articles_with_terms": "“ {{terms}} ”的博客文章",
+      "pages_with_terms": "“ {{terms}} ”的頁面",
+      "pages_and_articles_with_terms": "“ {{terms}} ”的頁面和博客文章",
+      "content": "使用下面的搜索欄查找產品：",
+      "input_placeholder": "搜索...",
+      "no_results_with_terms": "找不到“ {{terms}} ”的結果",
+      "go_back_home": "或點擊這裡返回首頁",
       "results_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "0 個結果",
+        "one": "1 個結果",
+        "other": "{{count}}個結果"
       },
       "showing_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "沒有結果",
+        "one": "顯示{{offset}} - {{page_size}} （共{{count}}個結果）",
+        "other": "顯示{{offset}} - {{page_size}}個結果，共{{count}}結果"
       }
     }
   },
   "404": {
     "general": {
-      "title": "",
-      "content": "",
-      "search": "",
-      "continue_shopping": ""
+      "title": "找不到網頁",
+      "content": "無法找到您要查找的頁面。",
+      "search": "店內搜索...",
+      "continue_shopping": "點擊此處繼續購物"
     }
   },
   "home_page": {
     "onboarding": {
-      "vendor_title": "",
-      "product_title": "",
+      "vendor_title": "品牌名稱",
+      "product_title": "產品名稱",
       "product_sku": "",
-      "product_description": "",
-      "collection_title": "",
-      "article_title": "",
-      "article_author": "",
-      "article_category": "",
-      "article_excerpt": "",
-      "instagram_likes": "",
-      "instagram_caption": ""
+      "product_description": "產品描述可用於展示產品的功能和優勢。您可以查看 Shopify 的電子商務博客，獲取正確營銷產品的靈感和建議。",
+      "collection_title": "集合名稱",
+      "article_title": "帖子名稱",
+      "article_author": "由你寫的",
+      "article_category": "類別",
+      "article_excerpt": "您的商店尚未發布任何博客文章。博客可用於談論新產品發布、提示或您想與客戶分享的其他新聞。您可以查看 Shopify 的電子商務博客，為您自己的商店和博客獲取靈感和建議。",
+      "instagram_likes": "28 贊",
+      "instagram_caption": "這是一個標題示例。"
     },
     "newsletter": {
-      "success": "",
-      "input": "",
-      "submit": ""
+      "success": "您已註冊我們的時事通訊！",
+      "input": "你的郵件",
+      "submit": "訂閱"
     }
   },
   "collection": {
     "general": {
-      "all_collections": "",
-      "all_products": "",
-      "view_more": "",
-      "view_less": "",
-      "brands": "",
-      "empty": "",
-      "empty_button": "",
-      "no_results": "",
-      "view_products": "",
-      "display": "",
+      "all_collections": "所有系列",
+      "all_products": "所有產品",
+      "view_more": "查看更多",
+      "view_less": "查看較少",
+      "brands": "品牌",
+      "empty": "該集合為空",
+      "empty_button": "去首頁",
+      "no_results": "您的條件與任何產品都不匹配。",
+      "view_products": "查看產品",
+      "display": "展示",
       "products_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "{{count}}產品",
+        "one": "{{count}}產品",
+        "other": "{{count}}產品"
       },
       "results_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "{{count}}個結果",
+        "one": "{{count}}個結果",
+        "other": "{{count}}個結果"
       },
       "showing_count": {
-        "zero": "",
-        "one": "",
-        "other": ""
+        "zero": "沒有產品",
+        "one": "顯示{{offset}} - {{page_size}} （共{{count}}個產品）",
+        "other": "顯示{{offset}} - {{page_size}}產品，共{{count}}產品"
       },
-      "page_size": ""
+      "page_size": "每頁{{page_size}}"
     },
     "filter": {
-      "title": "",
-      "show_filter": "",
-      "select_category": "",
-      "all": "",
-      "clear_all": "",
-      "clear": "",
-      "view_results": ""
+      "title": "篩選",
+      "show_filter": "顯示過濾器",
+      "select_category": "選擇一個類別",
+      "all": "過濾器",
+      "clear_all": "全部清除",
+      "clear": "清除",
+      "view_results": "查看結果"
     },
     "sorting": {
-      "title": ""
+      "title": "排序方式"
     },
     "layout": {
-      "title": "",
-      "grid": "",
-      "list": ""
+      "title": "看法",
+      "grid": "將產品顯示為網格",
+      "list": "以列表形式顯示產品"
     },
     "product": {
-      "from_price_html": "",
-      "add_to_cart": "",
+      "from_price_html": "從{{price_min}}起",
+      "add_to_cart": "添加到購物車",
       "pre_order": "",
       "quick_view": "",
       "choose_options": "",
