@@ -51,7 +51,7 @@
     "general": {
       "currency": "货币",
       "language": "语言",
-      "account": "我的账户",
+      "account": "我的账户 test",
       "login": "登录 \/ 报名",
       "welcome": "你好{{first_name}}",
       "cart": "大车"
