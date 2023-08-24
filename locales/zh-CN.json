@@ -32,7 +32,7 @@
     "breadcrumb": {
       "title": "面包屑",
       "home": "家",
-      "account": "我的账户"
+      "account": "我的账户 test"
     },
     "social": {
       "follow_label": "在 {{social_media}} 上关注我们",
