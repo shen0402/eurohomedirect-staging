@@ -146,7 +146,26 @@
                 </div>
 
                 <div class="product-form__add-to-cart">
-                  <button type="submit" class="product-form__add-button button button--primary">{{ 'product.form.add_to_cart' | t }}</button>
+                  <button 
+                    onclick="
+
+{% assign shopify_store_country  = 'US' %}
+
+dataLayer.push({ 'ecommerce': null });dataLayer.push({
+'event': 'add_to_cart',
+'ecommerce': {
+	            'currency': '{{ shop.currency }}',
+		'value':{{ product.price  | times: 0.01}},                        
+		'items': [{
+		'item_id':{{ product.id }},
+		'id': 'shopify_{{shopify_store_country}}_{{ product.id }}_{{ product.selected_or_first_available_variant.id }}',
+		'google_business_vertical': 'retail',
+		'item_name': '{{ product.title | remove: "'" | remove: '"' }}',
+		}]
+	}
+});"
+
+                    type="submit" class="product-form__add-button button button--primary">{{ 'product.form.add_to_cart' | t }}</button>
 
                   {%- if section.settings.show_payment_button -%}
                     {{ form | payment_button }}
