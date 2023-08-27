@@ -457,7 +457,25 @@
                                                 Minimum order is $50
                                             </font>
                                         {% else %}
-                                            <button class="cart-recap__checkout button button--primary button--full button--large" name="checkout" type="submit">{{ 'cart.general.checkout' | t }}</button>
+                                            <button 
+                                           onclick="
+
+{% assign shopify_store_country  = 'HK' %}
+
+dataLayer.push({ 'ecommerce': null });dataLayer.push({
+'event': 'begin_checkout',
+'ecommerce': {
+	            'currency': '{{ shop.currency }}',
+		'value':{{ product.price  | times: 0.01}},                        
+		'items': [{
+		'item_id':{{ product.id }},
+		'id': 'shopify_{{shopify_store_country}}_{{ product.id }}_{{ product.selected_or_first_available_variant.id }}',
+		'google_business_vertical': 'retail',
+		'item_name': '{{ product.title | remove: "'" | remove: '"' }}',
+		}]
+	}
+});"
+                                          class="cart-recap__checkout button button--primary button--full button--large" name="checkout" type="submit">{{ 'cart.general.checkout' | t }}</button>
                                         {% endif %}
                                 </div>
 
