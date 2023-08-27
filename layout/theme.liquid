@@ -9,6 +9,56 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-WNT8RSR');</script>
 <!-- End Google Tag Manager -->
+    <script>
+	window.addEventListener("load", function(event) { 
+		document.querySelectorAll("button[data-action='add-to-cart']").forEach(function(e){
+			e.addEventListener('click',function(){
+				gtag('event', 'conversion', {'send_to': 'AW-729732356/KlOeCNeLorUDEISq-9sC'});
+   		});
+   	});
+	});
+</script>
+<!-- Event snippet for Begin checkout conversion page -->
+<script>
+window.addEventListener('load', function (event) {
+  document.querySelectorAll('[name="checkout"]').forEach(function (e) {
+   e.addEventListener('click', function () {
+     gtag('event', 'conversion', {'send_to': 'AW-688938076/DJviCMyj4sUYENy4wcgC'});
+      
+      });
+   });
+});      
+</script>
+    <script>
+      window.addEventListener("load", function(event) {
+        document.querySelectorAll('button[data-action="add-to-cart"]').forEach(function(e) {
+          e.addEventListener('click', function() {
+            gtag('event', 'conversion', {'send_to': 'AW-686485729/QO3uCL-nucADEOHhq8cC'});
+          });
+        });
+      });
+    </script>
+
+    <script>
+      window.addEventListener("load", function() {
+        if (window.location.href == "https://eurohomedirect.com/") {
+          gtag('event', 'conversion', {'send_to': 'AW-686485729/hPadCJjC68ADEOHhq8cC'});
+        }
+      })
+    </script>
+
+    <script>
+      window.addEventListener("load", function() {
+        setTimeout(function() {
+          document.querySelectorAll('button[name="checkout"]').forEach(function(e) {
+            e.addEventListener('click', function(e) {
+              gtag('event', 'conversion', {'send_to': 'AW-686485729/DogCCL7Q7cADEOHhq8cC'});
+            });
+        });
+    });
+  },1500)
+});
+</script>
     <link href="https://obscure-escarpment-2240.herokuapp.com/stylesheets/bcpo-front.css" rel="stylesheet">
     <script>
       var bcpo_product = {{ product | json }};{% if product.metafields.bcpo.bcpo_data %}var bcpo_data = {{ product.metafields.bcpo.bcpo_data }};{% endif %}{% if shop.metafields.bcpo.bcpo_settings %}var bcpo_settings = {{ shop.metafields.bcpo.bcpo_settings }};{% endif %}var inventory_quantity = [];{% for v in product.variants %}inventory_quantity.push({{v.inventory_quantity}});{% endfor %}if (bcpo_product) {
