@@ -68,29 +68,6 @@ dataLayer.push({
 
 </script>
 
-{% elsif template contains 'checkouts' %}
-
-<script type='text/javascript'>
-
-window.dataLayer = window.dataLayer || [];
-dataLayer.push({
-  event: 'begin_checkou',
-  ecommerce: {
-      currency:'{{shop.currency}}', 
-      value:{{ cart.total_price | money_without_currency | remove: ',' }},
-      items: [
-       {% for item in cart.items %}
-       {
-        item_id:{{item.product.id}},
-        item_name:{{item.title | json}},
-        price:{{item.price | money_without_currency | replace: ',', '.' | json}},
-      },{% endfor %}
- ]
-  }
-});
-
-</script>
-
 {% elsif template contains 'search' %}
 
 <script type='text/javascript'>
