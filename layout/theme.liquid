@@ -208,7 +208,15 @@ window.addEventListener('load', function (event) {
         api_key: 'wg_42945de57a918123440a7b05cbcba15f6'
     });
 </script>
-
+{%- assign full_url = canonical_url | split: '://www.' | last | split: '://' | last -%}
+<link rel="alternate" hreflang="en" href="{{ canonical_url }}">
+<link rel="alternate" hreflang="zh-tw" href="https://zh-tw.{{ full_url }}">
+<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_d7616c6077cedec0c61b073430e632187'
+    });
+</script>
 </head>
 
   <body class="eurohomedirect--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif%} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
