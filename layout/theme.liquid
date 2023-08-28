@@ -209,6 +209,16 @@ window.addEventListener('load', function (event) {
     });
 </script>
 
+
+{%- assign full_url = canonical_url | split: '://www.' | last | split: '://' | last -%}
+<link rel="alternate" hreflang="en" href="{{ canonical_url }}">
+<link rel="alternate" hreflang="zh-tw" href="https://zh-tw.{{ full_url }}">
+<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_d7616c6077cedec0c61b073430e632187'
+    });
+</script>
   
 </head>
 
