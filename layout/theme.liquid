@@ -202,21 +202,12 @@ window.addEventListener('load', function (event) {
       </script>
         {%- endif -%}
     {% capture cur %}{% include "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
-    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-    <script>
-    Weglot.initialize({
-        api_key: 'wg_42945de57a918123440a7b05cbcba15f6'
-    });
-</script>
 
 
-{%- assign full_url = canonical_url | split: '://www.' | last | split: '://' | last -%}
-<link rel="alternate" hreflang="en" href="{{ canonical_url }}">
-<link rel="alternate" hreflang="zh-tw" href="https://zh-tw.{{ full_url }}">
 <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
 <script>
     Weglot.initialize({
-        api_key: 'wg_d7616c6077cedec0c61b073430e632187'
+        api_key: 'wg_c0e6af38279f27034662ffb4fef20bcf7'
     });
 </script>
   
