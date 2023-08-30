@@ -203,12 +203,7 @@ window.addEventListener('load', function (event) {
         {%- endif -%}
     {% capture cur %}{% include "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
 
-<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-<script>
-    Weglot.initialize({
-        api_key: 'wg_8a8c5568eca536bbea0f86791a9e70e50'
-    });
-</script>
+
   
 </head>
 
