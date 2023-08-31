@@ -546,13 +546,13 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
     top: 300px;
 }
 
-.column {
+.column1 {
   float: left;
   width: 25%;
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row1:after {
   content: "";
   display: table;
   clear: both;
