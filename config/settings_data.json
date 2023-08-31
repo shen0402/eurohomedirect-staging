@@ -1013,8 +1013,11 @@
       },
       "page-contact-template": {
         "type": "page-contact-template",
+        "custom_css": [
+
+        ],
         "settings": {
-          "form_heading": "Leave your message",
+          "form_heading": "",
           "show_store_info": false,
           "store_heading": "",
           "store_info": ""
