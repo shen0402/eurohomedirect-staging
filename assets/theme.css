@@ -13364,13 +13364,13 @@ div#reviews_7529977348326 {
     margin-bottom: 0 !important;
 }
 
-.column {
+.column1 {
   float: left;
   width: 25%;
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row1:after {
   content: "";
   display: table;
   clear: both;
