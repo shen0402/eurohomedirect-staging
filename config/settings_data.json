@@ -485,7 +485,7 @@
           "text_position": "center",
           "link": "",
           "show_newsletter": true,
-          "newsletter_button": "Subscribe & Save",
+          "newsletter_button": "Subscribe",
           "newsletter_title": "Newsletter",
           "newsletter_content": "<p>Enjoy Discount On Your Orders<\/p>"
         }
@@ -1021,6 +1021,11 @@
           "show_store_info": false,
           "store_heading": "",
           "store_info": ""
+        }
+      },
+      "page-about-us-template": {
+        "type": "page-about-us-template",
+        "settings": {
         }
       }
     },
