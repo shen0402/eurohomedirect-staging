@@ -13370,7 +13370,7 @@ div#reviews_7529977348326 {
 }
 
 /* Clear floats after the columns */
-.row1:after {
+.row-1:after {
   content: "";
   display: table;
   clear: both;
