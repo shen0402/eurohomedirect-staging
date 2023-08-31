@@ -552,7 +552,7 @@ e2-details-block .callout, e2-details-block ._pseudo-h2, e2-details-block ._pseu
 }
 
 /* Clear floats after the columns */
-.row1:after {
+.row-1:after {
   content: "";
   display: table;
   clear: both;
