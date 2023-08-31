@@ -1010,6 +1010,15 @@
           "show_section": true,
           "stack_mobile": false
         }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "settings": {
+          "form_heading": "Leave your message",
+          "show_store_info": false,
+          "store_heading": "",
+          "store_info": ""
+        }
       }
     },
     "content_for_index": [
