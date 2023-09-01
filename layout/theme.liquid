@@ -203,7 +203,15 @@ window.addEventListener('load', function (event) {
         {%- endif -%}
     {% capture cur %}{% include "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
 
-
+{%- assign full_url = canonical_url | split: '://www.' | last | split: '://' | last -%}
+<link rel="alternate" hreflang="en" href="{{ canonical_url }}">
+<link rel="alternate" hreflang="zh-tw" href="https://zh-hk.{{ full_url }}">
+<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_a01e15b3690c79d7a84ca4cca046da4f3'
+    });
+</script>
   
 </head>
 
