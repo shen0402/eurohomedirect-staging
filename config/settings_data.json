@@ -1027,6 +1027,57 @@
         "type": "page-about-us-template",
         "settings": {
         }
+      },
+      "collection-furniture-bottom-description": {
+        "type": "collection-furniture-bottom-description",
+        "blocks": {
+          "collection-furniture-bottom-description-0": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "bi-delivery",
+              "title": "Free delivery worldwide",
+              "content": "<p>Short content about your store<\/p>"
+            }
+          },
+          "collection-furniture-bottom-description-1": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "bi-returns",
+              "title": "Satisfied or refunded",
+              "content": "<p>Short content about your store<\/p>"
+            }
+          },
+          "collection-furniture-bottom-description-2": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "Top-notch support",
+              "content": "<p>Short content about your store<\/p>"
+            }
+          },
+          "collection-furniture-bottom-description-3": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "icon": "bi-secure-payment",
+              "title": "Secure payments",
+              "content": "<p>Short content about your store<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "collection-furniture-bottom-description-0",
+          "collection-furniture-bottom-description-1",
+          "collection-furniture-bottom-description-2",
+          "collection-furniture-bottom-description-3"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": false
+        }
       }
     },
     "content_for_index": [
