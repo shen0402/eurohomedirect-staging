@@ -1146,15 +1146,15 @@
       "bd72c3c8-1094-4b6b-a576-69f3bcbb13bc"
     ],
     "blocks": {
-      "6987625696575125306": {
-        "type": "shopify:\/\/apps\/weglot-translate-your-store\/blocks\/weglot\/3097482a-fafe-42ff-bc33-ea19e35c4a20",
+      "16963237191767492405": {
+        "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
         "disabled": false,
         "settings": {
         }
       },
-      "16963237191767492405": {
-        "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
-        "disabled": false,
+      "6987625696575125306": {
+        "type": "shopify:\/\/apps\/weglot-translate-your-store\/blocks\/weglot\/3097482a-fafe-42ff-bc33-ea19e35c4a20",
+        "disabled": true,
         "settings": {
         }
       }
