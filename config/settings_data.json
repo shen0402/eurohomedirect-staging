@@ -1084,29 +1084,26 @@
         "blocks": {
           "collection-appliances-bottom-description-0": {
             "type": "item",
-            "disabled": true,
             "settings": {
               "icon": "bi-delivery",
-              "title": "Free delivery worldwide",
-              "content": "<p>Short content about your store<\/p>"
+              "title": "Quality Products Designed by Premium European Brands",
+              "content": "<p>Experience elegance and sophistication with our range of high-end home and kitchen appliances from renowned European brands. Our curated collection is handpicked for their excellent performance, superior craftsmanship, and innovative technology. We are proud to bring you the finest appliances from brands such as Bosch, Siemens, Gaggenau, Liebherr, Miele, and V-ZUG, delivered straight to your doorstep in Hong Kong, Singapore, or beyond. From induction hobs, ovens, steamers, dishwashers, to wine coolers and built-in refrigerators, our products are set to become household staples for years to come.<\/p>"
             }
           },
           "collection-appliances-bottom-description-1": {
             "type": "item",
-            "disabled": true,
             "settings": {
               "icon": "bi-returns",
-              "title": "Satisfied or refunded",
-              "content": "<p>Short content about your store<\/p>"
+              "title": "Home Appliances for Everyday Tasks",
+              "content": "<p>Ease your daily tasks and chores with our comprehensive line of home appliances. Experience the wonders of a state-of-the-art washing machine with special built-in programmes and functions, or a fully-integrated dishwasher that enables all kinds of washing preferences. Our selection is designed to simplify your everyday routine and increase comfort in your home, allowing you more time for relaxation. Our products are not only functional but elegantly designed, blending seamlessly into your home decor and providing you with the convenience you deserve.<\/p>"
             }
           },
           "collection-appliances-bottom-description-2": {
             "type": "item",
-            "disabled": true,
             "settings": {
               "icon": "bi-customer-support",
-              "title": "Top-notch support",
-              "content": "<p>Short content about your store<\/p>"
+              "title": "Kitchen Appliances for Convenient Cooking",
+              "content": "<p>Unlock a world of culinary possibilities with our extensive range of kitchen appliances. Our assortment of ovens, cooktops, and induction hobs will bring out the best in all your meals. Feel the difference in quality products that households in Hong Kong, Singapore and worldwide rely on for high energy efficiency, safety, and precise temperature control. Our kitchen appliance selection combines practicality with sleek design, ensuring you can cook with style and ease.<\/p>"
             }
           },
           "collection-appliances-bottom-description-3": {
