@@ -1857,7 +1857,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".mega-menu__column {padding-left: 50px !important;}"
+      ".mega-menu__column {padding-left: 80px !important;}"
     ]
   }
 }
