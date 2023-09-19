@@ -876,6 +876,7 @@
         "type": "rich-text",
         "settings": {
           "text_width": "narrow",
+          "heading_tag": "h1",
           "title": "EuroHomeDirect® - European Appliances, Furniture, and Sanitary Ware in Hong Kong and Singapore",
           "content": "",
           "button_text": "",
@@ -886,6 +887,7 @@
         "type": "rich-text",
         "settings": {
           "text_width": "narrow",
+          "heading_tag": "h2",
           "title": "Why Choose Us To Source Your European Furniture, Appliances and Sanitary Ware Items in Hong Kong & Singapore",
           "content": "<h3>Top European brands with competitive pricing of up to 40% off<\/h3><p>In a globalised world, we think it’s important to price-match consumer products across continents. EuroHomeDirect® offers you access to appliances, furniture, and sanitary ware items from a suite of top-tier European brands such as Gaggenau, Miele, Bosch, Siemens, Liebherr, Villeroy & Boch, Duravit, Hansgrohe, Grohe, Axor, Laufen, Poliform, Cassina, Normann Copenhagen. With up to 40% savings compared to local retail prices, you can enjoy similar pricing to the product’s country of origin through EuroHomeDirect®. We do this by using flat and efficient structures that allow us to provide products shipped directly from Europe to help extend your savings. <\/p><h3>Full suite of services from consultation, direct shipping, and after-sale service<\/h3><p>Here at EuroHomeDirect®, we pride ourselves on being able to go above and beyond. We<br\/>provide professional consultation, to best help you decide which product is best for your needs. This is complemented by our direct shipping services which transport your desired European home Appliances, Sanitary Ware and Furniture directly from Europe to Hong Kong and Singapore. Our commitment extends beyond sale, as we provide an after-sale service to ensure your satisfaction – which is always our top priority.<\/p><h3>Full range of renovation products and furniture straight from Europe<\/h3><p>EuroHomeDirect® offers a variety of products, in Appliance, Furniture, and Sanitary Ware categories. With such a broad range, we are able to better provide the ideal<br\/>solution for your home renovation needs. We also work with you when exploring<br\/>customization options, so you can get the best fit for you and your home.<\/p><h2>Contact Us<\/h2><p>If you have questions about our services or products at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\">send us a message<\/a>. We will get back to you as soon as possible. <\/p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\">Gaggenau<\/a> and other premier <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\">home appliances<\/a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability. <\/p><p>Are you searching for incredible deals on luxury appliances, or seeking specific pieces from a<br\/>particular <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\">designer furniture <\/a>brand such as Poliform, Molteni or Normann Copenhagen? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.<\/p>",
           "button_text": "Our products",
@@ -1154,12 +1156,6 @@
       },
       "6987625696575125306": {
         "type": "shopify:\/\/apps\/weglot-translate-your-store\/blocks\/weglot\/3097482a-fafe-42ff-bc33-ea19e35c4a20",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "10384935893930344104": {
-        "type": "shopify:\/\/apps\/seoant-redirects\/blocks\/brokenlink-404\/cc7b1996-e567-42d0-8862-356092041863",
         "disabled": false,
         "settings": {
         }
