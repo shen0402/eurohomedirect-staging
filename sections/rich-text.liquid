@@ -14,7 +14,7 @@
     {%- if section.settings.title != blank -%}
       {%- case section.settings.heading_tag -%}
         {%- when 'h1' -%}
-        <h1 class="heading">{{ section.settings.title | escape }}</h1>
+        <h1 class="heading h1">{{ section.settings.title | escape }}</h1>
         {%- when 'h2' -%}
         <h2 class="heading h1">{{ section.settings.title | escape }}</h2>
       {%- endcase -%}
