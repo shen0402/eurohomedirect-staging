@@ -90,7 +90,11 @@ window.addEventListener('load', function (event) {
             <meta name="description" content="{{ page_description | escape }}">
         {%- endif -%}
 
-        <link rel="canonical" href="{{ canonical_url }}">
+        {%- if page.url contains '?page=' -%}
+          <link rel="canonical" href="{{ page.url }}">
+        {%- else -%}
+          <link rel="canonical" href="{{ canonical_url }}">
+        {%- endif -%}
 
         {%- if settings.favicon -%}
             <link rel="shortcut icon" href="{{ settings.favicon | img_url: '96x96' }}" type="image/png">
