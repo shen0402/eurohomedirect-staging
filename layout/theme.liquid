@@ -84,7 +84,7 @@ window.addEventListener('load', function (event) {
             {%- endif -%}
         {%- endcapture -%}
 
-        <title>{{ page_title }}{% if current_tags %} &ndash; {{ current_tags }}{% endif %}{% if current_page != 1 %} &ndash; Page {{ current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; Hong Kong & Singapore {{ shop.name }}{% endunless %}</title>
+        <title>{{ page_title }}{% if current_tags %} &ndash; {{ current_tags }}{% endif %}{% if current_page != 1 %} &ndash; Page {{ current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; | Hong Kong & Singapore {{ shop.name }}{% endunless %}</title>
 
         {%- if page_description -%}
             <meta name="description" content="{{ page_description | escape }}">
