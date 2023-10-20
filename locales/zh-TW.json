@@ -640,5 +640,17 @@
       "icon1_link": "+852 5935 2062（僅限 Whatsapp）",
       "icon2_text": "發送一個消息"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "shipping": {
+        "split_cart_ships_now": "現已出貨",
+        "split_cart_ships_later": "稍後發貨",
+        "split_cart_ships_by_date": "%{日期} 出貨"
+      },
+      "field_errors": {
+        "credit_card_number_blank": "輸入卡號"
+      }
+    }
   }
 }
