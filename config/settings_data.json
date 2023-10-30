@@ -747,12 +747,6 @@
               "title": "What is the minimum order amount?",
               "answer": "<p>The minimum order amount in one single category is HKD $4000 or SGD $700.<\/p>"
             }
-          },
-          "3d6b7c34-ed4e-4819-8d03-4c1204729783": {
-            "type": "separator",
-            "settings": {
-              "title": "test"
-            }
           }
         },
         "block_order": [
@@ -773,8 +767,7 @@
           "fe13ab97-31d9-4fe8-8d88-936c17721196",
           "77983f61-6127-4831-8a80-8d6e37e12df9",
           "21a45d6f-de6b-42c0-ad2d-40c85b2d2f93",
-          "baeb7d61-7959-4418-a846-c4867d6e5484",
-          "3d6b7c34-ed4e-4819-8d03-4c1204729783"
+          "baeb7d61-7959-4418-a846-c4867d6e5484"
         ],
         "settings": {
           "show_contact_info": true,
