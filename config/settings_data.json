@@ -772,7 +772,7 @@
         "settings": {
           "show_contact_info": true,
           "contact_info_heading": "Any question?",
-          "contact_info_text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.<\/p>",
+          "contact_info_text": "<p>If we still haven't answered your question, you can contact us and we will get back to you as soon as possible.<\/p>",
           "contact_1_icon": "bi-phone",
           "contact_1_heading": "Customer support",
           "contact_1_text": "<p><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=85259352062\" target=\"_blank\">+852 5935 2062 (Whatsapp Only)<\/a><\/p>",
