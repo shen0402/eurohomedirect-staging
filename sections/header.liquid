@@ -24,7 +24,7 @@
         MOBILE NAV
         --------------------------------------------------------------------------------------
         {%- endcomment -%}
-<span class="ly-custom-0"></span>
+
         {%- if navigation_menu.links.size > 0 -%}
           <nav class="header__mobile-nav hidden-lap-and-up">
             <button
@@ -49,6 +49,7 @@
         {%- endcomment -%}
 
         {%- if section.settings.desktop_navigation_layout == 'condensed' and navigation_menu.links.size > 0 -%}
+          <span class="ly-custom-0"></span>
           <nav class="header__desktop-nav hidden-pocket">
             <button
               class="header__desktop-nav-toggle"
