@@ -195,7 +195,7 @@ window.addEventListener('load', function (event) {
       </script>
         {%- endif -%}
     {% capture cur %}{% include "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
-
+<span class="ly-custom-0"></span>
 {% comment %}
 {%- assign full_url = canonical_url | split: '://www.' | last | split: '://' | last -%}
 <link rel="alternate" hreflang="en" href="{{ canonical_url }}">
@@ -226,7 +226,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         {%- endunless -%}
 
         {% section 'header' %}
-
+<span class="ly-custom-0"></span>
         <main id="main" role="main">
             {{ content_for_layout }}
         </main>
