@@ -168,7 +168,7 @@
                     {% for collection in product.collections %}
                       {% if collection.title == 'Appliances' %}
                         {% assign collectionObj = collection %}
-                      {% elsif collection.title == 'Sanitary Wares' or collection.title == '衛浴潔具' %}
+                      {% elsif collection.title == 'Sanitary Wares' %}
                         {% assign collectionObj = collection %}
                       {% elsif collection.title == 'Furniture' %}
                         {% assign collectionObj = collection %}
@@ -204,7 +204,7 @@
                         href="{{ collectionObj.url }}"
                         target="_blank"
                         rel="noopener noreferrer">{{ collectionObj.title }} {{ 'product.appliances.link_text' | t }}</a>.
-                    {% elsif collectionObj.title == 'Sanitary Wares' or collectionObj.title == '衛浴潔具' %}
+                    {% elsif collectionObj.title == 'Sanitary Wares' %}
                       {{ 'product.sanitary.text1_html' | t: product_title: product.title }}
                       <h3 class="heading h3">{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
                       {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
