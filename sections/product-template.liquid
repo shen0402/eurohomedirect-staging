@@ -204,7 +204,7 @@
                         href="{{ collectionObj.url }}"
                         target="_blank"
                         rel="noopener noreferrer">{{ collectionObj.title }} {{ 'product.appliances.link_text' | t }}</a>.
-                    {% elsif collectionObj.title == 'Sanitary Wares' %}
+                    {% elsif collectionObj.title == 'Sanitary Wares' or collectionObj.title == '衛浴潔具' %}
                       {{ 'product.sanitary.text1_html' | t: product_title: product.title }}
                       <h3 class="heading h3">{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
                       {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
