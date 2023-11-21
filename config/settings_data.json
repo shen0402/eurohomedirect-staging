@@ -235,7 +235,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/pc.jpg",
               "mobile_image": "shopify:\/\/shop_images\/mobile.jpg",
-              "show_overlay": false,
+              "show_overlay": true,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
               "title": "BLK SALE 2023",
@@ -253,32 +253,15 @@
               "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-11-21_at_12.48.55_PM.jpg",
               "mobile_image": "shopify:\/\/shop_images\/mobile_1.jpg",
               "show_overlay": true,
-              "overlay_opacity": 34,
+              "overlay_opacity": 52,
               "text_color": "#ffffff",
               "title": "EuroHomeDirect® is proud to announce",
               "content": "that we have won the Gold Award\nand Silver Award in Asia eCommerce Awards 2020 & 2021!",
-              "content_position": "middle_right",
+              "content_position": "bottom_right",
               "button_background": "#4b9ad4",
               "button_text_color": "#ffffff",
               "button_text": "Read More",
               "link": "#"
-            }
-          },
-          "8345f38b-95ab-44de-81fe-9c62cd464dfa": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/normann-copenhagen.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/normann-copenhagen_750x_e5bcc738-ac2f-44ac-9eb7-0c719db5b188.png",
-              "show_overlay": false,
-              "overlay_opacity": 30,
-              "text_color": "#ffffff",
-              "title": "Normann Copenhagen",
-              "content": "is a Danish design company with the mission to create original and\ninnovative products in a simple and contemporary design that withstands\nthe test of time. Or in other words, to challenge conventional thinking\nand make the ordinary extraordinary through great design.",
-              "content_position": "middle_right",
-              "button_background": "#4b9ad4",
-              "button_text_color": "#ffffff",
-              "button_text": "See Collection",
-              "link": "shopify:\/\/collections\/normann-copenhagen"
             }
           },
           "4332e115-f412-4a3a-ad68-b575c719cb12": {
@@ -296,6 +279,23 @@
               "button_text_color": "#ffffff",
               "button_text": "See Collection",
               "link": "shopify:\/\/collections\/gaggenau"
+            }
+          },
+          "8345f38b-95ab-44de-81fe-9c62cd464dfa": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/nc_banner_pc.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/nc_banner_mobile.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 38,
+              "text_color": "#ffffff",
+              "title": "Normann Copenhagen",
+              "content": "is a Danish design company with the mission to create original and\ninnovative products in a simple and contemporary design that withstands\nthe test of time. Or in other words, to challenge conventional thinking\nand make the ordinary extraordinary through great design.",
+              "content_position": "top_left",
+              "button_background": "#4b9ad4",
+              "button_text_color": "#ffffff",
+              "button_text": "See Collection",
+              "link": "shopify:\/\/collections\/normann-copenhagen"
             }
           },
           "cd34a80f-07ad-4f32-8ae3-a682274e1f94": {
@@ -337,8 +337,8 @@
         "block_order": [
           "d07dcfd4-aa21-4d5e-95ef-fb0a9a1322ba",
           "b74ed81d-db28-446b-93dd-07add76de42c",
-          "8345f38b-95ab-44de-81fe-9c62cd464dfa",
           "4332e115-f412-4a3a-ad68-b575c719cb12",
+          "8345f38b-95ab-44de-81fe-9c62cd464dfa",
           "cd34a80f-07ad-4f32-8ae3-a682274e1f94",
           "0601e678-7961-47fd-b774-0c7b1085e94c"
         ],
