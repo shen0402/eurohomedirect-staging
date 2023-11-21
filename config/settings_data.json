@@ -232,7 +232,6 @@
         "blocks": {
           "d07dcfd4-aa21-4d5e-95ef-fb0a9a1322ba": {
             "type": "image",
-            "disabled": true,
             "settings": {
               "image": "shopify:\/\/shop_images\/pc.jpg",
               "mobile_image": "shopify:\/\/shop_images\/mobile.jpg",
