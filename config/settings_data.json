@@ -308,13 +308,13 @@
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
-              "title": "Poliform",
-              "content": "Internationally renowned furniture brand Poliform is famous for its elegant Italian contemporary design. Still a family run business the brand is based in Brianza, north of Milan, it now has over 40 showrooms worldwide. Each Poliform design is a response to functional requirements.",
+              "title": "BLK 2023",
+              "content": "BLK SALE 6% off for all items! Free shipping for standard items over HK$15000\/SG$2600. Ends Nov 30th! WhatsApp to enquire!",
               "content_position": "middle_right",
               "button_background": "#4b9ad4",
               "button_text_color": "#ffffff",
-              "button_text": "See Collection",
-              "link": "#"
+              "button_text": "Contact us to enquire",
+              "link": "https:\/\/api.whatsapp.com\/send\/?phone=85259352062&text&type=phone_number&app_absent=0"
             }
           },
           "cd34a80f-07ad-4f32-8ae3-a682274e1f94": {
