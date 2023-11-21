@@ -481,7 +481,7 @@
           "show_announcement": true,
           "background": "#4b9ad4",
           "text_color": "#ffffff",
-          "text": "Up to 40% off!  Leading eComm platform for home renovation, est. 2017.",
+          "text": "BLK SALE 6% off all items! Free shipping for standard items over HK$15000\/SG$2600. Ends Nov 30th, WhatsApp to enquire!",
           "text_position": "center",
           "link": "",
           "show_newsletter": true,
@@ -1150,12 +1150,6 @@
     "blocks": {
       "16963237191767492405": {
         "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "6987625696575125306": {
-        "type": "shopify:\/\/apps\/weglot-translate-your-store\/blocks\/weglot\/3097482a-fafe-42ff-bc33-ea19e35c4a20",
         "disabled": false,
         "settings": {
         }
