@@ -230,22 +230,22 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
-          "0601e678-7961-47fd-b774-0c7b1085e94c": {
+          "d07dcfd4-aa21-4d5e-95ef-fb0a9a1322ba": {
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/ehd-l.png",
-              "mobile_image": "shopify:\/\/shop_images\/ehd-m.png",
+              "image": "shopify:\/\/shop_images\/pc.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/mobile.jpg",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
-              "title": "",
-              "content": "",
-              "content_position": "middle_center",
-              "button_background": "#ffffff",
-              "button_text_color": "#000000",
-              "button_text": "Button",
-              "link": ""
+              "title": "BLK SALE 2023",
+              "content": "BLK SALE 6% off for all items! Free shipping for standard items over HK$15000\/SG$2600. Ends Nov 30th! WhatsApp to enquire!",
+              "content_position": "middle_right",
+              "button_background": "#4b9ad4",
+              "button_text_color": "#ffffff",
+              "button_text": "Contact us to enquire",
+              "link": "https:\/\/api.whatsapp.com\/send\/?phone=85259352062&text&type=phone_number&app_absent=0"
             }
           },
           "b74ed81d-db28-446b-93dd-07add76de42c": {
@@ -299,24 +299,6 @@
               "link": "shopify:\/\/collections\/gaggenau"
             }
           },
-          "d07dcfd4-aa21-4d5e-95ef-fb0a9a1322ba": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "image": "shopify:\/\/shop_images\/poliform.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/poliform_750x_1dbe08f3-2eb3-4e4b-997b-583fb2df7c54.png",
-              "show_overlay": false,
-              "overlay_opacity": 30,
-              "text_color": "#ffffff",
-              "title": "BLK 2023",
-              "content": "BLK SALE 6% off for all items! Free shipping for standard items over HK$15000\/SG$2600. Ends Nov 30th! WhatsApp to enquire!",
-              "content_position": "middle_right",
-              "button_background": "#4b9ad4",
-              "button_text_color": "#ffffff",
-              "button_text": "Contact us to enquire",
-              "link": "https:\/\/api.whatsapp.com\/send\/?phone=85259352062&text&type=phone_number&app_absent=0"
-            }
-          },
           "cd34a80f-07ad-4f32-8ae3-a682274e1f94": {
             "type": "image",
             "settings": {
@@ -333,15 +315,33 @@
               "button_text": "See Collection",
               "link": "shopify:\/\/collections\/dornbracht"
             }
+          },
+          "0601e678-7961-47fd-b774-0c7b1085e94c": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/ehd-l.png",
+              "mobile_image": "shopify:\/\/shop_images\/ehd-m.png",
+              "show_overlay": false,
+              "overlay_opacity": 30,
+              "text_color": "#ffffff",
+              "title": "",
+              "content": "",
+              "content_position": "middle_center",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Button",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "0601e678-7961-47fd-b774-0c7b1085e94c",
+          "d07dcfd4-aa21-4d5e-95ef-fb0a9a1322ba",
           "b74ed81d-db28-446b-93dd-07add76de42c",
           "8345f38b-95ab-44de-81fe-9c62cd464dfa",
           "4332e115-f412-4a3a-ad68-b575c719cb12",
-          "d07dcfd4-aa21-4d5e-95ef-fb0a9a1322ba",
-          "cd34a80f-07ad-4f32-8ae3-a682274e1f94"
+          "cd34a80f-07ad-4f32-8ae3-a682274e1f94",
+          "0601e678-7961-47fd-b774-0c7b1085e94c"
         ],
         "settings": {
           "edge_to_edge": false,
