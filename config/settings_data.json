@@ -200,14 +200,14 @@
             "type": "text",
             "settings": {
               "title": "HONG KONG CONTACT",
-              "content": "<p>+852 3421 1222<\/p><p>9\/F, Wyndham Place, 44 Wyndham Street, Central, Hong Kong<\/p>"
+              "content": "<p>+852 3421 1222<\/p><p>9\/F, Wyndham Place, 44 Wyndham Street, Central, Hong Kong (Back Office only)<\/p>"
             }
           },
           "48826564-9d4c-4c15-8e0f-379e1e6d3482": {
             "type": "text",
             "settings": {
               "title": "SINGAPORE CONTACT",
-              "content": "<p>+65 3138 8699<\/p><p>13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<\/p>"
+              "content": "<p>+65 3138 8699<\/p><p>13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261 (Back Office only)<\/p>"
             }
           }
         },
