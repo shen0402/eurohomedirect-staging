@@ -105,7 +105,12 @@
               {% render 'product-gallery-regular' %}
             </div>
           {%- endif -%}
-
+{% if collection.title == 'Hansgrohe' %}
+                        {% assign collectionObj = collection %}
+  {% if collectionObj.title == 'Hansgrohe' %}
+EuroHomeDirect
+    {% endif %}
+          {% endif %}
           <div class="product-block-list__item product-block-list__item--info">
             {% render 'product-info-regular' %}
           </div>
