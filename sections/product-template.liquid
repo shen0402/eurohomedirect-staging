@@ -103,7 +103,6 @@
           {%- if product.media.size > 0 -%}
             <div class="product-block-list__item product-block-list__item--gallery">
               {% render 'product-gallery' %}
-            <p>EuroHomeDirect</p>
             </div>
           {%- endif -%}
 
@@ -111,6 +110,7 @@
             {% render 'product-info' %}
           </div>
 
+            <p>EuroHomeDirect</p>
           {%- if product.description != blank -%}
             <div class="product-block-list__item product-block-list__item--description">
               <div class="card__header">
