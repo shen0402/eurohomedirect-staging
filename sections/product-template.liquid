@@ -201,10 +201,7 @@
 
                       {{ 'product.appliances.text4_html' | t: collection_title: collectionObj.title }}
                       {{ 'product.appliances.text5_html' | t: product_title: product.title }}
-                      {{ 'product.appliances.link_label' | t: product_title: product.title }}<a
-                        href="{{ collectionObj.url }}"
-                        target="_blank"
-                        rel="noopener noreferrer">{{ collectionObj.title }} {{ 'product.appliances.link_text' | t }}</a>.
+                      .
                     {% elsif collectionObj.title == 'Sanitary Wares' %}
                       {{ 'product.sanitary.text1_html' | t: product_title: product.title }}
                       <h3 class="heading h3">{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
