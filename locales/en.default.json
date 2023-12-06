@@ -478,7 +478,7 @@
       "header3": "{{product_title}} Compatibility & Warranty",
       "text4_html": "All {{collection_title}} sold by us are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V with UK style power plug (type G). For all other markets with different standards, you may need to use a voltage converter and\/or an adapter. All {{collection_title}} appliances sold come with up to 3-year parts warranty. You can read more about Compatibility and Warranty in our FAQ Page.",
       "text5_html": "Please do not hesitate to contact us if you have further questions about the {{product_title}} or other appliances",
-      "link_label": "Optional: (You can also find more information about the {{product_title}} on the: ",
+      "link_label": "",
       "link_text": "website by clicking here"
     },
     "sanitary": {
