@@ -107,7 +107,7 @@
             </div>
           {%- endif -%}
 
-{% comment %}
+
 {% for collection in product.collections %}
     {% if collection.title == 'Hansgrohe' %}
     {% assign collectionObj = collection %}
@@ -125,7 +125,6 @@
 </div>
     {% endif %}
 
-{% endcomment %}
     
           <div class="product-block-list__item product-block-list__item--info">
             {% render 'product-info-regular' %}
