@@ -43,7 +43,11 @@
                     </div>
                     <h3 class="collection__title text--strong">Gaggenau Fridges & Freezers</h3>
                     <p>Fully integrated refrigerators, fridge-freezers and freezers with multiple climate zones are available in both the Vario 400 series, Vario 200 series, while the cooling 200 series are free-standing appliances.</p>
-                    <a class="button button--primary" href="/collections/refrigerators/gaggenau">See All Fridges & Freezers</a>
+                  {% if request.locale.iso_code == 'en' %}
+                      <a class="button button--primary" href="/collections/refrigerators/gaggenau">See All Fridges & Freezers</a>
+                    {% else %}
+                      <a class="button button--primary" href="/zh/collections/refrigerators/gaggenau">See All Fridges & Freezers</a>
+                    {% endif %}
                 </div>
 
                 <div class="product-item 1/3--tablet 1/4--lap-and-up">
