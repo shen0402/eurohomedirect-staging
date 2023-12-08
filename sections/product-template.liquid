@@ -208,11 +208,30 @@
                         target="_blank"
                         rel="noopener noreferrer">{{ collectionObj.title }} {{ 'product.appliances.link_text' | t }}</a>{% endcomment %}
                     {% elsif collectionObj.title == 'Sanitary Wares' %}
+
+
+                      {% if request.locale.iso_code == 'en' %}
                       {{ 'product.sanitary.text1_html' | t: product_title: product.title }}
                       <h3 class="heading h3">{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
                       {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
                       <h3 class="heading h3">{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
                       {{ 'product.sanitary.text3_html' | t: product_title: product.title }}
+                    {% else %}
+                      {{ 'product.sanitary.text1_html' | t: product_title: product.title }}
+                      <h3 class="heading h3">{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
+                      {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
+                      <h3 class="heading h3">{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
+                      {{ 'product.sanitary.text3_html' | t: product_title: product.title }}
+                    {% endif %}
+
+                      
+                      {% comment %}
+                      {{ 'product.sanitary.text1_html' | t: product_title: product.title }}
+                      <h3 class="heading h3">{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
+                      {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
+                      <h3 class="heading h3">{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
+                      {{ 'product.sanitary.text3_html' | t: product_title: product.title }}
+                      {% endcomment %}
                     {% elsif collectionObj.title == 'Furniture' or collectionObj.title == 'Koinor' or collectionObj.title == 'Accessories' or collectionObj.title == 'Lighting' or collectionObj.title == 'Cassina' or collectionObj.title == 'Living' %}
                       <p></p>
                       <h3 class="heading h3">{{ 'product.furniture.header1' | t: brand: product.vendor }}</h3>
