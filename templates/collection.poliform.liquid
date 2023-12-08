@@ -14,8 +14,10 @@
                         <h2>Secure Imported Poliform Furniture for Up To 30-40% Off in Hong Kong and Singapore!</h2>
                         <div class="rte">
                             <h3 class="heading h3">BEST PRICE FOR POLIFORM FURNITURE IN HONG KONG, SINGAPORE & ASIA</h3>
-                          
-                          <div style="margin: 20px 0;">
+
+
+                            {% if request.locale.iso_code == 'en' %}
+                              <div style="margin: 20px 0;">
                             <b>How to obtain a quote for Poliform?</b>
                             <p>
                           Please let us know the model, and configurations (ie. size + material) you're interested in. Without this information, it's not possible to quote due to the vast possibility of variations. 
@@ -37,6 +39,35 @@
                               We will process and dispatch your order from our European warehouse to your doorstep. Please allow 3-5 months for order fulfilment as most items are made to order
                             </p>
                           </div>
+                            {% else %}
+                              <div style="margin: 20px 0;">
+                            <b>如何獲得Poliform的報價？</b>
+                            <p>
+                          請告訴我們您感興趣的型號和配置（例如尺寸+物料）。如果沒有這些信息，因選項非常多，我們無法提供報價。
+                            </p>
+                            <p>
+                            Quote requests may be sent in by <a href="https://wa.me/85259352062" target="_blank">Whatsapp</a> or email to <a href="mailto:info@eurohomedirect.com" target="_blank">info@eurohomedirect.com</a>.
+                              報價可以通過<a href="https://wa.me/85259352062" target="_blank">Whatsapp</a>或電子郵件發送至<a href="mailto:info@eurohomedirect.com" target="_blank">info@eurohomedirect.com</a>。
+                          </p>
+                            <b>還在猶豫不決嗎？與我們一起選擇：</b>
+                            <p>第一步
+                            <br>
+                              安排線上或線下諮詢，以便我們了解您的需求
+                            </p>
+                            <p>第二步
+                            <br>
+                              我們將提出合適產品，結合您的設計和預算以確認訂單
+                            </p>
+                            <p>第三步
+                            <br>
+                              我們將從歐洲倉庫處理並發送您的訂單到您的指定地點。由於大多數物品都是按需訂製，請允許3-5個月我們處理訂單。
+                            </p>
+                          </div>
+                            {% endif %}
+
+
+                          
+                          
                         </div>
                     </div>
                 </div>
