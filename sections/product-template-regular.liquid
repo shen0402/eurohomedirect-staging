@@ -100,14 +100,7 @@
 
       <div class="product-block-list product-block-list--{{ section.settings.image_size }}">
         <div class="product-block-list__wrapper">
-          {%- if product.media.size > 0 -%}
-            <div class="product-block-list__item product-block-list__item--gallery">
-              {% render 'product-gallery-regular' %}
-            </div>
-          {%- endif -%}
-          <div class="product-block-list__item product-block-list__item--info">
-            {% render 'product-info-regular' %}
-          </div>
+
     {% if collection.title == 'Hansgrohe' %}
                         {% assign collectionObj = collection %}
           {% endif %}
@@ -124,6 +117,15 @@
 <p><b>Please select your products or view product photos on <a href="https://pro.hansgrohe.com/axor/bathroom-products" target="_blank"><u>Official Website</u></a>, then check prices on EuroHomeDirect. We are 30-40% off compared to local retail prices.</b></p>
 </div>
     {% endif %}
+    
+          {%- if product.media.size > 0 -%}
+            <div class="product-block-list__item product-block-list__item--gallery">
+              {% render 'product-gallery-regular' %}
+            </div>
+          {%- endif -%}
+          <div class="product-block-list__item product-block-list__item--info">
+            {% render 'product-info-regular' %}
+          </div>
 
           {%- comment -%}
           --------------------------------------------------------------------------------------
