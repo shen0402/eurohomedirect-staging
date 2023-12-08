@@ -42,7 +42,13 @@
                     </div>
                     <h3 class="collection__title text--strong"><ly-as-1242980>Bosch Oven</ly-as-1242980></h3>
                     <p><ly-as-1242981>Bosch built-in oven saves you straining your back when you’re putting the roast in the oven or want to see whether your cake is ready yet. With it, you can always keep an eye on your culinary masterpieces. Choose from an incredibly wide range of models of all different sizes and use the space in your kitchen just as you want.</ly-as-1242981></p>
-                    <a class="button button--primary" href="/collections/ovens/bosch"><ly-as-1242982>See All Ovens & Microwaves</ly-as-1242982></a>
+                    {% if request.locale.iso_code == 'en' %}
+                      <a class="button button--primary" href="/collections/ovens/bosch"><ly-as-1242982>See All Ovens & Microwaves</ly-as-1242982></a>
+                    {% else %}
+                      <a class="button button--primary" href="/zh/collections/ovens/bosch"><ly-as-1242982>查看所有焗爐及微波爐</ly-as-1242982></a>
+                    {% endif %}
+                  
+                    
                 </div>
 
                 <div class="product-item 1/3--tablet 1/4--lap-and-up">
