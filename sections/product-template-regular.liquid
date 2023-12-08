@@ -98,6 +98,11 @@
         {%- endif -%}
       </div>
 
+      <div class="product-block-list product-block-list--{{ section.settings.image_size }}">
+        <div class="product-block-list__wrapper">
+
+{% comment %}
+  
     {% if collection.title == 'Hansgrohe' %}
                         {% assign collectionObj = collection %}
           {% endif %}
@@ -115,9 +120,7 @@
 </div>
     {% endif %}
 
-    
-      <div class="product-block-list product-block-list--{{ section.settings.image_size }}">
-        <div class="product-block-list__wrapper">
+{% endcomment %}
     
           {%- if product.media.size > 0 -%}
             <div class="product-block-list__item product-block-list__item--gallery">
