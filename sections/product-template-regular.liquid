@@ -100,7 +100,12 @@
 
       <div class="product-block-list product-block-list--{{ section.settings.image_size }}">
         <div class="product-block-list__wrapper">
-
+    
+          {%- if product.media.size > 0 -%}
+            <div class="product-block-list__item product-block-list__item--gallery">
+              {% render 'product-gallery-regular' %}
+            </div>
+          {%- endif -%}
 
 
 {% for collection in product.collections %}
@@ -121,11 +126,6 @@
 </div>
     {% endif %}
     
-          {%- if product.media.size > 0 -%}
-            <div class="product-block-list__item product-block-list__item--gallery">
-              {% render 'product-gallery-regular' %}
-            </div>
-          {%- endif -%}
           <div class="product-block-list__item product-block-list__item--info">
             {% render 'product-info-regular' %}
           </div>
