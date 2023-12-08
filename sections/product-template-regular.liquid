@@ -115,9 +115,8 @@
       {% assign collectionObj = collection %}
       {% endif %}
 {%  endfor %}
-
-{% if request.locale.iso_code == 'en' %}
 {% if collectionObj.title == 'Hansgrohe' %}
+{% if request.locale.iso_code == 'en' %}
 <div>
 <p><b>Please select your products or view product photos on <a href="https://pro.hansgrohe.com/hansgrohe/bathroom-products" target="_blank"><u>Official Website</u></a>, then check prices on EuroHomeDirect. We are 30-40% off compared to local retail prices.</b></p>
 </div>
@@ -126,9 +125,8 @@
 <p><b>請在<a href="https://pro.hansgrohe.com/hansgrohe/bathroom-products" target="_blank"><u>官方網站</u></a>上選擇您的產品或查看產品照片，然後在EuroHomeDirect上檢查價格。我們的價格比當地零售價格低30-40%。</b></p>
 </div>
 {% endif %}
-
+  {% elsif collectionObj.title == 'Axor' %}
 {% if request.locale.iso_code == 'en' %}
-    {% elsif collectionObj.title == 'Axor' %}
 <div>
 <p><b>Please select your products or view product photos on <a href="https://pro.hansgrohe.com/axor/bathroom-products" target="_blank"><u>Official Website</u></a>, then check prices on EuroHomeDirect. We are 30-40% off compared to local retail prices.</b></p>
 </div>
