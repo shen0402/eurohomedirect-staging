@@ -11,11 +11,17 @@
             <div class="image-with-text">
                 <div class="image-with-text__text-container">
                     <div class="image-with-text__text-aligner">
-                        <h2>Secure Imported Poliform Furniture for Up To 30-40% Off in Hong Kong and Singapore!</h2>
+                      {% if request.locale.iso_code == 'en' %}
+                      <h2>Secure Imported Poliform Furniture for Up To 30-40% Off in Hong Kong and Singapore!</h2>
+                    {% else %}
+                      <h2>在香港和新加坡以最多6折進口Poliform家具！</h2>
+                    {% endif %}
                         <div class="rte">
-                            <h3 class="heading h3">BEST PRICE FOR POLIFORM FURNITURE IN HONG KONG, SINGAPORE & ASIA</h3>
-
-
+                          {% if request.locale.iso_code == 'en' %}
+                      <h3 class="heading h3">BEST PRICE FOR POLIFORM FURNITURE IN HONG KONG, SINGAPORE & ASIA</h3>
+                    {% else %}
+                      <h3 class="heading h3">香港、新加坡Poliform家具的最佳價格保證</h3>
+                    {% endif %}
                             {% if request.locale.iso_code == 'en' %}
                               <div style="margin: 20px 0;">
                             <b>How to obtain a quote for Poliform?</b>
@@ -46,7 +52,6 @@
                           請告訴我們您感興趣的型號和配置（例如尺寸+物料）。如果沒有這些信息，因選項非常多，我們無法提供報價。
                             </p>
                             <p>
-                            Quote requests may be sent in by <a href="https://wa.me/85259352062" target="_blank">Whatsapp</a> or email to <a href="mailto:info@eurohomedirect.com" target="_blank">info@eurohomedirect.com</a>.
                               報價可以通過<a href="https://wa.me/85259352062" target="_blank">Whatsapp</a>或電子郵件發送至<a href="mailto:info@eurohomedirect.com" target="_blank">info@eurohomedirect.com</a>。
                           </p>
                             <b>還在猶豫不決嗎？與我們一起選擇：</b>
