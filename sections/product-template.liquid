@@ -184,7 +184,9 @@
                         {% assign collectionObj = collection %}
                       {% endif %}
                     {% endfor %}
+                    {% comment %}
                     {{ collectionObj.title }}
+                    {% endcomment %}
                     {% if collectionObj.title == 'Appliances' %}
                       <p></p>
                       {{ 'product.appliances.text1_html' | t: product_title: product.title }}
