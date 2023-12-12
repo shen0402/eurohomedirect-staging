@@ -168,6 +168,7 @@
                     {% for collection in product.collections %}
                       {% if collection.title == 'Appliances' %}
                         {% assign collectionObj = collection %}
+                      {% assign collectionObj = collections['sanitary-wares'] %}
                       {% elsif collection.title == 'Sanitary Wares' %}
                         {% assign collectionObj = collection %}
                       {% elsif collection.title == 'Furniture' %}
