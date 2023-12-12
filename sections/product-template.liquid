@@ -168,8 +168,13 @@
                     {% for collection in product.collections %}
                       {% if collection.title == 'Appliances' %}
                         {% assign collectionObj = collection %}
+                      {% if request.locale.iso_code == 'en' %}
                       {% elsif collection.title == 'Sanitary Wares' %}
                         {% assign collectionObj = collection %}
+                      {% else %}
+                        {% elsif collection.title == '衛浴潔具' %}
+                        {% assign collectionObj = collection %}
+                      {% endif %}
                       {% elsif collection.title == 'Furniture' %}
                         {% assign collectionObj = collection %}
                       {% elsif collection.title == 'Koinor' %}
