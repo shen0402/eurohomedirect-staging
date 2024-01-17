@@ -273,7 +273,7 @@
       "recover_password": "恢復密碼"
     },
     "order": {
-      "order": "命令",
+      "order": "訂單",
       "order_number": "訂單{{order_number}}",
       "back_to_orders": "返回訂單",
       "date": "日期",
@@ -308,7 +308,7 @@
       "password": "密碼",
       "password_confirmation": "確認密碼",
       "submit": "啟用",
-      "decline": "衰退"
+      "decline": "拒絕"
     },
     "recover_password": {
       "recover_password": "恢復密碼",
