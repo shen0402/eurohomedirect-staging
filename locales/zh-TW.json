@@ -518,7 +518,7 @@
   },
   "blog": {
     "general": {
-      "empty": "該博客沒有文章",
+      "empty": "該網誌沒有文章",
       "empty_button": "去首頁",
       "categories": "類別",
       "all_tag": "全部"
