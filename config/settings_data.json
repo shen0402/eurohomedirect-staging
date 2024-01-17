@@ -480,13 +480,13 @@
           "show_announcement": true,
           "background": "#4b9ad4",
           "text_color": "#ffffff",
-          "text": "Up to 40% off! Leading eComm platform for renovation, est. 2017. Free Shipping for eligible orders - WhatsApp us!",
+          "text": "Up to 40% off! Leading eComm platform in APAC for renovation since 2017. Discounted air shipping for eligible orders - WhatsApp us!",
           "text_position": "center",
           "link": "",
-          "show_newsletter": true,
+          "show_newsletter": false,
           "newsletter_button": "Subscribe",
           "newsletter_title": "Newsletter",
-          "newsletter_content": "<p>Enjoy Discount On Your Orders<\/p>"
+          "newsletter_content": ""
         }
       },
       "popups": {
