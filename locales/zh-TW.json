@@ -362,7 +362,7 @@
   },
   "cart": {
     "general": {
-      "title": "我的車",
+      "title": "購物車",
       "empty": "您的購物車是空的",
       "empty_button": "購買我們的產品",
       "search": "搜索...",
@@ -374,12 +374,12 @@
       "free_shipping": "您有資格享受免費送貨！",
       "free_shipping_remaining_html": "多消費{{remaining_amount}}即可免運費！",
       "amount_saved_html": "您節省了{{amount_saved}} ！",
-      "free": "自由的！",
+      "free": "免費！",
       "taxes_and_shipping_at_checkout": "結賬時計算的稅費和運費",
       "taxes_and_shipping_policy_at_checkout_html": "結賬時計算的稅費和<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">運費<\/a>",
       "taxes_included_but_shipping_at_checkout": "含稅。結賬時計算運費",
       "taxes_included_and_shipping_policy_html": "含稅。結帳時計算<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">運費<\/a>",
-      "total": "全部的",
+      "total": "全部",
       "checkout": "查看"
     },
     "items": {
