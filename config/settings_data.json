@@ -516,6 +516,7 @@
         "blocks": {
           "text-with-icons-0": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "bi-shop",
               "title": "Top European brands with competitive pricing of up to 40%",
@@ -524,6 +525,7 @@
           },
           "text-with-icons-2": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "bi-customer-support",
               "title": "Full suite of services from consultation, direct shipping, and after-sale service",
@@ -532,6 +534,7 @@
           },
           "text-with-icons-1": {
             "type": "item",
+            "disabled": true,
             "settings": {
               "icon": "bi-add-to-cart",
               "title": "Full range of renovation products",
