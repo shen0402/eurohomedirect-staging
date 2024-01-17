@@ -615,8 +615,8 @@
         "type": "static-newsletter",
         "settings": {
           "show_section": true,
-          "title": "Subscribe to our newsletter",
-          "content": "",
+          "title": "Stay up-to-date!",
+          "content": "<p>Get valuable insights through regular blogs and receive the latest promotions.<\/p>",
           "subtext": "",
           "background": "#000000",
           "text": "#ffffff"
@@ -1136,6 +1136,47 @@
           "show_section": true,
           "stack_mobile": false
         }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "articles_per_page": 12,
+          "highlight_first_article": true,
+          "show_tags": true,
+          "show_category": true,
+          "show_author": true,
+          "show_date": true,
+          "show_excerpt": false
+        }
+      },
+      "blog-sidebar": {
+        "type": "blog-sidebar",
+        "blocks": {
+          "blog-sidebar-0": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Join Us",
+              "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+              "subtext": "100% free, Unsubscribe any time!",
+              "background": "#1e2d7d",
+              "text": "#ffffff"
+            }
+          },
+          "blog-sidebar-1": {
+            "type": "social_media",
+            "settings": {
+              "title": "Follow us",
+              "show_rss": true
+            }
+          }
+        },
+        "block_order": [
+          "blog-sidebar-0",
+          "blog-sidebar-1"
+        ],
+        "settings": {
+          "show_on_mobile": true
+        }
       }
     },
     "content_for_index": [
@@ -1159,9 +1200,9 @@
         "settings": {
           "button_color": "#202a36",
           "button_icon": "chat_bubble",
+          "button_text": "no_text",
           "button_horizontal_position": "bottom_right",
           "button_vertical_position": "lowest",
-          "button_text": "no_text",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
       }
