@@ -482,11 +482,11 @@
       "link_text": "website by clicking here"
     },
     "sanitary": {
-      "text1_html": "EuroHomeDirect offers the {{product_title}} directly from Europe. We only sell brand new and genuine products pre-packaged by the manufacturer with parts warranty.<br><br>Series: Sanitary Wares",
+      "text1_html": "EuroHomeDirect offers the {{product_title}} directly from Europe. We only sell brand new and genuine products pre-packaged by the manufacturer with parts warranty.<br><br>",
       "header1": "Buying the {{product_title}} in Hong Kong, Singapore, and Worldwide",
       "text2_html": "EuroHomeDirect sells the {{product_title}} to Hong Kong, Singapore and worldwide with free shipping to Hong Kong and Singapore for selected orders. We only ship with the most reputable courier partners – DHL, Fedex, and CH Robinson and others to ensure your order will arrive safely on time when you purchase from us.",
       "header2": "How can we offer the {{product_title}} at such a great price in Hong Kong, Singapore, and Worldwide?",
-      "text3_html": "We offer the {{product_title}} for a greatly reduced price compared to the local prices in Hong Kong, Singapore and other countries because we ship directly from Europe at wholesale price with best price guarantee. We are able to supply top European appliances at the most competitive prices to local consumers because no distributors or dealers are involved in the process.<br><br>Please don't hesitate to contact us if you have further questions about the {{product_title}} or other sanitary wares."
+      "text3_html": "We offer the {{product_title}} for a greatly reduced price compared to the local prices in Hong Kong, Singapore and other countries because we ship directly from Europe at wholesale price with best price guarantee. We are able to supply top European home products at the most competitive prices to local consumers because no distributors or dealers are involved in the process.<br><br>Please don't hesitate to contact us if you have further questions about the {{product_title}} or other sanitary wares."
     },
     "furniture": {
       "header1": "How to Buy {{brand}} Furniture in Hong Kong, Singapore and Worldwide?",
