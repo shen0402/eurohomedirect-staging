@@ -1152,16 +1152,6 @@
       "blog-sidebar": {
         "type": "blog-sidebar",
         "blocks": {
-          "blog-sidebar-0": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Join Us",
-              "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
-              "subtext": "100% free, Unsubscribe any time!",
-              "background": "#1e2d7d",
-              "text": "#ffffff"
-            }
-          },
           "blog-sidebar-1": {
             "type": "social_media",
             "settings": {
@@ -1171,7 +1161,6 @@
           }
         },
         "block_order": [
-          "blog-sidebar-0",
           "blog-sidebar-1"
         ],
         "settings": {
