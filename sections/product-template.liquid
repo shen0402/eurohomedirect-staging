@@ -215,12 +215,14 @@
                       {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
                       <h3 class="heading h3">{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
                       {{ 'product.sanitary.text3_html' | t: product_title: product.title }}
+                      {% comment %}
                     {% elsif collectionObj.title == '衛浴潔具' %}
                       {{ 'product.sanitary.text1_html' | t: product_title: product.title }}
                       <h3 class="heading h3">{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
                       {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
                       <h3 class="heading h3">{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
                       {{ 'product.sanitary.text3_html' | t: product_title: product.title }}
+                      {% endcomment %}
                     {% elsif collectionObj.title == 'Furniture' or collectionObj.title == 'Koinor' or collectionObj.title == 'Accessories' or collectionObj.title == 'Lighting' or collectionObj.title == 'Cassina' or collectionObj.title == 'Living' %}
                       <p></p>
                       <h3 class="heading h3">{{ 'product.furniture.header1' | t: brand: product.vendor }}</h3>
