@@ -739,7 +739,12 @@
               {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
               <h3 class="heading h3">{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
               {{ 'product.sanitary.text3_html' | t: product_title: product.title }}
-              <p>©2024 EuroHomeDirect</p>
+              {% elsif collectionObj.title == '衛浴潔具' %}
+              {{ 'product.sanitary.text1_html' | t: product_title: product.title }}
+              <h3 class="heading h3">{{ 'product.sanitary.header1' | t: product_title: product.title }}</h3>
+              {{ 'product.sanitary.text2_html' | t: product_title: product.title }}
+              <h3 class="heading h3">{{ 'product.sanitary.header2' | t: product_title: product.title }}</h3>
+              {{ 'product.sanitary.text3_html' | t: product_title: product.title }}
             {% elsif collectionObj.title == 'Furniture' %}
               <h3 class="heading h3">{{ 'product.furniture.header1' | t: brand: product.vendor }}</h3>
               {{ 'product.furniture.text1_html' | t }}
