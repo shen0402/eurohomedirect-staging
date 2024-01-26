@@ -8,7 +8,6 @@ If the product contains the special __gift tag, we prevent it to be completely a
   </script>
 {%- else -%}
   {% section 'product-template-review' %}
-<div><p>hello</p></div>
   <script>
     window.ShopifyXR=window.ShopifyXR||function(){(ShopifyXR.q=ShopifyXR.q||[]).push(arguments)};
     ShopifyXR('addModels', {{ product.media | where: 'media_type', 'model' | json }});
