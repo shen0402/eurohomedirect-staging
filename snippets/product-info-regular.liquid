@@ -580,6 +580,8 @@
         {{ product.description }}
       </div>
     {%- endif -%}
+    <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
+
 
     {%- if section.settings.show_share_buttons -%}
       <div class="product-meta__share-buttons hidden-tablet-and-up">
