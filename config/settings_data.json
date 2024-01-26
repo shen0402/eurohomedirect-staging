@@ -1166,6 +1166,39 @@
         "settings": {
           "show_on_mobile": true
         }
+      },
+      "product-template-review": {
+        "type": "product-template-review",
+        "settings": {
+          "show_vendor": true,
+          "show_sku": false,
+          "show_share_buttons": true,
+          "show_taxes_included": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_payment_button": true,
+          "show_pickup_availability": false,
+          "image_size": "small",
+          "enable_video_looping": false,
+          "enable_image_zoom": true,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0,
+          "content_display_mode": "show_all_and_expand_description",
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": true,
+          "show_reviews_badge": false,
+          "trust_title": "Payment & Security",
+          "show_payment_icons": true,
+          "custom_security_badge_width": 200,
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States",
+          "show_refunds_policy": true
+        }
       }
     },
     "content_for_index": [
