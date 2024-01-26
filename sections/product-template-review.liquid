@@ -70,14 +70,15 @@
 
             <div>
               <p>We would like to hear how we are doing.</p>
-              <p>hello!If you recently purchased from EuroHomeDirect®️, please take a minute to leave a review here. If you have any questions or complaints, please contact our team first to help you resolve your issue.</p>
+              <p>If you recently purchased from EuroHomeDirect®️, please take a minute to leave a review here. If you have any questions or complaints, please contact our team first to help you resolve your issue.</p>
             </div>
 
-            <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
         </div>
     {%- else -%}
 
     {%- endif -%}
+    
+            <div id="shopify-product-reviews" data-id="{{product.id}}">{{ product.metafields.spr.reviews }}</div>
 </section>
 
 {% schema %}
