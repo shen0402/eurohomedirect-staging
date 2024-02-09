@@ -1227,6 +1227,12 @@
           "button_vertical_position": "lowest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
+      },
+      "13289604166815178351": {
+        "type": "shopify:\/\/apps\/redirect-pro-404-seo\/blocks\/redirect-pro\/68d49184-0465-4c21-8d3d-e051f7921c3f",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
