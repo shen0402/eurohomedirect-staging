@@ -697,7 +697,7 @@
             "type": "question",
             "settings": {
               "title": "Is there any refund or exchange policy?",
-              "answer": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes & customs formalities unless there is a manufacturing defect or transportation damage. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.<\/p>"
+              "answer": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes & customs formalities unless there is a manufacturing defect or transportation damage, in which case the claim will be covered by insurance. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.<\/p>"
             }
           },
           "6bc5eab9-9501-41cf-b882-3da72581cb3b": {
@@ -710,7 +710,7 @@
             "type": "question",
             "settings": {
               "title": "Do I have to pay tax for my order?",
-              "answer": "<p><strong>For Hong Kong:<br\/><\/strong><br\/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong are not subject to any customs tariffs.<br\/><br\/><strong>For Singapore:<\/strong><br\/><br\/>Singapore levies a 8% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>You are responsible to pay the applicable import taxes and duties.<\/p>"
+              "answer": "<p><strong>For Hong Kong:<br\/><\/strong><br\/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong are not subject to any customs tariffs.<br\/><br\/><strong>For Singapore:<\/strong><br\/><br\/>Singapore levies a 9% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>You are responsible to pay the applicable import taxes and duties.<\/p>"
             }
           },
           "cf4d9996-3288-4f5a-a32b-6516059d568e": {
