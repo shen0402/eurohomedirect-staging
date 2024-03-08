@@ -635,14 +635,14 @@
             "type": "question",
             "settings": {
               "title": "How are we able to sell at such competitive prices?",
-              "answer": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We are able to supply top European household products at the lowest prices to local consumers because no distributors or dealers are involved in the process.<\/p>"
+              "answer": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We are able to supply top European household products at the lowest prices to local consumers because no local distributors or dealers are involved in the process.<\/p>"
             }
           },
           "c6dd5cfe-68f6-4854-8e95-efcfb51d586e": {
             "type": "question",
             "settings": {
               "title": "Are there any additional discounts for the products sold?",
-              "answer": "<p>We only offer B2B discounts to companies with single order amount above HKD $400000 or SGD $70000 in one single category.<\/p>"
+              "answer": "<p>We only offer B2B discounts to companies with single order amount above HK$200,000 or SG$35,000 in one single category.<\/p>"
             }
           },
           "ff841cad-ad9b-4c0d-8aff-903a83e8356b": {
@@ -656,7 +656,7 @@
             "type": "question",
             "settings": {
               "title": "How do I obtain a quote for the furniture category?",
-              "answer": "<p>In order for us to supply you with a quote, please specify what brand, model, and configurations (ie. size + material) you’re interested in purchasing. Quote request may only be sent by email to [info@eurohomedirect.com]. It is not possible to quote otherwise due to the vast possibility of variations. Please note that order time is about 3-4 months because everything is made to order. Please also expect we are highly competitive compared to local retail prices.<\/p>"
+              "answer": "<p>In order for us to supply you with a quote, please specify what brand, model, and configurations (ie. size + material) you’re interested in purchasing. Quote request may be sent by email to [info@eurohomedirect.com]. It is not possible to quote otherwise due to the vast possibility of variations. Please note that order time is about 3-4 months because everything is made to order. Please also expect we are highly competitive compared to local retail prices.<\/p>"
             }
           },
           "1ba3e082-0385-49ef-bf5a-d4ded9451b28": {
