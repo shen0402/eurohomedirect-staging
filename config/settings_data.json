@@ -723,7 +723,7 @@
             "type": "question",
             "settings": {
               "title": "What is the buying procedure?",
-              "answer": "<p>Please add all the products you would like to purchase to cart and proceed with payment and\/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.<\/p>"
+              "answer": "<p>Please add all the products you would like to purchase to cart, check the shipping rates, and proceed with payment and\/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.<\/p>"
             }
           },
           "77983f61-6127-4831-8a80-8d6e37e12df9": {
@@ -737,14 +737,14 @@
             "type": "question",
             "settings": {
               "title": "How do we ensure payment security?",
-              "answer": "<p>There is no safer way to shop online as we take cyber security very seriously! EuroHomeDirect® has no access to your payment information. All online payments are processed securely through Shopify Payment and Paypal, some of the most reputable third-party payment gateways. When you purchase from us, you are well protected from any potential data leak of your personal information.<\/p>"
+              "answer": "<p>There is no safer way to shop online than with us as we prioritize cyber security and privacy. EuroHomeDirect® does not have access to or collect your payment information. All online payments are securely processed through Shopify Payment via Stripe and Paypal, some of the most reputable third-party payment gateways. When you make a purchase from us, your personal information is well-protected against any potential data leaks. Buyer protection through your credit card company or Paypal applies to all orders placed on EuroHomeDirect®.<\/p>"
             }
           },
           "baeb7d61-7959-4418-a846-c4867d6e5484": {
             "type": "question",
             "settings": {
               "title": "What is the minimum order amount?",
-              "answer": "<p>The minimum order amount in one single category is HKD $4000 or SGD $700.<\/p>"
+              "answer": "<p>The minimum order amount in one single category is HK$4,000 or SG$700.<\/p>"
             }
           }
         },
