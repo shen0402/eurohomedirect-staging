@@ -623,26 +623,26 @@
     },
     "group2": {
       "header": "Warranty, Refund or Exchange",
-      "question1": "Is there any warranty for the products?",
+      "question1": "Is there any warranty for the products sold?",
       "answer1_html": "<p>All products come with 1-year parts warranty by EuroHomeDirect®. This warranty only covers technical faults and does not apply if damage is caused by factors including: wrong installation, abuse, mishandling, accident, liquid damage, or failure to follow operating instructions.<\/p>",
       "question2": "What happens after the warranty period expired?",
       "answer2_html": "<p>We provide life-time support for all products sold. You may contact EuroHomeDirect® local service centre to perform a check and repair. Please note that the replacement parts and\/or inspection is chargeable.<\/p>",
       "question3": "Is there any refund or exchange policy?",
-      "answer3_html": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes &amp; customs formalities unless there is a manufacturing defect or transportation damage. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.<\/p>"
+      "answer3_html": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes &amp; customs formalities unless there is a manufacturing defect or transportation damage, in which case the claim will be covered by insurance. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.<\/p>"
     },
     "group3": {
       "header": "Tax",
       "question1": "Do I have to pay tax for my order?",
-      "answer1_html": "<p><strong>For Hong Kong:<br\/><\/strong><br\/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong are not subject to any customs tariffs.<br\/><br\/><strong>For Singapore:<\/strong><br\/><br\/>Singapore levies a 7% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>You are responsible to pay the applicable import taxes and duties.<\/p>"
+      "answer1_html": "<p><strong>For Hong Kong:<br\/><\/strong><br\/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong are not subject to any customs tariffs.<br\/><br\/><strong>For Singapore:<\/strong><br\/><br\/>Singapore levies a 9% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>You are responsible to pay the applicable import taxes and duties.<\/p>"
     },
     "group4": {
       "header": "Buying Procedure and Payment",
       "question1": "What is the buying procedure?",
-      "answer1_html": "<p>Please add all the products you would like to purchase to cart and proceed with payment and\/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.<\/p>",
+      "answer1_html": "<p>Please add all the products you would like to purchase to cart, check the shipping rates, and proceed with payment and\/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.<\/p>",
       "question2": "What are the payment options?",
       "answer2_html": "<p>We accept the following payment methods:<br\/><br\/><strong>1. Bank transfer<\/strong><br\/><br\/><strong>2. Credit Card by Stripe (Visa\/Mastercard\/American Express)<\/strong><br\/><br\/><strong>3. PayPal<\/strong><\/p>",
       "question3": "How do we ensure payment security?",
-      "answer3_html": "<p>There is no safer way to shop online as we take cyber security very seriously! EuroHomeDirect® has no access to your payment information. All online payments are processed securely through Shopify Payment and Paypal, some of the most reputable third-party payment gateways. When you purchase from us, you are well protected from any potential data leak of your personal information.<\/p>",
+      "answer3_html": "<p>There is no safer way to shop online than with us as we prioritize cyber security and privacy. EuroHomeDirect® does not have access to or collect your payment information. All online payments are securely processed through Shopify Payment via Stripe and Paypal, some of the most reputable third-party payment gateways. When you make a purchase from us, your personal information is well-protected against any potential data leaks. Buyer protection through your credit card company or Paypal applies to all orders placed on EuroHomeDirect®.<\/p>",
       "question4": "What is the minimum order amount?",
       "answer4_html": "<p>The minimum order amount in one single category is HKD $4000 or SGD $700.<\/p>"
     },
