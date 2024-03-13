@@ -172,10 +172,9 @@
         },
         "e9f5b111-a47d-42cd-80df-fdad9bf4f80f": {
           "type": "Item",
-          "disabled": true,
           "settings": {
-            "logo_image": "shopify:\/\/shop_images\/2239cd201dad92c04c62f94eadd5b4db_1080x_d30b4a2a-e9f3-423a-962b-690401a820b8.jpg",
-            "logo_link": ""
+            "logo_image": "shopify:\/\/shop_images\/hastens_logo_hong_kong.png",
+            "logo_link": "https:\/\/eurohomedirect.com\/collections\/hastens"
           }
         },
         "1d465343-4429-4264-8b2c-7733a458628f": {
