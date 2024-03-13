@@ -30,13 +30,6 @@
             "logo_link": "shopify:\/\/collections\/liebherr"
           }
         },
-        "e9dfeb4e-0b46-4a1f-b165-ca420239322c": {
-          "type": "Item",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/miele-logo-png-transparent.png",
-            "logo_link": "shopify:\/\/collections\/miele"
-          }
-        },
         "e026192f-d7e0-4961-abaa-6ffa941a9cd6": {
           "type": "Item",
           "settings": {
@@ -358,7 +351,6 @@
         "2b8fd534-c146-4c07-9445-ee9a011b27bc",
         "7fe38387-099e-49fa-8d24-717139f4d209",
         "4474e281-e54b-40ae-b39d-2272801d7cf9",
-        "e9dfeb4e-0b46-4a1f-b165-ca420239322c",
         "e026192f-d7e0-4961-abaa-6ffa941a9cd6",
         "8bac1b49-f18b-41e4-a41c-c746757b37c8",
         "78db04d5-adc4-45d1-86d6-28763c73d6e8",
