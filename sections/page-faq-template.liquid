@@ -1,188 +1,109 @@
 <div class="container container--narrow">
   <header class="page__header page__header--stack page__header--centered">
-    <h1 class="page__title heading h1">{{ 'faq.header.title' | t }}</h1>
+    <h1 class="page__title heading h1">{{ page.title }}</h1>
+
+    {%- if page.content != blank -%}
+      <div class="page__description rte">
+        {{ page.content }}
+      </div>
+    {%- endif -%}
   </header>
 </div>
 
 <div class="container container--flush container--narrow">
   <div class="faq">
-    <div class="faq__group-list"><div class="faq__group"><h1 class="faq__group-title heading h2">
-              <span class="anchor" id="block-page-faq-template-7"></span>{{ 'faq.group1.header' | t }}</h1><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="false" aria-controls="block-page-faq-template-8">{{ 'faq.group1.question1' | t }} <span class="plus-button plus-button--large"></span></button>
+    <div class="faq__group-list">
+      {%- for block in section.blocks -%}
+        {%- if forloop.first or block.type == 'separator' -%}
+          <div class="faq__group">
+        {%- endif -%}
 
-                <div id="block-page-faq-template-8" class="faq__answer-wrapper" style="height: 0px;">
+        {%- case block.type -%}
+          {%- when 'separator' -%}
+            <h1 class="faq__group-title heading h2" {{ block.shopify_attributes }}>
+              <span class="anchor" id="block-{{ block.id }}"></span>
+              {{- block.settings.title | escape -}}
+            </h1>
+          {%- when 'question' -%}
+            <div class="faq__item" {{ block.shopify_attributes }}>
+              <div class="faq__item-wrapper">
+                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="false" aria-controls="block-{{ block.id }}">{{ block.settings.title | escape }} <span class="plus-button plus-button--large"></span></button>
+
+                <div id="block-{{ block.id }}" class="faq__answer-wrapper">
                   <div class="faq__answer rte">
-                    {{ 'faq.group1.answer1_html' | t }}
+                    {{ block.settings.answer }}
                   </div>
                 </div>
               </div>
-            </div><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="true" aria-controls="block-c6dd5cfe-68f6-4854-8e95-efcfb51d586e">{{ 'faq.group1.question2' | t }} <span class="plus-button plus-button--large"></span></button>
+            </div>
+        {%- endcase -%}
 
-                <div id="block-c6dd5cfe-68f6-4854-8e95-efcfb51d586e" class="faq__answer-wrapper" style="height: auto;">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group1.answer2_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="true" aria-controls="block-ff841cad-ad9b-4c0d-8aff-903a83e8356b">{{ 'faq.group1.question3' | t }} <span class="plus-button plus-button--large"></span></button>
+        {%- if forloop.last or block.type == 'question' and section.blocks[forloop.index].type == 'separator' -%}
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
 
-                <div id="block-ff841cad-ad9b-4c0d-8aff-903a83e8356b" class="faq__answer-wrapper" style="height: auto;">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group1.answer3_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="true" aria-controls="block-34b637a8-e6cd-4cf9-ae27-ca13e1c549bf">{{ 'faq.group1.question4' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-34b637a8-e6cd-4cf9-ae27-ca13e1c549bf" class="faq__answer-wrapper" style="height: auto;">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group1.answer4_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="true" aria-controls="block-1ba3e082-0385-49ef-bf5a-d4ded9451b28">{{ 'faq.group1.question5' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-1ba3e082-0385-49ef-bf5a-d4ded9451b28" class="faq__answer-wrapper" style="height: auto;">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group1.answer5_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="true" aria-controls="block-6419b58a-fc05-49c6-aeb8-73b7917049bf">{{ 'faq.group1.question6' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-6419b58a-fc05-49c6-aeb8-73b7917049bf" class="faq__answer-wrapper" style="height: auto;">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group1.answer6_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div></div><div class="faq__group"><h1 class="faq__group-title heading h2">
-              <span class="anchor" id="block-74ce7ed6-f050-4e23-ab2a-573303807437"></span>{{ 'faq.group2.header' | t }}</h1><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="false" aria-controls="block-657dbc58-1002-46ec-bce4-55e873a34619">{{ 'faq.group2.question1' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-657dbc58-1002-46ec-bce4-55e873a34619" class="faq__answer-wrapper">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group2.answer1_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="false" aria-controls="block-c6d13c5f-4a6b-4a0c-bee4-42751b7ba7fa">{{ 'faq.group2.question2' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-c6d13c5f-4a6b-4a0c-bee4-42751b7ba7fa" class="faq__answer-wrapper">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group2.answer2_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="false" aria-controls="block-1827210c-c671-4bfa-85dd-180401ed90a7">{{ 'faq.group2.question3' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-1827210c-c671-4bfa-85dd-180401ed90a7" class="faq__answer-wrapper">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group2.answer3_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div></div><div class="faq__group"><h1 class="faq__group-title heading h2">
-              <span class="anchor" id="block-6bc5eab9-9501-41cf-b882-3da72581cb3b"></span>{{ 'faq.group3.header' | t }}</h1><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="false" aria-controls="block-4f12f422-8116-4dbc-b18f-4b22decc126b">{{ 'faq.group3.question1' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-4f12f422-8116-4dbc-b18f-4b22decc126b" class="faq__answer-wrapper">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group3.answer1_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div></div><div class="faq__group"><h1 class="faq__group-title heading h2">
-              <span class="anchor" id="block-cf4d9996-3288-4f5a-a32b-6516059d568e"></span>{{ 'faq.group4.header' | t }}</h1><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="false" aria-controls="block-fe13ab97-31d9-4fe8-8d88-936c17721196">{{ 'faq.group4.question1' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-fe13ab97-31d9-4fe8-8d88-936c17721196" class="faq__answer-wrapper">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group4.answer1_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="true" aria-controls="block-77983f61-6127-4831-8a80-8d6e37e12df9">{{ 'faq.group4.question2' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-77983f61-6127-4831-8a80-8d6e37e12df9" class="faq__answer-wrapper" style="height: auto;">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group4.answer2_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="false" aria-controls="block-21a45d6f-de6b-42c0-ad2d-40c85b2d2f93">{{ 'faq.group4.question3' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-21a45d6f-de6b-42c0-ad2d-40c85b2d2f93" class="faq__answer-wrapper">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group4.answer3_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div><div class="faq__item">
-              <div class="faq__item-wrapper">
-                <button class="faq__question heading h4" data-action="toggle-collapsible" aria-expanded="false" aria-controls="block-baeb7d61-7959-4418-a846-c4867d6e5484">{{ 'faq.group4.question4' | t }} <span class="plus-button plus-button--large"></span></button>
-
-                <div id="block-baeb7d61-7959-4418-a846-c4867d6e5484" class="faq__answer-wrapper">
-                  <div class="faq__answer rte">
-                    {{ 'faq.group4.answer4_html' | t }}
-                  </div>
-                </div>
-              </div>
-            </div></div></div><div class="container--unflush">
+    {%- if section.settings.show_contact_info -%}
+      <div class="container--unflush">
         <div class="faq__contact-info">
-          <header class="page__header page__header--stack page__header--centered"><h2 class="page__title heading h2">{{ 'faq.any_questions.header' | t }}</h2><div class="page__description rte">
-            {{ 'faq.any_questions.text' | t }}
-              </div></header>
+          <header class="page__header page__header--stack page__header--centered">
+            {%- if section.settings.contact_info_heading != blank -%}
+              <h2 class="page__title heading h2">{{ section.settings.contact_info_heading | escape }}</h2>
+            {%- endif -%}
 
-          <div class="text-with-icons text-with-icons--boxed"><div class="text-with-icons__item">
-                <div class="text-with-icons__icon-wrapper"><svg focusable="false" class="icon icon--bi-phone" viewBox="0 0 24 24" role="presentation">
-      <g stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="square">
-        <path d="M17 15l-3 3-8-8 3-3-5-5-3 3c0 9.941 8.059 18 18 18l3-3-5-5z" stroke="#000000"></path>
-        <path d="M14 1c4.971 0 9 4.029 9 9m-9-5c2.761 0 5 2.239 5 5" stroke="#4b99d3"></path>
-      </g>
-    </svg></div>
+            {%- if section.settings.contact_info_text != blank -%}
+              <div class="page__description rte">
+                {{ section.settings.contact_info_text }}
+              </div>
+            {%- endif -%}
+          </header>
 
-                <div class="text-with-icons__content-wrapper"><p class="text-with-icons__title text--strong">{{ 'faq.any_questions.icon1_text' | t }}</p><div class="text-with-icons__content rte">
-                      <p><a href="https://api.whatsapp.com/send/?phone=85259352062" target="_blank" rel="noopener" aria-describedby="a11y-new-window-message">{{ 'faq.any_questions.icon1_link' | t }}</a></p>
-                    </div></div>
-              </div><div class="text-with-icons__item">
-                <div class="text-with-icons__icon-wrapper"><svg focusable="false" class="icon icon--bi-email" viewBox="0 0 22 22" role="presentation">
-      <g fill="none" fill-rule="evenodd">
-        <path stroke="#4b99d3" d="M.916667 10.08333367l3.66666667-2.65833334v4.65849997zm20.1666667 0L17.416667 7.42500033v4.65849997z"></path>
-        <path stroke="#000000" stroke-width="1.5" d="M4.58333367 7.42500033L.916667 10.08333367V21.0833337h20.1666667V10.08333367L17.416667 7.42500033"></path>
-        <path stroke="#000000" stroke-width="1.5" d="M4.58333367 12.1000003V.916667H17.416667v11.1833333m-16.5-2.01666663L21.0833337 21.0833337m0-11.00000003L11.0000003 15.5833337"></path>
-        <path d="M8.25000033 5.50000033h5.49999997M8.25000033 9.166667h5.49999997" stroke="#4b99d3" stroke-width="1.5" stroke-linecap="square"></path>
-      </g>
-    </svg></div>
+          <div class="text-with-icons text-with-icons--boxed">
+            {%- if section.settings.contact_1_heading != blank or section.settings.contact_1_text != blank -%}
+              <div class="text-with-icons__item">
+                <div class="text-with-icons__icon-wrapper">
+                  {%- render 'icon', icon: section.settings.contact_1_icon, stroke_width: 1.5 -%}
+                </div>
 
-                <div class="text-with-icons__content-wrapper"><p class="text-with-icons__title text--strong">{{ 'faq.any_questions.icon2_text' | t }}</p><div class="text-with-icons__content rte">
-                      <p><a href="mailto:info@eurohomedirect.com" target="_blank" rel="noopener" aria-describedby="a11y-new-window-message">{{ 'faq.any_questions.icon2_link' | t }}</a></p>
-                    </div></div>
-              </div></div>
+                <div class="text-with-icons__content-wrapper">
+                  {%- if section.settings.contact_1_heading != blank -%}
+                    <p class="text-with-icons__title text--strong">{{ section.settings.contact_1_heading | escape }}</p>
+                  {%- endif -%}
+
+                  {%- if section.settings.contact_1_text != blank -%}
+                    <div class="text-with-icons__content rte">
+                      {{ section.settings.contact_1_text }}
+                    </div>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endif -%}
+
+            {%- if section.settings.contact_2_heading != blank or section.settings.contact_2_text != blank -%}
+              <div class="text-with-icons__item">
+                <div class="text-with-icons__icon-wrapper">
+                  {%- render 'icon', icon: section.settings.contact_2_icon, stroke_width: 1.5 -%}
+                </div>
+
+                <div class="text-with-icons__content-wrapper">
+                  {%- if section.settings.contact_2_heading != blank -%}
+                    <p class="text-with-icons__title text--strong">{{ section.settings.contact_2_heading | escape }}</p>
+                  {%- endif -%}
+
+                  {%- if section.settings.contact_2_text != blank -%}
+                    <div class="text-with-icons__content rte">
+                      {{ section.settings.contact_2_text }}
+                    </div>
+                  {%- endif -%}
+                </div>
+              </div>
+            {%- endif -%}
+          </div>
         </div>
-      </div></div>
+      </div>
+    {%- endif -%}
+  </div>
 </div>
 
 {% schema %}
