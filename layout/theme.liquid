@@ -1,45 +1,59 @@
-{% comment %}ly_liquid_scripts_begin{% endcomment %}{% capture ly_liquid_content %}{% comment %}ly_liquid_scripts_end{% endcomment %}<!doctype html>
+<!doctype html>
 
-<html class="no-js" lang="{{ request.locale.iso_code }}"{% comment %}ly_dir_replace_for_[]_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%} dir="rtl" {%- endif -%}{% comment %}ly_dir_replace_end{% endcomment %}>
+<html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-WNT8RSR');</script>
-<!-- End Google Tag Manager -->
-
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-686485729"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'AW-686485729');
-</script>
-    
+    <link href="https://obscure-escarpment-2240.herokuapp.com/stylesheets/bcpo-front.css" rel="stylesheet">
     <script>
-	window.addEventListener("load", function(event) { 
-		document.querySelectorAll("button[data-action='add-to-cart']").forEach(function(e){
-			e.addEventListener('click',function(){
-				gtag('event', 'conversion', {'send_to': 'AW-729732356/KlOeCNeLorUDEISq-9sC'});
-   		});
-   	});
-	});
-</script>
-<!-- Event snippet for Begin checkout conversion page -->
-<script>
-window.addEventListener('load', function (event) {
-  document.querySelectorAll('[name="checkout"]').forEach(function (e) {
-   e.addEventListener('click', function () {
-     gtag('event', 'conversion', {'send_to': 'AW-688938076/DJviCMyj4sUYENy4wcgC'});
-      
+      var bcpo_product = {{ product | json }};{% if product.metafields.bcpo.bcpo_data %}var bcpo_data = {{ product.metafields.bcpo.bcpo_data }};{% endif %}{% if shop.metafields.bcpo.bcpo_settings %}var bcpo_settings = {{ shop.metafields.bcpo.bcpo_settings }};{% endif %}var inventory_quantity = [];{% for v in product.variants %}inventory_quantity.push({{v.inventory_quantity}});{% endfor %}if (bcpo_product) {
+        for (var i = 0; i < bcpo_product.variants.length; i += 1) {
+          bcpo_product.variants[i].inventory_quantity = inventory_quantity[i];
+        }
+      }
+      window.bcpo = window.bcpo || {};
+      bcpo.cart = {{cart | json}};
+      bcpo.ogFormData = FormData;
+    </script>
+    <!-- Global site tag (gtag.js) - Google Ads: 729732356 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-729732356"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'AW-729732356');
+    </script>
+
+    <script>
+      window.addEventListener("load", function(event) {
+        document.querySelectorAll("button[data-action='add-to-cart']").forEach(function(e) {
+          e.addEventListener('click', function() {
+            gtag('event', 'conversion', {'send_to': 'AW-729732356/KlOeCNeLorUDEISq-9sC'});
+          });
+        });
       });
-   });
-});      
-</script>
+    </script>
+
+    <script>
+      window.addEventListener("load", function(event) {
+        gtag('event', 'conversion', {'send_to': 'AW-729732356/_BVECNyTorUDEISq-9sC'});
+
+      });
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Ads: 686485729 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-686485729"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'AW-686485729');
+    </script>
+
     <script>
       window.addEventListener("load", function(event) {
         document.querySelectorAll('button[data-action="add-to-cart"]').forEach(function(e) {
@@ -58,84 +72,92 @@ window.addEventListener('load', function (event) {
       })
     </script>
 
-<script>
-window.addEventListener('load', function (event) {
-  document.querySelectorAll('[name="checkout"]').forEach(function (e) {
-   e.addEventListener('click', function () {
-     gtag('event', 'conversion', {'send_to': 'AW-686485729/DogCCL7Q7cADEOHhq8cC'});
-      
+    <script>
+      window.addEventListener("load", function() {
+        setTimeout(function() {
+          document.querySelectorAll('button[name="checkout"]').forEach(function(e) {
+            e.addEventListener('click', function(e) {
+              gtag('event', 'conversion', {'send_to': 'AW-686485729/DogCCL7Q7cADEOHhq8cC'});
+            });
+          });
+        }, 1500)
       });
-   });
-});      
-</script>
+    </script>
 
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0" name="viewport">
+    <meta name="theme-color" content="{{ settings.accent_color }}">
 
-        <meta charset="utf-8">
-        <meta content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0" name="viewport">
-        <meta name="theme-color" content="{{ settings.accent_color }}">
+    {%- capture seo_page_title -%}
+      {%- if request.page_type == 'search' and search.terms != blank -%}
+        {{ search.terms | split: ' AND ' | last | split: 'product_type:' | last }}
+        -
+        {{ shop.name }}
+      {%- else -%}
+        {{ page_title }}
+        {% if current_tags %}
+          {% assign meta_tags = current_tags | join: ', ' %}
+          &ndash;
+          {{ 'general.meta.tags' | t: tags: meta_tags }}
+        {% endif %}
+        {% if current_page != 1 %}
+          &ndash;
+          {{ 'general.meta.page' | t: page: current_page }}
+        {% endif %}
+      {%- endif -%}
+    {%- endcapture -%}
 
-        {%- capture seo_page_title -%}
-            {%- if request.page_type == 'search' and search.terms != blank -%}
-                {{ search.terms | split: ' AND ' | last | split: 'product_type:' | last }}
-                -
-                {{ shop.name }}
-            {%- else -%}
-                {{ page_title }}
-                {% if current_tags %}
-                    {% assign meta_tags = current_tags | join: ', ' %}
-                    &ndash;
-                    {{ 'general.meta.tags' | t: tags: meta_tags }}
-                {% endif %}
-                {% if current_page != 1 %}
-                    &ndash;
-                    {{ 'general.meta.page' | t: page: current_page }}
-                {% endif %}
-            {%- endif -%}
-        {%- endcapture -%}
+    <title>{{- seo_page_title -}}</title>
 
-        <title>{{ page_title }}{% if current_tags %} &ndash; {{ current_tags | join: ', ' }}{% endif %}{% if current_page != 1 %} Page {{ current_page }}{% endif %}{% unless page_title contains shop.name %} Hong Kong & Singapore | {{ shop.name }}{% endunless %}</title>
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
 
-        {%- if page_description -%}
-            <meta name="description" content="{{ page_description | escape }}">
-        {%- endif -%}
+    <link rel="canonical" href="{{ canonical_url }}">
 
-        {%- if page.url contains '?page=' -%}
-          <link rel="canonical" href="{{ page.url }}">
-        {%- else -%}
-          <link rel="canonical" href="{{ canonical_url }}">
-        {%- endif -%}
+    {%- if settings.favicon -%}
+      <link
+        rel="shortcut icon"
+        href="{{ settings.favicon | img_url: '96x96' }}"
+        type="image/png">
+    {%- endif -%}
 
-        {%- if settings.favicon -%}
-            <link rel="shortcut icon" href="{{ settings.favicon | img_url: '96x96' }}" type="image/png">
-        {%- endif -%}
+    {%- comment -%}Few prefech to increase performance on commonly used third-parties{%- endcomment -%}
+    <link
+      rel="preload"
+      as="style"
+      href="{{ 'theme.css' | asset_url }}">
+    <link
+      rel="preload"
+      as="style"
+      href="{{ 'custom.css' | asset_url }}">
+    <link href="https://fonts.shopifycdn.com" rel="preconnect">
+    <link href="https://productreviews.shopifycdn.com" rel="dns-prefetch">
+    <link href="https://ajax.googleapis.com" rel="dns-prefetch">
+    <link href="https://maps.googleapis.com" rel="dns-prefetch">
+    <link href="https://maps.gstatic.com" rel="dns-prefetch">
 
-        {%- comment -%}Few prefech to increase performance on commonly used third-parties{%- endcomment -%}
-        <link rel="preload" as="style" href="{{ 'theme.css' | asset_url }}">
-        <link rel="preload" as="style" href="{{ 'custom.css' | asset_url }}">
-        <link href="https://fonts.shopifycdn.com" rel="preconnect">
-        <link href="https://productreviews.shopifycdn.com" rel="dns-prefetch">
-        <link href="https://ajax.googleapis.com" rel="dns-prefetch">
-        <link href="https://maps.googleapis.com" rel="dns-prefetch">
-        <link href="https://maps.gstatic.com" rel="dns-prefetch">
+    {% render 'social-meta-tags' %}
+    {% render 'css-variables' %}
 
-        {% render 'social-meta-tags' %}
-        {% render 'css-variables' %}
+    {{ content_for_header }}
 
-        {{ content_for_header }}
+    <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
 
-        <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
-        <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
+    {% render 'microdata-schema' %}
 
-        {% render 'microdata-schema' %}
-
-        <script>
+    <script>
       // This allows to expose several variables to the global scope, to be used in scripts
       window.theme = {
         pageType: {{ request.page_type | json }},
         cartCount: {{ cart.item_count | json }},
         moneyFormat: {{ shop.money_format | json }},
         moneyWithCurrencyFormat: {{ shop.money_with_currency_format | json }},
-        showDiscount: {% if settings.show_discount %}true{% else %}false{% endif %},
+        showDiscount:{% if settings.show_discount %}true
+        {% else %}
+          false
+        {% endif %},
         discountMode: {{ settings.discount_mode | json }},
         searchMode: {{ settings.search_mode | json }},
         cartType: {{ settings.cart_type | json }}
@@ -143,7 +165,7 @@ window.addEventListener('load', function (event) {
 
       window.routes = {
         rootUrl: {{ routes.root_url | json }},
-        rootUrlWithoutSlash: {% if routes.root_url == '/' %}''{% else %}{{ routes.root_url | json }}{% endif %},
+        rootUrlWithoutSlash:{% if routes.root_url == '/' %}'' {% else %}{{ routes.root_url | json }}{% endif %},
         cartUrl: {{ routes.cart_url | json }},
         cartAddUrl: {{ routes.cart_add_url | json }},
         cartChangeUrl: {{ routes.cart_change_url | json }},
@@ -156,7 +178,10 @@ window.addEventListener('load', function (event) {
         productSalePrice: {{ 'product.general.sale_price' | t | json }},
         collectionOnSaleLabel: {{ 'collection.product.discount_html' | t | json }},
         productFormUnavailable: {{ 'product.form.unavailable' | t | json }},
-        productFormAddToCart: {% if product.template_suffix == 'pre-order' %}{{ 'product.form.pre_order' | t | json }}{% else %}{{ 'product.form.add_to_cart' | t | json }}{% endif %},
+        productFormAddToCart:{% if product.template_suffix == 'pre-order' %}{{ 'product.form.pre_order' | t | json }}
+        {% else %}
+          {{ 'product.form.add_to_cart' | t | json }}
+        {% endif %},
         productFormSoldOut: {{ 'product.form.sold_out' | t | json }},
         productAdded: {{ 'product.form.added' | t | json }},
         productAddedShort: {{ 'product.form.added_short' | t | json }},
@@ -180,77 +205,67 @@ window.addEventListener('load', function (event) {
       document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
     </script>
 
-        <script src="{{ 'jquery-3.6.0.min.js' | asset_url }}"></script>
-        <script src="{{ 'jquery-ui.min.js' | asset_url }}"></script>
-        {%- if request.page_type == 'customers/addresses' -%}
-            <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer></script>
-            <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer></script>
-        {%- endif -%}
-        <script src="{{ 'theme.js' | asset_url }}" defer></script>
-        <script src="{{ 'custom.js' | asset_url }}" defer></script>
+    <script src="{{ 'jquery-3.6.0.min.js' | asset_url }}"></script>
+    <script src="{{ 'jquery-ui.min.js' | asset_url }}"></script>
+    {%- if request.page_type == 'customers/addresses' -%}
+      <script src="{{ 'shopify_common.js' | shopify_asset_url }}" defer></script>
+      <script src="{{ 'customer_area.js' | shopify_asset_url }}" defer></script>
+    {%- endif -%}
+    <script src="{{ 'theme.js' | asset_url }}" defer></script>
+    <script src="{{ 'custom.js' | asset_url }}" defer></script>
 
-        {%- if request.page_type != 'cart' -%}
-            <script>
-        (function () {
+    {%- if request.page_type != 'cart' -%}
+      <script>
+        (function() {
           window.onpageshow = function() {
-            // We force re-freshing the cart content onpageshow, as most browsers will serve a cache copy when hitting the
-            // back button, which cause staled data
+
+// We force re-freshing the cart content onpageshow, as most browsers will serve a cache copy when hitting the
+// back button, which cause staled data
             document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
               bubbles: true,
-              detail: {scrollToTop: false}
+              detail: {
+                scrollToTop: false
+              }
             }));
           };
         })();
       </script>
-        {%- endif -%}
-    {% capture cur %}{% include "booster-currency" %}{% endcapture %}{% unless cur contains "Liquid error" %}{{ cur }}{% endunless %}
+    {%- endif -%}
+    {% capture cur %}
+      {% include "booster-currency" %}{% endcapture %}
+    {% unless cur contains "Liquid error" %}
+      {{ cur }}{% endunless %}
 
-{% comment %}
-{%- assign full_url = canonical_url | split: '://www.' | last | split: '://' | last -%}
-<link rel="alternate" hreflang="en" href="{{ canonical_url }}">
-<link rel="alternate" hreflang="zh-tw" href="https://zh-hk.{{ full_url }}">
-<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-<script>
-    Weglot.initialize({
-        api_key: 'wg_a01e15b3690c79d7a84ca4cca046da4f3'
-    });
-</script>
-  {% endcomment %}
-  
-{% comment %}ly_dir_styles_begin{% endcomment %}{%- assign language_code = '_' | append: request.locale.iso_code -%}{%- if '_ar_ha_he_fa_ks_ku_ps_ur_yi' contains language_code -%}{{- 'ly-rtl.css' | asset_url | stylesheet_tag -}}{%- endif -%}{% comment %}ly_dir_styles_end{% endcomment %}</head>
+
+  </head>
 
   <body class="eurohomedirect--v1 {% if settings.animation_image_zoom %}features--animate-zoom{% endif%} template-{{ request.page_type | handle }} {% if request.page_type contains '/' %}template-{{ request.page_type | split: '/' | last | handle }}{% endif %}" data-instant-intensity="viewport">
-  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNT8RSR"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->  
-  <a class="visually-hidden skip-to-content" href="#main">{{ 'general.accessibility.skip_to_content' | t }}</a>
+    <a class="visually-hidden skip-to-content" href="#main">{{ 'general.accessibility.skip_to_content' | t }}</a>
     <span class="loading-bar"></span>
 
-        {% section 'announcement-bar' %}
+    {% section 'announcement-bar' %}
 
-        {%- unless request.page_type == 'cart' -%}
-            {%- comment -%}As required by Shopify rules, popup must be removed on cart page to remove distraction{%- endcomment -%}
-            {%- comment -%}{% section 'popups' %}{%- endcomment -%}
-        {%- endunless -%}
+      {%- unless request.page_type == 'cart' -%}
+      {%- comment -%}As required by Shopify rules, popup must be removed on cart page to remove distraction{%- endcomment -%}
+      {% section 'popups' %}
+    {%- endunless -%}
 
-        {% section 'header' %}
+    {% section 'header' %}
 
-        <main id="main" role="main">
-            {{ content_for_layout }}
-        </main>
+    <main id="main" role="main">
+      {{ content_for_layout }}
+    </main>
 
-        {%- if request.page_type == 'blog' or request.page_type == 'article' or request.page_type == 'page' -%}
-            {% section 'static-newsletter' %}
-        {%- endif -%}
+    {%- if request.page_type == 'blog' or request.page_type == 'article' or request.page_type == 'page' -%}
+      {% section 'static-newsletter' %}
+    {%- endif -%}
 
-        {% section 'text-with-icons' %}
-        {% section 'footer' %}
+    {% section 'text-with-icons' %}
+    {% section 'footer' %}
 
-        <ul hidden>
-            <li id="a11y-new-window-message">{{ 'general.accessibility.new_window' | t }}</li>
-        </ul>
-    
-        {% include 'mw_fees_objects' %}
-<!-- langify-v2-scripts-begin -->{% comment %}ly_liquid_scripts_begin{% endcomment %}{% endcapture %}{% render 'ly-liquid-scripts' content: ly_liquid_content %}{% comment %}ly_liquid_scripts_end{% endcomment %}{% comment %}ly_core_scripts_begin{% endcomment %}{% render 'ly-core-scripts' %}{% comment %}ly_core_scripts_end{% endcomment %}{% comment %}ly_switcher_factory_begin{% endcomment %}{% render 'ly-switcher-factory' %}{% comment %}ly_switcher_factory_end{% endcomment %}<!-- langify-v2-scripts-end --></body>
+    <ul hidden>
+      <li id="a11y-new-window-message">{{ 'general.accessibility.new_window' | t }}</li>
+    </ul>
+    {% include 'mw_fees_objects' %}
+  </body>
 </html>
