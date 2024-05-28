@@ -666,6 +666,13 @@
               "answer": "<p>All appliances sold are CE compliant, and would require no further modification to be imported into Hong Kong and Singapore.<br\/><br\/><strong>For Hong Kong & Singapore:<\/strong><br\/><br\/>Yes, all products sold are compatible with Hong Kong & Singaporean standards. Our electric appliances are manufactured to operate under 220-240V, 50-60Hz with UK style power plug (type G).<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>A voltage converter and\/or an adapter may be required. Please check the compatibility.<\/p>"
             }
           },
+          "question_6WnCNG": {
+            "type": "question",
+            "settings": {
+              "title": "What is the Best Price Guarantee (BPG)?",
+              "answer": "<p>When you shop with us, you are guaranteed the lowest price among local merchants. If you find a lower rate from another local merchant on the same product listed on our website, kindly share the quotation including the product model, price, and date via WhatsApp or Email. We will then match it under our best price guarantee policy. <\/p>"
+            }
+          },
           "6419b58a-fc05-49c6-aeb8-73b7917049bf": {
             "type": "question",
             "settings": {
@@ -755,6 +762,7 @@
           "ff841cad-ad9b-4c0d-8aff-903a83e8356b",
           "34b637a8-e6cd-4cf9-ae27-ca13e1c549bf",
           "1ba3e082-0385-49ef-bf5a-d4ded9451b28",
+          "question_6WnCNG",
           "6419b58a-fc05-49c6-aeb8-73b7917049bf",
           "74ce7ed6-f050-4e23-ab2a-573303807437",
           "657dbc58-1002-46ec-bce4-55e873a34619",
