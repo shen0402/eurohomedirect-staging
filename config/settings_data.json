@@ -480,7 +480,7 @@
           "show_announcement": true,
           "background": "#4b9ad4",
           "text_color": "#ffffff",
-          "text": "Up to 40% off! Leading eComm platform in APAC for renovation since 2017. Discounted air shipping for eligible orders - WhatsApp us!",
+          "text": "Save up to 40% - Best Price Guarantee! No.1 eComm renovation platform since 2017. 50% off shipping on eligible orders - WhatsApp us!",
           "text_position": "center",
           "link": "",
           "show_newsletter": false,
@@ -634,8 +634,8 @@
           "page-faq-template-8": {
             "type": "question",
             "settings": {
-              "title": "How are we able to sell at such competitive prices?",
-              "answer": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We are able to supply top European household products at the lowest prices to consumers because no local distributors or dealers are involved in the process.<\/p>"
+              "title": "How are we able to sell at such competitive prices? What is the Best Price Guarantee (\"BPG\")?",
+              "answer": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We can offer top European home products at the lowest prices by utilizing flat structures and direct shipping from Europe. If you find a lower rate from another local merchant on the same product listed on our website, kindly share the quotation including the model, price, and date via WhatsApp or Email. We will then match it under our \"BPG\" policy.<\/p>"
             }
           },
           "c6dd5cfe-68f6-4854-8e95-efcfb51d586e": {
@@ -737,7 +737,7 @@
             "type": "question",
             "settings": {
               "title": "How do we ensure payment security?",
-              "answer": "<p>There is no safer way to shop online than with us as we prioritize cyber security and privacy. EuroHomeDirect® does not have access to or collect your payment information. All online payments are securely processed through Shopify Payment via Stripe and Paypal, some of the most reputable third-party payment gateways. When you make a purchase from us, your personal information is well-protected against any potential data leaks. Buyer protection through your credit card company or Paypal applies to all orders placed on EuroHomeDirect®.<\/p>"
+              "answer": "<p>There is no safer way to shop online than with us as we prioritize cyber security and privacy. EuroHomeDirect® does not have access to or collect your payment information. All online payments are securely processed through Shopify Payment via Stripe or Paypal, some of the most reputable third-party payment gateways. When you make a purchase from us, your personal information is well-protected against any potential data leaks. Buyer protection through your credit card company or Paypal applies to all orders placed on EuroHomeDirect®.<\/p>"
             }
           },
           "baeb7d61-7959-4418-a846-c4867d6e5484": {
