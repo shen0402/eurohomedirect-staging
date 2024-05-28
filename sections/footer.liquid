@@ -113,11 +113,7 @@
 
                                                 <ul class="value-picker__choice-list" role="list">
                                                     {%- for locale in form.available_locales -%}
-                                                        <li class="value-picker__choice-list-item">
-                                                            <button type="submit" name="locale_code" class="value-picker__choice-item" value="{{ locale.iso_code }}" {% if locale.iso_code == form.current_locale.iso_code %} aria-current="true" {% endif %}>
-                                                                {{- locale.endonym_name | capitalize -}}
-                                                            </button>
-                                                        </li>
+                                                        
                                                     {%- endfor -%}
                                                 </ul>
                                             </div>
@@ -149,18 +145,6 @@
                                                     <button type="button" class="value-picker__close" data-action="close-value-picker" aria-controls="footer-currency-picker" aria-label="{{ 'general.accessibility.close' | t }}">{% render 'icon', icon: 'close' %}</button>
                                                 </header>
 
-                                                <ul class="value-picker__choice-list" role="list">
-                                                    {%- for currency in form.available_currencies -%}
-                                                        <li class="value-picker__choice-list-item">
-                                                            <button type="submit" name="currency_code" class="value-picker__choice-item" value="{{ currency.iso_code }}" {% if currency.iso_code == form.current_currency.iso_code %} aria-current="true" {% endif %}>
-                                                                {{ currency.iso_code }}
-                                                                {% if currency.symbol %}
-                                                                    {{ currency.symbol }}
-                                                                {% endif %}
-                                                            </button>
-                                                        </li>
-                                                    {%- endfor -%}
-                                                </ul>
                                             </div>
                                         </div>
                                     </div>
