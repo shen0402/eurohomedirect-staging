@@ -590,7 +590,7 @@
   "shopify": {
     "checkout": {
       "delivery_options": {
-        "free_total_label": "To be Confirmed"
+        "free_total_label": "To be confirmed"
       },
       "order_summary": {
         "free_total_label": "To Be Confirmed"
