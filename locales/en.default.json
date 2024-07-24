@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "meta": {
@@ -584,7 +593,7 @@
         "free_total_label": "To be Confirmed"
       },
       "order_summary": {
-        "free_total_label": "To Be Confirmed"
+        "free_total_label": "To Be Confirmed (TBC)"
       },
       "shipping": {
         "free_rate_label": "Please consult with us before checkout"
