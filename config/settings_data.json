@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "heading_color": "#000000",
@@ -468,10 +477,13 @@
       },
       "product-recommendations": {
         "type": "product-recommendations",
+        "custom_css": [
+          ".product-item__action-button {display: none;}"
+        ],
         "settings": {
           "show_product_recommendations": true,
           "heading": "You may also like",
-          "show_quick_buy": false
+          "show_quick_buy": true
         }
       },
       "announcement-bar": {
