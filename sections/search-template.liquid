@@ -3,7 +3,7 @@
 {%- assign view_mode = cart.attributes.collection_layout | default: section.settings.default_view_layout -%}
 {%- assign filtered_terms = search.terms -%}
 
-{%- assign items_per_page = cart.attributes.collection_products_per_page | default: 24 -%}
+{%- assign items_per_page = cart.attributes.collection_products_per_page | default: 48 -%}
 
 {%- if filtered_terms contains ' AND ' -%}
   {%- assign filtered_terms = filtered_terms | split: ' AND ' | last -%}
@@ -27,7 +27,7 @@
   "currentTags": [],
   "filterMode": "",
   "defaultLayout": {{ section.settings.default_view_layout | json }},
-  "defaultProductsPerPage": 24,
+  "defaultProductsPerPage": 48,
   "isAutomatic": true,
   "gridClasses": {{ grid_classes | json }}
 }
