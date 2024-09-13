@@ -661,5 +661,51 @@
         "credit_card_number_blank": "輸入卡號"
       }
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_status": {
+        "delivery_promise": {
+          "promise_line": {
+            "single_brand_label": "交付支援",
+            "mixed_brands_label": "交貨有保證",
+            "not_delivered_by_label": "未在{{date}}之前送達"
+          },
+          "claim_shop_cash_cta": {
+            "has_shop_app_label": "領取您的商店現金",
+            "no_shop_app_label": "{{appDownloadLink}}領取店家現金",
+            "download_shop_app_label": "下載店"
+          },
+          "details_modal": {
+            "title": "交付支援",
+            "modal_accessiblity_label": "交貨承諾詳情",
+            "delivery_by_label": "{{date}}之前交貨",
+            "delivery_guaranteed_by_label": "保證在{{date}}交貨",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "如果這些商品遲到，您可能有資格領取商店現金",
+              "may_be_eligible_not_authorized_label": "由於這些商品遲到，您可能有資格領取商店現金。登入查看詳細資訊。",
+              "redeemed_label": "由於該訂單遲到，您已經領取了商店現金。",
+              "expired_label": "該訂單不符合延遲交貨索賠要求，因為 30 天保證已過期。",
+              "no_shop_cash_label": "該訂單不符合延遲交貨索賠要求，因為它不是透過 Shop Pay 支付的。",
+              "no_longer_guaranteed_label": "這些物品不再有交貨保證。",
+              "claim_shop_cash_title": "掃描即可領取您的商店現金",
+              "claim_shop_cash_description": "使用您的商店現金在商店應用程式中進行未來的購買。"
+            }
+          }
+        }
+      }
+    },
+    "B2B": {
+      "draft_order_details": {
+        "payment_status": {
+          "draft": {
+            "deposit": {
+              "due_later": "當您的訂單確認後，將支付{{depositAmount}} 。餘額將依照{{translatedName}}條款計算。",
+              "due_on_fulfillment": "當您的訂單確認後，將支付{{depositAmount}} 。訂單完成後將支付餘額。"
+            }
+          }
+        }
+      }
+    }
   }
 }
