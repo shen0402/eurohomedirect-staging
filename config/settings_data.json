@@ -550,13 +550,12 @@
               "content": "<p>EuroHomeDirect® offers a variety of products, in appliance, furniture, and sanitary ware categories. With such a broad range, we are able to better provide the ideal solution for your home renovation needs. We also work with you when exploring customization options, so you can get the best fit for you and your home.</p>"
             }
           },
-          "2726a973-22a8-47f8-ad5a-7cae3edfe3cd": {
+          "item_qJJCJH": {
             "type": "item",
-            "disabled": true,
             "settings": {
               "icon": "bi-customer-support",
-              "title": "",
-              "content": "<h2><strong>Direct Shipping to Your Doorstep</strong></h2><p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. You can also opt for professional installation services in Hong Kong, however many of our free-standing items are very easy and convenient to set up once received. </p><p>We also provide consultation prior to your purchase should you need any advice on the best sanitary ware or fittings for your bathroom. In addition, we have parts warranty and lifetime after-sale services to ensure you are happy with your purchase. You can rest assured that our expert team is with you every step of the way throughout your renovation journey. </p><h2><strong>Contact Us</strong></h2><p>If you have questions about <a href=\"https://eurohomedirect.com/collections/sanitary-wares\" target=\"_blank\">luxury sanitary ware</a>, <a href=\"https://eurohomedirect.com/collections/bathroom-accessories\" target=\"_blank\">bathroom accessories</a>, and <a href=\"https://eurohomedirect.com/collections/bathroom-fittings\">fittings</a> at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\">send us a message</a>. We will get back to you as soon as possible. </p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https://eurohomedirect.com/collections/siemens\" target=\"_blank\">Siemens</a>, <a href=\"https://eurohomedirect.com/collections/bosch\" target=\"_blank\">Bosch</a>, <a href=\"https://eurohomedirect.com/collections/gaggenau\" target=\"_blank\">Gaggenau</a> and other premier <a href=\"https://eurohomedirect.com/collections/appliances\" target=\"_blank\">home appliances</a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability. </p>"
+              "title": "Awards",
+              "content": "<p>EuroHomeDirect® has received Gold, Silver and Bronze at the prestigious Asia eCommerce Awards in 2020, 2021 and 2024 respectively. This is a testament to our dedication to providing exceptional home renovation solutions across Asia Pacific through our innovative platform, expert design consultations, and high-quality offerings.  </p>"
             }
           }
         },
@@ -564,7 +563,7 @@
           "text-with-icons-0",
           "text-with-icons-2",
           "text-with-icons-1",
-          "2726a973-22a8-47f8-ad5a-7cae3edfe3cd"
+          "item_qJJCJH"
         ],
         "settings": {
           "show_section": true,
