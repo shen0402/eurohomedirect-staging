@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "heading_color": "#000000",
@@ -54,21 +54,21 @@
     "low_inventory_threshold": 0,
     "show_reviews_badge": false,
     "cart_type": "drawer",
-    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_empty_button_link": "shopify://collections/all",
     "cart_show_checkout_button": false,
     "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": "15000",
-    "social_facebook": "https:\/\/www.facebook.com\/EuroHomeDirect\/",
+    "social_facebook": "https://www.facebook.com/EuroHomeDirect/",
     "social_twitter": "",
     "social_pinterest": "",
-    "social_instagram": "https:\/\/www.instagram.com\/eurohomedirect\/",
+    "social_instagram": "https://www.instagram.com/eurohomedirect/",
     "social_vimeo": "",
     "social_tumblr": "",
-    "social_youtube": "https:\/\/www.youtube.com\/channel\/UC_kXy3mmwV18YPmuP25uVig",
+    "social_youtube": "https://www.youtube.com/channel/UC_kXy3mmwV18YPmuP25uVig",
     "social_linkedin": "",
     "social_snapchat": "",
     "social_fancy": "",
-    "favicon": "shopify:\/\/shop_images\/favicon_56x_25619684-4a17-4f59-b1c9-ae1a27206d51.png",
+    "favicon": "shopify://shop_images/favicon_56x_25619684-4a17-4f59-b1c9-ae1a27206d51.png",
     "checkout_header_image": "",
     "checkout_logo_image": "",
     "checkout_logo_position": "left",
@@ -172,7 +172,7 @@
         ],
         "settings": {
           "enable_sticky_header": true,
-          "logo": "shopify:\/\/shop_images\/EHD_Header_Logo.png",
+          "logo": "shopify://shop_images/EHD_Header_Logo.png",
           "logo_max_width": 100,
           "mobile_logo_max_width": 100,
           "show_locale_selector": true,
@@ -196,7 +196,7 @@
             "type": "text",
             "settings": {
               "title": "About the shop",
-              "content": "<p><em>Everything your home deserves.<\/em><\/p><p>EuroHomeDirect® offers complete home renovation solutions. We offer quality European brands in appliances, furniture, and sanitary ware, at a competitive price guarantee. From helping you select the best products for your home, to providing after-sales service, EuroHomeDirect® prides itself on our devotion to customers.<\/p>"
+              "content": "<p><em>Everything your home deserves.</em></p><p>EuroHomeDirect® offers complete home renovation solutions. We offer quality European brands in appliances, furniture, and sanitary ware, at a competitive price guarantee. From helping you select the best products for your home, to providing after-sales service, EuroHomeDirect® prides itself on our devotion to customers.</p>"
             }
           },
           "footer-1": {
@@ -209,14 +209,14 @@
             "type": "text",
             "settings": {
               "title": "HONG KONG CONTACT",
-              "content": "<p>+852 3421 1222<\/p><p>9\/F, Wyndham Place, 44 Wyndham Street, Central, Hong Kong (Back Office only)<\/p>"
+              "content": "<p>+852 3421 1222</p><p>9/F, Wyndham Place, 44 Wyndham Street, Central, Hong Kong (Back Office only)</p>"
             }
           },
           "48826564-9d4c-4c15-8e0f-379e1e6d3482": {
             "type": "text",
             "settings": {
               "title": "SINGAPORE CONTACT",
-              "content": "<p>+65 3138 8699<\/p><p>13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261 (Back Office only)<\/p>"
+              "content": "<p>+65 3138 8699</p><p>13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261 (Back Office only)</p>"
             }
           }
         },
@@ -232,7 +232,7 @@
           "show_locale_selector": false,
           "show_currency_selector": false,
           "show_cookie_bar": false,
-          "text": "<p>EuroHomeDirect® uses technology such as cookies and scripts to personalize content and ads, provide social media features, and analyze our traffic. Click \"Accept\" to consent to the use of this technology on our website – and don’t worry, we respect your privacy. You can of course change your mind and withdraw your consent at any time, by returning to this site after clearing the cookies on your computer or device.<br\/>This site uses functional cookies and external scripts to improve your experience.<\/p>",
+          "text": "<p>EuroHomeDirect® uses technology such as cookies and scripts to personalize content and ads, provide social media features, and analyze our traffic. Click \"Accept\" to consent to the use of this technology on our website – and don’t worry, we respect your privacy. You can of course change your mind and withdraw your consent at any time, by returning to this site after clearing the cookies on your computer or device.<br/>This site uses functional cookies and external scripts to improve your experience.</p>",
           "accept_button": "Accept"
         }
       },
@@ -242,8 +242,8 @@
           "d07dcfd4-aa21-4d5e-95ef-fb0a9a1322ba": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/pc.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/mobile.jpg",
+              "image": "shopify://shop_images/pc.jpg",
+              "mobile_image": "shopify://shop_images/mobile.jpg",
               "show_overlay": true,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
@@ -253,31 +253,31 @@
               "button_background": "#4b9ad4",
               "button_text_color": "#ffffff",
               "button_text": "Learn More",
-              "link": "https:\/\/eurohomedirect.com\/blogs\/blog\/new-bosch-series-8-and-siemens-iq700-ovens-update"
+              "link": "https://eurohomedirect.com/blogs/blog/new-bosch-series-8-and-siemens-iq700-ovens-update"
             }
           },
           "b74ed81d-db28-446b-93dd-07add76de42c": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/ecommerce-gold-silver-award_1.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/mobile_1.jpg",
+              "image": "shopify://shop_images/Asia_eComm_banner_2024_ehd.png",
+              "mobile_image": "shopify://shop_images/mobile_1.jpg",
               "show_overlay": true,
               "overlay_opacity": 59,
               "text_color": "#eef2f4",
               "title": "EuroHomeDirect® is proud to announce",
-              "content": "that we have won the Gold Award and Silver Award in \nAsia eCommerce Awards 2020 & 2021!",
+              "content": "that we have won the Gold, Silver and Bronze Awards in \nAsia eCommerce Awards 2020, 2021 and 2024 !",
               "content_position": "bottom_right",
               "button_background": "#4b9ad4",
               "button_text_color": "#ffffff",
               "button_text": "Read More",
-              "link": "shopify:\/\/blogs\/blog\/eurohomedirect®-wins-gold-at-asia-ecommerce-awards-2020"
+              "link": "shopify://blogs/blog/eurohomedirect®-wins-gold-at-asia-ecommerce-awards-2020"
             }
           },
           "4332e115-f412-4a3a-ad68-b575c719cb12": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/gaggenau.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/gaggenau_750x_808eaf9f-6604-4272-b8b0-afda749d9107.png",
+              "image": "shopify://shop_images/gaggenau.jpg",
+              "mobile_image": "shopify://shop_images/gaggenau_750x_808eaf9f-6604-4272-b8b0-afda749d9107.png",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
@@ -287,14 +287,14 @@
               "button_background": "#4b9ad4",
               "button_text_color": "#ffffff",
               "button_text": "See Collection",
-              "link": "shopify:\/\/collections\/gaggenau"
+              "link": "shopify://collections/gaggenau"
             }
           },
           "8345f38b-95ab-44de-81fe-9c62cd464dfa": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/nc_banner_pc.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/nc_banner_mobile.jpg",
+              "image": "shopify://shop_images/nc_banner_pc.jpg",
+              "mobile_image": "shopify://shop_images/nc_banner_mobile.jpg",
               "show_overlay": true,
               "overlay_opacity": 38,
               "text_color": "#ffffff",
@@ -304,14 +304,14 @@
               "button_background": "#4b9ad4",
               "button_text_color": "#ffffff",
               "button_text": "See Collection",
-              "link": "shopify:\/\/collections\/normann-copenhagen"
+              "link": "shopify://collections/normann-copenhagen"
             }
           },
           "cd34a80f-07ad-4f32-8ae3-a682274e1f94": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/dornhracht.jpg",
-              "mobile_image": "shopify:\/\/shop_images\/dornhracht_750x_5c8273ff-aac7-44f4-bc72-be25218e568e.png",
+              "image": "shopify://shop_images/dornhracht.jpg",
+              "mobile_image": "shopify://shop_images/dornhracht_750x_5c8273ff-aac7-44f4-bc72-be25218e568e.png",
               "show_overlay": false,
               "overlay_opacity": 80,
               "text_color": "#ffffff",
@@ -321,15 +321,15 @@
               "button_background": "#4b9ad4",
               "button_text_color": "#ffffff",
               "button_text": "See Collection",
-              "link": "shopify:\/\/collections\/dornbracht"
+              "link": "shopify://collections/dornbracht"
             }
           },
           "0601e678-7961-47fd-b774-0c7b1085e94c": {
             "type": "image",
             "disabled": true,
             "settings": {
-              "image": "shopify:\/\/shop_images\/ehd-l.png",
-              "mobile_image": "shopify:\/\/shop_images\/ehd-m.png",
+              "image": "shopify://shop_images/ehd-l.png",
+              "mobile_image": "shopify://shop_images/ehd-m.png",
               "show_overlay": false,
               "overlay_opacity": 30,
               "text_color": "#ffffff",
@@ -384,7 +384,7 @@
         "settings": {
           "title": "Our collections",
           "link_title": "View all",
-          "link": "shopify:\/\/collections",
+          "link": "shopify://collections",
           "round_images": true,
           "show_collection_title": true
         }
@@ -511,7 +511,7 @@
               "show_only_for_visitors": true,
               "show_only_once": false,
               "title": "Subscribe",
-              "content": "<p>Use Code EHDSINCE2017<\/p>",
+              "content": "<p>Use Code EHDSINCE2017</p>",
               "show_newsletter": true,
               "apparition_delay": 3
             }
@@ -531,7 +531,7 @@
             "settings": {
               "icon": "bi-shop",
               "title": "Top European brands with competitive pricing of up to 40%",
-              "content": "<p>In a globalised world, we think it’s important to price-match consumer products across continents. EuroHomeDirect® provides up to 40% savings compared to local retail prices, so you can enjoy similar pricing to the product’s country of origin. We do this by using flat and efficient structures that allow us to provide products shipped directly from Europe to help extend your savings.<\/p>"
+              "content": "<p>In a globalised world, we think it’s important to price-match consumer products across continents. EuroHomeDirect® provides up to 40% savings compared to local retail prices, so you can enjoy similar pricing to the product’s country of origin. We do this by using flat and efficient structures that allow us to provide products shipped directly from Europe to help extend your savings.</p>"
             }
           },
           "text-with-icons-2": {
@@ -539,7 +539,7 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "Full suite of services from consultation, direct shipping, and after-sale service",
-              "content": "<p>Here at EuroHomeDirect®, we pride ourselves on being able to go above and beyond. We provide professional consultation, to best help you decide which product is best for your needs, as well as providing direct shipping services and after-sale service to ensure customer satisfaction is our top priority.<\/p>"
+              "content": "<p>Here at EuroHomeDirect®, we pride ourselves on being able to go above and beyond. We provide professional consultation, to best help you decide which product is best for your needs, as well as providing direct shipping services and after-sale service to ensure customer satisfaction is our top priority.</p>"
             }
           },
           "text-with-icons-1": {
@@ -547,7 +547,7 @@
             "settings": {
               "icon": "bi-add-to-cart",
               "title": "Full range of renovation products",
-              "content": "<p>EuroHomeDirect® offers a variety of products, in appliance, furniture, and sanitary ware categories. With such a broad range, we are able to better provide the ideal solution for your home renovation needs. We also work with you when exploring customization options, so you can get the best fit for you and your home.<\/p>"
+              "content": "<p>EuroHomeDirect® offers a variety of products, in appliance, furniture, and sanitary ware categories. With such a broad range, we are able to better provide the ideal solution for your home renovation needs. We also work with you when exploring customization options, so you can get the best fit for you and your home.</p>"
             }
           },
           "2726a973-22a8-47f8-ad5a-7cae3edfe3cd": {
@@ -556,7 +556,7 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "",
-              "content": "<h2><strong>Direct Shipping to Your Doorstep<\/strong><\/h2><p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. You can also opt for professional installation services in Hong Kong, however many of our free-standing items are very easy and convenient to set up once received. <\/p><p>We also provide consultation prior to your purchase should you need any advice on the best sanitary ware or fittings for your bathroom. In addition, we have parts warranty and lifetime after-sale services to ensure you are happy with your purchase. You can rest assured that our expert team is with you every step of the way throughout your renovation journey. <\/p><h2><strong>Contact Us<\/strong><\/h2><p>If you have questions about <a href=\"https:\/\/eurohomedirect.com\/collections\/sanitary-wares\" target=\"_blank\">luxury sanitary ware<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bathroom-accessories\" target=\"_blank\">bathroom accessories<\/a>, and <a href=\"https:\/\/eurohomedirect.com\/collections\/bathroom-fittings\">fittings<\/a> at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\">send us a message<\/a>. We will get back to you as soon as possible. <\/p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\" target=\"_blank\">Gaggenau<\/a> and other premier <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\">home appliances<\/a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability. <\/p>"
+              "content": "<h2><strong>Direct Shipping to Your Doorstep</strong></h2><p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. You can also opt for professional installation services in Hong Kong, however many of our free-standing items are very easy and convenient to set up once received. </p><p>We also provide consultation prior to your purchase should you need any advice on the best sanitary ware or fittings for your bathroom. In addition, we have parts warranty and lifetime after-sale services to ensure you are happy with your purchase. You can rest assured that our expert team is with you every step of the way throughout your renovation journey. </p><h2><strong>Contact Us</strong></h2><p>If you have questions about <a href=\"https://eurohomedirect.com/collections/sanitary-wares\" target=\"_blank\">luxury sanitary ware</a>, <a href=\"https://eurohomedirect.com/collections/bathroom-accessories\" target=\"_blank\">bathroom accessories</a>, and <a href=\"https://eurohomedirect.com/collections/bathroom-fittings\">fittings</a> at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\">send us a message</a>. We will get back to you as soon as possible. </p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https://eurohomedirect.com/collections/siemens\" target=\"_blank\">Siemens</a>, <a href=\"https://eurohomedirect.com/collections/bosch\" target=\"_blank\">Bosch</a>, <a href=\"https://eurohomedirect.com/collections/gaggenau\" target=\"_blank\">Gaggenau</a> and other premier <a href=\"https://eurohomedirect.com/collections/appliances\" target=\"_blank\">home appliances</a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability. </p>"
             }
           }
         },
@@ -574,37 +574,37 @@
       "16361133422a4560f4": {
         "type": "image-with-text",
         "settings": {
-          "image": "shopify:\/\/shop_images\/shop-appliances.jpg",
+          "image": "shopify://shop_images/shop-appliances.jpg",
           "image_position": "left",
           "image_width": 50,
           "title": "Shop Appliances From Europe",
-          "content": "<p>At EuroHomeDirect®, we see home renovation as arts, passion, and mission. Only the finest brands are selected by our team of experts to be listed on our website. Start building your dream home today to showcase your exquisite taste! We are more than happy to assist.<\/p>",
+          "content": "<p>At EuroHomeDirect®, we see home renovation as arts, passion, and mission. Only the finest brands are selected by our team of experts to be listed on our website. Start building your dream home today to showcase your exquisite taste! We are more than happy to assist.</p>",
           "button_text": "See All Brands",
-          "button_link": "shopify:\/\/collections\/appliances"
+          "button_link": "shopify://collections/appliances"
         }
       },
       "16361133576d45d0ca": {
         "type": "image-with-text",
         "settings": {
-          "image": "shopify:\/\/shop_images\/shop-sanitary-items.jpg",
+          "image": "shopify://shop_images/shop-sanitary-items.jpg",
           "image_position": "right",
           "image_width": 50,
           "title": "Shop Appliances from Europe",
-          "content": "<p>EuroHomeDirect® does not compromise on quality. So when you purchase from us, you can rest assured that not only you’re buying products of the finest design, but also of top-notch quality.<\/p>",
+          "content": "<p>EuroHomeDirect® does not compromise on quality. So when you purchase from us, you can rest assured that not only you’re buying products of the finest design, but also of top-notch quality.</p>",
           "button_text": "See All Brands",
-          "button_link": "shopify:\/\/collections\/sanitary-wares"
+          "button_link": "shopify://collections/sanitary-wares"
         }
       },
       "163611642205a9ce66": {
         "type": "image-with-text",
         "settings": {
-          "image": "shopify:\/\/shop_images\/shop-furniture.jpg",
+          "image": "shopify://shop_images/shop-furniture.jpg",
           "image_position": "left",
           "image_width": 50,
           "title": "Shop Furniture from Europe",
-          "content": "<p>EuroHomeDirect® provides high-quality, branded designer furniture sourced directly from Europe. We do not select products that yield the highest margins. Instead, superior design and reliability have always been our top considerations. This is how we ensure you only get ‘The best or nothing’!<\/p>",
+          "content": "<p>EuroHomeDirect® provides high-quality, branded designer furniture sourced directly from Europe. We do not select products that yield the highest margins. Instead, superior design and reliability have always been our top considerations. This is how we ensure you only get ‘The best or nothing’!</p>",
           "button_text": "See All Brands",
-          "button_link": "shopify:\/\/collections\/furniture"
+          "button_link": "shopify://collections/furniture"
         }
       },
       "static-promotion-list": {
@@ -628,7 +628,7 @@
         "settings": {
           "show_section": true,
           "title": "Stay up-to-date!",
-          "content": "<p>Get valuable insights through regular blogs and receive the latest promotions.<\/p>",
+          "content": "<p>Get valuable insights through regular blogs and receive the latest promotions.</p>",
           "subtext": "",
           "background": "#000000",
           "text": "#ffffff"
@@ -647,42 +647,42 @@
             "type": "question",
             "settings": {
               "title": "How are we able to sell at such competitive prices? What is the Best Price Guarantee (\"BPG\")?",
-              "answer": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We can offer top European home products at the lowest prices by utilizing flat structures and direct shipping from Europe. If you find a lower rate from another local merchant on the same product listed on our website, kindly share the quotation including the model, price, and date via WhatsApp or Email. We will then match it under our \"BPG\" policy.<\/p>"
+              "answer": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We can offer top European home products at the lowest prices by utilizing flat structures and direct shipping from Europe. If you find a lower rate from another local merchant on the same product listed on our website, kindly share the quotation including the model, price, and date via WhatsApp or Email. We will then match it under our \"BPG\" policy.</p>"
             }
           },
           "c6dd5cfe-68f6-4854-8e95-efcfb51d586e": {
             "type": "question",
             "settings": {
               "title": "Are there any additional discounts for the products sold?",
-              "answer": "<p>We only offer B2B discounts to companies with single order amount above HK$200,000 or SG$35,000 in one single category.<\/p>"
+              "answer": "<p>We only offer B2B discounts to companies with single order amount above HK$200,000 or SG$35,000 in one single category.</p>"
             }
           },
           "ff841cad-ad9b-4c0d-8aff-903a83e8356b": {
             "type": "question",
             "settings": {
               "title": "How to authenticate the products sold are genuine?",
-              "answer": "<p>EuroHomeDirect® only sells brand new and genuine products pre-packaged by the manufacturer. No unboxed or second grade products are sold. We welcome our customers to validate the authenticity or serial numbers with the original manufacturers.<\/p>"
+              "answer": "<p>EuroHomeDirect® only sells brand new and genuine products pre-packaged by the manufacturer. No unboxed or second grade products are sold. We welcome our customers to validate the authenticity or serial numbers with the original manufacturers.</p>"
             }
           },
           "34b637a8-e6cd-4cf9-ae27-ca13e1c549bf": {
             "type": "question",
             "settings": {
               "title": "How do I obtain a quote for the furniture category?",
-              "answer": "<p>In order for us to supply you with a quote, please specify what brand, model, and configurations (ie. size + material) you’re interested in purchasing. Quote request may be sent by email to [info@eurohomedirect.com]. It is not possible to quote otherwise due to the vast possibility of variations. Please note that order time is about 3-4 months because everything is made to order. Please also expect we are highly competitive compared to local retail prices.<\/p>"
+              "answer": "<p>In order for us to supply you with a quote, please specify what brand, model, and configurations (ie. size + material) you’re interested in purchasing. Quote request may be sent by email to [info@eurohomedirect.com]. It is not possible to quote otherwise due to the vast possibility of variations. Please note that order time is about 3-4 months because everything is made to order. Please also expect we are highly competitive compared to local retail prices.</p>"
             }
           },
           "1ba3e082-0385-49ef-bf5a-d4ded9451b28": {
             "type": "question",
             "settings": {
               "title": "Are the products sold compatible with local standards?",
-              "answer": "<p>All appliances sold are CE compliant, and would require no further modification to be imported into Hong Kong and Singapore.<br\/><br\/><strong>For Hong Kong & Singapore:<\/strong><br\/><br\/>Yes, all products sold are compatible with Hong Kong & Singaporean standards. Our electric appliances are manufactured to operate under 220-240V, 50-60Hz with UK style power plug (type G).<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>A voltage converter and\/or an adapter may be required. Please check the compatibility.<\/p>"
+              "answer": "<p>All appliances sold are CE compliant, and would require no further modification to be imported into Hong Kong and Singapore.<br/><br/><strong>For Hong Kong & Singapore:</strong><br/><br/>Yes, all products sold are compatible with Hong Kong & Singaporean standards. Our electric appliances are manufactured to operate under 220-240V, 50-60Hz with UK style power plug (type G).<br/><br/><strong>For all other markets:</strong><br/><br/>A voltage converter and/or an adapter may be required. Please check the compatibility.</p>"
             }
           },
           "6419b58a-fc05-49c6-aeb8-73b7917049bf": {
             "type": "question",
             "settings": {
               "title": "Is there any waste disposal service?",
-              "answer": "<p>We offer waste disposal service for refrigerators and washing machines in Hong Kong as required by the government. The service is free of charge.<\/p>"
+              "answer": "<p>We offer waste disposal service for refrigerators and washing machines in Hong Kong as required by the government. The service is free of charge.</p>"
             }
           },
           "74ce7ed6-f050-4e23-ab2a-573303807437": {
@@ -695,21 +695,21 @@
             "type": "question",
             "settings": {
               "title": "Is there any warranty for the products sold?",
-              "answer": "<p>All products come with 1-year parts warranty by EuroHomeDirect®. This warranty only covers technical faults and does not apply if damage is caused by factors including: wrong installation, abuse, mishandling, accident, liquid damage, or failure to follow operating instructions.<\/p>"
+              "answer": "<p>All products come with 1-year parts warranty by EuroHomeDirect®. This warranty only covers technical faults and does not apply if damage is caused by factors including: wrong installation, abuse, mishandling, accident, liquid damage, or failure to follow operating instructions.</p>"
             }
           },
           "c6d13c5f-4a6b-4a0c-bee4-42751b7ba7fa": {
             "type": "question",
             "settings": {
               "title": "What happens after the warranty period expired?",
-              "answer": "<p>We provide life-time support for all products sold. You may contact EuroHomeDirect<strong>®<\/strong> local service centre to perform a check and repair. Please note that the replacement parts and\/or inspection is chargeable.<\/p>"
+              "answer": "<p>We provide life-time support for all products sold. You may contact EuroHomeDirect<strong>®</strong> local service centre to perform a check and repair. Please note that the replacement parts and/or inspection is chargeable.</p>"
             }
           },
           "1827210c-c671-4bfa-85dd-180401ed90a7": {
             "type": "question",
             "settings": {
               "title": "Is there any refund or exchange policy?",
-              "answer": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes & customs formalities unless there is a manufacturing defect or transportation damage, in which case the claim will be covered by insurance. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.<\/p>"
+              "answer": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes & customs formalities unless there is a manufacturing defect or transportation damage, in which case the claim will be covered by insurance. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.</p>"
             }
           },
           "6bc5eab9-9501-41cf-b882-3da72581cb3b": {
@@ -722,7 +722,7 @@
             "type": "question",
             "settings": {
               "title": "Do I have to pay tax for my order?",
-              "answer": "<p><strong>For Hong Kong:<br\/><\/strong><br\/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong by EuroHomeDirect® are not subject to any customs tariffs.<br\/><br\/><strong>For Singapore:<\/strong><br\/><br\/>Singapore levies a 9% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>You are responsible to pay the applicable import taxes and duties.<\/p>"
+              "answer": "<p><strong>For Hong Kong:<br/></strong><br/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong by EuroHomeDirect® are not subject to any customs tariffs.<br/><br/><strong>For Singapore:</strong><br/><br/>Singapore levies a 9% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br/><br/><strong>For all other markets:</strong><br/><br/>You are responsible to pay the applicable import taxes and duties.</p>"
             }
           },
           "cf4d9996-3288-4f5a-a32b-6516059d568e": {
@@ -735,28 +735,28 @@
             "type": "question",
             "settings": {
               "title": "What is the buying procedure?",
-              "answer": "<p>Please add all the products you would like to purchase to cart, check the shipping rates, and proceed with payment and\/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.<\/p>"
+              "answer": "<p>Please add all the products you would like to purchase to cart, check the shipping rates, and proceed with payment and/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.</p>"
             }
           },
           "77983f61-6127-4831-8a80-8d6e37e12df9": {
             "type": "question",
             "settings": {
               "title": "What are the payment options?",
-              "answer": "<p>We accept the following payment methods:<br\/><br\/><strong>1. Bank transfer<\/strong><br\/><br\/><strong>2. Credit Card by Stripe (Visa\/Mastercard\/American Express)<\/strong><br\/><br\/><strong>3. PayPal<\/strong><\/p>"
+              "answer": "<p>We accept the following payment methods:<br/><br/><strong>1. Bank transfer</strong><br/><br/><strong>2. Credit Card by Stripe (Visa/Mastercard/American Express)</strong><br/><br/><strong>3. PayPal</strong></p>"
             }
           },
           "21a45d6f-de6b-42c0-ad2d-40c85b2d2f93": {
             "type": "question",
             "settings": {
               "title": "How do we ensure payment security?",
-              "answer": "<p>There is no safer way to shop online than with us as we prioritize cyber security and privacy. EuroHomeDirect® does not have access to or collect your payment information. All online payments are securely processed through Shopify Payment via Stripe or Paypal, some of the most reputable third-party payment gateways. When you make a purchase from us, your personal information is well-protected against any potential data leaks. Buyer protection through your credit card company or Paypal applies to all orders placed on EuroHomeDirect®.<\/p>"
+              "answer": "<p>There is no safer way to shop online than with us as we prioritize cyber security and privacy. EuroHomeDirect® does not have access to or collect your payment information. All online payments are securely processed through Shopify Payment via Stripe or Paypal, some of the most reputable third-party payment gateways. When you make a purchase from us, your personal information is well-protected against any potential data leaks. Buyer protection through your credit card company or Paypal applies to all orders placed on EuroHomeDirect®.</p>"
             }
           },
           "baeb7d61-7959-4418-a846-c4867d6e5484": {
             "type": "question",
             "settings": {
               "title": "What is the minimum order amount?",
-              "answer": "<p>The minimum order amount in one single category is HK$4,000 or SG$700.<\/p>"
+              "answer": "<p>The minimum order amount in one single category is HK$4,000 or SG$700.</p>"
             }
           }
         },
@@ -783,13 +783,13 @@
         "settings": {
           "show_contact_info": true,
           "contact_info_heading": "Any question?",
-          "contact_info_text": "<p>If we still haven't answered your question, you can contact us and we will get back to you as soon as possible.<\/p>",
+          "contact_info_text": "<p>If we still haven't answered your question, you can contact us and we will get back to you as soon as possible.</p>",
           "contact_1_icon": "bi-phone",
           "contact_1_heading": "Customer support",
-          "contact_1_text": "<p><a href=\"https:\/\/api.whatsapp.com\/send\/?phone=85259352062\" target=\"_blank\">+852 5935 2062 (Whatsapp Only)<\/a><\/p>",
+          "contact_1_text": "<p><a href=\"https://api.whatsapp.com/send/?phone=85259352062\" target=\"_blank\">+852 5935 2062 (Whatsapp Only)</a></p>",
           "contact_2_icon": "bi-email",
           "contact_2_heading": "Send a message",
-          "contact_2_text": "<p><a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\">info@eurohomedirect.com<\/a><\/p>"
+          "contact_2_text": "<p><a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\">info@eurohomedirect.com</a></p>"
         }
       },
       "product-template-sanitary": {
@@ -900,9 +900,9 @@
           "text_width": "narrow",
           "heading_tag": "h2",
           "title": "Why Choose Us To Source Your European Furniture, Appliances and Sanitary Ware Items in Hong Kong & Singapore",
-          "content": "<h3>Top European brands with competitive pricing of up to 40% off<\/h3><p>In a globalised world, we think it’s important to price-match consumer products across continents. EuroHomeDirect® offers you access to appliances, furniture, and sanitary ware items from a suite of top-tier European brands such as Gaggenau, Miele, Bosch, Siemens, Liebherr, Villeroy & Boch, Duravit, Hansgrohe, Grohe, Axor, Laufen, Poliform, Cassina, Normann Copenhagen. With up to 40% savings compared to local retail prices, you can enjoy similar pricing to the product’s country of origin through EuroHomeDirect®. We do this by using flat and efficient structures that allow us to provide products shipped directly from Europe to help extend your savings. <\/p><h3>Full suite of services from consultation, direct shipping, and after-sale service<\/h3><p>Here at EuroHomeDirect®, we pride ourselves on being able to go above and beyond. We<br\/>provide professional consultation, to best help you decide which product is best for your needs. This is complemented by our direct shipping services which transport your desired European home Appliances, Sanitary Ware and Furniture directly from Europe to Hong Kong and Singapore. Our commitment extends beyond sale, as we provide an after-sale service to ensure your satisfaction – which is always our top priority.<\/p><h3>Full range of renovation products and furniture straight from Europe<\/h3><p>EuroHomeDirect® offers a variety of products, in Appliance, Furniture, and Sanitary Ware categories. With such a broad range, we are able to better provide the ideal<br\/>solution for your home renovation needs. We also work with you when exploring<br\/>customization options, so you can get the best fit for you and your home.<\/p><h2>Contact Us<\/h2><p>If you have questions about our services or products at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\">send us a message<\/a>. We will get back to you as soon as possible. <\/p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\">Gaggenau<\/a> and other premier <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\">home appliances<\/a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability. <\/p><p>Are you searching for incredible deals on luxury appliances, or seeking specific pieces from a<br\/>particular <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\">designer furniture <\/a>brand such as Poliform, Molteni or Normann Copenhagen? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.<\/p>",
+          "content": "<h3>Top European brands with competitive pricing of up to 40% off</h3><p>In a globalised world, we think it’s important to price-match consumer products across continents. EuroHomeDirect® offers you access to appliances, furniture, and sanitary ware items from a suite of top-tier European brands such as Gaggenau, Miele, Bosch, Siemens, Liebherr, Villeroy & Boch, Duravit, Hansgrohe, Grohe, Axor, Laufen, Poliform, Cassina, Normann Copenhagen. With up to 40% savings compared to local retail prices, you can enjoy similar pricing to the product’s country of origin through EuroHomeDirect®. We do this by using flat and efficient structures that allow us to provide products shipped directly from Europe to help extend your savings. </p><h3>Full suite of services from consultation, direct shipping, and after-sale service</h3><p>Here at EuroHomeDirect®, we pride ourselves on being able to go above and beyond. We<br/>provide professional consultation, to best help you decide which product is best for your needs. This is complemented by our direct shipping services which transport your desired European home Appliances, Sanitary Ware and Furniture directly from Europe to Hong Kong and Singapore. Our commitment extends beyond sale, as we provide an after-sale service to ensure your satisfaction – which is always our top priority.</p><h3>Full range of renovation products and furniture straight from Europe</h3><p>EuroHomeDirect® offers a variety of products, in Appliance, Furniture, and Sanitary Ware categories. With such a broad range, we are able to better provide the ideal<br/>solution for your home renovation needs. We also work with you when exploring<br/>customization options, so you can get the best fit for you and your home.</p><h2>Contact Us</h2><p>If you have questions about our services or products at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\">send us a message</a>. We will get back to you as soon as possible. </p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https://eurohomedirect.com/collections/siemens\">Siemens</a>, <a href=\"https://eurohomedirect.com/collections/bosch\">Bosch</a>, <a href=\"https://eurohomedirect.com/collections/gaggenau\">Gaggenau</a> and other premier <a href=\"https://eurohomedirect.com/collections/appliances\">home appliances</a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability. </p><p>Are you searching for incredible deals on luxury appliances, or seeking specific pieces from a<br/>particular <a href=\"https://eurohomedirect.com/collections/furniture\">designer furniture </a>brand such as Poliform, Molteni or Normann Copenhagen? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.</p>",
           "button_text": "Our products",
-          "button_link": "shopify:\/\/collections\/all"
+          "button_link": "shopify://collections/all"
         }
       },
       "collection-bathroom-ware-bottom-description": {
@@ -913,7 +913,7 @@
             "settings": {
               "icon": "bi-delivery",
               "title": "World-Class Sanitary Ware Brands.",
-              "content": "<p>As your one-stop luxury home renovation store, we only stock products crafted by some of Europe’s key high-end brands. We appreciate that each home and individual have a personal sense of style, meaning all our brands have been carefully selected for their aesthetic adaptability in addition to their functionality. We are also happy to discuss any specific customisation preferences or requirements to ensure you receive a product that is perfectly suited to your home.<\/p><p><\/p><p>Our bathroom and sanitary ware brands include Alape, Axor, Blanco, Dornbracht, Duravit, Emco, Gessi, Grohe, Hansgrohe, Laufen, and Villroy & Boch. <\/p>"
+              "content": "<p>As your one-stop luxury home renovation store, we only stock products crafted by some of Europe’s key high-end brands. We appreciate that each home and individual have a personal sense of style, meaning all our brands have been carefully selected for their aesthetic adaptability in addition to their functionality. We are also happy to discuss any specific customisation preferences or requirements to ensure you receive a product that is perfectly suited to your home.</p><p></p><p>Our bathroom and sanitary ware brands include Alape, Axor, Blanco, Dornbracht, Duravit, Emco, Gessi, Grohe, Hansgrohe, Laufen, and Villroy & Boch. </p>"
             }
           },
           "collection-bathroom-ware-bottom-description-1": {
@@ -921,7 +921,7 @@
             "settings": {
               "icon": "bi-returns",
               "title": "Luxury Bathroom Fittings with Innovative Technology",
-              "content": "<p>We understand that the best bathrooms are those that pose minimal problems, which is why we handpick sanitary solutions that utilise innovative technologies to make all your everyday tasks easier.<\/p><p>Quality sink basins and faucets, state-of-the-art rain shower sets, mirrors with sensor-activated LED lighting and heating, bespoke <a href=\"https:\/\/eurohomedirect.com\/pages\/smart-glass\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/pages\/smart-glass\">smart switchable glass<\/a> solutions, and whirlpool baths are all set to change your bathroom for the better. Many of these products will be available in a range of different designs, sizes, and colours so you can easily find the best fit for your bathroom. <\/p><p>We also strive to ensure our products are as environmentally-friendly and sustainable as possible, with an emphasis on smart home technologies and self-cleaning processes whenever available – all to enhance the convenience levels within your own home. <\/p>"
+              "content": "<p>We understand that the best bathrooms are those that pose minimal problems, which is why we handpick sanitary solutions that utilise innovative technologies to make all your everyday tasks easier.</p><p>Quality sink basins and faucets, state-of-the-art rain shower sets, mirrors with sensor-activated LED lighting and heating, bespoke <a href=\"https://eurohomedirect.com/pages/smart-glass\" target=\"_blank\" title=\"https://eurohomedirect.com/pages/smart-glass\">smart switchable glass</a> solutions, and whirlpool baths are all set to change your bathroom for the better. Many of these products will be available in a range of different designs, sizes, and colours so you can easily find the best fit for your bathroom. </p><p>We also strive to ensure our products are as environmentally-friendly and sustainable as possible, with an emphasis on smart home technologies and self-cleaning processes whenever available – all to enhance the convenience levels within your own home. </p>"
             }
           },
           "collection-bathroom-ware-bottom-description-2": {
@@ -929,7 +929,7 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "Sophisticated Bathroom Accessories",
-              "content": "<p>Elevate your bathroom even further by adding some sleek accessories and furnishings. Whether you prefer looks that complement or contrast, our range of luxury brands carry shelving solutions and towel racks, shower cubbies, floating drawers and cabinets, hooks, cosmetic mirrors, shower rails, pendant lights, washstands, and soap dispensers to make the space truly your own. Stick to a specific collection to give your bathroom a fully cohesive look or choose from an array of different brands to create an atmosphere that is effortlessly unique.<\/p>"
+              "content": "<p>Elevate your bathroom even further by adding some sleek accessories and furnishings. Whether you prefer looks that complement or contrast, our range of luxury brands carry shelving solutions and towel racks, shower cubbies, floating drawers and cabinets, hooks, cosmetic mirrors, shower rails, pendant lights, washstands, and soap dispensers to make the space truly your own. Stick to a specific collection to give your bathroom a fully cohesive look or choose from an array of different brands to create an atmosphere that is effortlessly unique.</p>"
             }
           },
           "collection-bathroom-ware-bottom-description-3": {
@@ -937,7 +937,7 @@
             "settings": {
               "icon": "bi-secure-payment",
               "title": "Direct Shipping to Your Doorstep",
-              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. You can also opt for professional installation services in Hong Kong, however many of our free-standing items are very easy and convenient to set up once received. <\/p><p>We also provide consultation prior to your purchase should you need any advice on the best sanitary ware or fittings for your bathroom. In addition, we have parts warranty and lifetime after-sale services to ensure you are happy with your purchase. You can rest assured that our expert team is with you every step of the way throughout your renovation journey.<\/p>"
+              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. You can also opt for professional installation services in Hong Kong, however many of our free-standing items are very easy and convenient to set up once received. </p><p>We also provide consultation prior to your purchase should you need any advice on the best sanitary ware or fittings for your bathroom. In addition, we have parts warranty and lifetime after-sale services to ensure you are happy with your purchase. You can rest assured that our expert team is with you every step of the way throughout your renovation journey.</p>"
             }
           },
           "3e1f35fa-a2de-453d-b479-3583a72c61de": {
@@ -945,14 +945,14 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "For Other Home Renovation Ideas",
-              "content": "<p>Want to explore more options beyond sanitary ware,  bathroom fittings and accessories? If you are interested in constructing your luxury kitchen, we carry a full range of different <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/appliances\">appliances in Hong Kong<\/a> and Singapore by reputable European brands, such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens Home Appliances<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch Appliances<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau \" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/gaggenau \">Gaggenau Home Appliances<\/a>, Liebherr Home Appliances for Hong Kong and Singapore kitchens. To elevate your living room, dining room, bedroom or home office, we stock designer <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/furniture\">furniture<\/a> items by leading brands including Molteni & C, Poliform and Normann Copenhagen. <\/p>"
+              "content": "<p>Want to explore more options beyond sanitary ware,  bathroom fittings and accessories? If you are interested in constructing your luxury kitchen, we carry a full range of different <a href=\"https://eurohomedirect.com/collections/appliances\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/appliances\">appliances in Hong Kong</a> and Singapore by reputable European brands, such as <a href=\"https://eurohomedirect.com/collections/siemens\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/siemens\">Siemens Home Appliances</a>, <a href=\"https://eurohomedirect.com/collections/bosch\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/bosch\">Bosch Appliances</a>, <a href=\"https://eurohomedirect.com/collections/gaggenau \" target=\"_blank\" title=\"https://eurohomedirect.com/collections/gaggenau \">Gaggenau Home Appliances</a>, Liebherr Home Appliances for Hong Kong and Singapore kitchens. To elevate your living room, dining room, bedroom or home office, we stock designer <a href=\"https://eurohomedirect.com/collections/furniture\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/furniture\">furniture</a> items by leading brands including Molteni & C, Poliform and Normann Copenhagen. </p>"
             }
           },
           "a8f84c20-bcad-4984-9ebe-e2ed202133a7": {
             "type": "column",
             "settings": {
               "contact_us_title": "Contact Us",
-              "contact_us_content": "<p>If you have questions about <a href=\"https:\/\/eurohomedirect.com\/collections\/sanitary-wares\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/sanitary-wares\">luxury sanitary ware<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bathroom-accessories\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bathroom-accessories\">bathroom accessories<\/a>, and <a href=\"https:\/\/eurohomedirect.com\/collections\/bathroom-fittings\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bathroom-fittings\">fittings<\/a> at EuroHomeDirect®, feel free to reach out to our customer support via <a href=\"https:\/\/wa.me\/85259352062\" target=\"_blank\" title=\"https:\/\/wa.me\/85259352062\">WhatsApp at +852 5935 2062<\/a>, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\" title=\"mailto:info@eurohomedirect.com\">send us a message<\/a>. We will get back to you as soon as possible.<\/p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\">Gaggenau<\/a> and other premier <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/appliances\">home appliances<\/a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability.<\/p><p>Are you searching for incredible deals on luxury appliances, or seeking specific pieces from a particular <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/furniture\">designer furniture store<\/a>? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.<\/p>"
+              "contact_us_content": "<p>If you have questions about <a href=\"https://eurohomedirect.com/collections/sanitary-wares\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/sanitary-wares\">luxury sanitary ware</a>, <a href=\"https://eurohomedirect.com/collections/bathroom-accessories\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/bathroom-accessories\">bathroom accessories</a>, and <a href=\"https://eurohomedirect.com/collections/bathroom-fittings\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/bathroom-fittings\">fittings</a> at EuroHomeDirect®, feel free to reach out to our customer support via <a href=\"https://wa.me/85259352062\" target=\"_blank\" title=\"https://wa.me/85259352062\">WhatsApp at +852 5935 2062</a>, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\" title=\"mailto:info@eurohomedirect.com\">send us a message</a>. We will get back to you as soon as possible.</p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https://eurohomedirect.com/collections/siemens\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/siemens\">Siemens</a>, <a href=\"https://eurohomedirect.com/collections/bosch\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/bosch\">Bosch</a>, <a href=\"https://eurohomedirect.com/collections/gaggenau\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/gaggenau\">Gaggenau</a> and other premier <a href=\"https://eurohomedirect.com/collections/appliances\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/appliances\">home appliances</a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability.</p><p>Are you searching for incredible deals on luxury appliances, or seeking specific pieces from a particular <a href=\"https://eurohomedirect.com/collections/furniture\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/furniture\">designer furniture store</a>? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.</p>"
             }
           }
         },
@@ -976,8 +976,8 @@
             "type": "singlecol",
             "settings": {
               "title": "Luxury Kitchen Ware by Top European Brands",
-              "content": "<p>Explore a wide range of elegant kitchen sinks from BLANCO and exquisite faucet designs from Dornbracht. Find award-winning styles that range from classic to contemporary for your kitchen.<\/p><p>For design enthusiasts, the Blanco SILGRANIT black is the ultimate color to have. The latest offering from Blanco boasts a captivating depth that adds stunningly lavish touches to kitchens with light-colored countertops. Alternatively, it exudes a sense of luxurious mystery as an elegant choice for all-black kitchens.<\/p><p>Blending the aesthetics of a contemporary icon with practical versatility, Dornbracht kitchen faucets combine style and functionality seamlessly. With its elevated spout and ergonomically positioned lever featuring a sleek right-angle design, it exudes a stylish and distinctive look. The Dorbracht Tara Ultra series offer a pull-down variant, characterized by its tall, slender spout and a lever with a sharp, right-angle design. The slim profile of this version helps create more available workspace in the adjacent kitchen area.<\/p><p>We are proud to stock outstanding products crafted by leading homeware brands in Europe, providing you with a specially curated assortment that takes pride in all aspects of functionality, innovation, sustainability, and elegance. We also strive to ensure our products come in a variety of colours, sizes, and designs to suit individual preferences and housing layouts. If you see a product you like that might need some personalisation, we are always happy to discuss any customisation options or specific requirements you had in mind to ensure you receive a product that fits perfectly in your home<\/p>",
-              "content_in_blue": "<p>Our kitchen fittings brands available for delivery to Hong Kong, Singapore, and across the world include Blanco, Grohe, Dornbracht, Hansgrohe, Axor, Gessi and V&B, all European made courier to your doorstep!<\/p>"
+              "content": "<p>Explore a wide range of elegant kitchen sinks from BLANCO and exquisite faucet designs from Dornbracht. Find award-winning styles that range from classic to contemporary for your kitchen.</p><p>For design enthusiasts, the Blanco SILGRANIT black is the ultimate color to have. The latest offering from Blanco boasts a captivating depth that adds stunningly lavish touches to kitchens with light-colored countertops. Alternatively, it exudes a sense of luxurious mystery as an elegant choice for all-black kitchens.</p><p>Blending the aesthetics of a contemporary icon with practical versatility, Dornbracht kitchen faucets combine style and functionality seamlessly. With its elevated spout and ergonomically positioned lever featuring a sleek right-angle design, it exudes a stylish and distinctive look. The Dorbracht Tara Ultra series offer a pull-down variant, characterized by its tall, slender spout and a lever with a sharp, right-angle design. The slim profile of this version helps create more available workspace in the adjacent kitchen area.</p><p>We are proud to stock outstanding products crafted by leading homeware brands in Europe, providing you with a specially curated assortment that takes pride in all aspects of functionality, innovation, sustainability, and elegance. We also strive to ensure our products come in a variety of colours, sizes, and designs to suit individual preferences and housing layouts. If you see a product you like that might need some personalisation, we are always happy to discuss any customisation options or specific requirements you had in mind to ensure you receive a product that fits perfectly in your home</p>",
+              "content_in_blue": "<p>Our kitchen fittings brands available for delivery to Hong Kong, Singapore, and across the world include Blanco, Grohe, Dornbracht, Hansgrohe, Axor, Gessi and V&B, all European made courier to your doorstep!</p>"
             }
           },
           "collection-kitchen-fittings-bottom-description-1": {
@@ -985,7 +985,7 @@
             "settings": {
               "icon": "bi-returns",
               "title": "Innovative Kitchen Fittings for Modern Living",
-              "content": "<p>When shopping for home appliances nowadays, convenience, functionality, and sustainability generally go hand in hand, thanks to the rise of innovative new products that allow for all three of these things at once. For the kitchen, we have an assortment of accessories and fittings that will delight seasoned chefs and beginner cooks alike.<\/p>"
+              "content": "<p>When shopping for home appliances nowadays, convenience, functionality, and sustainability generally go hand in hand, thanks to the rise of innovative new products that allow for all three of these things at once. For the kitchen, we have an assortment of accessories and fittings that will delight seasoned chefs and beginner cooks alike.</p>"
             }
           },
           "collection-kitchen-fittings-bottom-description-2": {
@@ -993,7 +993,7 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "Direct Shipping to Your Doorstep",
-              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. If needed, you can opt for professional installation services in Hong Kong, however many of our free-standing kitchen Fittings are very easy and convenient to set up once received.<\/p><p>We provide consultation prior to your purchase should you need any advice on the best kitchen fittings for your needs, as well as provide after-sale service to ensure that you are happy with your delivery. You can rest assured that our expert team is with you every step of the way throughout your renovation journey.<\/p>"
+              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. If needed, you can opt for professional installation services in Hong Kong, however many of our free-standing kitchen Fittings are very easy and convenient to set up once received.</p><p>We provide consultation prior to your purchase should you need any advice on the best kitchen fittings for your needs, as well as provide after-sale service to ensure that you are happy with your delivery. You can rest assured that our expert team is with you every step of the way throughout your renovation journey.</p>"
             }
           },
           "collection-kitchen-fittings-bottom-description-3": {
@@ -1001,14 +1001,14 @@
             "settings": {
               "icon": "bi-secure-payment",
               "title": "For Other Home Renovation Ideas",
-              "content": "<p>Want to browse other options beyond kitchen fittings on our <a href=\"https:\/\/eurohomedirect.com\/collections\/\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/\">designer furniture store<\/a>? To elevate your living room, dining room, or home office, we stock <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/furniture\">luxury furniture<\/a> items by leading brands such as Molteni & C, Poliform and Normann Copenhagen. If you are interested in luxury bathroom fittings, we carry comprehensive sanitary ware and products by brands such as Alape, AXOR, BLANCO, Dornbracht, Duravit, Emco, Gessi, GROHE, Hansgrohe, LAUFEN, and Villeroy & Boch.<\/p>"
+              "content": "<p>Want to browse other options beyond kitchen fittings on our <a href=\"https://eurohomedirect.com/collections/\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/\">designer furniture store</a>? To elevate your living room, dining room, or home office, we stock <a href=\"https://eurohomedirect.com/collections/furniture\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/furniture\">luxury furniture</a> items by leading brands such as Molteni & C, Poliform and Normann Copenhagen. If you are interested in luxury bathroom fittings, we carry comprehensive sanitary ware and products by brands such as Alape, AXOR, BLANCO, Dornbracht, Duravit, Emco, Gessi, GROHE, Hansgrohe, LAUFEN, and Villeroy & Boch.</p>"
             }
           },
           "c516862a-f0eb-43f1-97b9-68effbe530f4": {
             "type": "column",
             "settings": {
               "contact_us_title": "Contact Us",
-              "contact_us_content": "<p>If you have questions about <a href=\"https:\/\/eurohomedirect.com\/collections\/kitchen-wares\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/kitchen-wares\">Kitchen Fittings<\/a> at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at <a href=\"https:\/\/wa.me\/85259352062\" target=\"_blank\" title=\"https:\/\/wa.me\/85259352062\">+852 5935 2062<\/a>, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\" title=\"mailto:info@eurohomedirect.com\">send us a message<\/a>. We will get back to you as soon as possible.<\/p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\">Gaggenau<\/a> and other premier <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/appliances\">home appliances<\/a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability.<\/p><p>Are you searching for incredible deals on luxury appliances, or seeking specific pieces from a particular <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/furniture\">designer furniture<\/a> brand? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.<\/p>"
+              "contact_us_content": "<p>If you have questions about <a href=\"https://eurohomedirect.com/collections/kitchen-wares\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/kitchen-wares\">Kitchen Fittings</a> at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at <a href=\"https://wa.me/85259352062\" target=\"_blank\" title=\"https://wa.me/85259352062\">+852 5935 2062</a>, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\" title=\"mailto:info@eurohomedirect.com\">send us a message</a>. We will get back to you as soon as possible.</p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https://eurohomedirect.com/collections/siemens\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/siemens\">Siemens</a>, <a href=\"https://eurohomedirect.com/collections/bosch\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/bosch\">Bosch</a>, <a href=\"https://eurohomedirect.com/collections/gaggenau\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/gaggenau\">Gaggenau</a> and other premier <a href=\"https://eurohomedirect.com/collections/appliances\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/appliances\">home appliances</a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability.</p><p>Are you searching for incredible deals on luxury appliances, or seeking specific pieces from a particular <a href=\"https://eurohomedirect.com/collections/furniture\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/furniture\">designer furniture</a> brand? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.</p>"
             }
           }
         },
@@ -1049,7 +1049,7 @@
             "settings": {
               "icon": "bi-delivery",
               "title": "Discover Premium Pieces by European Brands",
-              "content": "<p>Immerse yourself in opulence and comfort with our luxury furniture pieces, sourced from esteemed European brands such as Poliform, Molteni & C, Cassina, Ligne Roset or Normann Copenhagen . Every piece in our collection, from a simple bar stool to an intricate pendant lamp, embodies the fine artistry, meticulous attention to detail, and quality materials that European furniture is well-known for. Our range of offerings reflect a wide variety of styles, tastes, colour palettes, and sizes to suit your unique personality and home.<\/p>"
+              "content": "<p>Immerse yourself in opulence and comfort with our luxury furniture pieces, sourced from esteemed European brands such as Poliform, Molteni & C, Cassina, Ligne Roset or Normann Copenhagen . Every piece in our collection, from a simple bar stool to an intricate pendant lamp, embodies the fine artistry, meticulous attention to detail, and quality materials that European furniture is well-known for. Our range of offerings reflect a wide variety of styles, tastes, colour palettes, and sizes to suit your unique personality and home.</p>"
             }
           },
           "collection-furniture-bottom-description-1": {
@@ -1057,7 +1057,7 @@
             "settings": {
               "icon": "bi-returns",
               "title": "Elegant Scandinavian and Italian Designs",
-              "content": "<p>Allow your house to exude modernity and style with our elegant pieces. For those who love simplicity and minimalism, our extensive collection of Scandinavian furniture by the iconic Danish designer brand Normann Copenhagen offers clean lines, organic textures, and modernism that will seamlessly fit into any space, with pieces that will either complement or beautifully contrast your existing decor. <\/p><p><\/p><p>Meanwhile, a range of opulent sofas and dining tables from Italian furniture designer brands such as Poliform, Cassina and Molteni & C will automatically make your home look more polished and fashionable. These comfortable yet luxuriant pieces are a testament to artisan skill and creative flair – truly works of art that are sure to impress any guest that steps through your door.<\/p>"
+              "content": "<p>Allow your house to exude modernity and style with our elegant pieces. For those who love simplicity and minimalism, our extensive collection of Scandinavian furniture by the iconic Danish designer brand Normann Copenhagen offers clean lines, organic textures, and modernism that will seamlessly fit into any space, with pieces that will either complement or beautifully contrast your existing decor. </p><p></p><p>Meanwhile, a range of opulent sofas and dining tables from Italian furniture designer brands such as Poliform, Cassina and Molteni & C will automatically make your home look more polished and fashionable. These comfortable yet luxuriant pieces are a testament to artisan skill and creative flair – truly works of art that are sure to impress any guest that steps through your door.</p>"
             }
           },
           "collection-furniture-bottom-description-2": {
@@ -1065,14 +1065,14 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "Direct Shipping to Your Doorstep",
-              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our European warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. If needed, you can opt for professional installation services in Hong Kong, however many of our furniture items come preassembled and are very easy to set up once received.<\/p><p><\/p><p>If you need any advice on the best products for your dream home, from furniture pieces to kitchen appliances and bathroom fittings, we are happy to provide consultation and advice. Our after-sale service will also ensure that you are happy with all your delivered products. As always, our expert team is here for you every step of the way during your home renovation project.<\/p><p><\/p><p>If you want to explore other home renovation products on our luxury home renovation shop, we carry an extensive range of bathroom sanitary ware and <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/appliances\">appliances for shipping to Hong Kong<\/a>, Singapore and worldwide, including <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a> and<a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\"> Bosch appliances<\/a> as well as Grohe and Dornbracht sanitary ware that can elevate the convenience of your daily tasks at home to new heights.<\/p>"
+              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our European warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. If needed, you can opt for professional installation services in Hong Kong, however many of our furniture items come preassembled and are very easy to set up once received.</p><p></p><p>If you need any advice on the best products for your dream home, from furniture pieces to kitchen appliances and bathroom fittings, we are happy to provide consultation and advice. Our after-sale service will also ensure that you are happy with all your delivered products. As always, our expert team is here for you every step of the way during your home renovation project.</p><p></p><p>If you want to explore other home renovation products on our luxury home renovation shop, we carry an extensive range of bathroom sanitary ware and <a href=\"https://eurohomedirect.com/collections/appliances\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/appliances\">appliances for shipping to Hong Kong</a>, Singapore and worldwide, including <a href=\"https://eurohomedirect.com/collections/siemens\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/siemens\">Siemens</a> and<a href=\"https://eurohomedirect.com/collections/bosch\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/bosch\"> Bosch appliances</a> as well as Grohe and Dornbracht sanitary ware that can elevate the convenience of your daily tasks at home to new heights.</p>"
             }
           },
           "fe48051e-bc69-4b23-91dc-6f513b10ee2f": {
             "type": "column",
             "settings": {
               "contact_us_title": "Contact Us",
-              "contact_us_content": "<p>If you have questions about  Italian & Scandinavian Designer Furniture at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\" title=\"mailto:info@eurohomedirect.com\">send us a message<\/a>. We will get back to you as soon as possible.<\/p><p><\/p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\">Gaggenau<\/a> and other premier <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/appliances\">home appliances<\/a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability.<\/p><p><\/p><p>Are you searching for incredible deals on luxury appliances, or seeking specific pieces from a particular <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/furniture\">designer furniture store<\/a>? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.<\/p>"
+              "contact_us_content": "<p>If you have questions about  Italian & Scandinavian Designer Furniture at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\" title=\"mailto:info@eurohomedirect.com\">send us a message</a>. We will get back to you as soon as possible.</p><p></p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https://eurohomedirect.com/collections/siemens\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/siemens\">Siemens</a>, <a href=\"https://eurohomedirect.com/collections/bosch\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/bosch\">Bosch</a>, <a href=\"https://eurohomedirect.com/collections/gaggenau\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/gaggenau\">Gaggenau</a> and other premier <a href=\"https://eurohomedirect.com/collections/appliances\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/appliances\">home appliances</a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability.</p><p></p><p>Are you searching for incredible deals on luxury appliances, or seeking specific pieces from a particular <a href=\"https://eurohomedirect.com/collections/furniture\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/furniture\">designer furniture store</a>? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.</p>"
             }
           }
         },
@@ -1095,7 +1095,7 @@
             "settings": {
               "icon": "bi-delivery",
               "title": "Quality Products Designed by Premium European Brands",
-              "content": "<p>Experience elegance and sophistication with our range of high-end home and kitchen appliances from renowned European brands. Our curated collection is handpicked for their excellent performance, superior craftsmanship, and innovative technology. We are proud to bring you the finest appliances from brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\">Gaggenau<\/a>, Liebherr, Miele, and V-ZUG, delivered straight to your doorstep in Hong Kong, Singapore, or beyond. From induction hobs, ovens, steamers, dishwashers, to wine coolers and built-in refrigerators, our products are set to become household staples for years to come.<\/p>"
+              "content": "<p>Experience elegance and sophistication with our range of high-end home and kitchen appliances from renowned European brands. Our curated collection is handpicked for their excellent performance, superior craftsmanship, and innovative technology. We are proud to bring you the finest appliances from brands such as <a href=\"https://eurohomedirect.com/collections/bosch\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/bosch\">Bosch</a>, <a href=\"https://eurohomedirect.com/collections/siemens\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/siemens\">Siemens</a>, <a href=\"https://eurohomedirect.com/collections/gaggenau\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/gaggenau\">Gaggenau</a>, Liebherr, Miele, and V-ZUG, delivered straight to your doorstep in Hong Kong, Singapore, or beyond. From induction hobs, ovens, steamers, dishwashers, to wine coolers and built-in refrigerators, our products are set to become household staples for years to come.</p>"
             }
           },
           "collection-appliances-bottom-description-1": {
@@ -1103,7 +1103,7 @@
             "settings": {
               "icon": "bi-returns",
               "title": "Home Appliances for Everyday Tasks",
-              "content": "<p>Ease your daily tasks and chores with our comprehensive line of home appliances. Experience the wonders of a state-of-the-art washing machine with special built-in programmes and functions, or a fully-integrated dishwasher that enables all kinds of washing preferences. Our selection is designed to simplify your everyday routine and increase comfort in your home, allowing you more time for relaxation. Our products are not only functional but elegantly designed, blending seamlessly into your home decor and providing you with the convenience you deserve.<\/p>"
+              "content": "<p>Ease your daily tasks and chores with our comprehensive line of home appliances. Experience the wonders of a state-of-the-art washing machine with special built-in programmes and functions, or a fully-integrated dishwasher that enables all kinds of washing preferences. Our selection is designed to simplify your everyday routine and increase comfort in your home, allowing you more time for relaxation. Our products are not only functional but elegantly designed, blending seamlessly into your home decor and providing you with the convenience you deserve.</p>"
             }
           },
           "collection-appliances-bottom-description-2": {
@@ -1111,28 +1111,28 @@
             "settings": {
               "icon": "bi-customer-support",
               "title": "Kitchen Appliances for Convenient Cooking",
-              "content": "<p>Unlock a world of culinary possibilities with our extensive range of kitchen appliances. Our assortment of ovens, cooktops, and induction hobs will bring out the best in all your meals. Feel the difference in quality products that households in Hong Kong, Singapore and worldwide rely on for high energy efficiency, safety, and precise temperature control. Our kitchen appliance selection combines practicality with sleek design, ensuring you can cook with style and ease.<\/p>"
+              "content": "<p>Unlock a world of culinary possibilities with our extensive range of kitchen appliances. Our assortment of ovens, cooktops, and induction hobs will bring out the best in all your meals. Feel the difference in quality products that households in Hong Kong, Singapore and worldwide rely on for high energy efficiency, safety, and precise temperature control. Our kitchen appliance selection combines practicality with sleek design, ensuring you can cook with style and ease.</p>"
             }
           },
           "138986b7-c607-4b6e-a1a5-d7282dfbd011": {
             "type": "twocol",
             "settings": {
               "title": "Stylish Kitchen Must-have Appliances",
-              "content": "<p>Our range of built-in refrigerators, wine fridges, and coffee makers are all fitted out with the latest technologies and sustainable innovations guaranteed to make your kitchen activities better than ever. Store food in specially delegated fridge and freezer compartments with humidity levels designed to keep your products fresher for longer, all bundled in a design that fits seamlessly into your kitchen interior for a modern, streamlined look. Wine enthusiasts in Hong Kong and Singapore will enjoy our premium wine fridges and coolers, which provide optimal conditions for storing your favourite bottles via multiple temperature compartments. Our range of coffee machines also spare no expense, proffering multiple functions for delicious brews and hot milk beverages from an intense espresso flavour to a creamy latte.<\/p><p><\/p><p>Our refrigerators and fridge-freezers incorporate a range of built-in features that make kitchen life so much easier – including BioFrech technology which keeps food fresher for longer, humidity controls for different types of groceries, water and ice dispensers, internal water and air filters, and design elements allowing for easy organisation and separation of food.<\/p><p><\/p><p>Microwaves and ovens have never been more user-friendly, where we offer appliances with multiple different output levels, functions, and programmes. From defrosting to baking, from heating up pizzas to grilling, these innovative ovens enable all sorts of cooking possibilities to take place regardless of skill level. Many of these items are also fitted with touch screens and Smart Home connectivity, allowing for remote monitoring and hands-free control.<\/p><p><\/p><p>Our range of dishwashers recognises the need for easy, speedy cleaning, with integrated features enabling various washing preferences, automatic detergent dispensing, energy-efficient drying, and touch controls, along with self-cleaning filter systems.<\/p><p><\/p><p>We are also proud to offer appliances that feature high energy grading or rating such as “A”, making each purchase an environmentally-friendly one for your kitchen.<\/p>"
+              "content": "<p>Our range of built-in refrigerators, wine fridges, and coffee makers are all fitted out with the latest technologies and sustainable innovations guaranteed to make your kitchen activities better than ever. Store food in specially delegated fridge and freezer compartments with humidity levels designed to keep your products fresher for longer, all bundled in a design that fits seamlessly into your kitchen interior for a modern, streamlined look. Wine enthusiasts in Hong Kong and Singapore will enjoy our premium wine fridges and coolers, which provide optimal conditions for storing your favourite bottles via multiple temperature compartments. Our range of coffee machines also spare no expense, proffering multiple functions for delicious brews and hot milk beverages from an intense espresso flavour to a creamy latte.</p><p></p><p>Our refrigerators and fridge-freezers incorporate a range of built-in features that make kitchen life so much easier – including BioFrech technology which keeps food fresher for longer, humidity controls for different types of groceries, water and ice dispensers, internal water and air filters, and design elements allowing for easy organisation and separation of food.</p><p></p><p>Microwaves and ovens have never been more user-friendly, where we offer appliances with multiple different output levels, functions, and programmes. From defrosting to baking, from heating up pizzas to grilling, these innovative ovens enable all sorts of cooking possibilities to take place regardless of skill level. Many of these items are also fitted with touch screens and Smart Home connectivity, allowing for remote monitoring and hands-free control.</p><p></p><p>Our range of dishwashers recognises the need for easy, speedy cleaning, with integrated features enabling various washing preferences, automatic detergent dispensing, energy-efficient drying, and touch controls, along with self-cleaning filter systems.</p><p></p><p>We are also proud to offer appliances that feature high energy grading or rating such as “A”, making each purchase an environmentally-friendly one for your kitchen.</p>"
             }
           },
           "213a6a52-d080-4477-a87e-717a85be96bd": {
             "type": "twocol",
             "settings": {
               "title": "Direct Shipping to Your Doorstep",
-              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. If needed, you can opt for professional installation services in Hong Kong, however many of our free-standing appliances are very easy and convenient to set up once received.<\/p><p><\/p><p>We also provide consultation prior to your purchase should you need any advice on the kitchen appliances to build your dream kitchen.  We also offer after-sales service to make sure that you are happy with and well-supported after your purchase. You can rest assured that our expert team is with you every step of the way throughout your renovation journey.<\/p>"
+              "content": "<p>EuroHomeDirect® aims to make the home renovation process as easy as possible for you, which is why we provide direct shipping services to your address straight from our warehouses via reputable courier and forwarder partners such as DHL, FedEx, and DB Schenker. If needed, you can opt for professional installation services in Hong Kong, however many of our free-standing appliances are very easy and convenient to set up once received.</p><p></p><p>We also provide consultation prior to your purchase should you need any advice on the kitchen appliances to build your dream kitchen.  We also offer after-sales service to make sure that you are happy with and well-supported after your purchase. You can rest assured that our expert team is with you every step of the way throughout your renovation journey.</p>"
             }
           },
           "9a44f2ae-d835-4496-87a0-298b0e97e07e": {
             "type": "column",
             "settings": {
               "contact_us_title": "Contact Us",
-              "contact_us_content": "<p>If you have questions about Kitchen Fitttings & Home Appliances at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\" title=\"mailto:info@eurohomedirect.com\">send us a message<\/a>. We will get back to you as soon as possible.<\/p><p><\/p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https:\/\/eurohomedirect.com\/collections\/siemens\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/siemens\">Siemens<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/bosch\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/bosch\">Bosch<\/a>, <a href=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/gaggenau\">Gaggenau<\/a>, VZUG and other premier <a href=\"https:\/\/eurohomedirect.com\/collections\/appliances\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/appliances\">home appliances<\/a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability.<\/p><p><\/p><p>Are you searching for incredible deals on luxury appliances, or perhaps seeking specific pieces from a particular <a href=\"https:\/\/eurohomedirect.com\/collections\/furniture\" target=\"_blank\" title=\"https:\/\/eurohomedirect.com\/collections\/furniture\">designer furniture<\/a> brand? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.<\/p>"
+              "contact_us_content": "<p>If you have questions about Kitchen Fitttings & Home Appliances at EuroHomeDirect®, feel free to reach out to our customer support via WhatsApp at +852 5935 2062, or <a href=\"mailto:info@eurohomedirect.com\" target=\"_blank\" title=\"mailto:info@eurohomedirect.com\">send us a message</a>. We will get back to you as soon as possible.</p><p></p><p>At EuroHomeDirect®, we carefully curate an exquisite collection featuring brands such as <a href=\"https://eurohomedirect.com/collections/siemens\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/siemens\">Siemens</a>, <a href=\"https://eurohomedirect.com/collections/bosch\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/bosch\">Bosch</a>, <a href=\"https://eurohomedirect.com/collections/gaggenau\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/gaggenau\">Gaggenau</a>, VZUG and other premier <a href=\"https://eurohomedirect.com/collections/appliances\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/appliances\">home appliances</a> for customers in Hong Kong and Singapore, ensuring every piece we offer meets our high standards for top-tier design and reliability.</p><p></p><p>Are you searching for incredible deals on luxury appliances, or perhaps seeking specific pieces from a particular <a href=\"https://eurohomedirect.com/collections/furniture\" target=\"_blank\" title=\"https://eurohomedirect.com/collections/furniture\">designer furniture</a> brand? Let's make your dream home come true together. Get in touch with us to discuss your vision, your needs, and to explore how we can help bring your ideas to life.</p>"
             }
           }
         },
@@ -1223,13 +1223,13 @@
     ],
     "blocks": {
       "16963237191767492405": {
-        "type": "shopify:\/\/apps\/whatsapp-button\/blocks\/app-embed-block\/96d80a63-e860-4262-a001-8b82ac4d00e6",
+        "type": "shopify://apps/whatsapp-button/blocks/app-embed-block/96d80a63-e860-4262-a001-8b82ac4d00e6",
         "disabled": false,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#202a36",
@@ -1240,14 +1240,8 @@
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
       },
-      "13289604166815178351": {
-        "type": "shopify:\/\/apps\/redirect-pro-404-seo\/blocks\/redirect-pro\/68d49184-0465-4c21-8d3d-e051f7921c3f",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "14060646107696862457": {
-        "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
@@ -1301,7 +1295,7 @@
       "low_inventory_threshold": 0,
       "show_reviews_badge": false,
       "cart_type": "drawer",
-      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_empty_button_link": "shopify://collections/all",
       "cart_show_checkout_button": true,
       "cart_show_free_shipping_threshold": false,
       "cart_free_shipping_threshold": "50",
@@ -1354,7 +1348,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "footer-1": {
@@ -1367,7 +1361,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
               }
             }
           },
@@ -1482,7 +1476,7 @@
           "settings": {
             "title": "Our collections",
             "link_title": "View all",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         },
         "featured-product": {
@@ -1542,7 +1536,7 @@
             "link": "",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
           }
         },
         "1542984811767": {
@@ -1559,7 +1553,7 @@
           "type": "newsletter",
           "settings": {
             "title": "Newsletter",
-            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "content": "<p>A short sentence describing what someone will receive by subscribing</p>"
           }
         },
         "1542984882560": {
@@ -1625,7 +1619,7 @@
       "low_inventory_threshold": 1,
       "show_reviews_badge": false,
       "cart_type": "drawer",
-      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_empty_button_link": "shopify://collections/all",
       "cart_show_checkout_button": true,
       "cart_show_free_shipping_threshold": true,
       "cart_free_shipping_threshold": "50",
@@ -1663,7 +1657,7 @@
               "type": "text",
               "settings": {
                 "title": "About the shop",
-                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.</p>"
               }
             },
             "footer-1": {
@@ -1676,7 +1670,7 @@
               "type": "newsletter",
               "settings": {
                 "title": "Newsletter",
-                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing</p>"
               }
             }
           },
@@ -1791,7 +1785,7 @@
           "settings": {
             "title": "Our collections",
             "link_title": "View all",
-            "link": "shopify:\/\/collections"
+            "link": "shopify://collections"
           }
         },
         "collection-template": {
@@ -1839,7 +1833,7 @@
             "link": "",
             "newsletter_button": "Subscribe & Save",
             "newsletter_title": "Newsletter",
-            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing</p>"
           }
         },
         "1542984811767": {
