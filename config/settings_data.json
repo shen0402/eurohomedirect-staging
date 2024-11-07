@@ -207,9 +207,10 @@
           },
           "06ebdf98-fab5-42a9-bce0-dce01773a056": {
             "type": "text",
+            "disabled": true,
             "settings": {
               "title": "HONG KONG CONTACT",
-              "content": "<p>+852 3421 1222</p><p>9/F, Wyndham Place, 44 Wyndham Street, Central, Hong Kong (Back Office only)</p>"
+              "content": "<p>+852 3421 1222</p><p>Shop 102-103, Ruttonjee Centre, 11 Duddell Street, Central, Hong Kong</p>"
             }
           },
           "48826564-9d4c-4c15-8e0f-379e1e6d3482": {
