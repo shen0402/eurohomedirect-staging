@@ -160,13 +160,15 @@
                             <img alt="" src="//cdn.shopify.com/s/files/1/0609/0666/8262/files/bosch-washing-machines_800x.jpg?v=1636113587">
                         </noscript>
                     </div>
-                    <h3 class="collection__title text--strong"><ly-as-1243001>Bosch Washing and Drying</ly-as-1243001></h3>
-                    <p><ly-as-1243002>Before a washing machine leaves our factory, we test every tiny detail and subject it to endless stress tests to make sure our washing machines meet our standards. Bosch washing machines make life easier for you. Thanks to the automatic programmes, they’re not only clear and simple to operate, they also provide the best results with the lowest levels of consumption.</ly-as-1243002></p>
-                    
+                  
                   {% if request.locale.iso_code == 'en' %}
+                    <h3 class="collection__title text--strong"><ly-as-1243001>Bosch Washing and Drying</ly-as-1243001></h3>
+                    <p><ly-as-1243002>Before a washing machine leaves the factory, we test every tiny detail and subject it to endless stress tests to make sure the washing machines meet high standards. Bosch washing machines make life easier for you. Thanks to the automatic programmes, they’re not only clear and simple to operate, they also provide the best results with the lowest levels of consumption.</ly-as-1243002></p>
                       <a class="button button--primary" href="/collections/washing-machines/bosch"><ly-as-1243003>See All Washing Machines</ly-as-1243003></a>
                     {% else %}
-                      <a class="button button--primary" href="/zh/collections/washing-machines/bosch"><ly-as-1243003>See All Washing Machines</ly-as-1243003></a>
+                    <h3 class="collection__title text--strong"><ly-as-1243001>博世洗滌和烘乾</ly-as-1243001></h3>
+                    <p><ly-as-1243002>在洗衣機離開工廠之前，博世會測試每一個微小的細節，並進行無數的壓力測試，以確保洗衣機符合高標準。博世洗衣機讓您的生活更輕鬆。得益於自動程式，它們不僅操作清晰簡單，而且還能以最低的消耗量提供最佳結果。</ly-as-1243002></p>
+                      <a class="button button--primary" href="/zh/collections/washing-machines/bosch"><ly-as-1243003>查看所有洗滌和烘乾</ly-as-1243003></a>
                     {% endif %}
                 </div>
 
@@ -181,9 +183,18 @@
                             <img alt="" src="https://cdn.shopify.com/s/files/1/0609/0666/8262/files/Bosch_Freezers_400px.jpg?v=1698375914">
                         </noscript>
                     </div>
+                
+                  {% if request.locale.iso_code == 'en' %}
                     <h3 class="collection__title text--strong"><ly-as-1243004>Bosch Freezers</ly-as-1243004></h3>
+                    <p>Designed to make life and mealtime more enjoyable, a Bosch freezer is a welcome addition to any home. Look forward to never defrosting your freezer again thanks to No Frost. Access food quickly and store large items in the Easy Access Zone. Quickly freeze just-purchased frozen foods with Automatic Super Freezing. This is just a taste – discover the highlight features now.</p>
                     <a class="button button--primary" href="/collections/freezers/bosch"><ly-as-1243005>See All Freezers</ly-as-1243005></a>
-                </div>
+                 {% else %}
+                    <h3 class="collection__title text--strong"><ly-as-1243004>博世冷凍櫃</ly-as-1243004></h3>
+                    <p>Bosch 冷凍櫃旨在讓生活和用餐時間更加愉快，是任何家庭的受歡迎的補充。 有了 No Frost，您的冷凍櫃就不再需要除霜了。 快速獲取食物並將大件物品存放在輕鬆存取區。 使用自動超級冷凍功能快速冷凍剛購買的冷凍食品。 這只是一個嘗試 - 現在就發現亮點功能。</p>
+                    <a class="button button--primary" href="/zh/collections/freezers/bosch"><ly-as-1243005>查看所有冷凍櫃</ly-as-1243005></a>
+                 
+                {% endif %}
+                    </div>
               
                 <div class="product-item 1/3--tablet 1/4--lap-and-up">
                     <div>
@@ -192,8 +203,16 @@
                             <img alt="" src="https://cdn.shopify.com/s/files/1/0609/0666/8262/files/Bosch_Microwaves_400px.jpg?v=1698376082">
                         </noscript>
                     </div>
+                
+                  {% if request.locale.iso_code == 'en' %}
                     <h3 class="collection__title text--strong"><ly-as-1243006>Bosch Microwaves</ly-as-1243006></h3>
+                  <p>A built-in microwave/ oven with microwave saves you time and effort in the kitchen. The models are thoughtfully designed and make tasks such as heating water for tea, defrosting meat or baking pizza quick and easy. Discover the range now.</p>
                     <a class="button button--primary" href="/collections/microwaves/bosch"><ly-as-1243007>See All Microwaves</ly-as-1243007></a>
+                {% else %}
+                   <h3 class="collection__title text--strong"><ly-as-1243006>博世微波爐</ly-as-1243006></h3>
+                  <p>內置微波爐/焗爐，配備微波功能，幫你省卻廚房時間和力氣。款式設計貼心，輕鬆快捷完成沖茶水、解凍肉、焗pizza等任務。立即探索系列產品。</p>
+                    <a class="button button--primary" href="/zh/collections/microwaves/bosch"><ly-as-1243007>查看所有微波爐</ly-as-1243007></a>
+                {% endif %}
                 </div>
 
                 <div class="product-item 1/3--tablet 1/4--lap-and-up">
@@ -203,9 +222,17 @@
                             <img alt="" src="https://cdn.shopify.com/s/files/1/0609/0666/8262/files/Bosch_Warming_Drawers_400px.jpg?v=1698376246">
                         </noscript>
                     </div>
+                
+                  {% if request.locale.iso_code == 'en' %}
                     <h3 class="collection__title text--strong"><ly-as-1243008>Bosch Warming Drawers</ly-as-1243008></h3>
+                  <p>Bosch Warming Drawers allow you to heat your plates, keep them warm or carry out sous-vide cooking. Discover the convenience of our products now.  </p>
                     <a class="button button--primary" href="/collections/warming-drawers/bosch"><ly-as-1243009>See All Warming Drawers</ly-as-1243009></a>
-                </div>
+                {% else %}
+                    <h3 class="collection__title text--strong"><ly-as-1243008>博世暖碟機</ly-as-1243008></h3>
+                  <p>Bosch 暖碟櫃讓您可以加熱碗碟，保持碗碟溫暖或進行溫和的烹飪。發現我們的產品現在多麼方便。</p>
+                    <a class="button button--primary" href="/zh/collections/warming-drawers/bosch"><ly-as-1243009>查看所有暖碟機</ly-as-1243009></a>
+                {% endif %}
+                    </div>
 
                 <div class="product-item 1/3--tablet 1/4--lap-and-up">
                     <div>
@@ -214,9 +241,17 @@
                             <img alt="" src="https://cdn.shopify.com/s/files/1/0609/0666/8262/files/Bosch_Dryers_400px.jpg?v=1698376383">
                         </noscript>
                     </div>
+                
+                  {% if request.locale.iso_code == 'en' %}
                     <h3 class="collection__title text--strong"><ly-as-1243010>Bosch Dryers</ly-as-1243010></h3>
+                  <p>A high-quality Bosch tumble dryer is a practical addition to any home. Bosch dryers don't require an exhaust hose are easy to install in the kitchen, bathroom, cupboard or cellar – wherever your laundry station is.</p>
                     <a class="button button--primary" href="/collections/dryers/bosch"><ly-as-1243011>See All Dryers</ly-as-1243011></a>
-                </div>
+                {% else %}
+                    <h3 class="collection__title text--strong"><ly-as-1243010>博世乾衣機</ly-as-1243010></h3>
+                  <p>博世高級乾衣機，家居實用之選。博世乾衣機無需排氣喉，易於安裝，無論廚房、浴室、儲物櫃或地下室，任何地方都能輕鬆設置你的洗衣站。</p>
+                    <a class="button button--primary" href="/zh/collections/dryers/bosch"><ly-as-1243011>查看所有乾衣機</ly-as-1243011></a>
+                {% endif %}
+                    </div>
 
 
 
@@ -234,6 +269,9 @@
 {% section 'static-promotion-list' %}
 
 {% section 'static-recently-viewed-products' %}
+
+
+{% if request.locale.iso_code == 'en' %}
 
 <div class="shopify-section">
 <section class="card__section card__section--tight">
@@ -257,3 +295,31 @@
   </div>
 </section>
 </div>
+
+{% else %}
+
+<div class="shopify-section">
+<section class="card__section card__section--tight">
+  <div class="container container--flush">
+    <h2><ly-as-1243012>Bosch家電產品介紹</ly-as-1243012></h2>
+    <p><ly-as-1243013>Bosch家電，專為像香港和新加坡這樣的繁華城市中努力工作的人們而設計，以其創新的家用電器系列，成為都市廚房的首選。 </ly-as-1243013> </p>
+    <h3 class="heading h3"><ly-as-1243014>嵌入式焗爐和電磁爐 </ly-as-1243014></h3>
+    <p><ly-as-1243015>Bosch的嵌入式焗爐旨在提升您的烹飪技巧，提供無與倫比的易用性，讓您能輕鬆近距離觀察料理過程，無需額外壓力。這些必備的廚房組合配備了電磁爐，專為速度和能源效率而設計。Bosch的電磁爐能更快地將食物端上餐桌，讓您有更多時間享受休閒或放鬆。</ly-as-1243015></p>
+    <h3 class="heading h3"><ly-as-1243016>抽油煙機和咖啡機</ly-as-1243016></h3>
+    <p><ly-as-1243017>Bosch提供各種抽油煙機，打造和諧的廚房環境，為您的廚房設計增添更多美學自由度。這些抽油煙機為各種廚房配置提供實用的解決方案，有效地補充您的爐灶和通風需求。對於繁忙的早晨，Bosch的濾掛式咖啡機和全自動咖啡機為咖啡愛好者提供無與倫比的享受，製作出媲美專業咖啡師的飲品。 </ly-as-1243017></p>
+    <h3 class="heading h3"><ly-as-1243018>雪櫃和酒櫃 </ly-as-1243018></h3>
+    <p><ly-as-1243019>在保存日常必需品方面，Bosch的雪櫃冷凍櫃以寬敞且巧妙設計的層架和隔間為您奠定基礎。許多Bosch的雪櫃冷凍櫃都經過 VitaFresh 技術優化，為各種食物提供最佳的冷卻和濕度條件。Bosch的酒櫃專為葡萄酒愛好者設計，提供可調節的溫度區域，確保您的葡萄酒始終保持在理想溫度。 </ly-as-1243019></p>
+    <h3 class="heading h3"><ly-as-1243020>洗碗機和洗衣機 </ly-as-1243020></h3>
+    <p><ly-as-1243021>可靠性不僅體現在他們的廚房設備上 - Bosch的洗碗機以靈活性與空間最大化為設計理念。Bosch的洗碗機經過嚴格的測試，從最小的組件到最大的組件，確保高效清潔和耐用性。Bosch的洗衣機同樣可靠，秉持著嚴格測試的承諾。這些機器通過自動程序簡化了您在香港或新加坡的日常生活，以最低的能耗獲得最佳效果。 </ly-as-1243021></p>
+    <h3 class="heading h3"><ly-as-1243022>Bosch體驗 </ly-as-1243022></h3>
+    <p><ly-as-1243023>將Bosch融入您家的廚房，帶來無縫且高效的體驗。Bosch承諾不僅提供頂級電器，還提供一種生活方式的轉變，確保便利、性能和輕鬆。 </ly-as-1243023></p>
+    <h2><ly-as-1243024>聯繫我們</ly-as-1243024></h2>
+    <p><ly-as-1243025>如果您對在 EuroHomeDirect® 購買Bosch家電並運送到香港或新加坡有任何疑問，請隨時通過 WhatsApp +852 5935 2062 </ly-as-1243025> <a href = "mailto: info@eurohomedirect.com"><ly-as-1243026>聯繫我們</ly-as-1243026></a><ly-as-1243027>的客戶經理，我們會盡快回覆您。 </ly-as-1243027> </p>
+    <p><ly-as-1243028>在 EuroHomeDirect®，我們精心策劃了一系列精美的產品，包括</ly-as-1243028> <a href="https://eurohomedirect.com/zh/collections/siemens"><ly-as-1243029>西門子</ly-as-1243029></a>、<a href="https://eurohomedirect.com/zh/collections/gaggenau"><ly-as-1243030>Gaggenau</ly-as-1243030></a> <ly-as-1243031>以及其他頂級</ly-as-1243031> <a href="https://eurohomedirect.com/zh/collections/appliances"><ly-as-1243032>廚房電器</ly-as-1243032></a> <ly-as-1243033>，為香港和新加坡的客戶提供服務，確保我們提供的每一件產品都符合我們對頂級設計和可靠性的高標準。 </ly-as-1243033> </p>
+    <p><ly-as-1243034>您是否正在尋找令人難以置信的電器優惠來搭配廚房或浴室配件，或者正在尋找特定</ly-as-1243034> <a href="https://eurohomedirect.com/zh/collections/furniture"><ly-as-1243035>設計師家具</ly-as-1243035></a><ly-as-1243036>？讓我們一起讓您的夢想之家成真。請聯繫我們，討論您的願景、您的需求，並探索我們如何幫助您將您的想法變為現實。 </ly-as-1243036></p>
+  </div>
+</section>
+</div>
+
+
+{% endif %}
