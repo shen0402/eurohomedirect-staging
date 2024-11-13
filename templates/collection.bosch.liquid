@@ -1,6 +1,10 @@
 <section class="section custom-collection-page" data-section-type="collection">
     <div class="container">
-        <h1 class="collection__title heading h1"><ly-as-1242976>Bosch</ly-as-1242976></h1>
+      {% if request.locale.iso_code == 'en' %}
+        <h1 class="collection__title heading h1">Bosch</h1>
+        {% else %}'
+        <h1 class="collection__title heading h1">Bosch</h1>
+        {% endif %}
     </div>
 </section>
 
