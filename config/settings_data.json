@@ -209,7 +209,7 @@
             "type": "text",
             "settings": {
               "title": "HONG KONG CONTACT",
-              "content": "<p>+852 3421 1222</p><p>Shop 102-103, Ruttonjee Centre, 11 Duddell Street, Central, Hong Kong (By Appointment only)</p>"
+              "content": "<p>+852 3421 1222</p><p>Shop 16-19, 11/F, Horizon Plaza, 2 Lee Wing Street, Ap Lei Chau, Hong Kong (By Appointment only)</p>"
             }
           },
           "48826564-9d4c-4c15-8e0f-379e1e6d3482": {
@@ -520,8 +520,7 @@
         "block_order": [
           "49a59871-6823-4978-9566-e1598480662a"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "text-with-icons": {
         "type": "text-with-icons",
@@ -1025,9 +1024,7 @@
       },
       "page-contact-template": {
         "type": "page-contact-template",
-        "custom_css": [
-
-        ],
+        "custom_css": [],
         "settings": {
           "form_heading": "",
           "show_store_info": false,
@@ -1037,8 +1034,7 @@
       },
       "page-about-us-template": {
         "type": "page-about-us-template",
-        "settings": {
-        }
+        "settings": {}
       },
       "collection-furniture-bottom-description": {
         "type": "collection-furniture-bottom-description",
@@ -1224,8 +1220,7 @@
       "16963237191767492405": {
         "type": "shopify://apps/whatsapp-button/blocks/app-embed-block/96d80a63-e860-4262-a001-8b82ac4d00e6",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -1242,8 +1237,7 @@
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       }
     }
   },
@@ -1523,8 +1517,7 @@
         },
         "product-recommendations": {
           "type": "product-recommendations",
-          "settings": {
-          }
+          "settings": {}
         },
         "announcement-bar": {
           "type": "announcement-bar",
@@ -1820,8 +1813,7 @@
         },
         "product-recommendations": {
           "type": "product-recommendations",
-          "settings": {
-          }
+          "settings": {}
         },
         "announcement-bar": {
           "type": "announcement-bar",
