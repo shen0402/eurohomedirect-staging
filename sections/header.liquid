@@ -62,7 +62,7 @@
               </span>
             </button>
 
-            {%- render 'header-menu', menu: navigation_menu, index: 'desktop-menu-0' -%}
+            {%- render 'desktop-mennu', menu: navigation_menu, index: 'desktop-menu-0' -%}
           </nav>
         {%- endif -%}
 
@@ -636,7 +636,7 @@
             class="nav-bar__linklist list--unstyled"
             data-type="menu"
             role="list">
-            {%- for link in linklists.header-menu.links -%}
+            {%- for link in linklists.desktop-mennu.links -%}
               <li class="nav-bar__item">
                 {%- if link.links.size == 0 -%}
                   <a
