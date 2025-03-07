@@ -2,29 +2,30 @@
   <script>
     document.addEventListener('DOMContentLoaded', function() {
         var observer = new MutationObserver(function(mutations) {
-            observer.disconnect();
+            let updated = false;
+
             mutations.forEach(function(mutation) {
                 if (mutation.type === 'childList' || mutation.type === 'subtree') {
                     var translations = [
                         { class: '.product-form__info-content', original: '#ly_cuweeks', translation: 'weeks' },
                         { class: '.product-form__info-content', original: '#ly_cuDispatch in approx.', translation: 'Dispatch in approx.' }
                     ];
-    
+
                     translations.forEach(function(item) {
-                        var elements = document.querySelectorAll(item.class);
-                        elements.forEach(function(element) {
+                        document.querySelectorAll(item.class).forEach(function(element) {
                             var content = element.innerHTML;
-                            if (content && item.original !== item.translation && content.includes(item.original)) {
-                                var translated = content.replace(item.original, item.translation);
-                                element.innerHTML = translated;
+                            if (content.includes(item.original)) {
+                                element.innerHTML = content.replace(item.original, item.translation);
+                                updated = true;
                             }
                         });
                     });
                 }
             });
-            observer.observe(document.body, config);
+
+            if (updated) observer.disconnect();
         });
-    
+
         var config = { childList: true, subtree: true };
         observer.observe(document.body, config);
     });
