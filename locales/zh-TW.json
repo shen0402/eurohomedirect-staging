@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "meta": {
@@ -61,7 +61,7 @@
       "currency": "貨幣",
       "language": "語言",
       "account": "帳戶",
-      "login": "登入\/註冊",
+      "login": "登入/註冊",
       "welcome": "Hello {{first_name}}",
       "cart": "購物車"
     },
@@ -245,7 +245,7 @@
       "step1_text2_html": "我們只銷售由製造商預先包裝並具有原廠保修的全新正品產品。您可以從英國規格的所有最新 Miele 型號中進行選擇。我們還庫存數百種來自Liebherr、Miele、Bosch、西門子等的其他歐洲豪華電器。如需購買方面的幫助，請通過電子郵件、電話或 WhatsApp 聯繫我們。我們很樂意為您提供幫助！",
       "step2_header": "直接訂購",
       "step2_text1_html": "一鍵下單，安全便捷",
-      "step2_text2_html": "在 EuroHomeDirect，您可以 24\/7\/365 直接在我們的網上商店下訂單。網上購物是安全的，因為我們非常重視在線安全！我們無權取得您的付款信息。所有在線支付均通過最有信譽的第三方支付網關 Stripe 和 Paypal 安全處理。當您從我們這裡購買產品時，您的個人或付款詳細信息將受到充分保護且不會被洩露。",
+      "step2_text2_html": "在 EuroHomeDirect，您可以 24/7/365 直接在我們的網上商店下訂單。網上購物是安全的，因為我們非常重視在線安全！我們無權取得您的付款信息。所有在線支付均通過最有信譽的第三方支付網關 Stripe 和 Paypal 安全處理。當您從我們這裡購買產品時，您的個人或付款詳細信息將受到充分保護且不會被洩露。",
       "step3_header": "您的家電將直接從歐洲發貨",
       "step3_text1_html": "從歐洲安全快速直接送貨上門",
       "step3_text2_html": "一旦您下訂單，我們將直接從歐洲將您的新設備運送到您家門口。根據所選型號的尺寸和訂單總額，有多種安全快速的運輸選項可供選擇。小型電器可以通過 DHL 或 FedEx 等快遞公司運送，而較大的貨物通常通過德鐵信可 (DB Schenker) 通過空運或海運運送。所有貨物均已投保且可追踪，因此您可以隨時了解訂單何時到達。",
@@ -257,7 +257,7 @@
       "header7": "您的一站式家居網上商店",
       "text7_html": "為了滿足每位客戶的個性化需求，EuroHomeDirect 提供全系列的家居產品供您選擇。無論是家電、潔具、家具，還有科幻電影中出現的磨砂玻璃或智能家居系統，我們都有。",
       "ul_header": "有用的鏈接",
-      "li_html": "<li><a href=\"\/pages\/about-us\">關於我們<\/a><\/li> <li><a href=\"\/pages\/faq\">常見問題<\/a><\/li>\n<li><a href=\"\/policies\/shipping-policies\">運輸和安裝<\/a><\/li>\n<li><a href=\"\/products\/eurohomedirect\">評論<\/a><\/li>\n<li><a href=\"\/pages\/selected-projects\">選定的項目<\/a><\/li>\n<li><a href=\"\/policies\/terms-of-service\">條款及條件<\/a><\/li>\n<li><a href=\"\/pages\/b2b\">企業對企業<\/a><\/li>\n<li><a href=\"\/pages\/about-us\">網<\/a><\/li>\n<li><a href=\"\/pages\/contact\">聯繫我們<\/a><\/li>",
+      "li_html": "<li><a href=\"/pages/about-us\">關於我們</a></li> <li><a href=\"/pages/faq\">常見問題</a></li>\n<li><a href=\"/policies/shipping-policies\">運輸和安裝</a></li>\n<li><a href=\"/products/eurohomedirect\">評論</a></li>\n<li><a href=\"/pages/selected-projects\">選定的項目</a></li>\n<li><a href=\"/policies/terms-of-service\">條款及條件</a></li>\n<li><a href=\"/pages/b2b\">企業對企業</a></li>\n<li><a href=\"/pages/about-us\">網</a></li>\n<li><a href=\"/pages/contact\">聯繫我們</a></li>",
       "store_info_html": "上午 10:00 至下午 6:00<br>從周一到週五<br>（僅限預約）"
     }
   },
@@ -290,12 +290,12 @@
       "fulfillment_status": "履行狀態",
       "back_to_account": "返回帳戶",
       "cancelled_at": "訂單已於{{date}}取消。原因： {{reason}} 。",
-      "fulfillment_with_url_and_number_html": "所有產品已發送。使用編號{{tracking_number}}或<a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;\/span&gt;\" target=\"_blank\">點擊此處<\/a>跟踪貨件。",
-      "fulfillment_with_url_html": "所有產品已發送。 <a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;\/span&gt;\" target=\"_blank\">單擊此處<\/a>跟踪貨件。",
+      "fulfillment_with_url_and_number_html": "所有產品已發送。使用編號{{tracking_number}}或<a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;/span&gt;\" target=\"_blank\">點擊此處</a>跟踪貨件。",
+      "fulfillment_with_url_html": "所有產品已發送。 <a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;/span&gt;\" target=\"_blank\">單擊此處</a>跟踪貨件。",
       "fulfillment_with_number_html": "所有產品已發送。跟踪編號為{{tracking_number}}的貨件。",
       "fulfillment_html": "所有產品已發送。",
-      "line_fulfillment_with_url_and_number_html": "該產品已發送。使用編號{{tracking_number}}或<a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;\/span&gt;\" target=\"_blank\">點擊此處<\/a>跟踪貨件。",
-      "line_fulfillment_with_url_html": "該產品已發送。 <a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;\/span&gt;\" target=\"_blank\">單擊此處<\/a>跟踪貨件。",
+      "line_fulfillment_with_url_and_number_html": "該產品已發送。使用編號{{tracking_number}}或<a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;/span&gt;\" target=\"_blank\">點擊此處</a>跟踪貨件。",
+      "line_fulfillment_with_url_html": "該產品已發送。 <a href=\"&lt;span%20class='notranslate'&gt;{{tracking_url}}&lt;/span&gt;\" target=\"_blank\">單擊此處</a>跟踪貨件。",
       "line_fulfillment_with_number_html": "該產品已發送。跟踪編號為{{tracking_number}}的貨件。",
       "line_fulfillment_html": "該產品已發送。",
       "product": "產品",
@@ -385,9 +385,9 @@
       "amount_saved_html": "您節省了{{amount_saved}} ！",
       "free": "免費！",
       "taxes_and_shipping_at_checkout": "結賬時計算的稅費和運費",
-      "taxes_and_shipping_policy_at_checkout_html": "結賬時計算的稅費和<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">運費<\/a>",
+      "taxes_and_shipping_policy_at_checkout_html": "結賬時計算的稅費和<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">運費</a>",
       "taxes_included_but_shipping_at_checkout": "含稅。結賬時計算運費",
-      "taxes_included_and_shipping_policy_html": "含稅。結帳時計算<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">運費<\/a>",
+      "taxes_included_and_shipping_policy_html": "含稅。結帳時計算<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">運費</a>",
       "total": "全部",
       "checkout": "查看"
     },
@@ -421,7 +421,7 @@
       "description_how_title": "我們如何能在香港和新加坡以如此優惠的價格提供{{ title }} ？",
       "description_how": "與香港和新加坡的當地價格相比，我們以大大降低的價格提供{{ title }} ，因為我們直接從歐洲以批發價提供。",
       "description_warranty_title": "{{ title }}兼容性和保修",
-      "description_warranty": "我們銷售的所有{{ vendor }}均符合香港和新加坡標準，無需任何修改。我們的電器採用英式電源插頭（G 型），在 220-240V 電壓下運行。對於具有不同標準的所有其他市場，您可能需要使用電壓轉換器和\/或適配器。所有出售的{{ vendor }}設備均享有 1 年零件保修。您可以在我們的常見問題解答頁面中閱讀有關兼容性和保修的更多信息。",
+      "description_warranty": "我們銷售的所有{{ vendor }}均符合香港和新加坡標準，無需任何修改。我們的電器採用英式電源插頭（G 型），在 220-240V 電壓下運行。對於具有不同標準的所有其他市場，您可能需要使用電壓轉換器和/或適配器。所有出售的{{ vendor }}設備均享有 1 年零件保修。您可以在我們的常見問題解答頁面中閱讀有關兼容性和保修的更多信息。",
       "sku": "貨號： ",
       "model": "模型： ",
       "share": "分享該產品",
@@ -438,13 +438,13 @@
       "payment_notice": "您的付款信息將得到安全處理。我們不存儲信用卡詳細信息，也無法訪問您的信用卡信息。",
       "shipping_desc_title": "在香港和新加坡購買{{title}}",
       "shipping_warning": "*由於新冠肺炎 (COVID-19) 疫情，我們的運輸選擇有限。由於我們的運輸合作夥伴提高價格，可能會收取附加費。雖然我們的倉庫保持開放，但製造商的供貨可能會延遲。",
-      "shipping_desc": "EuroHomeDirect® 將{{title}}銷往香港和新加坡，訂單金額超過 15,000 港元\/2,600 新元（超大商品除外）可免運費。我們只與最有信譽的快遞合作夥伴合作 - DHL、Fedex 和 CH Robinson。當您從我們這裡購買時，您的訂單將安全準時到達。",
+      "shipping_desc": "EuroHomeDirect® 將{{title}}銷往香港和新加坡，訂單金額超過 15,000 港元/2,600 新元（超大商品除外）可免運費。我們只與最有信譽的快遞合作夥伴合作 - DHL、Fedex 和 CH Robinson。當您從我們這裡購買時，您的訂單將安全準時到達。",
       "estimate_shipping": "預計運輸",
       "refund_policy": "退款政策",
       "include_taxes": "含稅",
-      "shipping_policy_html": "結賬時<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\" class=\"link link--accented\">計算運費<\/a>",
+      "shipping_policy_html": "結賬時<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link link--accented\">計算運費</a>",
       "image_by": "圖片來自",
-      "note": "筆記",
+      "note": "備註",
       "parallel_import": "這是正品平行進口商品",
       "additional_information": "附加信息"
     },
@@ -485,7 +485,7 @@
       "header2": "我們如何才能在香港、新加坡和全球範圍內以如此優惠的價格提供{{product_title}} ？",
       "text3_html": "與香港、新加坡和其他國家的當地價格相比，我們提供的{{product_title}}價格大大降低，因為我們以批發價直接從歐洲發貨，並保證最優惠的價格。我們能夠以最具競爭力的價格向當地消費者提供頂級歐洲電器，因為沒有本地分銷商或經銷商參與這一過程。",
       "header3": "{{product_title}}兼容性和保修",
-      "text4_html": "我們出售的所有{{collection_title}}均符合香港和新加坡標準，無需任何修改。我們的電器採用英式電源插頭（G 型），在 220-240V 電壓下運行。對於具有不同標準的所有其他市場，您可能需要使用電壓轉換器和\/或適配器。所有出售的{{collection_title}}電器均享有長達 3 年的零件保修。您可以在我們的常見問題解答頁面中閱讀有關兼容性和保修的更多信息。",
+      "text4_html": "我們出售的所有{{collection_title}}均符合香港和新加坡標準，無需任何修改。我們的電器採用英式電源插頭（G 型），在 220-240V 電壓下運行。對於具有不同標準的所有其他市場，您可能需要使用電壓轉換器和/或適配器。所有出售的{{collection_title}}電器均享有長達 3 年的零件保修。您可以在我們的常見問題解答頁面中閱讀有關兼容性和保修的更多信息。",
       "text5_html": "如果您對{{product_title}}或其他設備還有其他疑問，請隨時與我們聯繫",
       "link_label": "可選：（您還可以在以下位置找到有關{{product_title}}的更多信息：",
       "link_text": "網站點擊這裡"
@@ -571,15 +571,15 @@
     },
     "technical_support": {
       "header": "技術支援",
-      "text_html": "<strong>開放時間：<\/strong>週一至週五，上午 10:00 至下午 6:00<br><strong>電子郵件：<\/strong> info@eurohomedirect.com"
+      "text_html": "<strong>開放時間：</strong>週一至週五，上午 10:00 至下午 6:00<br><strong>電子郵件：</strong> info@eurohomedirect.com"
     },
     "crydom_services": {
       "header": "快達服務（香港）有限公司",
-      "text_html": "<strong>地址：<\/strong>香港中環雲咸街44號雲咸商業中心9樓<br><strong>香港：<\/strong> +852 3421 1222"
+      "text_html": "<strong>地址：</strong>香港中環雲咸街44號雲咸商業中心9樓<br><strong>香港：</strong> +852 3421 1222"
     },
     "instant_services": {
       "header": "Instant Services Trading (Singapore) Pte. Ltd.",
-      "text_html": "<strong>地址：<\/strong> 13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<br><strong>新加坡：<\/strong> +65 3138 8699"
+      "text_html": "<strong>地址：</strong> 13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<br><strong>新加坡：</strong> +65 3138 8699"
     }
   },
   "date_formats": {
@@ -590,8 +590,8 @@
   "about": {
     "about_us": {
       "heading": "關於我們",
-      "text_html": "EuroHomeDirect® 是一家國際電子商務公司，為全球消費者提供直接從歐洲購買所有主要高端品牌的<a href=\"\/collections\/sanitary-wares\">豪華家居裝修產品的<\/a>激動人心的機會。我們是一家純粹的在線零售商，具有扁平的結構和高效的組織，因此我們的價格非常有競爭力。<br> EuroHomeDirect® 致力於成為您的一站式家居裝修商店，為您提供<a href=\"\/collections\/appliances\">全系列高端豪華電器<\/a>、<a href=\"\/collections\/sanitary-wares\">衛浴<\/a>、<a href=\"\/collections\/furniture\">家具<\/a>和科幻小玩意，例如智能玻璃或智能家居系統。<br>",
-      "text2_html": "我們位於德國和英國的倉庫將及時處理<a href=\"\/policies\/shipping-policy\">您的訂單並將其運送到世界各地<\/a>。如果您需要，我們還提供專業的安裝服務，作為您在香港和新加坡購買的附加服務。我們有全系列的家居產品供您選擇，並有友好的顧問團隊提供協助，我們相信您會找到適合您的應用的解決方案。"
+      "text_html": "EuroHomeDirect® 是一家國際電子商務公司，為全球消費者提供直接從歐洲購買所有主要高端品牌的<a href=\"/collections/sanitary-wares\">豪華家居裝修產品的</a>激動人心的機會。我們是一家純粹的在線零售商，具有扁平的結構和高效的組織，因此我們的價格非常有競爭力。<br> EuroHomeDirect® 致力於成為您的一站式家居裝修商店，為您提供<a href=\"/collections/appliances\">全系列高端豪華電器</a>、<a href=\"/collections/sanitary-wares\">衛浴</a>、<a href=\"/collections/furniture\">家具</a>和科幻小玩意，例如智能玻璃或智能家居系統。<br>",
+      "text2_html": "我們位於德國和英國的倉庫將及時處理<a href=\"/policies/shipping-policy\">您的訂單並將其運送到世界各地</a>。如果您需要，我們還提供專業的安裝服務，作為您在香港和新加坡購買的附加服務。我們有全系列的家居產品供您選擇，並有友好的顧問團隊提供協助，我們相信您會找到適合您的應用的解決方案。"
     },
     "why_us": {
       "heading": "為什麼是我們？",
@@ -605,42 +605,42 @@
     "group1": {
       "header": "產品",
       "question1": "我們如何能夠以如此有競爭力的價格出售？什麼是最佳價格保證？",
-      "answer1_html": "<p> EuroHomeDirect® 在歐洲以批發價採購產品，並將其直接運送給香港、新加坡和全球的客戶。我們通過簡單高效的架構和歐洲直運的方式，以最具競爭力的價格提供頂級歐洲家居產品。如果您在本網站上列出的產品中發現其他本地商家提供更低價格，請透過 WhatsApp 或電郵分享報價，並包括型號、價格和日期。我們將根據最佳價格保證政策與之匹配。<\/p>",
+      "answer1_html": "<p> EuroHomeDirect® 在歐洲以批發價採購產品，並將其直接運送給香港、新加坡和全球的客戶。我們通過簡單高效的架構和歐洲直運的方式，以最具競爭力的價格提供頂級歐洲家居產品。如果您在本網站上列出的產品中發現其他本地商家提供更低價格，請透過 WhatsApp 或電郵分享報價，並包括型號、價格和日期。我們將根據最佳價格保證政策與之匹配。</p>",
       "question2": "所售產品是否還有額外折扣？",
-      "answer2_html": "<p>我們僅向單一類別單筆訂單金額超過 $200,000 港元或 $35,000 新元的公司提供 B2B 折扣。<\/p>",
+      "answer2_html": "<p>我們僅向單一類別單筆訂單金額超過 $200,000 港元或 $35,000 新元的公司提供 B2B 折扣。</p>",
       "question3": "如何鑑定所售產品的真偽？",
-      "answer3_html": "<p> EuroHomeDirect® 只銷售由製造商預先包裝的全新正品產品，不出售未裝箱或二級產品。我們歡迎客戶與原始製造商驗證真偽或序列號。<\/p>",
+      "answer3_html": "<p> EuroHomeDirect® 只銷售由製造商預先包裝的全新正品產品，不出售未裝箱或二級產品。我們歡迎客戶與原始製造商驗證真偽或序列號。</p>",
       "question4": "如何獲得家具類別的報價？",
-      "answer4_html": "<p>為了便於我們向您提供報價，請註明您有興趣購買的品牌、型號和配置（即尺寸 + 材料）。報價請求可通過電子郵件發送至 [info@eurohomedirect.com]。由於存在巨大的訂製可能性，因此不可能以其他方式報價。請注意，訂單時間約為 3-4 個月，因為一切都是按訂單生產。另請注意，與當地零售價格相比，我們具有很強的競爭力。<\/p>",
+      "answer4_html": "<p>為了便於我們向您提供報價，請註明您有興趣購買的品牌、型號和配置（即尺寸 + 材料）。報價請求可通過電子郵件發送至 [info@eurohomedirect.com]。由於存在巨大的訂製可能性，因此不可能以其他方式報價。請注意，訂單時間約為 3-4 個月，因為一切都是按訂單生產。另請注意，與當地零售價格相比，我們具有很強的競爭力。</p>",
       "question5": "銷售的產品是否符合當地標準？",
-      "answer5_html": "<p>所有銷售的電器均符合 CE 標準，進口到香港和新加坡無需進一步的改裝。<br><br><strong>對於香港和新加坡：<\/strong><br><br>是的，所有銷售的產品均符合香港和新加坡安全標準，無需任何改裝。我們的電器採用英式電源插頭（G 型），在 220-240V、50-60Hz 下運行。<br><br><strong>對於所有其他市場：<\/strong><br><br>可能需要電壓轉換器和\/或適配器。請檢查兼容性。<\/p>",
+      "answer5_html": "<p>所有銷售的電器均符合 CE 標準，進口到香港和新加坡無需進一步的改裝。<br><br><strong>對於香港和新加坡：</strong><br><br>是的，所有銷售的產品均符合香港和新加坡安全標準，無需任何改裝。我們的電器採用英式電源插頭（G 型），在 220-240V、50-60Hz 下運行。<br><br><strong>對於所有其他市場：</strong><br><br>可能需要電壓轉換器和/或適配器。請檢查兼容性。</p>",
       "question6": "有除舊服務嗎？",
-      "answer6_html": "<p>我們按照政府的要求，在香港提供雪櫃和洗衣機的廢物處理服務。該服務是免費的。<\/p>"
+      "answer6_html": "<p>我們按照政府的要求，在香港提供雪櫃和洗衣機的廢物處理服務。該服務是免費的。</p>"
     },
     "group2": {
       "header": "保修、退款或換貨",
       "question1": "產品有保修嗎？",
-      "answer1_html": "<p>所有出售的產品均享有 EuroHomeDirect® 1 年零件保養。本保養僅涵蓋技術故障，不適用於因以下因素造成的損壞：錯誤安裝、濫用、誤操作、事故、液體損壞或未遵循操作說明。<\/p>",
+      "answer1_html": "<p>所有出售的產品均享有 EuroHomeDirect® 1 年零件保養。本保養僅涵蓋技術故障，不適用於因以下因素造成的損壞：錯誤安裝、濫用、誤操作、事故、液體損壞或未遵循操作說明。</p>",
       "question2": "保修期過後會發生什麼？",
-      "answer2_html": "<p>我們為所有售出的產品提供終身支援。您可以聯繫EuroHomeDirect®當地服務中心進行檢查和維修。請注意更換零件和\/或檢查將收取費用。<\/p>",
+      "answer2_html": "<p>我們為所有售出的產品提供終身支援。您可以聯繫EuroHomeDirect®當地服務中心進行檢查和維修。請注意更換零件和/或檢查將收取費用。</p>",
       "question3": "有退款或換貨政策嗎？",
-      "answer3_html": "<p>所有售出的產品由於高昂的運費、進口稅和海關手續，除非存在製造缺陷或運輸損壞（此類情況將由保險公司理賠），否則均不可退款或換貨。如遇到上述問題，請盡快聯繫我們。<\/p>"
+      "answer3_html": "<p>所有售出的產品由於高昂的運費、進口稅和海關手續，除非存在製造缺陷或運輸損壞（此類情況將由保險公司理賠），否則均不可退款或換貨。如遇到上述問題，請盡快聯繫我們。</p>"
     },
     "group3": {
       "header": "稅",
       "question1": "我需要為我的訂單繳稅嗎？",
-      "answer1_html": "<p><strong>對於香港：<br><\/strong><br>香港是一個自由港。除汽車、酒類、煙草、碳氫油和甲醇外，進口商品不徵收任何關稅。所有EuroHomeDirect®銷往香港的產品均無需繳納任何關稅。<br><br><strong>對於新加坡：<\/strong><br> <br>新加坡徵收 9% 的商品及服務稅 (GST)。 GST 將基於 CIF（成本、保險和運費）價值。所有銷往新加坡的產品均需繳納新加坡消費稅。<br><br><strong>對於所有其他市場：<\/strong><br><br>您有責任支付適用的進口稅和關稅。<\/p>"
+      "answer1_html": "<p><strong>對於香港：<br></strong><br>香港是一個自由港。除汽車、酒類、煙草、碳氫油和甲醇外，進口商品不徵收任何關稅。所有EuroHomeDirect®銷往香港的產品均無需繳納任何關稅。<br><br><strong>對於新加坡：</strong><br> <br>新加坡徵收 9% 的商品及服務稅 (GST)。 GST 將基於 CIF（成本、保險和運費）價值。所有銷往新加坡的產品均需繳納新加坡消費稅。<br><br><strong>對於所有其他市場：</strong><br><br>您有責任支付適用的進口稅和關稅。</p>"
     },
     "group4": {
       "header": "購買流程及付款",
       "question1": "購買程序是怎樣的？",
-      "answer1_html": "<p>請將您想要購買的所有產品添加到購物車，查看運費，並繼續付款或提交訂單。我們將通過電子郵件向您發送確認信息和發票。如果您提交訂單後沒有收到確認信息，請檢查您的垃圾郵件。<\/p>",
+      "answer1_html": "<p>請將您想要購買的所有產品添加到購物車，查看運費，並繼續付款或提交訂單。我們將通過電子郵件向您發送確認信息和發票。如果您提交訂單後沒有收到確認信息，請檢查您的垃圾郵件。</p>",
       "question2": "有哪些付款方式？",
-      "answer2_html": "<p>我們接受以下付款方式：<br><br> <strong>1.銀行轉賬<\/strong><br><br><strong>2. Stripe信用卡（Visa\/Mastercard\/American Express）<\/strong><br><br> <strong>3. Paypal<\/strong><\/p>",
+      "answer2_html": "<p>我們接受以下付款方式：<br><br> <strong>1.銀行轉賬</strong><br><br><strong>2. Stripe信用卡（Visa/Mastercard/American Express）</strong><br><br> <strong>3. Paypal</strong></p>",
       "question3": "我們如何保證支付安全？",
-      "answer3_html": "<p>沒有比這更安全的網上購物方式了，因為我們非常重視網絡安全！ EuroHomeDirect® 無法訪問或收集您的付款信息。所有在線支付均通過 Shopify Payment via Stripe 或 Paypal（最著名的第三方支付網關）安全處理。當您從我們這裡購買時，您將受到很好的保護，避免任何潛在的個人信息洩露。<\/p>",
+      "answer3_html": "<p>沒有比這更安全的網上購物方式了，因為我們非常重視網絡安全！ EuroHomeDirect® 無法訪問或收集您的付款信息。所有在線支付均通過 Shopify Payment via Stripe 或 Paypal（最著名的第三方支付網關）安全處理。當您從我們這裡購買時，您將受到很好的保護，避免任何潛在的個人信息洩露。</p>",
       "question4": "最低訂購量是多少？",
-      "answer4_html": "<p>單一類別的最低訂單金額為港幣 $4000 元或新元 $700 元。<\/p>"
+      "answer4_html": "<p>單一類別的最低訂單金額為港幣 $4000 元或新元 $700 元。</p>"
     },
     "any_questions": {
       "header": "任何問題？",
