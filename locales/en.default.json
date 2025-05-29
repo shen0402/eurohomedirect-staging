@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin language editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "meta": {
@@ -36,7 +36,7 @@
       "previous_page": "Previous",
       "next_page": "Next",
       "go_to_page": "Navigate to page {{page}}",
-      "page_count": "Page {{current_page}} \/ {{pages}}"
+      "page_count": "Page {{current_page}} / {{pages}}"
     },
     "breadcrumb": {
       "title": "Breadcrumb",
@@ -61,7 +61,7 @@
       "currency": "Currency",
       "language": "Language",
       "account": "My account",
-      "login": "Login \/ Signup",
+      "login": "Login / Signup",
       "welcome": "Hello {{first_name}}",
       "cart": "Cart"
     },
@@ -245,7 +245,7 @@
       "step1_text2_html": "We only sell brand new and authentic products prepackaged by the manufacturer with original factory warranty. You can choose from all the latest Miele models in UK specification. We also stock hundreds of other European luxury appliances from Liebherr, Miele, Bosch, Siemens and more. For assistance with your purchase, simply contact us via email, phone or WhatsApp. We are always happy to help you!",
       "step2_header": "order directly",
       "step2_text1_html": "One-click ordering, safe and convenient",
-      "step2_text2_html": "At EuroHomeDirect you can place orders directly in our webshop 24\/7\/365. Shopping online is safe because we take online security very seriously! We do not have access to your payment information. All online payments are securely processed through Stripe and Paypal, the most reputable third-party payment gateways. When you purchase products from us, your personal or payment details will be fully protected and not disclosed.",
+      "step2_text2_html": "At EuroHomeDirect you can place orders directly in our webshop 24/7/365. Shopping online is safe because we take online security very seriously! We do not have access to your payment information. All online payments are securely processed through Stripe and Paypal, the most reputable third-party payment gateways. When you purchase products from us, your personal or payment details will be fully protected and not disclosed.",
       "step3_header": "Your home appliances will be delivered directly from Europe",
       "step3_text1_html": "Safe and fast delivery directly to your door from Europe",
       "step3_text2_html": "Once you've placed your order, we'll ship your new appliance straight from Europe to your door. Depending on the size of the model selected and the total amount of the order, several safe and fast shipping options are available. Small appliances can be shipped with couriers such as DHL or FedEx, while larger shipments are usually delivered by air or sea with DB Schenker. All shipments are insured and can be tracked, so you can always know when your order arrives.",
@@ -257,7 +257,7 @@
       "header7": "Your One-Stop Home Furnishings Online Shop",
       "text7_html": "To cater to the individual needs of each customer, EuroHomeDirect offers a complete range of home furnishing products to choose from. Whether it is home appliances, sanitary ware, furniture, as well as frosted glass or smart home systems that appear in science fiction movies, we have it all.",
       "ul_header": "useful links",
-      "li_html": "<li><a href=\"\/pages\/about-us\">about Us<\/a><\/li><li><a href=\"\/pages\/faq\">Faq<\/a><\/li><li><a href=\"\/policies\/shipping-policies\">Shipping & Installation<\/a><\/li><li><a href=\"\/products\/eurohomedirect\">Reviews<\/a><\/li><li><a href=\"\/pages\/selected-projects\">Selected Projects<\/a><\/li><li><a href=\"\/policies\/terms-of-service\">Terms & Conditions<\/a><\/li><li><a href=\"\/pages\/b2b\">B2B<\/a><\/li><li><a href=\"\/pages\/about-us\">net<\/a><\/li><li><a href=\"\/pages\/contact\">contact us<\/a><\/li>",
+      "li_html": "<li><a href=\"/pages/about-us\">about Us</a></li><li><a href=\"/pages/faq\">Faq</a></li><li><a href=\"/policies/shipping-policies\">Shipping & Installation</a></li><li><a href=\"/products/eurohomedirect\">Reviews</a></li><li><a href=\"/pages/selected-projects\">Selected Projects</a></li><li><a href=\"/policies/terms-of-service\">Terms & Conditions</a></li><li><a href=\"/pages/b2b\">B2B</a></li><li><a href=\"/pages/about-us\">net</a></li><li><a href=\"/pages/contact\">contact us</a></li>",
       "store_info_html": "10:00 am - 6:00 pm<br>from Monday to Friday<br>(by appointment only)"
     }
   },
@@ -290,12 +290,12 @@
       "fulfillment_status": "Fulfillment status",
       "back_to_account": "Back to account",
       "cancelled_at": "Order cancelled on {{date}}. Reason: {{reason}}.",
-      "fulfillment_with_url_and_number_html": "All products have been sent. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
-      "fulfillment_with_url_html": "All products have been sent. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "fulfillment_with_url_and_number_html": "All products have been sent. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
+      "fulfillment_with_url_html": "All products have been sent. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
       "fulfillment_with_number_html": "All products have been sent. Track the shipment with number {{tracking_number}}.",
       "fulfillment_html": "All products have been sent.",
-      "line_fulfillment_with_url_and_number_html": "This product has been sent. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
-      "line_fulfillment_with_url_html": "This product has been sent. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here<\/a>.",
+      "line_fulfillment_with_url_and_number_html": "This product has been sent. Track the shipment with number {{tracking_number}} or by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
+      "line_fulfillment_with_url_html": "This product has been sent. Track the shipment by <a href=\"{{tracking_url}}\" target=\"_blank\">clicking here</a>.",
       "line_fulfillment_with_number_html": "This product has been sent. Track the shipment with number {{tracking_number}}.",
       "line_fulfillment_html": "This product has been sent.",
       "product": "Product",
@@ -385,9 +385,9 @@
       "amount_saved_html": "You saved {{amount_saved}}!",
       "free": "Free!",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included. Shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout",
       "total": "Total",
       "checkout": "Checkout"
     },
@@ -421,7 +421,7 @@
       "description_how_title": "How can we offer the {{ title }} at such a great discount in Hong Kong and Singapore?",
       "description_how": "We offer the {{ title }} for a greatly reduced price compared to the local prices in Hong Kong and Singapore because we are offering it directly from Europe with wholesale price.",
       "description_warranty_title": "{{ title }} Compatibility & Warranty",
-      "description_warranty": "All {{ vendor }} sold by us are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V with UK style power plug (type G). For all other markets with different standards, you may need to use a voltage converter and\/or an adapter. All {{ vendor }} appliances sold come with 1-year parts warranty. You can read more about Compatibility and Warranty in our FAQ Page.",
+      "description_warranty": "All {{ vendor }} sold by us are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V with UK style power plug (type G). For all other markets with different standards, you may need to use a voltage converter and/or an adapter. All {{ vendor }} appliances sold come with 1-year parts warranty. You can read more about Compatibility and Warranty in our FAQ Page.",
       "sku": "SKU: ",
       "model": "Model: ",
       "share": "Share this product",
@@ -439,11 +439,11 @@
       "payment_notice": "Your payment information is processed securely. We do not store credit card details nor have access to your credit card information.",
       "shipping_desc_title": "Buying the {{title}} in Hong Kong and Singapore",
       "shipping_warning": "*We have limited shipping options due to COVID-19. Surcharges may apply due to increase in prices imposed by our shipping partners. While our warehouses stay open, supplies from the manufacturers may be delayed.",
-      "shipping_desc": "EuroHomeDirect® sells the {{title}} to Hong Kong and Singapore with free shipping for orders over HKD $15,000 \/ SGD $2,600 (except for oversized items). We only ship with the most reputable courier partners – DHL, Fedex, and CH Robinson. Your order will arrive safely on time when you purchase from us.",
+      "shipping_desc": "EuroHomeDirect® sells the {{title}} to Hong Kong and Singapore with free shipping for orders over HKD $15,000 / SGD $2,600 (except for oversized items). We only ship with the most reputable courier partners – DHL, Fedex, and CH Robinson. Your order will arrive safely on time when you purchase from us.",
       "estimate_shipping": "Estimate shipping",
       "refund_policy": "Refund Policy",
       "include_taxes": "Tax included",
-      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Shipping calculated<\/a> at checkout",
+      "shipping_policy_html": "<a href=\"{{ link }}\" class=\"link link--accented\">Shipping calculated</a> at checkout",
       "note": "Note",
       "parallel_import": "This is a genuine parallel import item",
       "additional_information": "Additional information"
@@ -485,7 +485,7 @@
       "header2": "How can we offer the {{product_title}} at such a great price in Hong Kong, Singapore and Worldwide?",
       "text3_html": "We offer the {{product_title}} for a greatly reduced price compared to the local prices in Hong Kong, Singapore and other countries because we ship directly from Europe at wholesale price with best price guarantee. We are able to supply top European appliances at the most competitive prices to local consumers because no local distributors or dealers are involved in the process.",
       "header3": "{{product_title}} Compatibility & Warranty",
-      "text4_html": "All {{collection_title}} sold by us are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V with UK style power plug (type G). For all other markets with different standards, you may need to use a voltage converter and\/or an adapter. All {{collection_title}} appliances sold come with up to 3-year parts warranty. You can read more about Compatibility and Warranty in our FAQ Page.",
+      "text4_html": "All {{collection_title}} sold by us are compatible with Hong Kong & Singaporean standards without any modification. Our electric appliances are manufactured to operate under 220-240V with UK style power plug (type G). For all other markets with different standards, you may need to use a voltage converter and/or an adapter. All {{collection_title}} appliances sold come with up to 3-year parts warranty. You can read more about Compatibility and Warranty in our FAQ Page.",
       "text5_html": "Please do not hesitate to contact us if you have further questions about the {{product_title}} or other appliances",
       "link_label": "",
       "link_text": "website by clicking here"
@@ -570,16 +570,16 @@
       "text_html": "EuroHomeDirect is an international e-commerce company specializing in the supply of luxury home products from major European brands to consumers around the world. We are a simple, efficient pure online retailer, resulting in very favorable prices. In order to provide the high-quality service you expect from luxury goods, we provide local liaison specialists and customer service dedicated to your market."
     },
     "technical_support": {
-      "header": "Technical Support",
-      "text_html": "<strong>Opening Hours:<\/strong> Monday to Friday, 10:00am - 6:00pm<br><strong>Email:<\/strong> info@eurohomedirect.com"
+      "header": "Technical Support & Contact",
+      "text_html": "<strong>IS Trading Limiteed<strong><br><strong>Address:<strong>Shop 16-19, 11/F, Horizon Plaza, 2 Lee Wing Street, Ap Lei Chau, Hong Kong<br><strong>Opening Hours:</strong> Monday to Friday, 10:00am - 6:00pm<br><strong>Email:</strong> info@eurohomedirect.com"
     },
     "crydom_services": {
       "header": "Instant Services (Hong Kong) Limited",
-      "text_html": "<strong>Address:<\/strong> 9\/F, Wyndham Place, 44 Wyndham Street, Central, Hong Kong<br><strong>Hong Kong:<\/strong> +852 3421 1222"
+      "text_html": "<strong>Address:</strong> 9/F, Wyndham Place, 44 Wyndham Street, Central, Hong Kong<br><strong>Hong Kong:</strong> +852 3421 1222"
     },
     "instant_services": {
       "header": "Instant Services Trading (Singapore) Pte. Ltd.",
-      "text_html": "<strong>Address:<\/strong> 13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<br><strong>Singapore:<\/strong> +65 3138 8699"
+      "text_html": "<strong>Address:</strong> 13 Toa Payoh Lorong 8, Braddell Tech Building, Singapore 319261<br><strong>Singapore:</strong> +65 3138 8699"
     }
   },
   "date_formats": {
@@ -603,8 +603,8 @@
   "about": {
     "about_us": {
       "heading": "About Us",
-      "text_html": "EuroHomeDirect® is an international eCommerce platform that offers consumers worldwide the exciting opportunity to purchase <a href=\"\/collections\/sanitary-wares\">luxury home renovation products<\/a> of all major high-end brands directly from Europe. We are a pure online retailer with flat structures and efficient organization so our prices are very competitive.<br>EuroHomeDirect® strives to be your one-stop home renovation outlet offering you a <a href=\"\/collections\/appliances\">full range of high-end luxury appliances<\/a>, <a href=\"\/collections\/sanitary-wares\">sanitary<\/a>, <a href=\"\/collections\/furniture\">furniture<\/a> and sci-fi gadgets such as smart glass or smart home systems.<br>",
-      "text2_html": "Our warehouses in Germany &amp; UK will promptly process and <a href=\"\/policies\/shipping-policy\">ship your orders worldwide<\/a>. We also provide professional installation services as an add-on to your purchase in Hong Kong &amp; Singapore should you require. With a full range of home products for you to select and a team of friendly consultants to assist, we are sure you will find a suitable solution for your application."
+      "text_html": "EuroHomeDirect® is an international eCommerce platform that offers consumers worldwide the exciting opportunity to purchase <a href=\"/collections/sanitary-wares\">luxury home renovation products</a> of all major high-end brands directly from Europe. We are a pure online retailer with flat structures and efficient organization so our prices are very competitive.<br>EuroHomeDirect® strives to be your one-stop home renovation outlet offering you a <a href=\"/collections/appliances\">full range of high-end luxury appliances</a>, <a href=\"/collections/sanitary-wares\">sanitary</a>, <a href=\"/collections/furniture\">furniture</a> and sci-fi gadgets such as smart glass or smart home systems.<br>",
+      "text2_html": "Our warehouses in Germany &amp; UK will promptly process and <a href=\"/policies/shipping-policy\">ship your orders worldwide</a>. We also provide professional installation services as an add-on to your purchase in Hong Kong &amp; Singapore should you require. With a full range of home products for you to select and a team of friendly consultants to assist, we are sure you will find a suitable solution for your application."
     },
     "why_us": {
       "heading": "Why Us?",
@@ -618,42 +618,42 @@
     "group1": {
       "header": "Products",
       "question1": "How are we able to sell at such competitive prices? What is the Best Price Guarantee (\"BPG\")?",
-      "answer1_html": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We can offer top European home products at the most competitive prices by utilizing flat structures and direct shipping from Europe. If you find a lower rate from another local merchant on the same product listed on our website, kindly share the quotation including the model, price, and date via WhatsApp or Email. We will then match it under our \"BPG\" policy. <\/p>",
+      "answer1_html": "<p>EuroHomeDirect® acquires products in Europe with wholesale prices and ship them directly to our customers in Hong Kong, Singapore and Worldwide. We can offer top European home products at the most competitive prices by utilizing flat structures and direct shipping from Europe. If you find a lower rate from another local merchant on the same product listed on our website, kindly share the quotation including the model, price, and date via WhatsApp or Email. We will then match it under our \"BPG\" policy. </p>",
       "question2": "Are there any additional discounts for the products sold?",
-      "answer2_html": "<p>We only offer B2B discounts to companies with single order amount above HK$200,000 or SG$35,000 in one single category.<\/p>",
+      "answer2_html": "<p>We only offer B2B discounts to companies with single order amount above HK$200,000 or SG$35,000 in one single category.</p>",
       "question3": "How to authenticate the products sold are genuine?",
-      "answer3_html": "<p>EuroHomeDirect® only sells brand new and genuine products pre-packaged by the manufacturer. No unboxed or second grade products are sold. We welcome our customers to validate the authenticity or serial numbers with the original manufacturers.<\/p>",
+      "answer3_html": "<p>EuroHomeDirect® only sells brand new and genuine products pre-packaged by the manufacturer. No unboxed or second grade products are sold. We welcome our customers to validate the authenticity or serial numbers with the original manufacturers.</p>",
       "question4": "How do I obtain a quote for the furniture category?",
-      "answer4_html": "<p>In order for us to supply you with a quote, please specify what brand, model, and configurations (ie. size + material) you’re interested in purchasing. Quote request may be sent by email to [info@eurohomedirect.com]. It is not possible to quote otherwise due to the vast possibility of variations. Please note that order time is about 3-4 months because everything is made to order. Please also expect we are highly competitive compared to local retail prices.<\/p>",
+      "answer4_html": "<p>In order for us to supply you with a quote, please specify what brand, model, and configurations (ie. size + material) you’re interested in purchasing. Quote request may be sent by email to [info@eurohomedirect.com]. It is not possible to quote otherwise due to the vast possibility of variations. Please note that order time is about 3-4 months because everything is made to order. Please also expect we are highly competitive compared to local retail prices.</p>",
       "question5": "Are the products sold compatible with local standards?",
-      "answer5_html": "<p>All appliances sold are CE compliant and would require no further modification to be imported into Hong Kong and Singapore.<br\/><br\/><strong>For Hong Kong & Singapore:<\/strong><br\/><br\/>Yes, all products sold are compatible with Hong Kong & Singaporean standards. Our electric appliances are manufactured to operate under 220-240V, 50-60Hz with UK style power plug (type G).<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>A voltage converter and\/or an adapter may be required. Please check the compatibility.<\/p>",
+      "answer5_html": "<p>All appliances sold are CE compliant and would require no further modification to be imported into Hong Kong and Singapore.<br/><br/><strong>For Hong Kong & Singapore:</strong><br/><br/>Yes, all products sold are compatible with Hong Kong & Singaporean standards. Our electric appliances are manufactured to operate under 220-240V, 50-60Hz with UK style power plug (type G).<br/><br/><strong>For all other markets:</strong><br/><br/>A voltage converter and/or an adapter may be required. Please check the compatibility.</p>",
       "question6": "Is there any waste disposal service?",
-      "answer6_html": "<p>We offer waste disposal service for refrigerators and washing machines in Hong Kong as required by the government. The service is free of charge.<\/p>"
+      "answer6_html": "<p>We offer waste disposal service for refrigerators and washing machines in Hong Kong as required by the government. The service is free of charge.</p>"
     },
     "group2": {
       "header": "Warranty, Refund or Exchange",
       "question1": "Is there any warranty for the products sold?",
-      "answer1_html": "<p>All products come with 1-year parts warranty by EuroHomeDirect®. This warranty only covers technical faults and does not apply if damage is caused by factors including: wrong installation, abuse, mishandling, accident, liquid damage, or failure to follow operating instructions.<\/p>",
+      "answer1_html": "<p>All products come with 1-year parts warranty by EuroHomeDirect®. This warranty only covers technical faults and does not apply if damage is caused by factors including: wrong installation, abuse, mishandling, accident, liquid damage, or failure to follow operating instructions.</p>",
       "question2": "What happens after the warranty period expired?",
-      "answer2_html": "<p>We provide life-time support for all products sold. You may contact EuroHomeDirect® local service centre to perform a check and repair. Please note that the replacement parts and\/or inspection is chargeable.<\/p>",
+      "answer2_html": "<p>We provide life-time support for all products sold. You may contact EuroHomeDirect® local service centre to perform a check and repair. Please note that the replacement parts and/or inspection is chargeable.</p>",
       "question3": "Is there any refund or exchange policy?",
-      "answer3_html": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes &amp; customs formalities unless there is a manufacturing defect or transportation damage, in which case the claim will be covered by insurance. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.<\/p>"
+      "answer3_html": "<p>All products sold are non-refundable or exchangeable due to high shipping cost, import taxes &amp; customs formalities unless there is a manufacturing defect or transportation damage, in which case the claim will be covered by insurance. In the unlikely event that you encounter any of the above mentioned issues, please contact us as soon as possible.</p>"
     },
     "group3": {
       "header": "Tax",
       "question1": "Do I have to pay tax for my order?",
-      "answer1_html": "<p><strong>For Hong Kong:<br\/><\/strong><br\/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong by EuroHomeDirect® are not subject to any customs tariffs.<br\/><br\/><strong>For Singapore:<\/strong><br\/><br\/>Singapore levies a 9% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br\/><br\/><strong>For all other markets:<\/strong><br\/><br\/>You are responsible to pay the applicable import taxes and duties.<\/p>"
+      "answer1_html": "<p><strong>For Hong Kong:<br/></strong><br/>Hong Kong is a free port. There is no duty or tax on imported goods except cars, liquors, tobacco, hydrocarbon oil and methyl alcohol. All products sold to Hong Kong by EuroHomeDirect® are not subject to any customs tariffs.<br/><br/><strong>For Singapore:</strong><br/><br/>Singapore levies a 9% Goods and Services Tax (GST). GST will be based on the CIF (Cost, Insurance, and Freight) value. All products sold to Singapore are subject to Singaporean GST.<br/><br/><strong>For all other markets:</strong><br/><br/>You are responsible to pay the applicable import taxes and duties.</p>"
     },
     "group4": {
       "header": "Buying Procedure and Payment",
       "question1": "What is the buying procedure?",
-      "answer1_html": "<p>Please add all the products you would like to purchase to cart, check the shipping rates, and proceed with payment and\/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.<\/p>",
+      "answer1_html": "<p>Please add all the products you would like to purchase to cart, check the shipping rates, and proceed with payment and/or submit the order. We will send you a confirmation and invoice by email. If you have not received the confirmation after submitting the order, please check your junk mail.</p>",
       "question2": "What are the payment options?",
-      "answer2_html": "<p>We accept the following payment methods:<br\/><br\/><strong>1. Bank transfer<\/strong><br\/><br\/><strong>2. Credit Card by Stripe (Visa\/Mastercard\/American Express)<\/strong><br\/><br\/><strong>3. PayPal<\/strong><\/p>",
+      "answer2_html": "<p>We accept the following payment methods:<br/><br/><strong>1. Bank transfer</strong><br/><br/><strong>2. Credit Card by Stripe (Visa/Mastercard/American Express)</strong><br/><br/><strong>3. PayPal</strong></p>",
       "question3": "How do we ensure payment security?",
-      "answer3_html": "<p>There is no safer way to shop online than with us as we prioritize cyber security and privacy. EuroHomeDirect® does not have access to or collect your payment information. All online payments are securely processed through Shopify Payment via Stripe or Paypal, some of the most reputable third-party payment gateways. When you make a purchase from us, your personal information is well-protected against any potential data leaks. Buyer protection through your credit card company or Paypal applies to all orders placed on EuroHomeDirect®.<\/p>",
+      "answer3_html": "<p>There is no safer way to shop online than with us as we prioritize cyber security and privacy. EuroHomeDirect® does not have access to or collect your payment information. All online payments are securely processed through Shopify Payment via Stripe or Paypal, some of the most reputable third-party payment gateways. When you make a purchase from us, your personal information is well-protected against any potential data leaks. Buyer protection through your credit card company or Paypal applies to all orders placed on EuroHomeDirect®.</p>",
       "question4": "What is the minimum order amount?",
-      "answer4_html": "<p>The minimum order amount in one single category is HK$4,000 or SG$700.<\/p>"
+      "answer4_html": "<p>The minimum order amount in one single category is HK$4,000 or SG$700.</p>"
     },
     "any_questions": {
       "header": "Any question?",
